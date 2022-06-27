@@ -1,0 +1,1224 @@
+Sublist	Category	Term	RT	Genes	Count	%	P-Value	Benjamini	Fisher Exact	-log
+	GOTERM_BP_DIRECT	cytoplasmic translation	RT		73	5.6	2.70E-68	1.20E-64	4.70E-70	69.32790214
+	GOTERM_BP_DIRECT	translation	RT		103	7.9	2.10E-60	4.60E-57	1.80E-61	60.74472749
+	GOTERM_BP_DIRECT	protein folding	RT		61	4.7	5.00E-29	7.30E-26	6.10E-30	29.21467016
+	GOTERM_BP_DIRECT	"mRNA splicing, via spliceosome"	RT		65	5	3.90E-27	4.20E-24	5.80E-28	27.23657201
+	GOTERM_BP_DIRECT	translational initiation	RT		31	2.4	4.40E-22	3.90E-19	2.30E-23	22.63827216
+	GOTERM_BP_DIRECT	RNA splicing	RT		52	4	2.20E-17	1.60E-14	4.50E-18	17.34678749
+	GOTERM_BP_DIRECT	formation of cytoplasmic translation initiation complex	RT		15	1.2	1.70E-14	8.30E-12	2.40E-16	15.61978876
+	GOTERM_BP_DIRECT	mRNA processing	RT		52	4	2.00E-15	1.20E-12	4.60E-16	15.33724217
+	GOTERM_BP_DIRECT	protein stabilization	RT		51	3.9	8.60E-15	4.70E-12	2.00E-15	14.69897
+	GOTERM_BP_DIRECT	regulation of translational initiation	RT		19	1.5	5.00E-14	2.20E-11	2.40E-15	14.61978876
+	GOTERM_BP_DIRECT	negative regulation of megakaryocyte differentiation	RT		15	1.2	8.00E-13	3.10E-10	2.30E-14	13.63827216
+	GOTERM_BP_DIRECT	DNA replication-independent nucleosome assembly	RT		17	1.3	8.40E-13	3.10E-10	3.80E-14	13.4202164
+	GOTERM_BP_DIRECT	protein localization to CENP-A containing chromatin	RT		14	1.1	2.90E-12	9.00E-10	7.20E-14	13.1426675
+	GOTERM_BP_DIRECT	nucleosome assembly	RT		34	2.6	2.50E-12	8.40E-10	4.60E-13	12.33724217
+	GOTERM_BP_DIRECT	rRNA processing	RT		35	2.7	3.20E-12	9.40E-10	6.30E-13	12.20065945
+	GOTERM_BP_DIRECT	U2-type prespliceosome assembly	RT		15	1.2	3.10E-11	7.70E-09	1.50E-12	11.82390874
+	GOTERM_BP_DIRECT	DNA replication-dependent nucleosome assembly	RT		17	1.3	2.80E-11	7.30E-09	1.90E-12	11.7212464
+	GOTERM_BP_DIRECT	chaperone-mediated protein folding	RT		19	1.5	2.60E-11	7.10E-09	2.20E-12	11.65757732
+	GOTERM_BP_DIRECT	tRNA aminoacylation for protein translation	RT		15	1.2	6.70E-11	1.50E-08	3.50E-12	11.45593196
+	GOTERM_BP_DIRECT	"positive regulation of mRNA splicing, via spliceosome"	RT		15	1.2	1.40E-10	2.80E-08	7.70E-12	11.11350927
+	GOTERM_BP_DIRECT	proteasome-mediated ubiquitin-dependent protein catabolic process	RT		43	3.3	9.60E-11	2.10E-08	2.60E-11	10.58502665
+	GOTERM_BP_DIRECT	cellular response to interleukin-7	RT		11	0.8	1.30E-09	2.40E-07	3.20E-11	10.49485002
+	GOTERM_BP_DIRECT	proteasomal protein catabolic process	RT		16	1.2	1.10E-09	2.20E-07	9.20E-11	10.03621217
+	GOTERM_BP_DIRECT	telomere organization	RT		14	1.1	3.80E-09	6.40E-07	2.70E-10	9.568636236
+	GOTERM_BP_DIRECT	proteasomal ubiquitin-independent protein catabolic process	RT		13	1	4.70E-09	7.70E-07	2.80E-10	9.552841969
+	GOTERM_BP_DIRECT	"regulation of alternative mRNA splicing, via spliceosome"	RT		21	1.6	2.00E-09	3.70E-07	2.90E-10	9.537602002
+	GOTERM_BP_DIRECT	positive regulation of cytoplasmic translation	RT		11	0.8	8.90E-09	1.30E-06	3.40E-10	9.468521083
+	GOTERM_BP_DIRECT	positive regulation of translation	RT		24	1.8	2.60E-09	4.50E-07	4.50E-10	9.346787486
+	GOTERM_BP_DIRECT	stress granule assembly	RT		13	1	8.90E-09	1.30E-06	5.80E-10	9.236572006
+	GOTERM_BP_DIRECT	negative regulation of translation	RT		23	1.8	1.40E-08	2.00E-06	2.60E-09	8.585026652
+	GOTERM_BP_DIRECT	"negative regulation of nuclear-transcribed mRNA catabolic process, deadenylation-dependent decay"	RT		8	0.6	1.80E-07	2.20E-05	3.10E-09	8.508638306
+	GOTERM_BP_DIRECT	positive regulation of telomerase RNA localization to Cajal body	RT		10	0.8	8.40E-08	1.10E-05	3.60E-09	8.443697499
+	GOTERM_BP_DIRECT	cell redox homeostasis	RT		16	1.2	5.10E-08	7.20E-06	6.30E-09	8.200659451
+	GOTERM_BP_DIRECT	tricarboxylic acid cycle	RT		14	1.1	7.50E-08	1.00E-05	7.50E-09	8.124938737
+	GOTERM_BP_DIRECT	"DNA-templated transcription, initiation"	RT		15	1.2	9.40E-08	1.20E-05	1.10E-08	7.958607315
+	GOTERM_BP_DIRECT	positive regulation of establishment of protein localization to telomere	RT		8	0.6	5.60E-07	6.20E-05	1.50E-08	7.823908741
+	GOTERM_BP_DIRECT	substantia nigra development	RT		16	1.2	2.70E-07	3.20E-05	3.90E-08	7.408935393
+	GOTERM_BP_DIRECT	CRD-mediated mRNA stabilization	RT		8	0.6	1.50E-06	1.50E-04	5.10E-08	7.292429824
+	GOTERM_BP_DIRECT	positive regulation of protein localization to Cajal body	RT		8	0.6	1.50E-06	1.50E-04	5.10E-08	7.292429824
+	GOTERM_BP_DIRECT	IRES-dependent viral translational initiation	RT		8	0.6	1.50E-06	1.50E-04	5.10E-08	7.292429824
+	GOTERM_BP_DIRECT	cellular response to oxidative stress	RT		22	1.7	3.20E-07	3.60E-05	7.00E-08	7.15490196
+	GOTERM_BP_DIRECT	DNA replication	RT		26	2	3.10E-07	3.50E-05	7.90E-08	7.102372909
+	GOTERM_BP_DIRECT	purine nucleotide biosynthetic process	RT		9	0.7	1.60E-06	1.60E-04	8.50E-08	7.070581074
+	GOTERM_BP_DIRECT	negative regulation of apoptotic process	RT		68	5.2	2.00E-07	2.50E-05	9.50E-08	7.022276395
+	GOTERM_BP_DIRECT	ribosomal small subunit biogenesis	RT		10	0.8	2.10E-06	1.90E-04	1.60E-07	6.795880017
+	GOTERM_BP_DIRECT	GMP biosynthetic process	RT		7	0.5	6.00E-06	4.50E-04	1.80E-07	6.744727495
+	GOTERM_BP_DIRECT	protein refolding	RT		11	0.8	2.10E-06	1.90E-04	2.00E-07	6.698970004
+	GOTERM_BP_DIRECT	spliceosomal complex assembly	RT		11	0.8	3.20E-06	2.70E-04	3.20E-07	6.494850022
+	GOTERM_BP_DIRECT	response to unfolded protein	RT		16	1.2	1.90E-06	1.80E-04	3.30E-07	6.48148606
+	GOTERM_BP_DIRECT	proteolysis involved in cellular protein catabolic process	RT		15	1.2	2.20E-06	2.00E-04	3.70E-07	6.431798276
+	GOTERM_BP_DIRECT	glycolytic process	RT		14	1.1	2.60E-06	2.20E-04	3.80E-07	6.420216403
+	GOTERM_BP_DIRECT	glutamine metabolic process	RT		10	0.8	5.50E-06	4.20E-04	5.00E-07	6.301029996
+	GOTERM_BP_DIRECT	chaperone-mediated protein complex assembly	RT		10	0.8	5.50E-06	4.20E-04	5.00E-07	6.301029996
+	GOTERM_BP_DIRECT	ATP synthesis coupled proton transport	RT		11	0.8	4.80E-06	3.80E-04	5.10E-07	6.292429824
+	GOTERM_BP_DIRECT	positive regulation of RNA polymerase II transcriptional preinitiation complex assembly	RT		7	0.5	1.40E-05	9.20E-04	5.60E-07	6.251811973
+	GOTERM_BP_DIRECT	protein localization to cytoplasmic stress granule	RT		6	0.5	2.40E-05	1.50E-03	5.60E-07	6.251811973
+	GOTERM_BP_DIRECT	'de novo' XMP biosynthetic process	RT		6	0.5	2.40E-05	1.50E-03	5.60E-07	6.251811973
+	GOTERM_BP_DIRECT	ATP biosynthetic process	RT		9	0.7	8.80E-06	6.30E-04	6.90E-07	6.161150909
+	GOTERM_BP_DIRECT	response to drug	RT		43	3.3	2.00E-06	1.90E-04	8.00E-07	6.096910013
+	GOTERM_BP_DIRECT	response to cadmium ion	RT		11	0.8	7.00E-06	5.00E-04	8.00E-07	6.096910013
+	GOTERM_BP_DIRECT	protein import into nucleus	RT		22	1.7	3.30E-06	2.80E-04	8.70E-07	6.060480747
+	GOTERM_BP_DIRECT	nucleobase-containing compound metabolic process	RT		13	1	6.80E-06	5.00E-04	1.00E-06	6
+	GOTERM_BP_DIRECT	microtubule-based process	RT		13	1	6.80E-06	5.00E-04	1.00E-06	6
+	GOTERM_BP_DIRECT	intracellular protein transport	RT		46	3.5	2.90E-06	2.50E-04	1.20E-06	5.920818754
+	GOTERM_BP_DIRECT	mRNA transport	RT		20	1.5	4.70E-06	3.80E-04	1.20E-06	5.920818754
+	GOTERM_BP_DIRECT	"negative regulation of mRNA splicing, via spliceosome"	RT		10	0.8	1.30E-05	8.50E-04	1.30E-06	5.886056648
+	GOTERM_BP_DIRECT	viral translational termination-reinitiation	RT		5	0.4	9.10E-05	4.60E-03	1.30E-06	5.886056648
+	GOTERM_BP_DIRECT	protein folding in endoplasmic reticulum	RT		7	0.5	2.90E-05	1.70E-03	1.50E-06	5.823908741
+	GOTERM_BP_DIRECT	"alternative mRNA splicing, via spliceosome"	RT		10	0.8	1.90E-05	1.20E-03	2.10E-06	5.677780705
+	GOTERM_BP_DIRECT	purine ribonucleoside salvage	RT		6	0.5	6.00E-05	3.30E-03	2.10E-06	5.677780705
+	GOTERM_BP_DIRECT	'de novo' AMP biosynthetic process	RT		6	0.5	6.00E-05	3.30E-03	2.10E-06	5.677780705
+	GOTERM_BP_DIRECT	pre-replicative complex assembly involved in nuclear cell cycle DNA replication	RT		6	0.5	6.00E-05	3.30E-03	2.10E-06	5.677780705
+	GOTERM_BP_DIRECT	regulation of translation	RT		19	1.5	1.10E-05	7.60E-04	2.80E-06	5.552841969
+	GOTERM_BP_DIRECT	cellular response to leukemia inhibitory factor	RT		21	1.6	1.00E-05	7.20E-04	2.90E-06	5.537602002
+	GOTERM_BP_DIRECT	canonical glycolysis	RT		8	0.6	3.70E-05	2.10E-03	2.90E-06	5.537602002
+	GOTERM_BP_DIRECT	actin cytoskeleton organization	RT		30	2.3	9.70E-06	6.70E-04	3.40E-06	5.468521083
+	GOTERM_BP_DIRECT	mitochondrion morphogenesis	RT		9	0.7	3.40E-05	2.00E-03	3.50E-06	5.455931956
+	GOTERM_BP_DIRECT	translational elongation	RT		9	0.7	3.40E-05	2.00E-03	3.50E-06	5.455931956
+	GOTERM_BP_DIRECT	activation of innate immune response	RT		11	0.8	2.70E-05	1.60E-03	3.70E-06	5.431798276
+	GOTERM_BP_DIRECT	DNA duplex unwinding	RT		17	1.3	2.60E-05	1.60E-03	6.40E-06	5.193820026
+	GOTERM_BP_DIRECT	negative regulation of ubiquitin protein ligase activity	RT		7	0.5	9.70E-05	4.80E-03	6.70E-06	5.173925197
+	GOTERM_BP_DIRECT	osteoblast differentiation	RT		23	1.8	2.30E-05	1.50E-03	7.30E-06	5.13667714
+	GOTERM_BP_DIRECT	chaperone mediated protein folding requiring cofactor	RT		11	0.8	4.80E-05	2.70E-03	7.30E-06	5.13667714
+	GOTERM_BP_DIRECT	purine nucleobase biosynthetic process	RT		5	0.4	2.60E-04	1.10E-02	7.30E-06	5.13667714
+	GOTERM_BP_DIRECT	'de novo' IMP biosynthetic process	RT		5	0.4	2.60E-04	1.10E-02	7.30E-06	5.13667714
+	GOTERM_BP_DIRECT	DNA unwinding involved in DNA replication	RT		9	0.7	7.30E-05	3.80E-03	8.50E-06	5.070581074
+	GOTERM_BP_DIRECT	mRNA splice site selection	RT		9	0.7	7.30E-05	3.80E-03	8.50E-06	5.070581074
+	GOTERM_BP_DIRECT	2-oxoglutarate metabolic process	RT		8	0.6	9.30E-05	4.60E-03	8.90E-06	5.050609993
+	GOTERM_BP_DIRECT	ribosomal large subunit biogenesis	RT		10	0.8	7.20E-05	3.80E-03	1.00E-05	5
+	GOTERM_BP_DIRECT	ribosomal large subunit assembly	RT		9	0.7	1.00E-04	5.00E-03	1.30E-05	4.886056648
+	GOTERM_BP_DIRECT	regulation of DNA-dependent DNA replication initiation	RT		7	0.5	1.60E-04	7.20E-03	1.30E-05	4.886056648
+	GOTERM_BP_DIRECT	SRP-dependent cotranslational protein targeting to membrane	RT		6	0.5	2.40E-04	1.00E-02	1.40E-05	4.853871964
+	GOTERM_BP_DIRECT	mRNA export from nucleus	RT		14	1.1	7.20E-05	3.80E-03	1.60E-05	4.795880017
+	GOTERM_BP_DIRECT	mitochondrial ATP synthesis coupled proton transport	RT		15	1.2	7.50E-05	3.80E-03	1.80E-05	4.744727495
+	GOTERM_BP_DIRECT	actin filament fragmentation	RT		4	0.3	1.10E-03	3.60E-02	1.90E-05	4.721246399
+	GOTERM_BP_DIRECT	toxin transport	RT		12	0.9	1.10E-04	5.00E-03	2.00E-05	4.698970004
+	GOTERM_BP_DIRECT	positive regulation of protein import into nucleus	RT		12	0.9	1.10E-04	5.00E-03	2.00E-05	4.698970004
+	GOTERM_BP_DIRECT	ribosomal small subunit assembly	RT		7	0.5	2.50E-04	1.10E-02	2.20E-05	4.657577319
+	GOTERM_BP_DIRECT	RNA export from nucleus	RT		8	0.6	2.00E-04	8.70E-03	2.30E-05	4.638272164
+	GOTERM_BP_DIRECT	nucleoside metabolic process	RT		8	0.6	2.00E-04	8.70E-03	2.30E-05	4.638272164
+	GOTERM_BP_DIRECT	protein homotetramerization	RT		14	1.1	1.00E-04	5.00E-03	2.40E-05	4.619788758
+	GOTERM_BP_DIRECT	translational termination	RT		5	0.4	5.70E-04	2.10E-02	2.40E-05	4.619788758
+	GOTERM_BP_DIRECT	nucleocytoplasmic transport	RT		13	1	1.20E-04	5.60E-03	2.60E-05	4.585026652
+	GOTERM_BP_DIRECT	cellular response to heat	RT		13	1	1.50E-04	6.60E-03	3.20E-05	4.494850022
+	GOTERM_BP_DIRECT	rhythmic process	RT		16	1.2	1.40E-04	6.50E-03	3.80E-05	4.420216403
+	GOTERM_BP_DIRECT	positive regulation of ATPase activity	RT		9	0.7	2.60E-04	1.10E-02	3.80E-05	4.420216403
+	GOTERM_BP_DIRECT	regulation of RNA splicing	RT		16	1.2	1.60E-04	7.30E-03	4.50E-05	4.346787486
+	GOTERM_BP_DIRECT	positive regulation of telomere maintenance via telomerase	RT		10	0.8	2.80E-04	1.10E-02	4.90E-05	4.30980392
+	GOTERM_BP_DIRECT	"regulation of mRNA splicing, via spliceosome"	RT		8	0.6	3.90E-04	1.50E-02	5.10E-05	4.292429824
+	GOTERM_BP_DIRECT	cellular respiration	RT		11	0.8	2.70E-04	1.10E-02	5.30E-05	4.27572413
+	GOTERM_BP_DIRECT	spliceosomal snRNP assembly	RT		9	0.7	3.50E-04	1.30E-02	5.30E-05	4.27572413
+	GOTERM_BP_DIRECT	double-strand break repair via break-induced replication	RT		6	0.5	6.80E-04	2.40E-02	5.50E-05	4.259637311
+	GOTERM_BP_DIRECT	mitotic spindle organization	RT		13	1	2.50E-04	1.10E-02	5.90E-05	4.229147988
+	GOTERM_BP_DIRECT	protein maturation by protein folding	RT		5	0.4	1.10E-03	3.50E-02	6.10E-05	4.214670165
+	GOTERM_BP_DIRECT	7-methylguanosine cap hypermethylation	RT		5	0.4	1.10E-03	3.50E-02	6.10E-05	4.214670165
+	GOTERM_BP_DIRECT	liver regeneration	RT		11	0.8	3.30E-04	1.30E-02	6.70E-05	4.173925197
+	GOTERM_BP_DIRECT	vesicle-mediated transport	RT		32	2.5	1.70E-04	7.50E-03	7.40E-05	4.13076828
+	GOTERM_BP_DIRECT	protein N-linked glycosylation via asparagine	RT		8	0.6	5.30E-04	2.00E-02	7.40E-05	4.13076828
+	GOTERM_BP_DIRECT	AMP salvage	RT		4	0.3	2.60E-03	7.20E-02	9.20E-05	4.036212173
+	GOTERM_BP_DIRECT	citrate metabolic process	RT		4	0.3	2.60E-03	7.20E-02	9.20E-05	4.036212173
+	GOTERM_BP_DIRECT	AMP biosynthetic process	RT		4	0.3	2.60E-03	7.20E-02	9.20E-05	4.036212173
+	GOTERM_BP_DIRECT	cytoplasmic translational initiation	RT		4	0.3	2.60E-03	7.20E-02	9.20E-05	4.036212173
+	GOTERM_BP_DIRECT	protein localization	RT		23	1.8	2.50E-04	1.10E-02	9.40E-05	4.026872146
+	GOTERM_BP_DIRECT	proteasome assembly	RT		6	0.5	1.00E-03	3.50E-02	9.70E-05	4.013228266
+	GOTERM_BP_DIRECT	positive regulation of viral genome replication	RT		9	0.7	5.80E-04	2.10E-02	9.80E-05	4.008773924
+	GOTERM_BP_DIRECT	positive regulation of lamellipodium assembly	RT		9	0.7	5.80E-04	2.10E-02	9.80E-05	4.008773924
+	GOTERM_BP_DIRECT	viral entry into host cell	RT		18	1.4	3.30E-04	1.30E-02	1.10E-04	3.958607315
+	GOTERM_BP_DIRECT	regulation of actin filament polymerization	RT		10	0.8	5.50E-04	2.00E-02	1.10E-04	3.958607315
+	GOTERM_BP_DIRECT	"nuclear-transcribed mRNA catabolic process, nonsense-mediated decay"	RT		10	0.8	5.50E-04	2.00E-02	1.10E-04	3.958607315
+	GOTERM_BP_DIRECT	response to oxidative stress	RT		20	1.5	3.40E-04	1.30E-02	1.20E-04	3.920818754
+	GOTERM_BP_DIRECT	response to virus	RT		19	1.5	3.60E-04	1.40E-02	1.20E-04	3.920818754
+	GOTERM_BP_DIRECT	platelet aggregation	RT		11	0.8	6.00E-04	2.10E-02	1.30E-04	3.886056648
+	GOTERM_BP_DIRECT	oxaloacetate metabolic process	RT		5	0.4	1.90E-03	5.50E-02	1.30E-04	3.886056648
+	GOTERM_BP_DIRECT	regulation of ruffle assembly	RT		5	0.4	1.90E-03	5.50E-02	1.30E-04	3.886056648
+	GOTERM_BP_DIRECT	response to alkaloid	RT		5	0.4	1.90E-03	5.50E-02	1.30E-04	3.886056648
+	GOTERM_BP_DIRECT	"RNA splicing, via transesterification reactions"	RT		8	0.6	9.30E-04	3.20E-02	1.40E-04	3.853871964
+	GOTERM_BP_DIRECT	positive regulation of proteasomal protein catabolic process	RT		7	0.5	1.10E-03	3.50E-02	1.40E-04	3.853871964
+	GOTERM_BP_DIRECT	oxidative phosphorylation	RT		7	0.5	1.10E-03	3.50E-02	1.40E-04	3.853871964
+	GOTERM_BP_DIRECT	"mitochondrial electron transport, ubiquinol to cytochrome c"	RT		6	0.5	1.50E-03	4.80E-02	1.60E-04	3.795880017
+	GOTERM_BP_DIRECT	glutathione metabolic process	RT		11	0.8	8.70E-04	3.00E-02	2.00E-04	3.698970004
+	GOTERM_BP_DIRECT	cellular response to interleukin-4	RT		8	0.6	1.20E-03	3.80E-02	2.00E-04	3.698970004
+	GOTERM_BP_DIRECT	negative regulation of protein ubiquitination	RT		12	0.9	8.40E-04	2.90E-02	2.10E-04	3.677780705
+	GOTERM_BP_DIRECT	binding of sperm to zona pellucida	RT		10	0.8	1.00E-03	3.40E-02	2.20E-04	3.657577319
+	GOTERM_BP_DIRECT	mRNA stabilization	RT		9	0.7	1.10E-03	3.60E-02	2.20E-04	3.657577319
+	GOTERM_BP_DIRECT	chromatin assembly	RT		5	0.4	2.90E-03	7.90E-02	2.40E-04	3.619788758
+	GOTERM_BP_DIRECT	transferrin transport	RT		5	0.4	2.90E-03	7.90E-02	2.40E-04	3.619788758
+	GOTERM_BP_DIRECT	protein heterotetramerization	RT		6	0.5	2.20E-03	6.20E-02	2.50E-04	3.602059991
+	GOTERM_BP_DIRECT	ribosomal subunit export from nucleus	RT		4	0.3	5.00E-03	1.20E-01	2.60E-04	3.585026652
+	GOTERM_BP_DIRECT	positive regulation of mRNA binding	RT		4	0.3	5.00E-03	1.20E-01	2.60E-04	3.585026652
+	GOTERM_BP_DIRECT	isocitrate metabolic process	RT		4	0.3	5.00E-03	1.20E-01	2.60E-04	3.585026652
+	GOTERM_BP_DIRECT	5-phosphoribose 1-diphosphate biosynthetic process	RT		4	0.3	5.00E-03	1.20E-01	2.60E-04	3.585026652
+	GOTERM_BP_DIRECT	mature ribosome assembly	RT		4	0.3	5.00E-03	1.20E-01	2.60E-04	3.585026652
+	GOTERM_BP_DIRECT	fibroblast proliferation	RT		9	0.7	1.40E-03	4.40E-02	2.80E-04	3.552841969
+	GOTERM_BP_DIRECT	regulation of apoptotic process	RT		31	2.4	6.20E-04	2.20E-02	2.90E-04	3.537602002
+	GOTERM_BP_DIRECT	respiratory electron transport chain	RT		7	0.5	1.90E-03	5.60E-02	2.90E-04	3.537602002
+	GOTERM_BP_DIRECT	cellular hyperosmotic salinity response	RT		3	0.2	1.30E-02	2.40E-01	2.90E-04	3.537602002
+	GOTERM_BP_DIRECT	positive regulation of plasma membrane repair	RT		3	0.2	1.30E-02	2.40E-01	2.90E-04	3.537602002
+	GOTERM_BP_DIRECT	histone H2A phosphorylation	RT		3	0.2	1.30E-02	2.40E-01	2.90E-04	3.537602002
+	GOTERM_BP_DIRECT	cytoplasmic translational termination	RT		3	0.2	1.30E-02	2.40E-01	2.90E-04	3.537602002
+	GOTERM_BP_DIRECT	protein targeting to mitochondrion	RT		8	0.6	1.90E-03	5.60E-02	3.50E-04	3.455931956
+	GOTERM_BP_DIRECT	ER to Golgi vesicle-mediated transport	RT		20	1.5	9.50E-04	3.20E-02	3.60E-04	3.443697499
+	GOTERM_BP_DIRECT	response to copper ion	RT		6	0.5	3.00E-03	8.10E-02	3.80E-04	3.420216403
+	GOTERM_BP_DIRECT	release of cytochrome c from mitochondria	RT		7	0.5	2.50E-03	7.00E-02	3.90E-04	3.408935393
+	GOTERM_BP_DIRECT	hydrogen ion transmembrane transport	RT		20	1.5	1.00E-03	3.50E-02	4.00E-04	3.397940009
+	GOTERM_BP_DIRECT	formation of translation preinitiation complex	RT		5	0.4	4.40E-03	1.10E-01	4.20E-04	3.37675071
+	GOTERM_BP_DIRECT	pentose-phosphate shunt	RT		5	0.4	4.40E-03	1.10E-01	4.20E-04	3.37675071
+	GOTERM_BP_DIRECT	endoplasmic reticulum tubular network organization	RT		5	0.4	4.40E-03	1.10E-01	4.20E-04	3.37675071
+	GOTERM_BP_DIRECT	fructose 6-phosphate metabolic process	RT		5	0.4	4.40E-03	1.10E-01	4.20E-04	3.37675071
+	GOTERM_BP_DIRECT	"retrograde vesicle-mediated transport, Golgi to ER"	RT		11	0.8	1.70E-03	5.10E-02	4.30E-04	3.366531544
+	GOTERM_BP_DIRECT	response to ethanol	RT		20	1.5	1.20E-03	3.90E-02	4.90E-04	3.30980392
+	GOTERM_BP_DIRECT	cellular oxidant detoxification	RT		14	1.1	1.60E-03	4.80E-02	4.90E-04	3.30980392
+	GOTERM_BP_DIRECT	response to organic cyclic compound	RT		12	0.9	1.80E-03	5.40E-02	5.00E-04	3.301029996
+	GOTERM_BP_DIRECT	positive regulation of substrate adhesion-dependent cell spreading	RT		10	0.8	2.10E-03	6.00E-02	5.00E-04	3.301029996
+	GOTERM_BP_DIRECT	positive regulation of transcription from RNA polymerase I promoter	RT		7	0.5	3.20E-03	8.50E-02	5.30E-04	3.27572413
+	GOTERM_BP_DIRECT	chromosome condensation	RT		7	0.5	3.20E-03	8.50E-02	5.30E-04	3.27572413
+	GOTERM_BP_DIRECT	nuclear migration	RT		6	0.5	4.00E-03	1.00E-01	5.60E-04	3.251811973
+	GOTERM_BP_DIRECT	ribosomal small subunit export from nucleus	RT		4	0.3	8.30E-03	1.80E-01	5.80E-04	3.236572006
+	GOTERM_BP_DIRECT	glycine metabolic process	RT		4	0.3	8.30E-03	1.80E-01	5.80E-04	3.236572006
+	GOTERM_BP_DIRECT	regulation of translational termination	RT		4	0.3	8.30E-03	1.80E-01	5.80E-04	3.236572006
+	GOTERM_BP_DIRECT	actin polymerization-dependent cell motility	RT		4	0.3	8.30E-03	1.80E-01	5.80E-04	3.236572006
+	GOTERM_BP_DIRECT	apical junction assembly	RT		4	0.3	8.30E-03	1.80E-01	5.80E-04	3.236572006
+	GOTERM_BP_DIRECT	response to calcium ion	RT		12	0.9	2.30E-03	6.60E-02	6.80E-04	3.167491087
+	GOTERM_BP_DIRECT	protein export from nucleus	RT		8	0.6	3.60E-03	9.20E-02	7.40E-04	3.13076828
+	GOTERM_BP_DIRECT	regulation of mitochondrial membrane potential	RT		8	0.6	3.60E-03	9.20E-02	7.40E-04	3.13076828
+	GOTERM_BP_DIRECT	positive regulation of transcription from RNA polymerase III promoter	RT		6	0.5	5.30E-03	1.20E-01	7.90E-04	3.102372909
+	GOTERM_BP_DIRECT	sarcomere organization	RT		9	0.7	3.60E-03	9.20E-02	8.40E-04	3.075720714
+	GOTERM_BP_DIRECT	cellular response to organic cyclic compound	RT		11	0.8	3.00E-03	8.10E-02	8.50E-04	3.070581074
+	GOTERM_BP_DIRECT	positive regulation of DNA replication	RT		8	0.6	4.30E-03	1.10E-01	9.30E-04	3.031517051
+	GOTERM_BP_DIRECT	Arp2/3 complex-mediated actin nucleation	RT		7	0.5	5.00E-03	1.20E-01	9.30E-04	3.031517051
+	GOTERM_BP_DIRECT	telomere maintenance	RT		11	0.8	3.50E-03	9.10E-02	9.90E-04	3.004364805
+	GOTERM_BP_DIRECT	ubiquitin-dependent protein catabolic process	RT		33	2.5	2.10E-03	6.20E-02	1.10E-03	2.958607315
+	GOTERM_BP_DIRECT	regulation of proteasomal protein catabolic process	RT		6	0.5	6.80E-03	1.50E-01	1.10E-03	2.958607315
+	GOTERM_BP_DIRECT	positive regulation of protein export from nucleus	RT		6	0.5	6.80E-03	1.50E-01	1.10E-03	2.958607315
+	GOTERM_BP_DIRECT	negative regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway	RT		6	0.5	6.80E-03	1.50E-01	1.10E-03	2.958607315
+	GOTERM_BP_DIRECT	nuclear-transcribed mRNA catabolic process	RT		6	0.5	6.80E-03	1.50E-01	1.10E-03	2.958607315
+	GOTERM_BP_DIRECT	removal of superoxide radicals	RT		5	0.4	8.50E-03	1.80E-01	1.10E-03	2.958607315
+	GOTERM_BP_DIRECT	positive regulation of mRNA catabolic process	RT		5	0.4	8.50E-03	1.80E-01	1.10E-03	2.958607315
+	GOTERM_BP_DIRECT	actin filament depolymerization	RT		5	0.4	8.50E-03	1.80E-01	1.10E-03	2.958607315
+	GOTERM_BP_DIRECT	protein localization to nuclear envelope	RT		4	0.3	1.30E-02	2.40E-01	1.10E-03	2.958607315
+	GOTERM_BP_DIRECT	"antigen processing and presentation of endogenous peptide antigen via MHC class I via ER pathway, TAP-independent"	RT		4	0.3	1.30E-02	2.40E-01	1.10E-03	2.958607315
+	GOTERM_BP_DIRECT	response to isolation stress	RT		4	0.3	1.30E-02	2.40E-01	1.10E-03	2.958607315
+	GOTERM_BP_DIRECT	establishment or maintenance of apical/basal cell polarity	RT		3	0.2	2.40E-02	3.70E-01	1.10E-03	2.958607315
+	GOTERM_BP_DIRECT	"regulation of nuclear-transcribed mRNA catabolic process, nonsense-mediated decay"	RT		3	0.2	2.40E-02	3.70E-01	1.10E-03	2.958607315
+	GOTERM_BP_DIRECT	telomerase holoenzyme complex assembly	RT		3	0.2	2.40E-02	3.70E-01	1.10E-03	2.958607315
+	GOTERM_BP_DIRECT	nuclear pore localization	RT		3	0.2	2.40E-02	3.70E-01	1.10E-03	2.958607315
+	GOTERM_BP_DIRECT	regulation of organelle assembly	RT		3	0.2	2.40E-02	3.70E-01	1.10E-03	2.958607315
+	GOTERM_BP_DIRECT	ribosomal protein import into nucleus	RT		3	0.2	2.40E-02	3.70E-01	1.10E-03	2.958607315
+	GOTERM_BP_DIRECT	regulation of interferon-gamma-mediated signaling pathway	RT		3	0.2	2.40E-02	3.70E-01	1.10E-03	2.958607315
+	GOTERM_BP_DIRECT	DNA geometric change	RT		3	0.2	2.40E-02	3.70E-01	1.10E-03	2.958607315
+	GOTERM_BP_DIRECT	purine ribonucleoside monophosphate biosynthetic process	RT		3	0.2	2.40E-02	3.70E-01	1.10E-03	2.958607315
+	GOTERM_BP_DIRECT	positive regulation by virus of viral protein levels in host cell	RT		3	0.2	2.40E-02	3.70E-01	1.10E-03	2.958607315
+	GOTERM_BP_DIRECT	ribonucleoside monophosphate biosynthetic process	RT		3	0.2	2.40E-02	3.70E-01	1.10E-03	2.958607315
+	GOTERM_BP_DIRECT	DNA repair	RT		34	2.6	2.20E-03	6.20E-02	1.20E-03	2.920818754
+	GOTERM_BP_DIRECT	response to endoplasmic reticulum stress	RT		14	1.1	3.50E-03	9.10E-02	1.20E-03	2.920818754
+	GOTERM_BP_DIRECT	regulation of circadian rhythm	RT		12	0.9	3.90E-03	9.90E-02	1.20E-03	2.920818754
+	GOTERM_BP_DIRECT	negative regulation of proteasomal ubiquitin-dependent protein catabolic process	RT		8	0.6	5.20E-03	1.20E-01	1.20E-03	2.920818754
+	GOTERM_BP_DIRECT	positive regulation of DNA repair	RT		9	0.7	5.70E-03	1.30E-01	1.50E-03	2.823908741
+	GOTERM_BP_DIRECT	regulation of stem cell differentiation	RT		6	0.5	8.60E-03	1.80E-01	1.50E-03	2.823908741
+	GOTERM_BP_DIRECT	positive regulation of endopeptidase activity	RT		5	0.4	1.10E-02	2.20E-01	1.50E-03	2.823908741
+	GOTERM_BP_DIRECT	negative regulation of amyloid fibril formation	RT		5	0.4	1.10E-02	2.20E-01	1.50E-03	2.823908741
+	GOTERM_BP_DIRECT	hepatocyte apoptotic process	RT		5	0.4	1.10E-02	2.20E-01	1.50E-03	2.823908741
+	GOTERM_BP_DIRECT	negative regulation of chromatin silencing	RT		5	0.4	1.10E-02	2.20E-01	1.50E-03	2.823908741
+	GOTERM_BP_DIRECT	primary miRNA processing	RT		5	0.4	1.10E-02	2.20E-01	1.50E-03	2.823908741
+	GOTERM_BP_DIRECT	positive regulation of cellular protein catabolic process	RT		5	0.4	1.10E-02	2.20E-01	1.50E-03	2.823908741
+	GOTERM_BP_DIRECT	RNA catabolic process	RT		8	0.6	7.30E-03	1.60E-01	1.70E-03	2.769551079
+	GOTERM_BP_DIRECT	response to muscle activity	RT		7	0.5	9.00E-03	1.80E-01	1.90E-03	2.721246399
+	GOTERM_BP_DIRECT	hydrogen peroxide catabolic process	RT		7	0.5	9.00E-03	1.80E-01	1.90E-03	2.721246399
+	GOTERM_BP_DIRECT	positive regulation of histone acetylation	RT		7	0.5	9.00E-03	1.80E-01	1.90E-03	2.721246399
+	GOTERM_BP_DIRECT	regulation of centrosome duplication	RT		6	0.5	1.10E-02	2.10E-01	1.90E-03	2.721246399
+	GOTERM_BP_DIRECT	establishment of protein localization to membrane	RT		4	0.3	1.80E-02	3.10E-01	1.90E-03	2.721246399
+	GOTERM_BP_DIRECT	"fructose 1,6-bisphosphate metabolic process"	RT		4	0.3	1.80E-02	3.10E-01	1.90E-03	2.721246399
+	GOTERM_BP_DIRECT	DNA topological change	RT		4	0.3	1.80E-02	3.10E-01	1.90E-03	2.721246399
+	GOTERM_BP_DIRECT	malate metabolic process	RT		4	0.3	1.80E-02	3.10E-01	1.90E-03	2.721246399
+	GOTERM_BP_DIRECT	negative regulation of catalytic activity	RT		17	1.3	4.90E-03	1.20E-01	2.00E-03	2.698970004
+	GOTERM_BP_DIRECT	one-carbon metabolic process	RT		8	0.6	8.50E-03	1.80E-01	2.10E-03	2.677780705
+	GOTERM_BP_DIRECT	cellular response to interferon-gamma	RT		15	1.2	5.70E-03	1.30E-01	2.20E-03	2.657577319
+	GOTERM_BP_DIRECT	regulation of mRNA processing	RT		5	0.4	1.50E-02	2.60E-01	2.20E-03	2.657577319
+	GOTERM_BP_DIRECT	maturation of LSU-rRNA	RT		5	0.4	1.50E-02	2.60E-01	2.20E-03	2.657577319
+	GOTERM_BP_DIRECT	negative regulation of protein kinase activity	RT		12	0.9	6.80E-03	1.50E-01	2.30E-03	2.638272164
+	GOTERM_BP_DIRECT	protein N-linked glycosylation	RT		10	0.8	7.60E-03	1.70E-01	2.30E-03	2.638272164
+	GOTERM_BP_DIRECT	aging	RT		24	1.8	4.90E-03	1.20E-01	2.40E-03	2.619788758
+	GOTERM_BP_DIRECT	chromatin remodeling	RT		22	1.7	5.40E-03	1.20E-01	2.50E-03	2.602059991
+	GOTERM_BP_DIRECT	ubiquitin-dependent ERAD pathway	RT		13	1	7.00E-03	1.50E-01	2.50E-03	2.602059991
+	GOTERM_BP_DIRECT	regulation of mRNA stability	RT		8	0.6	9.90E-03	2.00E-01	2.50E-03	2.602059991
+	GOTERM_BP_DIRECT	nuclear envelope organization	RT		6	0.5	1.30E-02	2.40E-01	2.50E-03	2.602059991
+	GOTERM_BP_DIRECT	cellular response to glucose starvation	RT		10	0.8	8.60E-03	1.80E-01	2.60E-03	2.585026652
+	GOTERM_BP_DIRECT	protein localization to bicellular tight junction	RT		3	0.2	3.80E-02	5.00E-01	2.60E-03	2.585026652
+	GOTERM_BP_DIRECT	positive regulation of oxidative stress-induced intrinsic apoptotic signaling pathway	RT		3	0.2	3.80E-02	5.00E-01	2.60E-03	2.585026652
+	GOTERM_BP_DIRECT	positive regulation of low-density lipoprotein receptor activity	RT		3	0.2	3.80E-02	5.00E-01	2.60E-03	2.585026652
+	GOTERM_BP_DIRECT	regulation of type I interferon-mediated signaling pathway	RT		3	0.2	3.80E-02	5.00E-01	2.60E-03	2.585026652
+	GOTERM_BP_DIRECT	positive regulation of RNA export from nucleus	RT		3	0.2	3.80E-02	5.00E-01	2.60E-03	2.585026652
+	GOTERM_BP_DIRECT	establishment of Sertoli cell barrier	RT		3	0.2	3.80E-02	5.00E-01	2.60E-03	2.585026652
+	GOTERM_BP_DIRECT	GMP salvage	RT		3	0.2	3.80E-02	5.00E-01	2.60E-03	2.585026652
+	GOTERM_BP_DIRECT	positive regulation of cyclic-nucleotide phosphodiesterase activity	RT		3	0.2	3.80E-02	5.00E-01	2.60E-03	2.585026652
+	GOTERM_BP_DIRECT	scaRNA localization to Cajal body	RT		3	0.2	3.80E-02	5.00E-01	2.60E-03	2.585026652
+	GOTERM_BP_DIRECT	modification of postsynaptic actin cytoskeleton	RT		3	0.2	3.80E-02	5.00E-01	2.60E-03	2.585026652
+	GOTERM_BP_DIRECT	membrane to membrane docking	RT		3	0.2	3.80E-02	5.00E-01	2.60E-03	2.585026652
+	GOTERM_BP_DIRECT	stress granule disassembly	RT		3	0.2	3.80E-02	5.00E-01	2.60E-03	2.585026652
+	GOTERM_BP_DIRECT	negative regulation of transcription from RNA polymerase II promoter in response to stress	RT		3	0.2	3.80E-02	5.00E-01	2.60E-03	2.585026652
+	GOTERM_BP_DIRECT	mitochondrial fragmentation involved in apoptotic process	RT		4	0.3	2.50E-02	3.80E-01	2.90E-03	2.537602002
+	GOTERM_BP_DIRECT	tubulin complex assembly	RT		4	0.3	2.50E-02	3.80E-01	2.90E-03	2.537602002
+	GOTERM_BP_DIRECT	tetrahydrofolate interconversion	RT		4	0.3	2.50E-02	3.80E-01	2.90E-03	2.537602002
+	GOTERM_BP_DIRECT	erythrocyte homeostasis	RT		4	0.3	2.50E-02	3.80E-01	2.90E-03	2.537602002
+	GOTERM_BP_DIRECT	mitotic cell cycle	RT		20	1.5	6.60E-03	1.50E-01	3.00E-03	2.522878745
+	GOTERM_BP_DIRECT	positive regulation of protein complex assembly	RT		10	0.8	9.70E-03	2.00E-01	3.00E-03	2.522878745
+	GOTERM_BP_DIRECT	cell motility	RT		8	0.6	1.10E-02	2.20E-01	3.00E-03	2.522878745
+	GOTERM_BP_DIRECT	nucleosome positioning	RT		5	0.4	1.80E-02	3.10E-01	3.00E-03	2.522878745
+	GOTERM_BP_DIRECT	cellular response to steroid hormone stimulus	RT		5	0.4	1.80E-02	3.10E-01	3.00E-03	2.522878745
+	GOTERM_BP_DIRECT	"mRNA cis splicing, via spliceosome"	RT		5	0.4	1.80E-02	3.10E-01	3.00E-03	2.522878745
+	GOTERM_BP_DIRECT	negative regulation of DNA recombination	RT		5	0.4	1.80E-02	3.10E-01	3.00E-03	2.522878745
+	GOTERM_BP_DIRECT	DNA recombination	RT		13	1	8.40E-03	1.80E-01	3.10E-03	2.508638306
+	GOTERM_BP_DIRECT	blastocyst development	RT		6	0.5	1.60E-02	2.80E-01	3.20E-03	2.494850022
+	GOTERM_BP_DIRECT	positive regulation of cellular senescence	RT		6	0.5	1.60E-02	2.80E-01	3.20E-03	2.494850022
+	GOTERM_BP_DIRECT	barbed-end actin filament capping	RT		6	0.5	1.60E-02	2.80E-01	3.20E-03	2.494850022
+	GOTERM_BP_DIRECT	cellular response to epidermal growth factor stimulus	RT		9	0.7	1.10E-02	2.20E-01	3.40E-03	2.468521083
+	GOTERM_BP_DIRECT	receptor internalization	RT		9	0.7	1.30E-02	2.40E-01	3.90E-03	2.408935393
+	GOTERM_BP_DIRECT	fatty acid beta-oxidation	RT		9	0.7	1.30E-02	2.40E-01	3.90E-03	2.408935393
+	GOTERM_BP_DIRECT	myoblast differentiation	RT		6	0.5	1.90E-02	3.20E-01	4.00E-03	2.397940009
+	GOTERM_BP_DIRECT	cellular response to nitric oxide	RT		5	0.4	2.30E-02	3.70E-01	4.00E-03	2.397940009
+	GOTERM_BP_DIRECT	cellular response to drug	RT		11	0.8	1.20E-02	2.40E-01	4.40E-03	2.356547324
+	GOTERM_BP_DIRECT	nucleoside monophosphate phosphorylation	RT		4	0.3	3.20E-02	4.60E-01	4.40E-03	2.356547324
+	GOTERM_BP_DIRECT	regulation of lamellipodium assembly	RT		4	0.3	3.20E-02	4.60E-01	4.40E-03	2.356547324
+	GOTERM_BP_DIRECT	nucleotide biosynthetic process	RT		4	0.3	3.20E-02	4.60E-01	4.40E-03	2.356547324
+	GOTERM_BP_DIRECT	RNA transport	RT		4	0.3	3.20E-02	4.60E-01	4.40E-03	2.356547324
+	GOTERM_BP_DIRECT	peptidyl-proline hydroxylation to 4-hydroxy-L-proline	RT		4	0.3	3.20E-02	4.60E-01	4.40E-03	2.356547324
+	GOTERM_BP_DIRECT	actin filament organization	RT		18	1.4	1.00E-02	2.00E-01	4.60E-03	2.337242168
+	GOTERM_BP_DIRECT	response to testosterone	RT		8	0.6	1.70E-02	3.00E-01	4.90E-03	2.30980392
+	GOTERM_BP_DIRECT	cell division	RT		39	3	8.30E-03	1.80E-01	5.00E-03	2.301029996
+	GOTERM_BP_DIRECT	endocytic recycling	RT		10	0.8	1.50E-02	2.70E-01	5.10E-03	2.292429824
+	GOTERM_BP_DIRECT	protein modification process	RT		12	0.9	1.40E-02	2.50E-01	5.20E-03	2.283996656
+	GOTERM_BP_DIRECT	protein peptidyl-prolyl isomerization	RT		7	0.5	2.00E-02	3.30E-01	5.20E-03	2.283996656
+	GOTERM_BP_DIRECT	positive regulation of DNA binding	RT		7	0.5	2.00E-02	3.30E-01	5.20E-03	2.283996656
+	GOTERM_BP_DIRECT	mitochondrial fusion	RT		5	0.4	2.80E-02	4.10E-01	5.30E-03	2.27572413
+	GOTERM_BP_DIRECT	negative regulation of protein ubiquitination involved in ubiquitin-dependent protein catabolic process	RT		5	0.4	2.80E-02	4.10E-01	5.30E-03	2.27572413
+	GOTERM_BP_DIRECT	regulation of protein catabolic process	RT		5	0.4	2.80E-02	4.10E-01	5.30E-03	2.27572413
+	GOTERM_BP_DIRECT	protein targeting	RT		8	0.6	2.00E-02	3.30E-01	5.80E-03	2.236572006
+	GOTERM_BP_DIRECT	cell proliferation	RT		22	1.7	1.20E-02	2.30E-01	6.10E-03	2.214670165
+	GOTERM_BP_DIRECT	aerobic respiration	RT		11	0.8	1.70E-02	2.90E-01	6.20E-03	2.207608311
+	GOTERM_BP_DIRECT	positive regulation of telomerase activity	RT		7	0.5	2.30E-02	3.70E-01	6.20E-03	2.207608311
+	GOTERM_BP_DIRECT	positive regulation of erythrocyte differentiation	RT		7	0.5	2.30E-02	3.70E-01	6.20E-03	2.207608311
+	GOTERM_BP_DIRECT	positive regulation of interferon-alpha production	RT		6	0.5	2.60E-02	3.90E-01	6.20E-03	2.207608311
+	GOTERM_BP_DIRECT	protein import into mitochondrial outer membrane	RT		4	0.3	4.10E-02	5.10E-01	6.20E-03	2.207608311
+	GOTERM_BP_DIRECT	regulation of cellular senescence	RT		4	0.3	4.10E-02	5.10E-01	6.20E-03	2.207608311
+	GOTERM_BP_DIRECT	"tRNA splicing, via endonucleolytic cleavage and ligation"	RT		4	0.3	4.10E-02	5.10E-01	6.20E-03	2.207608311
+	GOTERM_BP_DIRECT	NADH metabolic process	RT		4	0.3	4.10E-02	5.10E-01	6.20E-03	2.207608311
+	GOTERM_BP_DIRECT	CTP biosynthetic process	RT		4	0.3	4.10E-02	5.10E-01	6.20E-03	2.207608311
+	GOTERM_BP_DIRECT	establishment of endothelial intestinal barrier	RT		4	0.3	4.10E-02	5.10E-01	6.20E-03	2.207608311
+	GOTERM_BP_DIRECT	NADP metabolic process	RT		4	0.3	4.10E-02	5.10E-01	6.20E-03	2.207608311
+	GOTERM_BP_DIRECT	pyruvate metabolic process	RT		4	0.3	4.10E-02	5.10E-01	6.20E-03	2.207608311
+	GOTERM_BP_DIRECT	positive regulation of gene silencing by miRNA	RT		4	0.3	4.10E-02	5.10E-01	6.20E-03	2.207608311
+	GOTERM_BP_DIRECT	protein localization to nucleus	RT		8	0.6	2.20E-02	3.60E-01	6.70E-03	2.173925197
+	GOTERM_BP_DIRECT	nucleosome disassembly	RT		5	0.4	3.40E-02	4.70E-01	6.80E-03	2.167491087
+	GOTERM_BP_DIRECT	maturation of SSU-rRNA	RT		5	0.4	3.40E-02	4.70E-01	6.80E-03	2.167491087
+	GOTERM_BP_DIRECT	regulation of cell shape	RT		19	1.5	1.50E-02	2.60E-01	7.10E-03	2.148741651
+	GOTERM_BP_DIRECT	ATP-dependent chromatin remodeling	RT		7	0.5	2.60E-02	3.90E-01	7.30E-03	2.13667714
+	GOTERM_BP_DIRECT	double-strand break repair via nonhomologous end joining	RT		7	0.5	2.60E-02	3.90E-01	7.30E-03	2.13667714
+	GOTERM_BP_DIRECT	ATP metabolic process	RT		7	0.5	2.60E-02	3.90E-01	7.30E-03	2.13667714
+	GOTERM_BP_DIRECT	posttranscriptional regulation of gene expression	RT		6	0.5	3.00E-02	4.40E-01	7.50E-03	2.124938737
+	GOTERM_BP_DIRECT	plasma membrane repair	RT		6	0.5	3.00E-02	4.40E-01	7.50E-03	2.124938737
+	GOTERM_BP_DIRECT	microtubule cytoskeleton organization	RT		17	1.3	1.60E-02	2.80E-01	7.60E-03	2.119186408
+	GOTERM_BP_DIRECT	response to hydrogen peroxide	RT		9	0.7	2.30E-02	3.70E-01	7.70E-03	2.113509275
+	GOTERM_BP_DIRECT	positive regulation of actin filament polymerization	RT		9	0.7	2.30E-02	3.70E-01	7.70E-03	2.113509275
+	GOTERM_BP_DIRECT	actin filament bundle assembly	RT		7	0.5	3.00E-02	4.30E-01	8.60E-03	2.065501549
+	GOTERM_BP_DIRECT	response to hyperoxia	RT		5	0.4	4.00E-02	5.10E-01	8.60E-03	2.065501549
+	GOTERM_BP_DIRECT	iron ion transport	RT		5	0.4	4.00E-02	5.10E-01	8.60E-03	2.065501549
+	GOTERM_BP_DIRECT	positive regulation of cysteine-type endopeptidase activity involved in apoptotic process	RT		9	0.7	2.50E-02	3.80E-01	8.70E-03	2.060480747
+	GOTERM_BP_DIRECT	negative regulation of intrinsic apoptotic signaling pathway	RT		6	0.5	3.50E-02	4.80E-01	9.00E-03	2.045757491
+	GOTERM_BP_DIRECT	cellular response to unfolded protein	RT		6	0.5	3.50E-02	4.80E-01	9.00E-03	2.045757491
+	GOTERM_BP_DIRECT	Golgi to plasma membrane protein transport	RT		6	0.5	3.50E-02	4.80E-01	9.00E-03	2.045757491
+	GOTERM_BP_DIRECT	negative regulation of extrinsic apoptotic signaling pathway via death domain receptors	RT		6	0.5	3.50E-02	4.80E-01	9.00E-03	2.045757491
+	GOTERM_BP_DIRECT	heterochromatin assembly	RT		6	0.5	3.50E-02	4.80E-01	9.00E-03	2.045757491
+	GOTERM_BP_DIRECT	DNA replication initiation	RT		6	0.5	3.50E-02	4.80E-01	9.00E-03	2.045757491
+	GOTERM_BP_DIRECT	epithelial cell differentiation	RT		13	1	2.10E-02	3.50E-01	9.10E-03	2.040958608
+	GOTERM_BP_DIRECT	cellular protein localization	RT		10	0.8	2.50E-02	3.80E-01	9.20E-03	2.036212173
+	GOTERM_BP_DIRECT	response to ischemia	RT		10	0.8	2.50E-02	3.80E-01	9.20E-03	2.036212173
+	GOTERM_BP_DIRECT	regulation of macroautophagy	RT		9	0.7	2.80E-02	4.10E-01	9.80E-03	2.008773924
+	GOTERM_BP_DIRECT	positive regulation of NF-kappaB transcription factor activity	RT		19	1.5	2.00E-02	3.30E-01	9.90E-03	2.004364805
+	GOTERM_BP_DIRECT	response to xenobiotic stimulus	RT		26	2	1.80E-02	3.10E-01	1.00E-02	2
+	GOTERM_BP_DIRECT	autophagosome assembly	RT		10	0.8	2.70E-02	4.00E-01	1.00E-02	2
+	GOTERM_BP_DIRECT	negative regulation of extrinsic apoptotic signaling pathway	RT		7	0.5	3.30E-02	4.70E-01	1.00E-02	2
+	GOTERM_BP_DIRECT	cholesterol biosynthetic process	RT		7	0.5	3.30E-02	4.70E-01	1.00E-02	2
+	GOTERM_BP_DIRECT	chromosome segregation	RT		11	0.8	2.80E-02	4.10E-01	1.10E-02	1.958607315
+	GOTERM_BP_DIRECT	establishment or maintenance of cell polarity	RT		9	0.7	3.10E-02	4.40E-01	1.10E-02	1.958607315
+	GOTERM_BP_DIRECT	antigen processing and presentation	RT		8	0.6	3.40E-02	4.80E-01	1.10E-02	1.958607315
+	GOTERM_BP_DIRECT	natural killer cell mediated cytotoxicity	RT		6	0.5	4.00E-02	5.10E-01	1.10E-02	1.958607315
+	GOTERM_BP_DIRECT	regulated exocytosis	RT		5	0.4	4.70E-02	5.60E-01	1.10E-02	1.958607315
+	GOTERM_BP_DIRECT	establishment of endothelial barrier	RT		5	0.4	4.70E-02	5.60E-01	1.10E-02	1.958607315
+	GOTERM_BP_DIRECT	actin polymerization or depolymerization	RT		5	0.4	4.70E-02	5.60E-01	1.10E-02	1.958607315
+	GOTERM_BP_DIRECT	muscle cell development	RT		5	0.4	4.70E-02	5.60E-01	1.10E-02	1.958607315
+	GOTERM_BP_DIRECT	cellular protein modification process	RT		13	1	2.70E-02	4.00E-01	1.20E-02	1.920818754
+	GOTERM_BP_DIRECT	positive regulation of protein localization to plasma membrane	RT		9	0.7	3.40E-02	4.70E-01	1.20E-02	1.920818754
+	GOTERM_BP_DIRECT	tRNA processing	RT		7	0.5	3.80E-02	5.00E-01	1.20E-02	1.920818754
+	GOTERM_BP_DIRECT	response to cocaine	RT		7	0.5	4.20E-02	5.20E-01	1.30E-02	1.886056648
+	GOTERM_BP_DIRECT	membrane organization	RT		6	0.5	4.60E-02	5.60E-01	1.30E-02	1.886056648
+	GOTERM_BP_DIRECT	actin cytoskeleton reorganization	RT		9	0.7	4.00E-02	5.10E-01	1.50E-02	1.823908741
+	GOTERM_BP_DIRECT	ribosome biogenesis	RT		7	0.5	4.70E-02	5.60E-01	1.50E-02	1.823908741
+	GOTERM_BP_DIRECT	Ras protein signal transduction	RT		12	0.9	3.60E-02	4.80E-01	1.60E-02	1.795880017
+	GOTERM_BP_DIRECT	positive regulation of protein catabolic process	RT		12	0.9	3.60E-02	4.80E-01	1.60E-02	1.795880017
+	GOTERM_BP_DIRECT	positive regulation of NIK/NF-kappaB signaling	RT		10	0.8	4.10E-02	5.10E-01	1.70E-02	1.769551079
+	GOTERM_BP_DIRECT	retina development in camera-type eye	RT		9	0.7	4.40E-02	5.40E-01	1.70E-02	1.769551079
+	GOTERM_BP_DIRECT	endosomal transport	RT		10	0.8	4.50E-02	5.50E-01	1.80E-02	1.744727495
+	GOTERM_BP_DIRECT	mitochondrion organization	RT		11	0.8	4.40E-02	5.50E-01	1.90E-02	1.721246399
+	GOTERM_BP_DIRECT	carbohydrate metabolic process	RT		19	1.5	3.70E-02	5.00E-01	2.00E-02	1.698970004
+	GOTERM_BP_DIRECT	protein localization to plasma membrane	RT		18	1.4	3.90E-02	5.00E-01	2.10E-02	1.677780705
+	GOTERM_BP_DIRECT	"retrograde transport, endosome to Golgi"	RT		11	0.8	4.80E-02	5.70E-01	2.10E-02	1.677780705
+	GOTERM_BP_DIRECT	macromolecular complex assembly	RT		17	1.3	4.50E-02	5.50E-01	2.40E-02	1.619788758
+	GOTERM_BP_DIRECT	cell-cell adhesion	RT		20	1.5	4.80E-02	5.80E-01	2.80E-02	1.552841969
+	GOTERM_CC_DIRECT	extracellular exosome	RT		528	40.5	9.00E-188	8.00E-185	1.90E-188	187.7212464
+	GOTERM_CC_DIRECT	cytosol	RT		795	61	3.10E-161	1.40E-158	1.30E-161	160.8860566
+	GOTERM_CC_DIRECT	membrane	RT		469	36	7.00E-116	2.10E-113	2.10E-116	115.6777807
+	GOTERM_CC_DIRECT	cytoplasm	RT		682	52.3	3.40E-89	7.70E-87	1.70E-89	88.76955108
+	GOTERM_CC_DIRECT	cytosolic ribosome	RT		68	5.2	5.50E-70	9.70E-68	5.40E-72	71.26760624
+	GOTERM_CC_DIRECT	focal adhesion	RT		142	10.9	1.60E-64	2.50E-62	2.20E-65	64.65757732
+	GOTERM_CC_DIRECT	nucleoplasm	RT		488	37.5	9.90E-58	1.30E-55	4.70E-58	57.32790214
+	GOTERM_CC_DIRECT	nucleus	RT		634	48.7	2.60E-55	2.90E-53	1.50E-55	54.82390874
+	GOTERM_CC_DIRECT	ribosome	RT		78	6	1.10E-45	1.10E-43	9.20E-47	46.03621217
+	GOTERM_CC_DIRECT	ribonucleoprotein complex	RT		75	5.8	3.90E-45	3.50E-43	3.10E-46	45.50863831
+	GOTERM_CC_DIRECT	cytosolic large ribosomal subunit	RT		44	3.4	1.90E-38	1.60E-36	5.00E-40	39.30103
+	GOTERM_CC_DIRECT	ficolin-1-rich granule lumen	RT		60	4.6	1.20E-37	8.80E-36	8.70E-39	38.06048075
+	GOTERM_CC_DIRECT	proteasome complex	RT		42	3.2	8.10E-37	5.50E-35	2.10E-38	37.67778071
+	GOTERM_CC_DIRECT	secretory granule lumen	RT		53	4.1	6.00E-32	3.80E-30	4.80E-33	32.31875876
+	GOTERM_CC_DIRECT	melanosome	RT		49	3.8	2.40E-30	1.40E-28	1.80E-31	30.74472749
+	GOTERM_CC_DIRECT	cytosolic small ribosomal subunit	RT		34	2.6	8.30E-30	4.60E-28	2.10E-31	30.67778071
+	GOTERM_CC_DIRECT	mitochondrion	RT		203	15.6	1.70E-28	8.70E-27	6.80E-29	28.16749109
+	GOTERM_CC_DIRECT	macromolecular complex	RT		128	9.8	8.70E-28	4.30E-26	2.70E-28	27.56863624
+	GOTERM_CC_DIRECT	spliceosomal complex	RT		48	3.7	6.30E-25	3.00E-23	6.80E-26	25.16749109
+	GOTERM_CC_DIRECT	catalytic step 2 spliceosome	RT		38	2.9	1.50E-21	6.50E-20	1.40E-22	21.85387196
+	GOTERM_CC_DIRECT	small ribosomal subunit	RT		22	1.7	1.50E-19	6.20E-18	3.60E-21	20.4436975
+	GOTERM_CC_DIRECT	proteasome accessory complex	RT		17	1.3	9.60E-19	3.60E-17	3.80E-21	20.4202164
+	GOTERM_CC_DIRECT	polysomal ribosome	RT		23	1.8	3.40E-19	1.40E-17	1.10E-20	19.95860731
+	GOTERM_CC_DIRECT	"chromosome, telomeric region"	RT		49	3.8	7.30E-19	2.80E-17	1.30E-19	18.88605665
+	GOTERM_CC_DIRECT	perinuclear region of cytoplasm	RT		113	8.7	2.10E-17	7.50E-16	8.20E-18	17.08618615
+	GOTERM_CC_DIRECT	endoplasmic reticulum	RT		146	11.2	2.60E-16	8.90E-15	6.90E-17	16.16115091
+	GOTERM_CC_DIRECT	eukaryotic 48S preinitiation complex	RT		14	1.1	1.10E-13	3.70E-12	1.60E-15	14.79588002
+	GOTERM_CC_DIRECT	mitochondrial matrix	RT		69	5.3	1.80E-14	6.00E-13	5.70E-15	14.24412514
+	GOTERM_CC_DIRECT	CENP-A containing nucleosome	RT		14	1.1	1.60E-12	4.50E-11	3.70E-14	13.43179828
+	GOTERM_CC_DIRECT	eukaryotic 43S preinitiation complex	RT		14	1.1	1.60E-12	4.50E-11	3.70E-14	13.43179828
+	GOTERM_CC_DIRECT	polysome	RT		19	1.5	7.10E-13	2.20E-11	4.50E-14	13.34678749
+	GOTERM_CC_DIRECT	eukaryotic translation initiation factor 3 complex	RT		13	1	5.60E-12	1.50E-10	1.20E-13	12.92081875
+	GOTERM_CC_DIRECT	cytoplasmic stress granule	RT		28	2.1	1.90E-12	5.30E-11	2.70E-13	12.56863624
+	GOTERM_CC_DIRECT	aminoacyl-tRNA synthetase multienzyme complex	RT		11	0.8	5.80E-11	1.40E-09	7.10E-13	12.14874165
+	GOTERM_CC_DIRECT	mitochondrial nucleoid	RT		20	1.5	1.20E-11	3.10E-10	1.10E-12	11.95860731
+	GOTERM_CC_DIRECT	proteasome core complex	RT		14	1.1	3.10E-11	7.90E-10	1.20E-12	11.92081875
+	GOTERM_CC_DIRECT	U2-type precatalytic spliceosome	RT		20	1.5	6.70E-11	1.60E-09	7.00E-12	11.15490196
+	GOTERM_CC_DIRECT	"proteasome regulatory particle, base subcomplex"	RT		9	0.7	2.10E-09	4.20E-08	1.60E-11	10.79588002
+	GOTERM_CC_DIRECT	nuclear speck	RT		66	5.1	6.10E-11	1.50E-09	2.30E-11	10.63827216
+	GOTERM_CC_DIRECT	cytoplasmic ribonucleoprotein granule	RT		25	1.9	1.70E-10	3.90E-09	2.70E-11	10.56863624
+	GOTERM_CC_DIRECT	U2 snRNP	RT		15	1.2	4.80E-10	1.10E-08	3.20E-11	10.49485002
+	GOTERM_CC_DIRECT	proteasome regulatory particle	RT		9	0.7	1.00E-08	1.90E-07	1.50E-10	9.823908741
+	GOTERM_CC_DIRECT	nuclear matrix	RT		30	2.3	1.60E-09	3.30E-08	3.60E-10	9.443697499
+	GOTERM_CC_DIRECT	actin cytoskeleton	RT		45	3.5	1.60E-09	3.30E-08	5.00E-10	9.301029996
+	GOTERM_CC_DIRECT	mitochondrial inner membrane	RT		66	5.1	1.30E-09	2.70E-08	5.10E-10	9.292429824
+	GOTERM_CC_DIRECT	nucleolus	RT		145	11.1	1.00E-09	2.30E-08	6.00E-10	9.22184875
+	GOTERM_CC_DIRECT	chaperonin-containing T-complex	RT		9	0.7	3.50E-08	6.50E-07	7.80E-10	9.107905397
+	GOTERM_CC_DIRECT	nuclear envelope	RT		37	2.8	4.90E-09	9.40E-08	1.40E-09	8.853871964
+	GOTERM_CC_DIRECT	methylosome	RT		9	0.7	9.90E-08	1.70E-06	2.90E-09	8.537602002
+	GOTERM_CC_DIRECT	"eukaryotic translation initiation factor 3 complex, eIF3m"	RT		7	0.5	4.20E-07	6.30E-06	4.00E-09	8.397940009
+	GOTERM_CC_DIRECT	precatalytic spliceosome	RT		11	0.8	1.00E-07	1.70E-06	6.20E-09	8.207608311
+	GOTERM_CC_DIRECT	chaperone complex	RT		13	1	1.20E-07	1.90E-06	1.10E-08	7.958607315
+	GOTERM_CC_DIRECT	mitochondrial proton-transporting ATP synthase complex	RT		11	0.8	1.80E-07	2.80E-06	1.20E-08	7.920818754
+	GOTERM_CC_DIRECT	microtubule	RT		49	3.8	3.90E-08	7.20E-07	1.50E-08	7.823908741
+	GOTERM_CC_DIRECT	cell body	RT		22	1.7	7.70E-08	1.40E-06	1.50E-08	7.823908741
+	GOTERM_CC_DIRECT	stress fiber	RT		20	1.5	8.70E-08	1.50E-06	1.60E-08	7.795880017
+	GOTERM_CC_DIRECT	nuclear chromosome	RT		17	1.3	1.30E-07	2.00E-06	1.90E-08	7.721246399
+	GOTERM_CC_DIRECT	microtubule cytoskeleton	RT		35	2.7	8.30E-08	1.50E-06	2.60E-08	7.585026652
+	GOTERM_CC_DIRECT	vesicle	RT		32	2.5	1.50E-07	2.30E-06	4.40E-08	7.356547324
+	GOTERM_CC_DIRECT	U12-type spliceosomal complex	RT		12	0.9	7.50E-07	1.10E-05	7.50E-08	7.124938737
+	GOTERM_CC_DIRECT	postsynaptic density	RT		40	3.1	8.90E-07	1.30E-05	3.40E-07	6.468521083
+	GOTERM_CC_DIRECT	lamellipodium	RT		32	2.5	1.40E-06	2.00E-05	4.50E-07	6.346787486
+	GOTERM_CC_DIRECT	oligosaccharyltransferase complex	RT		8	0.6	9.20E-06	1.20E-04	5.40E-07	6.26760624
+	GOTERM_CC_DIRECT	cortical actin cytoskeleton	RT		16	1.2	3.40E-06	4.80E-05	6.40E-07	6.193820026
+	GOTERM_CC_DIRECT	azurophil granule lumen	RT		20	1.5	3.30E-06	4.70E-05	8.00E-07	6.096910013
+	GOTERM_CC_DIRECT	Arp2/3 protein complex	RT		7	0.5	2.20E-05	2.70E-04	1.10E-06	5.958607315
+	GOTERM_CC_DIRECT	"proteasome core complex, alpha-subunit complex"	RT		7	0.5	2.20E-05	2.70E-04	1.10E-06	5.958607315
+	GOTERM_CC_DIRECT	actin filament	RT		20	1.5	5.50E-06	7.50E-05	1.40E-06	5.853871964
+	GOTERM_CC_DIRECT	paraspeckles	RT		6	0.5	4.80E-05	5.20E-04	1.60E-06	5.795880017
+	GOTERM_CC_DIRECT	"proteasome regulatory particle, lid subcomplex"	RT		6	0.5	4.80E-05	5.20E-04	1.60E-06	5.795880017
+	GOTERM_CC_DIRECT	nucleosome	RT		25	1.9	6.40E-06	8.40E-05	1.90E-06	5.721246399
+	GOTERM_CC_DIRECT	endoplasmic reticulum-Golgi intermediate compartment	RT		18	1.4	8.50E-06	1.10E-04	2.00E-06	5.698970004
+	GOTERM_CC_DIRECT	cytoskeleton	RT		63	4.8	4.20E-06	5.70E-05	2.10E-06	5.677780705
+	GOTERM_CC_DIRECT	eukaryotic translation initiation factor 4F complex	RT		7	0.5	4.20E-05	4.70E-04	2.40E-06	5.619788758
+	GOTERM_CC_DIRECT	endoplasmic reticulum membrane	RT		104	8	5.80E-06	7.70E-05	3.60E-06	5.443697499
+	GOTERM_CC_DIRECT	membrane raft	RT		36	2.8	9.10E-06	1.20E-04	3.60E-06	5.443697499
+	GOTERM_CC_DIRECT	nuclear membrane	RT		35	2.7	9.40E-06	1.20E-04	3.70E-06	5.431798276
+	GOTERM_CC_DIRECT	U2-type prespliceosome	RT		8	0.6	4.40E-05	4.90E-04	3.70E-06	5.431798276
+	GOTERM_CC_DIRECT	MCM complex	RT		6	0.5	1.00E-04	1.10E-03	4.50E-06	5.346787486
+	GOTERM_CC_DIRECT	U1 snRNP	RT		11	0.8	3.20E-05	3.70E-04	4.60E-06	5.337242168
+	GOTERM_CC_DIRECT	rough endoplasmic reticulum	RT		15	1.2	2.50E-05	3.00E-04	5.40E-06	5.26760624
+	GOTERM_CC_DIRECT	brush border	RT		15	1.2	2.50E-05	3.00E-04	5.40E-06	5.26760624
+	GOTERM_CC_DIRECT	"proton-transporting ATP synthase complex, catalytic core F(1)"	RT		5	0.4	2.20E-04	2.00E-03	5.70E-06	5.244125144
+	GOTERM_CC_DIRECT	CRD-mediated mRNA stability complex	RT		5	0.4	2.20E-04	2.00E-03	5.70E-06	5.244125144
+	GOTERM_CC_DIRECT	pICln-Sm protein complex	RT		5	0.4	2.20E-04	2.00E-03	5.70E-06	5.244125144
+	GOTERM_CC_DIRECT	cytosolic proteasome complex	RT		5	0.4	2.20E-04	2.00E-03	5.70E-06	5.244125144
+	GOTERM_CC_DIRECT	U2-type catalytic step 2 spliceosome	RT		10	0.8	6.70E-05	7.00E-04	9.30E-06	5.031517051
+	GOTERM_CC_DIRECT	midbody	RT		28	2.1	4.10E-05	4.70E-04	1.50E-05	4.823908741
+	GOTERM_CC_DIRECT	GAIT complex	RT		4	0.3	9.60E-04	7.50E-03	1.60E-05	4.795880017
+	GOTERM_CC_DIRECT	eukaryotic translation elongation factor 1 complex	RT		4	0.3	9.60E-04	7.50E-03	1.60E-05	4.795880017
+	GOTERM_CC_DIRECT	nuclear pore	RT		18	1.4	6.60E-05	7.00E-04	1.80E-05	4.744727495
+	GOTERM_CC_DIRECT	spindle	RT		24	1.8	5.60E-05	6.00E-04	1.90E-05	4.721246399
+	GOTERM_CC_DIRECT	prefoldin complex	RT		5	0.4	4.80E-04	4.10E-03	1.90E-05	4.721246399
+	GOTERM_CC_DIRECT	"proteasome core complex, beta-subunit complex"	RT		6	0.5	3.40E-04	3.00E-03	2.20E-05	4.657577319
+	GOTERM_CC_DIRECT	CMG complex	RT		6	0.5	3.40E-04	3.00E-03	2.20E-05	4.657577319
+	GOTERM_CC_DIRECT	endoplasmic reticulum chaperone complex	RT		6	0.5	3.40E-04	3.00E-03	2.20E-05	4.657577319
+	GOTERM_CC_DIRECT	U4/U6 x U5 tri-snRNP complex	RT		12	0.9	1.30E-04	1.30E-03	2.60E-05	4.585026652
+	GOTERM_CC_DIRECT	smooth endoplasmic reticulum	RT		9	0.7	1.90E-04	1.90E-03	2.60E-05	4.585026652
+	GOTERM_CC_DIRECT	cortical cytoskeleton	RT		8	0.6	2.90E-04	2.70E-03	3.60E-05	4.443697499
+	GOTERM_CC_DIRECT	adherens junction	RT		26	2	1.10E-04	1.10E-03	4.20E-05	4.37675071
+	GOTERM_CC_DIRECT	mitochondrial intermembrane space	RT		17	1.3	1.50E-04	1.50E-03	4.30E-05	4.366531544
+	GOTERM_CC_DIRECT	zona pellucida receptor complex	RT		5	0.4	9.10E-04	7.20E-03	4.80E-05	4.318758763
+	GOTERM_CC_DIRECT	large ribosomal subunit	RT		7	0.5	6.10E-04	5.00E-03	6.90E-05	4.161150909
+	GOTERM_CC_DIRECT	U4 snRNP	RT		6	0.5	8.40E-04	6.70E-03	7.40E-05	4.13076828
+	GOTERM_CC_DIRECT	lipid particle	RT		18	1.4	2.40E-04	2.30E-03	7.60E-05	4.119186408
+	GOTERM_CC_DIRECT	site of double-strand break	RT		15	1.2	3.00E-04	2.80E-03	8.30E-05	4.080921908
+	GOTERM_CC_DIRECT	nuclear inner membrane	RT		12	0.9	4.00E-04	3.50E-03	9.30E-05	4.031517051
+	GOTERM_CC_DIRECT	U2-type spliceosomal complex	RT		7	0.5	8.40E-04	6.70E-03	1.00E-04	4
+	GOTERM_CC_DIRECT	MHC class I protein complex	RT		5	0.4	1.60E-03	1.20E-02	1.00E-04	4
+	GOTERM_CC_DIRECT	P-body	RT		17	1.3	3.70E-04	3.20E-03	1.10E-04	3.958607315
+	GOTERM_CC_DIRECT	ruffle membrane	RT		17	1.3	4.60E-04	4.00E-03	1.50E-04	3.823908741
+	GOTERM_CC_DIRECT	filopodium	RT		15	1.2	5.20E-04	4.30E-03	1.50E-04	3.823908741
+	GOTERM_CC_DIRECT	condensed chromosome	RT		8	0.6	1.20E-03	8.80E-03	1.90E-04	3.721246399
+	GOTERM_CC_DIRECT	small nuclear ribonucleoprotein complex	RT		6	0.5	1.80E-03	1.30E-02	1.90E-04	3.721246399
+	GOTERM_CC_DIRECT	sarcoplasmic reticulum lumen	RT		5	0.4	2.50E-03	1.70E-02	1.90E-04	3.721246399
+	GOTERM_CC_DIRECT	glutamatergic synapse	RT		42	3.2	4.10E-04	3.60E-03	2.10E-04	3.677780705
+	GOTERM_CC_DIRECT	recycling endosome membrane	RT		17	1.3	6.50E-04	5.30E-03	2.20E-04	3.657577319
+	GOTERM_CC_DIRECT	proteasome activator complex	RT		3	0.2	1.10E-02	6.40E-02	2.50E-04	3.602059991
+	GOTERM_CC_DIRECT	proton-transporting ATP synthase complex	RT		3	0.2	1.10E-02	6.40E-02	2.50E-04	3.602059991
+	GOTERM_CC_DIRECT	translation release factor complex	RT		3	0.2	1.10E-02	6.40E-02	2.50E-04	3.602059991
+	GOTERM_CC_DIRECT	nuclear pore inner ring	RT		3	0.2	1.10E-02	6.40E-02	2.50E-04	3.602059991
+	GOTERM_CC_DIRECT	Z disc	RT		20	1.5	7.80E-04	6.30E-03	2.90E-04	3.537602002
+	GOTERM_CC_DIRECT	telomerase holoenzyme complex	RT		7	0.5	2.00E-03	1.40E-02	2.90E-04	3.537602002
+	GOTERM_CC_DIRECT	synapse	RT		51	3.9	5.40E-04	4.50E-03	3.00E-04	3.522878745
+	GOTERM_CC_DIRECT	phagocytic vesicle	RT		13	1	1.20E-03	9.00E-03	3.40E-04	3.468521083
+	GOTERM_CC_DIRECT	autolysosome	RT		5	0.4	3.70E-03	2.40E-02	3.40E-04	3.468521083
+	GOTERM_CC_DIRECT	sarcolemma	RT		17	1.3	1.00E-03	7.70E-03	3.50E-04	3.455931956
+	GOTERM_CC_DIRECT	inclusion body	RT		7	0.5	2.50E-03	1.70E-02	4.00E-04	3.397940009
+	GOTERM_CC_DIRECT	cell periphery	RT		11	0.8	1.80E-03	1.30E-02	4.80E-04	3.318758763
+	GOTERM_CC_DIRECT	box C/D snoRNP complex	RT		4	0.3	7.30E-03	4.40E-02	4.80E-04	3.318758763
+	GOTERM_CC_DIRECT	U2-type catalytic step 1 spliceosome	RT		5	0.4	5.20E-03	3.20E-02	5.50E-04	3.259637311
+	GOTERM_CC_DIRECT	RPAP3/R2TP/prefoldin-like complex	RT		5	0.4	5.20E-03	3.20E-02	5.50E-04	3.259637311
+	GOTERM_CC_DIRECT	retromer complex	RT		5	0.4	5.20E-03	3.20E-02	5.50E-04	3.259637311
+	GOTERM_CC_DIRECT	tertiary granule lumen	RT		11	0.8	2.10E-03	1.50E-02	5.70E-04	3.244125144
+	GOTERM_CC_DIRECT	ruffle	RT		16	1.2	1.70E-03	1.20E-02	5.90E-04	3.229147988
+	GOTERM_CC_DIRECT	secretory granule membrane	RT		16	1.2	1.70E-03	1.20E-02	5.90E-04	3.229147988
+	GOTERM_CC_DIRECT	endocytic vesicle lumen	RT		6	0.5	4.30E-03	2.70E-02	6.10E-04	3.214670165
+	GOTERM_CC_DIRECT	SMN-Sm protein complex	RT		6	0.5	4.30E-03	2.70E-02	6.10E-04	3.214670165
+	GOTERM_CC_DIRECT	phagocytic vesicle membrane	RT		13	1	2.20E-03	1.60E-02	6.90E-04	3.161150909
+	GOTERM_CC_DIRECT	heterochromatin	RT		10	0.8	2.80E-03	1.90E-02	7.20E-04	3.142667504
+	GOTERM_CC_DIRECT	COPI vesicle coat	RT		5	0.4	7.20E-03	4.30E-02	8.50E-04	3.070581074
+	GOTERM_CC_DIRECT	azurophil granule membrane	RT		11	0.8	3.20E-03	2.10E-02	9.10E-04	3.040958608
+	GOTERM_CC_DIRECT	U5 snRNP	RT		7	0.5	4.90E-03	3.10E-02	9.10E-04	3.040958608
+	GOTERM_CC_DIRECT	ATPase complex	RT		4	0.3	1.10E-02	6.30E-02	9.10E-04	3.040958608
+	GOTERM_CC_DIRECT	F-actin capping protein complex	RT		4	0.3	1.10E-02	6.30E-02	9.10E-04	3.040958608
+	GOTERM_CC_DIRECT	tRNA-splicing ligase complex	RT		4	0.3	1.10E-02	6.30E-02	9.10E-04	3.040958608
+	GOTERM_CC_DIRECT	signal recognition particle	RT		3	0.2	2.20E-02	1.10E-01	9.60E-04	3.017728767
+	GOTERM_CC_DIRECT	oxoglutarate dehydrogenase complex	RT		3	0.2	2.20E-02	1.10E-01	9.60E-04	3.017728767
+	GOTERM_CC_DIRECT	DNA-dependent protein kinase complex	RT		3	0.2	2.20E-02	1.10E-01	9.60E-04	3.017728767
+	GOTERM_CC_DIRECT	mitochondrial outer membrane	RT		24	1.8	2.30E-03	1.60E-02	1.00E-03	3
+	GOTERM_CC_DIRECT	growth cone	RT		20	1.5	2.80E-03	1.90E-02	1.20E-03	2.920818754
+	GOTERM_CC_DIRECT	fibrillar center	RT		20	1.5	2.80E-03	1.90E-02	1.20E-03	2.920818754
+	GOTERM_CC_DIRECT	mitochondrial respiratory chain complex III	RT		5	0.4	9.60E-03	5.60E-02	1.20E-03	2.920818754
+	GOTERM_CC_DIRECT	cell projection	RT		23	1.8	2.80E-03	1.90E-02	1.30E-03	2.886056648
+	GOTERM_CC_DIRECT	mitotic spindle	RT		19	1.5	3.20E-03	2.10E-02	1.30E-03	2.886056648
+	GOTERM_CC_DIRECT	aggresome	RT		8	0.6	6.60E-03	4.00E-02	1.60E-03	2.795880017
+	GOTERM_CC_DIRECT	MHC class I peptide loading complex	RT		4	0.3	1.60E-02	8.50E-02	1.60E-03	2.795880017
+	GOTERM_CC_DIRECT	zonula adherens	RT		4	0.3	1.60E-02	8.50E-02	1.60E-03	2.795880017
+	GOTERM_CC_DIRECT	NLS-dependent protein nuclear import complex	RT		4	0.3	1.60E-02	8.50E-02	1.60E-03	2.795880017
+	GOTERM_CC_DIRECT	chromosome	RT		29	2.2	3.40E-03	2.20E-02	1.70E-03	2.769551079
+	GOTERM_CC_DIRECT	endoplasmic reticulum lumen	RT		33	2.5	3.70E-03	2.40E-02	2.00E-03	2.698970004
+	GOTERM_CC_DIRECT	lateral plasma membrane	RT		12	0.9	5.90E-03	3.70E-02	2.00E-03	2.698970004
+	GOTERM_CC_DIRECT	cleavage furrow	RT		10	0.8	7.20E-03	4.30E-02	2.10E-03	2.677780705
+	GOTERM_CC_DIRECT	commitment complex	RT		3	0.2	3.50E-02	1.60E-01	2.30E-03	2.638272164
+	GOTERM_CC_DIRECT	eukaryotic translation initiation factor 2 complex	RT		3	0.2	3.50E-02	1.60E-01	2.30E-03	2.638272164
+	GOTERM_CC_DIRECT	tubular endosome	RT		3	0.2	3.50E-02	1.60E-01	2.30E-03	2.638272164
+	GOTERM_CC_DIRECT	lamin filament	RT		3	0.2	3.50E-02	1.60E-01	2.30E-03	2.638272164
+	GOTERM_CC_DIRECT	perichromatin fibrils	RT		3	0.2	3.50E-02	1.60E-01	2.30E-03	2.638272164
+	GOTERM_CC_DIRECT	ribose phosphate diphosphokinase complex	RT		3	0.2	3.50E-02	1.60E-01	2.30E-03	2.638272164
+	GOTERM_CC_DIRECT	R2TP complex	RT		3	0.2	3.50E-02	1.60E-01	2.30E-03	2.638272164
+	GOTERM_CC_DIRECT	"signal recognition particle, endoplasmic reticulum targeting"	RT		5	0.4	1.60E-02	8.50E-02	2.40E-03	2.619788758
+	GOTERM_CC_DIRECT	nuclear envelope lumen	RT		4	0.3	2.20E-02	1.10E-01	2.50E-03	2.602059991
+	GOTERM_CC_DIRECT	NuRD complex	RT		5	0.4	2.00E-02	1.00E-01	3.30E-03	2.48148606
+	GOTERM_CC_DIRECT	endoplasmic reticulum tubular network	RT		5	0.4	2.00E-02	1.00E-01	3.30E-03	2.48148606
+	GOTERM_CC_DIRECT	cell cortex	RT		20	1.5	7.80E-03	4.60E-02	3.70E-03	2.431798276
+	GOTERM_CC_DIRECT	nuclear lamina	RT		4	0.3	2.80E-02	1.40E-01	3.70E-03	2.431798276
+	GOTERM_CC_DIRECT	mitochondrial respiratory chain complex IV	RT		6	0.5	1.80E-02	9.90E-02	4.00E-03	2.397940009
+	GOTERM_CC_DIRECT	lysosome	RT		32	2.5	7.60E-03	4.50E-02	4.30E-03	2.366531544
+	GOTERM_CC_DIRECT	costamere	RT		5	0.4	2.40E-02	1.20E-01	4.30E-03	2.366531544
+	GOTERM_CC_DIRECT	clathrin-coated endocytic vesicle	RT		6	0.5	2.20E-02	1.10E-01	4.90E-03	2.30980392
+	GOTERM_CC_DIRECT	mitochondrial membrane	RT		19	1.5	1.10E-02	6.10E-02	5.00E-03	2.301029996
+	GOTERM_CC_DIRECT	cytolytic granule	RT		4	0.3	3.60E-02	1.60E-01	5.20E-03	2.283996656
+	GOTERM_CC_DIRECT	exon-exon junction complex	RT		4	0.3	3.60E-02	1.60E-01	5.20E-03	2.283996656
+	GOTERM_CC_DIRECT	endosome	RT		32	2.5	1.10E-02	6.30E-02	6.20E-03	2.207608311
+	GOTERM_CC_DIRECT	axon cytoplasm	RT		10	0.8	1.90E-02	1.00E-01	6.60E-03	2.180456064
+	GOTERM_CC_DIRECT	immunological synapse	RT		8	0.6	2.20E-02	1.10E-01	6.70E-03	2.173925197
+	GOTERM_CC_DIRECT	cell leading edge	RT		9	0.7	2.20E-02	1.10E-01	7.20E-03	2.142667504
+	GOTERM_CC_DIRECT	actomyosin	RT		4	0.3	4.50E-02	1.90E-01	7.20E-03	2.142667504
+	GOTERM_CC_DIRECT	pore complex	RT		4	0.3	4.50E-02	1.90E-01	7.20E-03	2.142667504
+	GOTERM_CC_DIRECT	"mitochondrial proton-transporting ATP synthase complex, coupling factor F(o)"	RT		4	0.3	4.50E-02	1.90E-01	7.20E-03	2.142667504
+	GOTERM_CC_DIRECT	sarcomere	RT		8	0.6	2.50E-02	1.20E-01	7.60E-03	2.119186408
+	GOTERM_CC_DIRECT	integral component of lumenal side of endoplasmic reticulum membrane	RT		6	0.5	3.40E-02	1.60E-01	8.60E-03	2.065501549
+	GOTERM_CC_DIRECT	membrane coat	RT		5	0.4	4.00E-02	1.80E-01	8.80E-03	2.055517328
+	GOTERM_CC_DIRECT	Cajal body	RT		11	0.8	2.30E-02	1.10E-01	8.90E-03	2.050609993
+	GOTERM_CC_DIRECT	centrosome	RT		49	3.8	1.40E-02	7.60E-02	9.20E-03	2.036212173
+	GOTERM_CC_DIRECT	cell-cell junction	RT		21	1.6	1.90E-02	1.00E-01	1.00E-02	2
+	GOTERM_CC_DIRECT	transport vesicle	RT		13	1	2.40E-02	1.20E-01	1.00E-02	2
+	GOTERM_CC_DIRECT	small-subunit processome	RT		7	0.5	3.40E-02	1.60E-01	1.00E-02	2
+	GOTERM_CC_DIRECT	filamentous actin	RT		6	0.5	3.80E-02	1.70E-01	1.00E-02	2
+	GOTERM_CC_DIRECT	podosome	RT		6	0.5	3.80E-02	1.70E-01	1.00E-02	2
+	GOTERM_CC_DIRECT	peroxisome	RT		14	1.1	2.50E-02	1.20E-01	1.10E-02	1.958607315
+	GOTERM_CC_DIRECT	intercalated disc	RT		8	0.6	3.30E-02	1.60E-01	1.10E-02	1.958607315
+	GOTERM_CC_DIRECT	site of DNA damage	RT		6	0.5	4.30E-02	1.90E-01	1.20E-02	1.920818754
+	GOTERM_CC_DIRECT	specific granule lumen	RT		9	0.7	4.10E-02	1.80E-01	1.60E-02	1.795880017
+	GOTERM_CC_DIRECT	male germ cell nucleus	RT		8	0.6	4.40E-02	1.90E-01	1.60E-02	1.795880017
+	GOTERM_CC_DIRECT	endosome membrane	RT		25	1.9	3.10E-02	1.50E-01	1.80E-02	1.744727495
+	GOTERM_CC_DIRECT	peroxisomal matrix	RT		8	0.6	4.80E-02	2.10E-01	1.80E-02	1.744727495
+	GOTERM_CC_DIRECT	presynapse	RT		16	1.2	3.70E-02	1.70E-01	1.90E-02	1.721246399
+	GOTERM_MF_DIRECT	RNA binding	RT		483	37.1	1.10E-221	1.50E-218	1.60E-222	221.79588
+	GOTERM_MF_DIRECT	protein binding	RT		1154	88.6	1.00E-85	6.90E-83	7.40E-86	85.13076828
+	GOTERM_MF_DIRECT	cadherin binding	RT		134	10.3	2.00E-71	9.10E-69	2.00E-72	71.69897
+	GOTERM_MF_DIRECT	structural constituent of ribosome	RT		84	6.4	1.90E-46	6.60E-44	1.80E-47	46.74472749
+	GOTERM_MF_DIRECT	mRNA binding	RT		75	5.8	6.40E-29	1.70E-26	1.10E-29	28.95860731
+	GOTERM_MF_DIRECT	identical protein binding	RT		240	18.4	2.60E-28	5.80E-26	1.20E-28	27.92081875
+	GOTERM_MF_DIRECT	unfolded protein binding	RT		50	3.8	4.20E-24	8.20E-22	5.10E-25	24.29242982
+	GOTERM_MF_DIRECT	ATPase activity	RT		79	6.1	5.30E-21	9.10E-19	1.40E-21	20.85387196
+	GOTERM_MF_DIRECT	protein domain specific binding	RT		67	5.1	6.20E-21	9.50E-19	1.40E-21	20.85387196
+	GOTERM_MF_DIRECT	ATP binding	RT		204	15.7	8.80E-21	1.20E-18	4.30E-21	20.36653154
+	GOTERM_MF_DIRECT	GTP binding	RT		75	5.8	2.60E-15	3.30E-13	8.20E-16	15.08618615
+	GOTERM_MF_DIRECT	translation initiation factor activity	RT		27	2.1	2.10E-14	2.30E-12	2.10E-15	14.67778071
+	GOTERM_MF_DIRECT	enzyme binding	RT		72	5.5	2.60E-14	2.80E-12	8.50E-15	14.07058107
+	GOTERM_MF_DIRECT	protein binding involved in protein folding	RT		21	1.6	9.60E-13	8.80E-11	7.70E-14	13.11350927
+	GOTERM_MF_DIRECT	ubiquitin protein ligase binding	RT		60	4.6	2.90E-13	2.80E-11	8.50E-14	13.07058107
+	GOTERM_MF_DIRECT	structural constituent of cytoskeleton	RT		31	2.4	1.60E-11	1.30E-09	2.90E-12	11.537602
+	GOTERM_MF_DIRECT	GTPase activity	RT		62	4.8	1.40E-11	1.20E-09	4.70E-12	11.32790214
+	GOTERM_MF_DIRECT	actin filament binding	RT		47	3.6	1.70E-11	1.30E-09	4.70E-12	11.32790214
+	GOTERM_MF_DIRECT	single-stranded DNA binding	RT		31	2.4	1.20E-10	8.40E-09	2.30E-11	10.63827216
+	GOTERM_MF_DIRECT	NAD binding	RT		18	1.4	2.90E-10	1.90E-08	2.70E-11	10.56863624
+	GOTERM_MF_DIRECT	chaperone binding	RT		30	2.3	1.80E-10	1.20E-08	3.50E-11	10.45593196
+	GOTERM_MF_DIRECT	double-stranded RNA binding	RT		24	1.8	5.30E-10	3.30E-08	8.30E-11	10.08092191
+	GOTERM_MF_DIRECT	ribosome binding	RT		23	1.8	1.00E-09	6.00E-08	1.60E-10	9.795880017
+	GOTERM_MF_DIRECT	mRNA 5'-UTR binding	RT		13	1	4.00E-08	2.00E-06	3.20E-09	8.494850022
+	GOTERM_MF_DIRECT	macromolecular complex binding	RT		62	4.8	1.20E-08	6.60E-07	4.80E-09	8.318758763
+	GOTERM_MF_DIRECT	aminoacyl-tRNA ligase activity	RT		10	0.8	1.10E-07	4.80E-06	4.90E-09	8.30980392
+	GOTERM_MF_DIRECT	nucleic acid binding	RT		51	3.9	1.80E-08	9.60E-07	6.60E-09	8.180456064
+	GOTERM_MF_DIRECT	ADP binding	RT		15	1.2	9.60E-08	4.20E-06	1.10E-08	7.958607315
+	GOTERM_MF_DIRECT	actin binding	RT		53	4.1	3.70E-08	1.90E-06	1.40E-08	7.853871964
+	GOTERM_MF_DIRECT	double-stranded DNA binding	RT		27	2.1	7.20E-08	3.30E-06	1.80E-08	7.744727495
+	GOTERM_MF_DIRECT	magnesium ion binding	RT		41	3.1	6.40E-08	3.00E-06	2.20E-08	7.657577319
+	GOTERM_MF_DIRECT	protein homodimerization activity	RT		89	6.8	4.90E-08	2.40E-06	2.50E-08	7.602059991
+	GOTERM_MF_DIRECT	S100 protein binding	RT		9	0.7	9.90E-07	3.60E-05	4.80E-08	7.318758763
+	GOTERM_MF_DIRECT	peroxiredoxin activity	RT		7	0.5	2.60E-06	7.90E-05	5.30E-08	7.27572413
+	GOTERM_MF_DIRECT	"proton-transporting ATP synthase activity, rotational mechanism"	RT		10	0.8	9.00E-07	3.40E-05	5.90E-08	7.229147988
+	GOTERM_MF_DIRECT	"translation factor activity, RNA binding"	RT		11	0.8	1.10E-06	3.90E-05	9.60E-08	7.017728767
+	GOTERM_MF_DIRECT	tRNA binding	RT		20	1.5	4.80E-07	2.00E-05	9.80E-08	7.008773924
+	GOTERM_MF_DIRECT	proteasome-activating ATPase activity	RT		6	0.5	8.50E-06	2.60E-04	1.00E-07	7
+	GOTERM_MF_DIRECT	RNA helicase activity	RT		20	1.5	6.00E-07	2.40E-05	1.20E-07	6.920818754
+	GOTERM_MF_DIRECT	poly(A) binding	RT		11	0.8	1.80E-06	6.10E-05	1.70E-07	6.769551079
+	GOTERM_MF_DIRECT	hydrolase activity	RT		43	3.3	6.20E-07	2.40E-05	2.40E-07	6.619788758
+	GOTERM_MF_DIRECT	rRNA binding	RT		14	1.1	2.00E-06	6.70E-05	2.90E-07	6.537602002
+	GOTERM_MF_DIRECT	DNA helicase activity	RT		17	1.3	2.30E-06	7.40E-05	4.50E-07	6.346787486
+	GOTERM_MF_DIRECT	protein kinase binding	RT		66	5.1	9.30E-07	3.40E-05	4.60E-07	6.337242168
+	GOTERM_MF_DIRECT	heat shock protein binding	RT		18	1.4	2.30E-06	7.40E-05	4.80E-07	6.318758763
+	GOTERM_MF_DIRECT	thioredoxin peroxidase activity	RT		6	0.5	2.80E-05	7.50E-04	6.80E-07	6.167491087
+	GOTERM_MF_DIRECT	supercoiled DNA binding	RT		5	0.4	1.00E-04	2.50E-03	1.50E-06	5.823908741
+	GOTERM_MF_DIRECT	dolichyl-diphosphooligosaccharide-protein glycotransferase activity	RT		5	0.4	1.00E-04	2.50E-03	1.50E-06	5.823908741
+	GOTERM_MF_DIRECT	structural constituent of chromatin	RT		21	1.6	1.10E-05	3.20E-04	2.90E-06	5.537602002
+	GOTERM_MF_DIRECT	translation elongation factor activity	RT		11	0.8	2.60E-05	7.10E-04	3.60E-06	5.443697499
+	GOTERM_MF_DIRECT	GTPase binding	RT		12	0.9	2.50E-05	6.80E-04	3.80E-06	5.420216403
+	GOTERM_MF_DIRECT	disordered domain specific binding	RT		12	0.9	2.50E-05	6.80E-04	3.80E-06	5.420216403
+	GOTERM_MF_DIRECT	histone binding	RT		31	2.4	1.20E-05	3.60E-04	4.60E-06	5.337242168
+	GOTERM_MF_DIRECT	ubiquitin ligase inhibitor activity	RT		6	0.5	1.50E-04	3.50E-03	7.20E-06	5.142667504
+	GOTERM_MF_DIRECT	translation regulator activity	RT		9	0.7	9.30E-05	2.30E-03	1.10E-05	4.958607315
+	GOTERM_MF_DIRECT	cadherin binding involved in cell-cell adhesion	RT		8	0.6	1.10E-04	2.70E-03	1.10E-05	4.958607315
+	GOTERM_MF_DIRECT	GDP binding	RT		17	1.3	5.50E-05	1.50E-03	1.40E-05	4.853871964
+	GOTERM_MF_DIRECT	threonine-type endopeptidase activity	RT		7	0.5	1.90E-04	4.40E-03	1.60E-05	4.795880017
+	GOTERM_MF_DIRECT	TFIID-class transcription factor binding	RT		6	0.5	2.80E-04	5.80E-03	1.70E-05	4.769551079
+	GOTERM_MF_DIRECT	pre-mRNA binding	RT		7	0.5	3.00E-04	6.00E-03	2.80E-05	4.552841969
+	GOTERM_MF_DIRECT	7S RNA binding	RT		5	0.4	6.50E-04	1.20E-02	2.80E-05	4.552841969
+	GOTERM_MF_DIRECT	nuclear import signal receptor activity	RT		8	0.6	2.50E-04	5.30E-03	2.90E-05	4.537602002
+	GOTERM_MF_DIRECT	protein heterodimerization activity	RT		47	3.6	7.00E-05	1.80E-03	3.50E-05	4.455931956
+	GOTERM_MF_DIRECT	mRNA 3'-UTR AU-rich region binding	RT		9	0.7	2.40E-04	5.30E-03	3.50E-05	4.455931956
+	GOTERM_MF_DIRECT	nucleosomal DNA binding	RT		11	0.8	2.80E-04	5.80E-03	5.50E-05	4.259637311
+	GOTERM_MF_DIRECT	electron carrier activity	RT		15	1.2	2.40E-04	5.30E-03	6.50E-05	4.187086643
+	GOTERM_MF_DIRECT	disulfide oxidoreductase activity	RT		5	0.4	1.20E-03	2.00E-02	7.10E-05	4.148741651
+	GOTERM_MF_DIRECT	ribosomal small subunit binding	RT		7	0.5	6.60E-04	1.20E-02	7.40E-05	4.13076828
+	GOTERM_MF_DIRECT	ion channel binding	RT		23	1.8	2.20E-04	4.90E-03	8.00E-05	4.096910013
+	GOTERM_MF_DIRECT	DNA replication origin binding	RT		8	0.6	6.50E-04	1.20E-02	9.30E-05	4.031517051
+	GOTERM_MF_DIRECT	protein disulfide oxidoreductase activity	RT		8	0.6	6.50E-04	1.20E-02	9.30E-05	4.031517051
+	GOTERM_MF_DIRECT	porin activity	RT		4	0.3	2.90E-03	4.40E-02	1.00E-04	4
+	GOTERM_MF_DIRECT	RNA strand annealing activity	RT		4	0.3	2.90E-03	4.40E-02	1.00E-04	4
+	GOTERM_MF_DIRECT	oxidoreductase activity	RT		33	2.5	2.50E-04	5.30E-03	1.10E-04	3.958607315
+	GOTERM_MF_DIRECT	proteasome binding	RT		7	0.5	9.30E-04	1.60E-02	1.10E-04	3.958607315
+	GOTERM_MF_DIRECT	protein N-terminus binding	RT		20	1.5	3.30E-04	6.60E-03	1.20E-04	3.920818754
+	GOTERM_MF_DIRECT	isopeptidase activity	RT		6	0.5	1.20E-03	2.00E-02	1.20E-04	3.920818754
+	GOTERM_MF_DIRECT	mRNA 3'-UTR binding	RT		31	2.4	2.80E-04	5.80E-03	1.30E-04	3.886056648
+	GOTERM_MF_DIRECT	translation initiation factor binding	RT		8	0.6	8.60E-04	1.50E-02	1.30E-04	3.886056648
+	GOTERM_MF_DIRECT	calcium-dependent protein binding	RT		17	1.3	4.80E-04	9.40E-03	1.50E-04	3.823908741
+	GOTERM_MF_DIRECT	ATPase binding	RT		17	1.3	5.50E-04	1.00E-02	1.80E-04	3.744727495
+	GOTERM_MF_DIRECT	protein phosphatase binding	RT		17	1.3	5.50E-04	1.00E-02	1.80E-04	3.744727495
+	GOTERM_MF_DIRECT	poly(U) RNA binding	RT		8	0.6	1.10E-03	1.90E-02	1.80E-04	3.744727495
+	GOTERM_MF_DIRECT	calcium-dependent phospholipid binding	RT		12	0.9	9.40E-04	1.60E-02	2.40E-04	3.619788758
+	GOTERM_MF_DIRECT	phospholipase inhibitor activity	RT		5	0.4	3.30E-03	4.80E-02	2.80E-04	3.552841969
+	GOTERM_MF_DIRECT	FK506 binding	RT		5	0.4	3.30E-03	4.80E-02	2.80E-04	3.552841969
+	GOTERM_MF_DIRECT	aminoacyl-tRNA editing activity	RT		5	0.4	3.30E-03	4.80E-02	2.80E-04	3.552841969
+	GOTERM_MF_DIRECT	profilin binding	RT		5	0.4	3.30E-03	4.80E-02	2.80E-04	3.552841969
+	GOTERM_MF_DIRECT	U2 snRNA binding	RT		4	0.3	5.50E-03	7.00E-02	3.00E-04	3.522878745
+	GOTERM_MF_DIRECT	large ribosomal subunit rRNA binding	RT		4	0.3	5.50E-03	7.00E-02	3.00E-04	3.522878745
+	GOTERM_MF_DIRECT	U1 snRNP binding	RT		4	0.3	5.50E-03	7.00E-02	3.00E-04	3.522878745
+	GOTERM_MF_DIRECT	acetyl-CoA C-acetyltransferase activity	RT		4	0.3	5.50E-03	7.00E-02	3.00E-04	3.522878745
+	GOTERM_MF_DIRECT	TAP binding	RT		3	0.2	1.30E-02	1.30E-01	3.20E-04	3.494850022
+	GOTERM_MF_DIRECT	histone kinase activity	RT		3	0.2	1.30E-02	1.30E-01	3.20E-04	3.494850022
+	GOTERM_MF_DIRECT	"3 iron, 4 sulfur cluster binding"	RT		3	0.2	1.30E-02	1.30E-01	3.20E-04	3.494850022
+	GOTERM_MF_DIRECT	endoplasmic reticulum signal peptide binding	RT		3	0.2	1.30E-02	1.30E-01	3.20E-04	3.494850022
+	GOTERM_MF_DIRECT	protein kinase C inhibitor activity	RT		3	0.2	1.30E-02	1.30E-01	3.20E-04	3.494850022
+	GOTERM_MF_DIRECT	protein-disulfide reductase activity	RT		3	0.2	1.30E-02	1.30E-01	3.20E-04	3.494850022
+	GOTERM_MF_DIRECT	single-stranded DNA-dependent ATP-dependent DNA helicase activity	RT		7	0.5	2.30E-03	3.70E-02	3.50E-04	3.455931956
+	GOTERM_MF_DIRECT	ATPase activator activity	RT		8	0.6	2.30E-03	3.70E-02	4.30E-04	3.366531544
+	GOTERM_MF_DIRECT	structural molecule activity	RT		26	2	1.00E-03	1.80E-02	4.60E-04	3.337242168
+	GOTERM_MF_DIRECT	DNA polymerase binding	RT		7	0.5	3.00E-03	4.50E-02	4.80E-04	3.318758763
+	GOTERM_MF_DIRECT	adenyl-nucleotide exchange factor activity	RT		5	0.4	4.90E-03	6.80E-02	4.90E-04	3.30980392
+	GOTERM_MF_DIRECT	RNA stem-loop binding	RT		7	0.5	3.80E-03	5.40E-02	6.50E-04	3.187086643
+	GOTERM_MF_DIRECT	3-hydroxyacyl-CoA dehydrogenase activity	RT		4	0.3	9.10E-03	1.00E-01	6.50E-04	3.187086643
+	GOTERM_MF_DIRECT	ubiquitin-like protein conjugating enzyme binding	RT		4	0.3	9.10E-03	1.00E-01	6.50E-04	3.187086643
+	GOTERM_MF_DIRECT	AMP binding	RT		6	0.5	4.60E-03	6.50E-02	6.60E-04	3.180456064
+	GOTERM_MF_DIRECT	single-stranded RNA binding	RT		11	0.8	2.50E-03	3.90E-02	6.70E-04	3.173925197
+	GOTERM_MF_DIRECT	ion transmembrane transporter activity	RT		5	0.4	7.00E-03	8.50E-02	8.00E-04	3.096910013
+	GOTERM_MF_DIRECT	phosphatidylethanolamine binding	RT		5	0.4	7.00E-03	8.50E-02	8.00E-04	3.096910013
+	GOTERM_MF_DIRECT	damaged DNA binding	RT		13	1	3.00E-03	4.50E-02	9.70E-04	3.013228266
+	GOTERM_MF_DIRECT	small GTPase binding	RT		34	2.6	2.20E-03	3.60E-02	1.20E-03	2.920818754
+	GOTERM_MF_DIRECT	phosphate ion binding	RT		5	0.4	9.50E-03	1.00E-01	1.20E-03	2.920818754
+	GOTERM_MF_DIRECT	U1 snRNA binding	RT		4	0.3	1.40E-02	1.30E-01	1.20E-03	2.920818754
+	GOTERM_MF_DIRECT	poly(G) binding	RT		4	0.3	1.40E-02	1.30E-01	1.20E-03	2.920818754
+	GOTERM_MF_DIRECT	RISC complex binding	RT		3	0.2	2.60E-02	2.20E-01	1.20E-03	2.920818754
+	GOTERM_MF_DIRECT	L-malate dehydrogenase activity	RT		3	0.2	2.60E-02	2.20E-01	1.20E-03	2.920818754
+	GOTERM_MF_DIRECT	"oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor"	RT		9	0.7	5.10E-03	6.90E-02	1.30E-03	2.886056648
+	GOTERM_MF_DIRECT	metalloexopeptidase activity	RT		6	0.5	7.80E-03	9.30E-02	1.30E-03	2.886056648
+	GOTERM_MF_DIRECT	amino acid binding	RT		6	0.5	7.80E-03	9.30E-02	1.30E-03	2.886056648
+	GOTERM_MF_DIRECT	protein kinase C binding	RT		11	0.8	5.00E-03	6.80E-02	1.50E-03	2.823908741
+	GOTERM_MF_DIRECT	protein disulfide isomerase activity	RT		6	0.5	9.80E-03	1.00E-01	1.70E-03	2.769551079
+	GOTERM_MF_DIRECT	nucleoside diphosphate kinase activity	RT		6	0.5	9.80E-03	1.00E-01	1.70E-03	2.769551079
+	GOTERM_MF_DIRECT	U6 snRNA binding	RT		5	0.4	1.30E-02	1.30E-01	1.80E-03	2.744727495
+	GOTERM_MF_DIRECT	glucose binding	RT		5	0.4	1.30E-02	1.30E-01	1.80E-03	2.744727495
+	GOTERM_MF_DIRECT	virus receptor activity	RT		13	1	5.40E-03	7.00E-02	1.90E-03	2.721246399
+	GOTERM_MF_DIRECT	MHC class II protein complex binding	RT		7	0.5	8.70E-03	9.90E-02	1.90E-03	2.721246399
+	GOTERM_MF_DIRECT	nuclear localization sequence binding	RT		7	0.5	8.70E-03	9.90E-02	1.90E-03	2.721246399
+	GOTERM_MF_DIRECT	metalloaminopeptidase activity	RT		7	0.5	8.70E-03	9.90E-02	1.90E-03	2.721246399
+	GOTERM_MF_DIRECT	TBP-class protein binding	RT		7	0.5	8.70E-03	9.90E-02	1.90E-03	2.721246399
+	GOTERM_MF_DIRECT	ubiquitin binding	RT		15	1.2	5.20E-03	7.00E-02	2.00E-03	2.698970004
+	GOTERM_MF_DIRECT	"binding, bridging"	RT		14	1.1	5.60E-03	7.10E-02	2.10E-03	2.677780705
+	GOTERM_MF_DIRECT	ribonucleoprotein complex binding	RT		8	0.6	8.60E-03	9.90E-02	2.10E-03	2.677780705
+	GOTERM_MF_DIRECT	nitric-oxide synthase regulator activity	RT		4	0.3	2.00E-02	1.80E-01	2.10E-03	2.677780705
+	GOTERM_MF_DIRECT	small ribosomal subunit rRNA binding	RT		4	0.3	2.00E-02	1.80E-01	2.10E-03	2.677780705
+	GOTERM_MF_DIRECT	endopeptidase activity	RT		14	1.1	6.20E-03	7.70E-02	2.30E-03	2.638272164
+	GOTERM_MF_DIRECT	ribosomal large subunit binding	RT		5	0.4	1.60E-02	1.50E-01	2.50E-03	2.602059991
+	GOTERM_MF_DIRECT	Hsp90 protein binding	RT		9	0.7	9.30E-03	1.00E-01	2.60E-03	2.585026652
+	GOTERM_MF_DIRECT	nucleosome binding	RT		7	0.5	1.20E-02	1.30E-01	2.90E-03	2.537602002
+	GOTERM_MF_DIRECT	ribose phosphate diphosphokinase activity	RT		3	0.2	4.10E-02	3.10E-01	2.90E-03	2.537602002
+	GOTERM_MF_DIRECT	epoxide hydrolase activity	RT		3	0.2	4.10E-02	3.10E-01	2.90E-03	2.537602002
+	GOTERM_MF_DIRECT	RS domain binding	RT		3	0.2	4.10E-02	3.10E-01	2.90E-03	2.537602002
+	GOTERM_MF_DIRECT	small protein activating enzyme binding	RT		3	0.2	4.10E-02	3.10E-01	2.90E-03	2.537602002
+	GOTERM_MF_DIRECT	superoxide dismutase activity	RT		3	0.2	4.10E-02	3.10E-01	2.90E-03	2.537602002
+	GOTERM_MF_DIRECT	transcription coactivator activity	RT		30	2.3	6.00E-03	7.50E-02	3.30E-03	2.48148606
+	GOTERM_MF_DIRECT	monosaccharide binding	RT		4	0.3	2.70E-02	2.20E-01	3.30E-03	2.48148606
+	GOTERM_MF_DIRECT	enoyl-CoA hydratase activity	RT		4	0.3	2.70E-02	2.20E-01	3.30E-03	2.48148606
+	GOTERM_MF_DIRECT	protein-arginine N-methyltransferase activity	RT		4	0.3	2.70E-02	2.20E-01	3.30E-03	2.48148606
+	GOTERM_MF_DIRECT	DNA binding	RT		113	8.7	4.80E-03	6.80E-02	3.60E-03	2.443697499
+	GOTERM_MF_DIRECT	peptidyl-prolyl cis-trans isomerase activity	RT		9	0.7	1.20E-02	1.30E-01	3.60E-03	2.443697499
+	GOTERM_MF_DIRECT	peptidase activity	RT		16	1.2	8.80E-03	9.90E-02	3.70E-03	2.431798276
+	GOTERM_MF_DIRECT	tubulin binding	RT		11	0.8	1.10E-02	1.20E-01	3.90E-03	2.408935393
+	GOTERM_MF_DIRECT	histone deacetylase binding	RT		18	1.4	8.80E-03	9.90E-02	4.00E-03	2.397940009
+	GOTERM_MF_DIRECT	carboxylic ester hydrolase activity	RT		7	0.5	1.70E-02	1.60E-01	4.30E-03	2.366531544
+	GOTERM_MF_DIRECT	phosphatidylcholine binding	RT		7	0.5	1.70E-02	1.60E-01	4.30E-03	2.366531544
+	GOTERM_MF_DIRECT	protein C-terminus binding	RT		25	1.9	8.60E-03	9.90E-02	4.50E-03	2.346787486
+	GOTERM_MF_DIRECT	myosin V binding	RT		5	0.4	2.60E-02	2.20E-01	4.70E-03	2.327902142
+	GOTERM_MF_DIRECT	four-way junction DNA binding	RT		5	0.4	2.60E-02	2.20E-01	4.70E-03	2.327902142
+	GOTERM_MF_DIRECT	nuclear export signal receptor activity	RT		4	0.3	3.50E-02	2.80E-01	4.90E-03	2.30980392
+	GOTERM_MF_DIRECT	U3 snoRNA binding	RT		4	0.3	3.50E-02	2.80E-01	4.90E-03	2.30980392
+	GOTERM_MF_DIRECT	endopeptidase activator activity	RT		4	0.3	3.50E-02	2.80E-01	4.90E-03	2.30980392
+	GOTERM_MF_DIRECT	5S rRNA binding	RT		4	0.3	3.50E-02	2.80E-01	4.90E-03	2.30980392
+	GOTERM_MF_DIRECT	protein methyltransferase activity	RT		4	0.3	3.50E-02	2.80E-01	4.90E-03	2.30980392
+	GOTERM_MF_DIRECT	helicase activity	RT		11	0.8	1.40E-02	1.30E-01	5.00E-03	2.301029996
+	GOTERM_MF_DIRECT	nucleotide binding	RT		14	1.1	1.30E-02	1.30E-01	5.20E-03	2.283996656
+	GOTERM_MF_DIRECT	pyridoxal phosphate binding	RT		10	0.8	1.70E-02	1.60E-01	5.70E-03	2.244125144
+	GOTERM_MF_DIRECT	nuclease activity	RT		6	0.5	2.50E-02	2.20E-01	5.90E-03	2.229147988
+	GOTERM_MF_DIRECT	polyubiquitin binding	RT		7	0.5	2.30E-02	2.00E-01	6.20E-03	2.207608311
+	GOTERM_MF_DIRECT	NADP binding	RT		8	0.6	2.30E-02	2.00E-01	7.00E-03	2.15490196
+	GOTERM_MF_DIRECT	beta-tubulin binding	RT		8	0.6	2.30E-02	2.00E-01	7.00E-03	2.15490196
+	GOTERM_MF_DIRECT	potassium ion binding	RT		4	0.3	4.40E-02	3.30E-01	7.00E-03	2.15490196
+	GOTERM_MF_DIRECT	MDM2/MDM4 family protein binding	RT		4	0.3	4.40E-02	3.30E-01	7.00E-03	2.15490196
+	GOTERM_MF_DIRECT	vinculin binding	RT		4	0.3	4.40E-02	3.30E-01	7.00E-03	2.15490196
+	GOTERM_MF_DIRECT	pre-mRNA intronic binding	RT		4	0.3	4.40E-02	3.30E-01	7.00E-03	2.15490196
+	GOTERM_MF_DIRECT	RNA polymerase binding	RT		5	0.4	3.70E-02	2.90E-01	7.80E-03	2.107905397
+	GOTERM_MF_DIRECT	chromatin binding	RT		46	3.5	1.30E-02	1.30E-01	8.70E-03	2.060480747
+	GOTERM_MF_DIRECT	metallopeptidase activity	RT		11	0.8	2.20E-02	2.00E-01	8.70E-03	2.060480747
+	GOTERM_MF_DIRECT	kinase binding	RT		14	1.1	2.20E-02	2.00E-01	9.80E-03	2.008773924
+	GOTERM_MF_DIRECT	ubiquitin conjugating enzyme activity	RT		7	0.5	3.40E-02	2.80E-01	1.00E-02	2
+	GOTERM_MF_DIRECT	miRNA binding	RT		7	0.5	3.40E-02	2.80E-01	1.00E-02	2
+	GOTERM_MF_DIRECT	transferase activity	RT		20	1.5	2.30E-02	2.00E-01	1.20E-02	1.920818754
+	GOTERM_MF_DIRECT	"protein binding, bridging"	RT		14	1.1	2.50E-02	2.20E-01	1.20E-02	1.920818754
+	GOTERM_MF_DIRECT	receptor tyrosine kinase binding	RT		10	0.8	3.30E-02	2.70E-01	1.30E-02	1.886056648
+	GOTERM_MF_DIRECT	structural constituent of nuclear pore	RT		6	0.5	4.50E-02	3.30E-01	1.30E-02	1.886056648
+	GOTERM_MF_DIRECT	Hsp70 protein binding	RT		8	0.6	4.00E-02	3.10E-01	1.40E-02	1.853871964
+	GOTERM_MF_DIRECT	transcription corepressor activity	RT		21	1.6	4.90E-02	3.60E-01	2.80E-02	1.552841969
+	INTERPRO	RNA recognition motif domain	RT		68	5.2	4.10E-25	8.90E-22	7.30E-26	25.13667714
+	INTERPRO	"Nucleotide-binding, alpha-beta plait"	RT		70	5.4	6.60E-23	7.20E-20	1.40E-23	22.85387196
+	INTERPRO	"Histone H4, conserved site"	RT		14	1.1	7.40E-15	4.00E-12	3.80E-17	16.4202164
+	INTERPRO	Histone H4	RT		14	1.1	5.20E-14	2.30E-11	5.30E-16	15.27572413
+	INTERPRO	P-loop containing nucleoside triphosphate hydrolase	RT		130	10	1.80E-15	1.30E-12	7.80E-16	15.1079054
+	INTERPRO	TATA box binding protein associated factor (TAF)	RT		14	1.1	2.60E-13	9.50E-11	4.00E-15	14.39794001
+	INTERPRO	"Nucleic acid-binding, OB-fold"	RT		27	2.1	4.50E-12	1.40E-09	6.30E-13	12.20065945
+	INTERPRO	"Chaperonin TCP-1, conserved site"	RT		9	0.7	3.50E-09	8.60E-07	2.80E-11	10.55284197
+	INTERPRO	Chaperone tailless complex polypeptide 1 (TCP-1)	RT		10	0.8	5.10E-09	1.10E-06	1.10E-10	9.958607315
+	INTERPRO	Thioredoxin domain	RT		17	1.3	2.20E-09	6.10E-07	2.30E-10	9.638272164
+	INTERPRO	"Proteasome, subunit alpha/beta"	RT		13	1	5.70E-09	1.10E-06	3.40E-10	9.468521083
+	INTERPRO	"Translation elongation/initiation factor/Ribosomal, beta-barrel"	RT		14	1.1	2.30E-08	4.10E-06	2.00E-09	8.698970004
+	INTERPRO	GroEL-like equatorial domain	RT		10	0.8	9.70E-08	1.50E-05	4.20E-09	8.37675071
+	INTERPRO	Rossmann-like alpha/beta/alpha sandwich fold	RT		16	1.2	4.40E-08	7.30E-06	5.30E-09	8.27572413
+	INTERPRO	14-3-3 domain	RT		7	0.5	6.10E-07	5.80E-05	6.30E-09	8.200659451
+	INTERPRO	"14-3-3 protein, conserved site"	RT		7	0.5	6.10E-07	5.80E-05	6.30E-09	8.200659451
+	INTERPRO	14-3-3 protein	RT		7	0.5	6.10E-07	5.80E-05	6.30E-09	8.200659451
+	INTERPRO	TCP-1-like chaperonin intermediate domain	RT		10	0.8	2.10E-07	2.40E-05	1.00E-08	8
+	INTERPRO	GroEL-like apical domain	RT		10	0.8	2.10E-07	2.40E-05	1.00E-08	8
+	INTERPRO	Chaperonin Cpn60/TCP-1	RT		10	0.8	2.10E-07	2.40E-05	1.00E-08	8
+	INTERPRO	Proteasome component (PCI) domain	RT		12	0.9	1.40E-07	1.90E-05	1.10E-08	7.958607315
+	INTERPRO	"Translation elongation factor EFTu/EF1A, domain 2"	RT		9	0.7	8.70E-07	7.60E-05	4.10E-08	7.387216143
+	INTERPRO	"S15/NS1, RNA-binding"	RT		7	0.5	2.30E-06	1.50E-04	4.70E-08	7.327902142
+	INTERPRO	Armadillo-type fold	RT		53	4.1	1.30E-07	1.90E-05	5.40E-08	7.26760624
+	INTERPRO	WHEP-TRS	RT		6	0.5	7.80E-06	4.10E-04	9.30E-08	7.031517051
+	INTERPRO	26S proteasome subunit P45	RT		6	0.5	7.80E-06	4.10E-04	9.30E-08	7.031517051
+	INTERPRO	"Mini-chromosome maintenance, conserved site"	RT		6	0.5	7.80E-06	4.10E-04	9.30E-08	7.031517051
+	INTERPRO	"Aminoacyl-tRNA synthetase, class I, conserved site"	RT		9	0.7	1.80E-06	1.30E-04	9.70E-08	7.013228266
+	INTERPRO	"Aminoacyl-tRNA synthetase, class II"	RT		10	0.8	1.40E-06	1.20E-04	1.00E-07	7
+	INTERPRO	Ribosomal protein S5 domain 2-type fold	RT		15	1.2	8.60E-07	7.60E-05	1.30E-07	6.886056648
+	INTERPRO	"Tubulin/FtsZ, 2-layer sandwich domain"	RT		11	0.8	1.50E-06	1.20E-04	1.40E-07	6.853871964
+	INTERPRO	"Tubulin, C-terminal"	RT		11	0.8	1.50E-06	1.20E-04	1.40E-07	6.853871964
+	INTERPRO	Small GTP-binding protein domain	RT		32	2.5	5.80E-07	5.80E-05	1.90E-07	6.721246399
+	INTERPRO	"Elongation factor, GTP-binding domain"	RT		10	0.8	2.40E-06	1.50E-04	1.90E-07	6.721246399
+	INTERPRO	"Tubulin, conserved site"	RT		11	0.8	2.40E-06	1.50E-04	2.30E-07	6.638272164
+	INTERPRO	"Tubulin/FtsZ, C-terminal"	RT		11	0.8	2.40E-06	1.50E-04	2.30E-07	6.638272164
+	INTERPRO	"Tubulin/FtsZ, GTPase domain"	RT		11	0.8	3.70E-06	2.20E-04	3.80E-07	6.420216403
+	INTERPRO	Tubulin	RT		11	0.8	3.70E-06	2.20E-04	3.80E-07	6.420216403
+	INTERPRO	"Thioredoxin, conserved site"	RT		9	0.7	5.90E-06	3.30E-04	4.20E-07	6.37675071
+	INTERPRO	"Importin-beta, N-terminal"	RT		9	0.7	5.90E-06	3.30E-04	4.20E-07	6.37675071
+	INTERPRO	"DNA/RNA helicase, DEAD/DEAH box type, N-terminal"	RT		18	1.4	2.90E-06	1.80E-04	6.00E-07	6.22184875
+	INTERPRO	AAA+ ATPase domain	RT		27	2.1	2.10E-06	1.50E-04	6.20E-07	6.207608311
+	INTERPRO	Proteasome A-type subunit	RT		7	0.5	1.50E-05	6.90E-04	6.30E-07	6.200659451
+	INTERPRO	"Proteasome, alpha-subunit, N-terminal domain"	RT		7	0.5	1.50E-05	6.90E-04	6.30E-07	6.200659451
+	INTERPRO	"Beta tubulin, autoregulation binding site"	RT		7	0.5	1.50E-05	6.90E-04	6.30E-07	6.200659451
+	INTERPRO	Annexin repeat	RT		8	0.6	1.40E-05	6.70E-04	8.80E-07	6.055517328
+	INTERPRO	Annexin	RT		8	0.6	1.40E-05	6.70E-04	8.80E-07	6.055517328
+	INTERPRO	"Annexin repeat, conserved site"	RT		8	0.6	1.40E-05	6.70E-04	8.80E-07	6.055517328
+	INTERPRO	"ATPase, AAA-type, conserved site"	RT		11	0.8	8.00E-06	4.10E-04	9.30E-07	6.031517051
+	INTERPRO	"Peroxiredoxin, C-terminal"	RT		5	0.4	9.70E-05	3.30E-03	1.40E-06	5.853871964
+	INTERPRO	Disulphide isomerase	RT		5	0.4	9.70E-05	3.30E-03	1.40E-06	5.853871964
+	INTERPRO	Alkyl hydroperoxide reductase subunit C/ Thiol specific antioxidant	RT		5	0.4	9.70E-05	3.30E-03	1.40E-06	5.853871964
+	INTERPRO	"Actin-binding, cofilin/tropomyosin type"	RT		7	0.5	3.20E-05	1.30E-03	1.60E-06	5.795880017
+	INTERPRO	"Heat shock protein 70, conserved site"	RT		8	0.6	2.50E-05	1.00E-03	1.80E-06	5.744727495
+	INTERPRO	Heat shock protein 70 family	RT		8	0.6	2.50E-05	1.00E-03	1.80E-06	5.744727495
+	INTERPRO	"RNA recognition motif domain, eukaryote"	RT		10	0.8	2.10E-05	9.30E-04	2.40E-06	5.619788758
+	INTERPRO	"MIF4-like, type 1/2/3"	RT		8	0.6	4.20E-05	1.60E-03	3.30E-06	5.48148606
+	INTERPRO	"Proteasome, beta-type subunit, conserved site"	RT		7	0.5	6.00E-05	2.20E-03	3.70E-06	5.431798276
+	INTERPRO	Beta tubulin	RT		7	0.5	6.00E-05	2.20E-03	3.70E-06	5.431798276
+	INTERPRO	"RNA helicase, ATP-dependent, DEAD-box, conserved site"	RT		10	0.8	4.30E-05	1.70E-03	5.50E-06	5.259637311
+	INTERPRO	"ATPase, AAA-type, core"	RT		14	1.1	3.00E-05	1.20E-03	5.90E-06	5.229147988
+	INTERPRO	"Aminoacyl-tRNA synthetase, class 1a, anticodon-binding"	RT		7	0.5	1.10E-04	3.50E-03	7.50E-06	5.124938737
+	INTERPRO	"RNA helicase, DEAD-box type, Q motif"	RT		11	0.8	7.30E-05	2.60E-03	1.20E-05	4.920818754
+	INTERPRO	"Helicase, C-terminal"	RT		21	1.6	4.80E-05	1.80E-03	1.50E-05	4.823908741
+	INTERPRO	"Heat shock protein Hsp90, N-terminal"	RT		6	0.5	2.60E-04	8.10E-03	1.50E-05	4.823908741
+	INTERPRO	"Mini-chromosome maintenance, DNA-dependent ATPase"	RT		6	0.5	2.60E-04	8.10E-03	1.50E-05	4.823908741
+	INTERPRO	"Peroxiredoxin, AhpC-type"	RT		4	0.3	1.20E-03	3.10E-02	2.10E-05	4.677780705
+	INTERPRO	"Helicase, superfamily 1/2, ATP-binding domain"	RT		21	1.6	8.00E-05	2.80E-03	2.60E-05	4.585026652
+	INTERPRO	W2 domain	RT		5	0.4	6.10E-04	1.70E-02	2.60E-05	4.585026652
+	INTERPRO	"Translation elongation factor EFTu/EF1A, C-terminal"	RT		5	0.4	6.10E-04	1.70E-02	2.60E-05	4.585026652
+	INTERPRO	Armadillo-like helical	RT		33	2.5	6.40E-05	2.30E-03	2.70E-05	4.568636236
+	INTERPRO	Proteasome B-type subunit	RT		6	0.5	4.50E-04	1.30E-02	3.20E-05	4.494850022
+	INTERPRO	"Translation elongation factor EF1A/initiation factor IF2gamma, C-terminal"	RT		6	0.5	4.50E-04	1.30E-02	3.20E-05	4.494850022
+	INTERPRO	"K Homology domain, type 1"	RT		11	0.8	2.00E-04	6.30E-03	3.70E-05	4.431798276
+	INTERPRO	K Homology domain	RT		11	0.8	2.00E-04	6.30E-03	3.70E-05	4.431798276
+	INTERPRO	Translation protein SH3-like domain	RT		7	0.5	4.10E-04	1.20E-02	4.20E-05	4.37675071
+	INTERPRO	"Ubiquitin-conjugating enzyme, active site"	RT		9	0.7	2.90E-04	8.90E-03	4.30E-05	4.366531544
+	INTERPRO	Ubiquitin	RT		14	1.1	2.10E-04	6.60E-03	5.10E-05	4.292429824
+	INTERPRO	"Histidine kinase-like ATPase, ATP-binding domain"	RT		7	0.5	6.00E-04	1.70E-02	6.70E-05	4.173925197
+	INTERPRO	"Actinin-type, actin-binding, conserved site"	RT		8	0.6	5.90E-04	1.70E-02	8.30E-05	4.080921908
+	INTERPRO	Rpn11/EIF3F C-terminal domain	RT		4	0.3	2.80E-03	6.60E-02	9.80E-05	4.008773924
+	INTERPRO	Eukaryotic porin/Tom40	RT		4	0.3	2.80E-03	6.60E-02	9.80E-05	4.008773924
+	INTERPRO	Porin domain	RT		4	0.3	2.80E-03	6.60E-02	9.80E-05	4.008773924
+	INTERPRO	JAB1/Mov34/MPN/PAD-1	RT		6	0.5	1.10E-03	3.00E-02	1.10E-04	3.958607315
+	INTERPRO	"Ubiquitin-conjugating enzyme, E2"	RT		11	0.8	5.60E-04	1.60E-02	1.20E-04	3.920818754
+	INTERPRO	Prefoldin	RT		5	0.4	2.00E-03	4.90E-02	1.40E-04	3.853871964
+	INTERPRO	Histone H5	RT		5	0.4	2.00E-03	4.90E-02	1.40E-04	3.853871964
+	INTERPRO	"Glutathione S-transferase, C-terminal"	RT		8	0.6	1.00E-03	2.80E-02	1.60E-04	3.795880017
+	INTERPRO	Ribonucleoprotein LSM domain	RT		7	0.5	1.60E-03	4.10E-02	2.20E-04	3.657577319
+	INTERPRO	Heat shock chaperonin-binding	RT		5	0.4	3.10E-03	7.10E-02	2.60E-04	3.585026652
+	INTERPRO	Anticodon-binding	RT		5	0.4	3.10E-03	7.10E-02	2.60E-04	3.585026652
+	INTERPRO	"Peptidase M24, structural domain"	RT		5	0.4	3.10E-03	7.10E-02	2.60E-04	3.585026652
+	INTERPRO	Heat shock protein Hsp90	RT		6	0.5	2.30E-03	5.80E-02	2.70E-04	3.568636236
+	INTERPRO	Glutamine amidotransferase	RT		4	0.3	5.20E-03	1.10E-01	2.80E-04	3.552841969
+	INTERPRO	"Valyl/Leucyl/Isoleucyl-tRNA synthetase, class Ia, editing domain"	RT		4	0.3	5.20E-03	1.10E-01	2.80E-04	3.552841969
+	INTERPRO	"Valyl/Leucyl/Isoleucyl-tRNA synthetase, class I, anticodon-binding"	RT		4	0.3	5.20E-03	1.10E-01	2.80E-04	3.552841969
+	INTERPRO	"Aminoacyl-tRNA synthetase, class Ia"	RT		4	0.3	5.20E-03	1.10E-01	2.80E-04	3.552841969
+	INTERPRO	"Ribosomal protein S5 domain 2-type fold, subgroup"	RT		7	0.5	2.10E-03	5.20E-02	3.10E-04	3.508638306
+	INTERPRO	"Proteasome activator pa28, REG beta subunit"	RT		3	0.2	1.30E-02	2.20E-01	3.10E-04	3.508638306
+	INTERPRO	"Porin, eukaryotic type"	RT		3	0.2	1.30E-02	2.20E-01	3.10E-04	3.508638306
+	INTERPRO	"Proteasome activator pa28, REG alpha/beta subunit"	RT		3	0.2	1.30E-02	2.20E-01	3.10E-04	3.508638306
+	INTERPRO	ADF/Cofilin/Destrin	RT		3	0.2	1.30E-02	2.20E-01	3.10E-04	3.508638306
+	INTERPRO	"HMG box A DNA-binding domain, conserved site"	RT		3	0.2	1.30E-02	2.20E-01	3.10E-04	3.508638306
+	INTERPRO	"Proteasome activator pa28, REG alpha subunit"	RT		3	0.2	1.30E-02	2.20E-01	3.10E-04	3.508638306
+	INTERPRO	Like-Sm (LSM) domain	RT		7	0.5	3.50E-03	7.70E-02	5.90E-04	3.229147988
+	INTERPRO	Ribosomal protein L2 domain 2	RT		7	0.5	3.50E-03	7.70E-02	5.90E-04	3.229147988
+	INTERPRO	"Metalloenzyme, LuxS/M16 peptidase-like"	RT		4	0.3	8.70E-03	1.70E-01	6.10E-04	3.214670165
+	INTERPRO	"Peptidase M16, C-terminal domain"	RT		4	0.3	8.70E-03	1.70E-01	6.10E-04	3.214670165
+	INTERPRO	"Peptidase M16, N-terminal"	RT		4	0.3	8.70E-03	1.70E-01	6.10E-04	3.214670165
+	INTERPRO	Phosphoribosyltransferase domain	RT		5	0.4	6.60E-03	1.40E-01	7.40E-04	3.13076828
+	INTERPRO	"EF-Hand 1, calcium-binding site"	RT		25	1.9	1.70E-03	4.30E-02	7.60E-04	3.119186408
+	INTERPRO	"Peptidyl-prolyl cis-trans isomerase, FKBP-type, domain"	RT		6	0.5	5.70E-03	1.20E-01	8.60E-04	3.065501549
+	INTERPRO	SAP domain	RT		7	0.5	5.40E-03	1.10E-01	1.00E-03	3
+	INTERPRO	"Pyridine nucleotide-disulphide oxidoreductase, FAD/NAD(P)-binding domain"	RT		5	0.4	9.00E-03	1.70E-01	1.10E-03	2.958607315
+	INTERPRO	Serine/threonine-specific protein phosphatase/bis(5-nucleosyl)-tetraphosphatase	RT		5	0.4	9.00E-03	1.70E-01	1.10E-03	2.958607315
+	INTERPRO	"Nucleic acid binding, OB-fold, tRNA/helicase-type"	RT		4	0.3	1.30E-02	2.20E-01	1.20E-03	2.920818754
+	INTERPRO	"FAD/NAD-linked reductase, dimerisation"	RT		4	0.3	1.30E-02	2.20E-01	1.20E-03	2.920818754
+	INTERPRO	"Ataxin-2, C-terminal"	RT		4	0.3	1.30E-02	2.20E-01	1.20E-03	2.920818754
+	INTERPRO	"D-isomer specific 2-hydroxyacid dehydrogenase, catalytic domain"	RT		3	0.2	2.50E-02	3.60E-01	1.20E-03	2.920818754
+	INTERPRO	Protein disulphide isomerase	RT		3	0.2	2.50E-02	3.60E-01	1.20E-03	2.920818754
+	INTERPRO	Ribosomal protein L23/L15e core domain	RT		3	0.2	2.50E-02	3.60E-01	1.20E-03	2.920818754
+	INTERPRO	Nuclear factor hnRNPA1	RT		3	0.2	2.50E-02	3.60E-01	1.20E-03	2.920818754
+	INTERPRO	"Translation elongation factor EFG/EF2, domain IV"	RT		3	0.2	2.50E-02	3.60E-01	1.20E-03	2.920818754
+	INTERPRO	RNA-binding S4 domain	RT		3	0.2	2.50E-02	3.60E-01	1.20E-03	2.920818754
+	INTERPRO	"D-isomer specific 2-hydroxyacid dehydrogenase, NAD-binding"	RT		3	0.2	2.50E-02	3.60E-01	1.20E-03	2.920818754
+	INTERPRO	"Ezrin/radixin/moesin, C-terminal"	RT		3	0.2	2.50E-02	3.60E-01	1.20E-03	2.920818754
+	INTERPRO	Ezrin/radixin/moesin	RT		3	0.2	2.50E-02	3.60E-01	1.20E-03	2.920818754
+	INTERPRO	NOPS	RT		3	0.2	2.50E-02	3.60E-01	1.20E-03	2.920818754
+	INTERPRO	EF-hand domain	RT		29	2.2	2.90E-03	6.80E-02	1.50E-03	2.823908741
+	INTERPRO	Actin/actin-like conserved site	RT		6	0.5	9.10E-03	1.70E-01	1.60E-03	2.795880017
+	INTERPRO	Histone H1/H5	RT		5	0.4	1.20E-02	2.20E-01	1.70E-03	2.769551079
+	INTERPRO	Ubiquitin-conjugating enzyme/RWD-like	RT		11	0.8	5.70E-03	1.20E-01	1.80E-03	2.744727495
+	INTERPRO	L-lactate/malate dehydrogenase	RT		4	0.3	1.90E-02	3.10E-01	2.00E-03	2.698970004
+	INTERPRO	Protein arginine N-methyltransferase	RT		4	0.3	1.90E-02	3.10E-01	2.00E-03	2.698970004
+	INTERPRO	"Aminoacyl-tRNA synthetase, class II (G/ H/ P/ S), conserved domain"	RT		4	0.3	1.90E-02	3.10E-01	2.00E-03	2.698970004
+	INTERPRO	"Lactate/malate dehydrogenase, N-terminal"	RT		4	0.3	1.90E-02	3.10E-01	2.00E-03	2.698970004
+	INTERPRO	"Glutathione S-transferase, C-terminal-like"	RT		8	0.6	9.30E-03	1.70E-01	2.30E-03	2.638272164
+	INTERPRO	"Small GTPase superfamily, ARF/SAR type"	RT		8	0.6	9.30E-03	1.70E-01	2.30E-03	2.638272164
+	INTERPRO	"Ubiquitin-associated/translation elongation factor EF1B, N-terminal, eukaryote"	RT		9	0.7	9.60E-03	1.80E-01	2.70E-03	2.568636236
+	INTERPRO	"Pyridoxal phosphate-dependent transferase, major region, subdomain 2"	RT		8	0.6	1.10E-02	2.00E-01	2.80E-03	2.552841969
+	INTERPRO	SPOC like C-terminal domain	RT		3	0.2	4.00E-02	5.00E-01	2.80E-03	2.552841969
+	INTERPRO	Ribose-phosphate diphosphokinase	RT		3	0.2	4.00E-02	5.00E-01	2.80E-03	2.552841969
+	INTERPRO	Nucleoside phosphorylase domain	RT		3	0.2	4.00E-02	5.00E-01	2.80E-03	2.552841969
+	INTERPRO	"Pyridine nucleotide-disulphide oxidoreductase, class I, active site"	RT		3	0.2	4.00E-02	5.00E-01	2.80E-03	2.552841969
+	INTERPRO	"Histidine triad, conserved site"	RT		3	0.2	4.00E-02	5.00E-01	2.80E-03	2.552841969
+	INTERPRO	Isopropylmalate dehydrogenase-like domain	RT		3	0.2	4.00E-02	5.00E-01	2.80E-03	2.552841969
+	INTERPRO	"Pyridine nucleotide-disulphide oxidoreductase, dimerisation"	RT		3	0.2	4.00E-02	5.00E-01	2.80E-03	2.552841969
+	INTERPRO	"Aminoacyl-tRNA synthetase, class II (D/K/N)"	RT		3	0.2	4.00E-02	5.00E-01	2.80E-03	2.552841969
+	INTERPRO	"Heat shock protein Hsp90, conserved site"	RT		3	0.2	4.00E-02	5.00E-01	2.80E-03	2.552841969
+	INTERPRO	"Thiolase, active site"	RT		3	0.2	4.00E-02	5.00E-01	2.80E-03	2.552841969
+	INTERPRO	"Isocitrate/isopropylmalate dehydrogenase, conserved site"	RT		3	0.2	4.00E-02	5.00E-01	2.80E-03	2.552841969
+	INTERPRO	Moesin	RT		3	0.2	4.00E-02	5.00E-01	2.80E-03	2.552841969
+	INTERPRO	Prefoldin beta-like	RT		3	0.2	4.00E-02	5.00E-01	2.80E-03	2.552841969
+	INTERPRO	Lamin Tail Domain	RT		3	0.2	4.00E-02	5.00E-01	2.80E-03	2.552841969
+	INTERPRO	Calponin homology domain	RT		13	1	7.90E-03	1.60E-01	2.90E-03	2.537602002
+	INTERPRO	"Lactate/malate dehydrogenase, C-terminal"	RT		4	0.3	2.60E-02	3.60E-01	3.10E-03	2.508638306
+	INTERPRO	KOW	RT		4	0.3	2.60E-02	3.60E-01	3.10E-03	2.508638306
+	INTERPRO	"MIF4G-like, type 3"	RT		4	0.3	2.60E-02	3.60E-01	3.10E-03	2.508638306
+	INTERPRO	"Lactate dehydrogenase/glycoside hydrolase, family 4, C-terminal"	RT		4	0.3	2.60E-02	3.60E-01	3.10E-03	2.508638306
+	INTERPRO	Thiolase-like	RT		4	0.3	2.60E-02	3.60E-01	3.10E-03	2.508638306
+	INTERPRO	"Polyketide synthase, enoylreductase"	RT		5	0.4	2.40E-02	3.60E-01	4.30E-03	2.366531544
+	INTERPRO	"Alcohol dehydrogenase, C-terminal"	RT		5	0.4	2.40E-02	3.60E-01	4.30E-03	2.366531544
+	INTERPRO	GroES-like	RT		6	0.5	2.00E-02	3.20E-01	4.40E-03	2.356547324
+	INTERPRO	Ribosomal protein L7Ae/L30e/S12e/Gadd45	RT		4	0.3	3.40E-02	4.60E-01	4.60E-03	2.337242168
+	INTERPRO	EF-hand-like domain	RT		31	2.4	8.70E-03	1.70E-01	4.90E-03	2.30980392
+	INTERPRO	Histone-fold	RT		17	1.3	1.30E-02	2.20E-01	6.00E-03	2.22184875
+	INTERPRO	"Pyridoxal phosphate-dependent transferase, major region, subdomain 1"	RT		8	0.6	2.10E-02	3.30E-01	6.30E-03	2.200659451
+	INTERPRO	Ubiquitin conserved site	RT		4	0.3	4.30E-02	5.30E-01	6.60E-03	2.180456064
+	INTERPRO	Band 7 protein	RT		4	0.3	4.30E-02	5.30E-01	6.60E-03	2.180456064
+	INTERPRO	UBA-like	RT		10	0.8	2.00E-02	3.30E-01	7.30E-03	2.13667714
+	INTERPRO	"HEAT, type 2"	RT		5	0.4	3.50E-02	4.90E-01	7.30E-03	2.13667714
+	INTERPRO	Small GTPase superfamily	RT		18	1.4	1.60E-02	2.70E-01	7.80E-03	2.107905397
+	INTERPRO	Tetratricopeptide-like helical	RT		25	1.9	1.50E-02	2.50E-01	8.30E-03	2.080921908
+	INTERPRO	Pyridoxal phosphate-dependent transferase	RT		8	0.6	2.70E-02	3.70E-01	8.40E-03	2.075720714
+	INTERPRO	G-protein beta WD-40 repeat	RT		13	1	2.40E-02	3.60E-01	1.00E-02	2
+	KEGG_PATHWAY	Ribosome	RT		77	5.9	2.00E-34	6.30E-32	2.40E-35	34.61978876
+	KEGG_PATHWAY	Amyotrophic lateral sclerosis	RT		109	8.4	3.00E-26	4.80E-24	8.10E-27	26.09151498
+	KEGG_PATHWAY	Proteasome	RT		34	2.6	3.60E-23	2.90E-21	1.60E-24	23.79588002
+	KEGG_PATHWAY	Coronavirus disease - COVID-19	RT		80	6.1	1.50E-23	1.60E-21	3.40E-24	23.46852108
+	KEGG_PATHWAY	Parkinson disease	RT		83	6.4	3.10E-21	2.00E-19	7.90E-22	21.10237291
+	KEGG_PATHWAY	Spliceosome	RT		57	4.4	1.40E-19	7.40E-18	2.50E-20	19.60205999
+	KEGG_PATHWAY	Prion disease	RT		81	6.2	3.10E-19	1.40E-17	8.40E-20	19.07572071
+	KEGG_PATHWAY	Carbon metabolism	RT		48	3.7	4.50E-18	1.80E-16	7.30E-19	18.13667714
+	KEGG_PATHWAY	Huntington disease	RT		83	6.4	4.10E-17	1.50E-15	1.30E-17	16.88605665
+	KEGG_PATHWAY	Pathways of neurodegeneration - multiple diseases	RT		104	8	3.80E-14	1.20E-12	1.60E-14	13.79588002
+	KEGG_PATHWAY	Alzheimer disease	RT		86	6.6	2.30E-12	6.60E-11	8.90E-13	12.05060999
+	KEGG_PATHWAY	Biosynthesis of amino acids	RT		31	2.4	1.20E-11	2.90E-10	1.90E-12	11.7212464
+	KEGG_PATHWAY	Protein processing in endoplasmic reticulum	RT		50	3.8	1.00E-11	2.70E-10	2.80E-12	11.55284197
+	KEGG_PATHWAY	Spinocerebellar ataxia	RT		41	3.1	1.80E-09	4.10E-08	5.20E-10	9.283996656
+	KEGG_PATHWAY	Citrate cycle (TCA cycle)	RT		16	1.2	4.70E-08	9.40E-07	5.00E-09	8.301029996
+	KEGG_PATHWAY	Viral carcinogenesis	RT		49	3.8	2.30E-08	4.80E-07	8.10E-09	8.091514981
+	KEGG_PATHWAY	Salmonella infection	RT		55	4.2	5.90E-08	1.10E-06	2.40E-08	7.619788758
+	KEGG_PATHWAY	Nucleocytoplasmic transport	RT		30	2.3	8.10E-07	1.40E-05	2.40E-07	6.619788758
+	KEGG_PATHWAY	Pathogenic Escherichia coli infection	RT		43	3.3	2.80E-06	4.80E-05	1.20E-06	5.920818754
+	KEGG_PATHWAY	Aminoacyl-tRNA biosynthesis	RT		21	1.6	5.70E-06	8.70E-05	1.40E-06	5.853871964
+	KEGG_PATHWAY	Cysteine and methionine metabolism	RT		18	1.4	6.80E-06	9.90E-05	1.40E-06	5.853871964
+	KEGG_PATHWAY	Bacterial invasion of epithelial cells	RT		23	1.8	5.70E-06	8.70E-05	1.50E-06	5.823908741
+	KEGG_PATHWAY	Glycolysis / Gluconeogenesis	RT		21	1.6	7.30E-06	1.00E-04	1.80E-06	5.744727495
+	KEGG_PATHWAY	Tight junction	RT		37	2.8	1.50E-05	2.00E-04	6.00E-06	5.22184875
+	KEGG_PATHWAY	Pyruvate metabolism	RT		16	1.2	4.20E-05	5.00E-04	9.50E-06	5.022276395
+	KEGG_PATHWAY	Nucleotide metabolism	RT		23	1.8	3.20E-05	4.10E-04	9.80E-06	5.008773924
+	KEGG_PATHWAY	Glyoxylate and dicarboxylate metabolism	RT		12	0.9	1.10E-04	1.20E-03	1.90E-05	4.721246399
+	KEGG_PATHWAY	Pentose phosphate pathway	RT		12	0.9	1.10E-04	1.20E-03	1.90E-05	4.721246399
+	KEGG_PATHWAY	Shigellosis	RT		47	3.6	4.10E-05	5.00E-04	2.00E-05	4.698970004
+	KEGG_PATHWAY	mRNA surveillance pathway	RT		24	1.8	9.40E-05	1.10E-03	3.20E-05	4.494850022
+	KEGG_PATHWAY	Glutathione metabolism	RT		17	1.3	1.30E-04	1.30E-03	3.60E-05	4.443697499
+	KEGG_PATHWAY	2-Oxocarboxylic acid metabolism	RT		9	0.7	3.20E-04	2.80E-03	4.40E-05	4.356547324
+	KEGG_PATHWAY	Central carbon metabolism in cancer	RT		19	1.5	1.80E-04	1.60E-03	5.50E-05	4.259637311
+	KEGG_PATHWAY	Endocytosis	RT		46	3.5	1.30E-04	1.30E-03	6.40E-05	4.193820026
+	KEGG_PATHWAY	Diabetic cardiomyopathy	RT		39	3	1.70E-04	1.60E-03	8.00E-05	4.096910013
+	KEGG_PATHWAY	Metabolic pathways	RT		199	15.3	1.70E-04	1.60E-03	1.30E-04	3.886056648
+	KEGG_PATHWAY	Chemical carcinogenesis - reactive oxygen species	RT		41	3.1	2.90E-04	2.60E-03	1.50E-04	3.823908741
+	KEGG_PATHWAY	Antigen processing and presentation	RT		19	1.5	7.50E-04	6.10E-03	2.60E-04	3.585026652
+	KEGG_PATHWAY	Epstein-Barr virus infection	RT		37	2.8	6.60E-04	5.50E-03	3.30E-04	3.48148606
+	KEGG_PATHWAY	Biosynthesis of cofactors	RT		30	2.3	7.90E-04	6.30E-03	3.60E-04	3.443697499
+	KEGG_PATHWAY	Legionellosis	RT		15	1.2	1.50E-03	1.10E-02	4.70E-04	3.327902142
+	KEGG_PATHWAY	Pyrimidine metabolism	RT		15	1.2	1.80E-03	1.30E-02	5.80E-04	3.236572006
+	KEGG_PATHWAY	Ferroptosis	RT		12	0.9	2.20E-03	1.50E-02	6.10E-04	3.214670165
+	KEGG_PATHWAY	DNA replication	RT		11	0.8	2.60E-03	1.80E-02	6.80E-04	3.167491087
+	KEGG_PATHWAY	Phagosome	RT		29	2.2	1.50E-03	1.10E-02	7.20E-04	3.142667504
+	KEGG_PATHWAY	Regulation of actin cytoskeleton	RT		38	2.9	1.40E-03	1.10E-02	7.50E-04	3.124938737
+	KEGG_PATHWAY	Oxidative phosphorylation	RT		26	2	2.20E-03	1.50E-02	1.00E-03	3
+	KEGG_PATHWAY	Adherens junction	RT		16	1.2	5.00E-03	3.30E-02	1.90E-03	2.721246399
+	KEGG_PATHWAY	RNA degradation	RT		17	1.3	5.80E-03	3.70E-02	2.40E-03	2.619788758
+	KEGG_PATHWAY	Purine metabolism	RT		24	1.8	5.30E-03	3.50E-02	2.50E-03	2.602059991
+	KEGG_PATHWAY	Viral myocarditis	RT		14	1.1	6.90E-03	4.30E-02	2.50E-03	2.602059991
+	KEGG_PATHWAY	Tryptophan metabolism	RT		11	0.8	8.60E-03	5.30E-02	2.70E-03	2.568636236
+	KEGG_PATHWAY	Arginine and proline metabolism	RT		12	0.9	1.10E-02	6.70E-02	3.90E-03	2.408935393
+	KEGG_PATHWAY	Fatty acid elongation	RT		8	0.6	1.70E-02	9.70E-02	4.50E-03	2.346787486
+	KEGG_PATHWAY	Fructose and mannose metabolism	RT		9	0.7	1.60E-02	9.60E-02	4.90E-03	2.30980392
+	KEGG_PATHWAY	Protein export	RT		7	0.5	2.50E-02	1.40E-01	6.70E-03	2.173925197
+	KEGG_PATHWAY	"Alanine, aspartate and glutamate metabolism"	RT		9	0.7	3.10E-02	1.70E-01	1.10E-02	1.958607315
+	KEGG_PATHWAY	One carbon pool by folate	RT		6	0.5	4.70E-02	2.40E-01	1.30E-02	1.886056648
+	KEGG_PATHWAY	HIF-1 signaling pathway	RT		19	1.5	2.80E-02	1.60E-01	1.50E-02	1.823908741
+	KEGG_PATHWAY	Drug metabolism - other enzymes	RT		15	1.2	3.20E-02	1.70E-01	1.50E-02	1.823908741
+	KEGG_PATHWAY	Cell cycle	RT		21	1.6	3.20E-02	1.70E-01	1.70E-02	1.769551079
+	KEGG_PATHWAY	Gap junction	RT		16	1.2	3.30E-02	1.80E-01	1.70E-02	1.769551079
+	KEGG_PATHWAY	Apoptosis	RT		22	1.7	3.70E-02	1.90E-01	2.10E-02	1.677780705
+	KEGG_PATHWAY	Systemic lupus erythematosus	RT		22	1.7	3.70E-02	1.90E-01	2.10E-02	1.677780705
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
