@@ -13,8 +13,12 @@ The key scope of project subscript below.
 
 <Stage 2> Bioinformatic search<br/>
 (3) Divided entires in few subsets by DEP (Differentially Expressed Protein)<br/>
-(4) GO/KEGG enrichment test by DAVID, Clustering (Z-scored hirachical, UMAP, xMWAS)<br/>
+(4) GO/KEGG enrichment test by DAVID, Clustering (Z-scored hirachical, UMAP)<br/>
 (5) Orgainze data altogether in one folder<br/>
+
+<Stage 3> Integration<br/>
+From here, xMWAS, OmicsNet, Reactome were applicable<br/>
+
 
 ## Release
 2022.06.16. Project released.<br/>
