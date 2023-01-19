@@ -32,6 +32,7 @@
 # class Peptides(txtpath)
 #   def 1:
 #   def 2:
+
 # class Request_and_respond()
 # ------------------------
 
@@ -80,43 +81,77 @@ def isDrop(**kwargs):
 
 
 
-# Split할 column 이름을 tuple (c1, c2)로 주고, delimeter의 기본값은 세미콜론(;)으로 되어있다.
-def split_items(*args, delimeter=';'):
+# Split할 column 이름을 tuple (c1, c2)로 주고, delimiter의 기본값은 세미콜론(;)으로 되어있다.
+def split_items(*args, delimiter=';'):
     for arg in args:
         tmp_series = pd.Series(df[arg])
         for ele in tmp_series:
-            tmp = ele.split(delimeter)[0]
+            tmp = ele.split(delimiter)[0]
             tmp_series.replace(ele, tmp, inplace=True)
         print('message! >>> ['+arg+'] elements were splitted')
+    
+    # reset index***
+    df.reset_index(drop=True, inplace=True)    
+    
     return None
     # return df.info
 
 
 
-# 디코딩한 text_stream을 tsv로 변환.
-def get_data_frame_from_tsv_results(tsv_results):
-    reader = csv.DictReader(tsv_results, delimiter="\t", quotechar='"')
-    return pd.DataFrame(list(reader))
+
+class DB_request_tools():
+    # processing.py - DB_request class 로 관리할 것들은 ???
+    def __init__(self, df):
+        self.df = df
+    
+    # Uniprot DB request & respond
+    def Uni_request(self):
+        # import uniprot_requests as unireq
+        
+        Prot_ids = pd.Series(self.df['Protein IDs'])
+        # Prot_ids = ('A0FGR8', 'Q99613', 'O00148')
+        # Prot_ids = ('A6NHR9', 'E9PAV3', 'O00151')
+
+        link = unireq.execute(Prot_ids)
+        tsv_rst = unireq.get_id_mapping_results_stream(str(link)+'?compressed=true&fields=accession%2Creviewed%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Csequence&format=tsv')
+        reader = csv.DictReader(tsv_rst, delimiter="\t", quotechar='"')
+        df_sub = pd.DataFrame(list(reader))
+
+        # 별일 없으면 순서는 같다. 단, indicies 일치해야.
+        self.df['Protein names'] = df_sub['Protein names']
+        self.df['Gene names'] = df_sub['Gene Names']
+        self.df['Sequence length'] = df_sub['Length']
+
+        return self.df
+
+                
+    
+    # DAVID DB request & respond
+    def DAVID_request(self):
+        pass
+
+    # KEGG DB request & respond
+    def KEGG_request(self):
+        pass
+
+    # Reactome request & respond
+    def Reactome_request(self):
+        pass
 
 
-
-# pandas로 ProteinIDs Series로 할당, Uniprot API로 응답받기.
-def response_and_respond(df):
-    PRids = pd.Series(df['Protein IDs'])
-    link = unireq.execute(PRids)
-    tsv_rst = unireq.get_id_mapping_results_stream(str(link)+'?compressed=true&fields=accession%2Creviewed%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Csequence&format=tsv')
-    return get_data_frame_from_tsv_results(tsv_rst)
-
-
-
+    
 
 # 로드한 파일의 모든 열에 대한 필터 옵션을 제공하는 것이 좋을지도
 # split 도 마찬가지.
-def execute(drop_rule, split_cnames):
+def ProteinGroups_base(drop_rule, split_cnames):
     # read txt file.
     isDrop(**drop_rule)
     split_items(*split_cnames)
-    return df
+
+    f = DB_request_tools(df)
+    tmp = f.Uni_request()
+
+    return tmp
 
 
 
@@ -126,8 +161,10 @@ if __name__ == "__main__":
     df = pd.read_table(filepath_or_buffer=txtpath, index_col=False)
     base_filter = {'Potential contaminant':'+', 'Reverse':'+', 'Only identified by site':'+', 'Razor + unique peptides':1}
     split_cnames = ('Protein IDs', 'Best MS/MS')
-    execute(base_filter, split_cnames)
-    df_sub = response_and_respond(df)
-    print(df_sub.head)
+    tmp = ProteinGroups_base(base_filter, split_cnames)
+    gname = pd.Series(tmp['Gene names'])
+    tmp2 = gname[:6]
 
-# 아래: df_sub 의 protein/gene name replace 만들기.
+    print(tmp2)
+    
+# 아래: 필요한 column 추출해서 ./output/*.xlsx 만들기.
