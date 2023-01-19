@@ -20,7 +20,8 @@ The key scope of project subscript below.
 From here, xMWAS, OmicsNet, Reactome were applicable<br/>
 
 
-## Release
+## log
 2022.06.16. Project released.<br/>
 2022.06.24. Project files are uploaded.<br/>
 2023.01.17. Organize old files (jupyter notbook), Update folder structure.<br/>
+2023.01.19. Uniprot API applied
