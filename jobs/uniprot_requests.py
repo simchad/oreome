@@ -174,7 +174,7 @@ def get_id_mapping_results_stream(url):
 # 위에꺼를 다 클래스로 박아 놓고 다른 파일에서 불러와서 써야함.
 # 아래 job_id에 id 넣고 쓰는 것도 클래스에 잡아놔야 패키지 불러왔을때 동작 안함.
 
-def execute_ac_to_kb(id_series):
+def execute(id_series):
     job_id = submit_id_mapping(
         from_db="UniProtKB_AC-ID", to_db="UniProtKB", ids=id_series
     )

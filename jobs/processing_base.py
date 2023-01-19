@@ -20,9 +20,26 @@
 
 # 주피터 노트북에 익숙해지지 말고 파이썬 커널에 익숙해 져야해.
 
+# 이 .py 파일이 기본처리(processing_base)인 만큼
+# class를 proteingroups, peptides, evidence로 나누어서
+# path를 알맞게 할당하면 멋진 .py 파일이 될 것.
+# ------------------------
+# Ex
+# class ProteinGroups(txtpath)
+#   def 1:
+#   def 2:
+#
+# class Peptides(txtpath)
+#   def 1:
+#   def 2:
+# class Request_and_respond()
+# ------------------------
+
 # Load packages
 # import os
+import csv
 import pandas as pd
+import uniprot_requests as unireq
 from time import localtime, strftime
 
 
@@ -30,17 +47,12 @@ from time import localtime, strftime
 # Set test sample path
 global txtpath
 txtpath = './raw_files/TestSample/LTQ_QC_DU145/proteinGroups.txt'
+# txtpath = './raw_files/proteinGroups.txt' <-- raw_files 폴더에 데이터 놔두면 실행 !!!
+
 
 #cwd = os.getcwd()
 #print(cwd)
 #print(__name__)
-
-
-
-# Load proteinGroups.txt
-df = pd.read_table(filepath_or_buffer=txtpath)
-
-df.info()
 
 
 
@@ -65,68 +77,57 @@ def isDrop(**kwargs):
             # print('message! >>> '+str(tmp2)+' (%.2f%%) entries were dropped, ['+key+'] column removed' %ratio) <- 이 구문은 동작안함. %~~ 이게 string으로 나눈 같은 구역에 있어햐 함.
 
     return print('message! >>> '+str(len(df))+' entries left.')
-    
-
-
-# read txt file.
-df = pd.read_table(filepath_or_buffer=txtpath, index_col=False)
 
 
 
-# 아래의 딕셔너리 key:value 에 해당하는 entry를 제거하고 contam, reverse, only는 열을 제거합니다.
-base_filter = {'Potential contaminant':'+', 'Reverse':'+', 'Only identified by site':'+', 'Razor + unique peptides':1}
-f = isDrop(**base_filter)
+# Split할 column 이름을 tuple (c1, c2)로 주고, delimeter의 기본값은 세미콜론(;)으로 되어있다.
+def split_items(*args, delimeter=';'):
+    for arg in args:
+        tmp_series = pd.Series(df[arg])
+        for ele in tmp_series:
+            tmp = ele.split(delimeter)[0]
+            tmp_series.replace(ele, tmp, inplace=True)
+        print('message! >>> ['+arg+'] elements were splitted')
+    return None
+    # return df.info
 
 
 
-# Protein IDs, Best MS/MS 의 delimeter (;) 로 구분된 데이터를 나누어 첫 번째 항목을 저장합니다.
-# 해당 column 이름을 1차원 series로 저장하고, deilmeter를 기준으로 구분한 뒤,
-# 첫번째 값으로 replace 합니다.
-# split에 사용한 객체는 초기화 되어야 합니다.
-
-# (1) Protein IDs
-prot = pd.Series(df['Protein IDs'])
-for ele in prot:
-    tmp = ele.split(';')[0]
-    prot.replace(ele, tmp, inplace=True)
-print('message! >>> [Protein IDs] splitted.')
-
-# (2) Best MS/MS
-bmsms = pd.Series(df['Best MS/MS'])
-for ele in bmsms:
-    tmp = ele.split(';')[0]
-    bmsms.replace(ele, tmp, inplace=True)
-print('message! >>> [Best MS/MS] splitted.')
-
-
-
-
-# requests module 사용하여 web request-repond 프로세스를 수행합니다.
-# uniprot accession 형식의 Protein IDs 를 Uniprot ID Mapping에 요청-응답 수행.
-# 데이터프레임의 protein/gene name 및 sequence 등 항목을 수정해야 합니다.
-
-# 참고페이지
-# Uniprot API Help
-
-import uniprot_requests
-uniprot_requests.execute_ac_to_kb()
-
-# link 통해 나온 결과는 stream.. 말그대로 텍스트의 엄청난 스트림!!
-# get_id_mapping_results_stream 함수가 이 텍스트를 디코딩해서 필요한 부분만 뽑을 수 있게 해줌
-# 규칙은 %2C[식별자], tap separated (.tsv) 형식 텍스트임.
-
-tsv_rst = get_id_mapping_results_stream(str(link)+'?compressed=false&fields=accession%2Creviewed%2Cid%2Cprotein_name%2Cgene_names%2Corganism_name%2Clength%2Csequence&format=tsv')
-
-
-# 여기서 .tsv 형식을 df으로 바꿀 수 있음.
-
-import csv
-import pandas as pd
-
+# 디코딩한 text_stream을 tsv로 변환.
 def get_data_frame_from_tsv_results(tsv_results):
     reader = csv.DictReader(tsv_results, delimiter="\t", quotechar='"')
     return pd.DataFrame(list(reader))
 
-tmp = get_data_frame_from_tsv_results(tsv_rst)
 
-tmp.head()
+
+# pandas로 ProteinIDs Series로 할당, Uniprot API로 응답받기.
+def response_and_respond(df):
+    PRids = pd.Series(df['Protein IDs'])
+    link = unireq.execute(PRids)
+    tsv_rst = unireq.get_id_mapping_results_stream(str(link)+'?compressed=true&fields=accession%2Creviewed%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Csequence&format=tsv')
+    return get_data_frame_from_tsv_results(tsv_rst)
+
+
+
+
+# 로드한 파일의 모든 열에 대한 필터 옵션을 제공하는 것이 좋을지도
+# split 도 마찬가지.
+def execute(drop_rule, split_cnames):
+    # read txt file.
+    isDrop(**drop_rule)
+    split_items(*split_cnames)
+    return df
+
+
+
+# 아래의 딕셔너리 key:value 에 해당하는 entry를 제거하고 contam, reverse, only는 열을 제거합니다.
+# 모든 열 이름 나열, 없으면 None. None이면 pass, 순차적 드랍.
+if __name__ == "__main__":
+    df = pd.read_table(filepath_or_buffer=txtpath, index_col=False)
+    base_filter = {'Potential contaminant':'+', 'Reverse':'+', 'Only identified by site':'+', 'Razor + unique peptides':1}
+    split_cnames = ('Protein IDs', 'Best MS/MS')
+    execute(base_filter, split_cnames)
+    df_sub = response_and_respond(df)
+    print(df_sub.head)
+
+# 아래: df_sub 의 protein/gene name replace 만들기.
