@@ -1,19 +1,19 @@
 # proteome-tool
+## Overview
 The proteome-tool aims to automate data-processing for proteome that searched by using maxquant.
 
 Simple repetitive tasks are included:
-
-<Stage 1> RawData Filtering and processing<br/>
+### Stage 1: RawData Filtering and processing<br/>
 (1) Opening raw data through MS Excel<br/>
 (2) Clicking several times with the mouse (e.g., drop positive entries from contaminants, reverse)<br/>
 (3) Visualizing (e.g., LE(%) for global set, box plot of missed cleavage site, draw vendiagram with replication sets, volcano plot)<br/>
 
-<Stage 2> Bioinformatic search<br/>
+### Stage 2: Bioinformatic search<br/>
 (3) Divided entires in few subsets by DEP (Differentially Expressed Protein)<br/>
 (4) GO/KEGG enrichment test by DAVID, Clustering (Z-scored hirachical, UMAP)<br/>
 (5) Orgainze data altogether in one folder<br/>
 
-<Stage 3> Integration<br/>
+### Stage 3: Integration<br/>
 From here, xMWAS, OmicsNet, Reactome were applicable<br/>
 
 
