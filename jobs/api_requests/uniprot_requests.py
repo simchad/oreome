@@ -1,5 +1,5 @@
+# uniprot_requests.py
 # Codes from https://uniprot.org/help/id_mapping, Python example (Oct 14 2022 version)
-
 
 import re
 import time
