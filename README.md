@@ -1,10 +1,7 @@
-# MQpy
-The project name 'MQpy' come from 'MaxQuant' and 'Python'.
-The key scope of project subscript below.
+# proteome-tool
+The proteome-tool aims to automate data-processing for proteome that searched by using maxquant.
 
-## Scope
-- This project aims to automate routinely processing data in the laboratory.
-- Simple repetitive tasks are included:
+Simple repetitive tasks are included:
 
 <Stage 1> RawData Filtering and processing<br/>
 (1) Opening raw data through MS Excel<br/>
