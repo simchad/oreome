@@ -9,10 +9,6 @@ Orignial codes from: <https://rest.uniprot.org/help/id_mapping>.
 
 Thanks to Uniprot Team.
 """
-
-
-# Codes from https://uniprot.org/help/id_mapping, Python example (Oct 14 2022 version)
-
 import re
 import time
 import json
