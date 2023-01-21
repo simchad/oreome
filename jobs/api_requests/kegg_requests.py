@@ -1,1 +1,4 @@
-# kegg_requests.py
+"""
+api_request.kegg_requests
+~~~~~~~~~~~~~~~~~~~~~~~~~
+"""

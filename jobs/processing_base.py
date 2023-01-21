@@ -1,5 +1,4 @@
 # processing_base.py
-
 # --------------------------------------
 # - proteinGroups.txt 로드 후 다음의 column data를 필터함.
 # : contaminants, reverse, only identified site, uniquepeptide = 1 entries
@@ -37,9 +36,9 @@ class DB_request_tools:
         self.df = df
     
     # Uniprot DB request & respond
-    def uniprot_request(self):
-        # import uniprot_requests as unireq
-        Prot_ids = pd.Series(self.df['Protein IDs'])
+    def uniprot_request(self, AC_ID):
+        # import uniprot_requests as uniprot_request
+        Prot_ids = pd.Series(self.df[AC_ID])
         #Prot_ids = ('A0FGR8', 'Q99613', 'O00148')
         #Prot_ids = ('A6NHR9', 'E9PAV3', 'O00151')
 
@@ -69,8 +68,9 @@ class DB_request_tools:
 
 class process_base_tools:
     # The tools for base-processing (drop column, split ';')
-    def __init__(self, df):
+    def __init__(self, df, target):
         self.df = df
+        self.target = target
 
     def isDrop(self, **kwargs):
         # **kwargs: keyword argument 줄임말. 인수를 딕셔너리로 받음.
@@ -103,34 +103,39 @@ class process_base_tools:
                 tmp = ele.split(';')[0]
                 tmp_series.replace(ele, tmp, inplace=True)
             print('message! >>> ['+arg+'] elements were splitted')
-        
-        # reset index (important! --> <class>process_base:df1[]=df2[])
-        self.df.reset_index(drop=True, inplace=True)            
         return self.df
     
-    def create_base_df(self, rest_names):
-        self.df = self.df[rest_names].copy()
+    def create_base_df(self, cols):
+        if self.target == 'proteinGroups':
+            self.df = self.df[cols].copy()
+        elif self.target == 'peptides':
+            self.df = self.df.drop(columns=cols)
+        else:
+            raise ValueError
         return self.df
     
     def create_csv(self):
         ntm = strftime('%Y%m%d_%H%M%S', localtime())
         cwd = os.getcwd()
-        file_path ='./output/ProteinGroups_base'+ntm+'.csv'
-        self.df.to_csv(path_or_buf=file_path, sep=',', index=False, encoding='utf-8')
-        path_saved = cwd.replace('jobs','')+file_path
-        print('message! >>> file created. '+path_saved)
-        return None
+        filepath ='./output/'+self.target+'_base'+ntm+'.csv'
+        self.df.to_csv(path_or_buf=filepath, sep=',', index=False, encoding='utf-8')
+        temp = filepath.replace('/', '\\')
+        saved_path = cwd.replace('jobs','')+temp[1:]
+        print('message! >>> file created... '+saved_path)
+        return saved_path
 
 class process_base:
     # The base-processing of each *.txt files.
+    # For Global files.
     def __init__(self, txtpath):
         self.txtpath = txtpath
 
     def proteinGroups_base(self):
-        # proteinGroups.txt --> ProteinGroups_base.csv
-        self.df = pd.read_table(filepath_or_buffer=txtpath+'proteinGroups.txt', index_col=False)
+        target = 'proteinGroups'
+        filepath = txtpath+target+'.txt'
+        self.df = pd.read_table(filepath_or_buffer=filepath, index_col=False)
         base_filter = {'Potential contaminant':'+', 'Reverse':'+', 'Only identified by site':'+', 'Razor + unique peptides':1}
-        split_cnames = ('Protein IDs', 'Best MS/MS')
+        split_cols = ('Protein IDs', 'Best MS/MS')
         rest = [
             'Protein IDs', 'Protein names', 'Gene names', 'Razor + unique peptides',
             'Unique sequence coverage [%]', 'Mol. weight [kDa]','Sequence length',
@@ -139,44 +144,81 @@ class process_base:
         ]
         
         # Drop and split(;) on upper columns
-        t = process_base_tools(self.df)
+        t = process_base_tools(self.df, target)
         self.df = t.isDrop(**base_filter) 
-        self.df = t.split_items(*split_cnames)
+        self.df = t.split_items(*split_cols)
+        self.df.reset_index(drop=True, inplace=True)
                 
-        # Request protein.gene names to Uniprot-API
-        f = DB_request_tools(self.df)
-        pg_names = f.uniprot_request()
+        # Request protein/gene names to Uniprot-API
+        r = DB_request_tools(self.df)
+        pg_names = r.uniprot_request('Protein IDs')
         
-        # Replace protein/gene names from Uniprot-API 
+        # Replace protein/gene names from response_DB
         self.df['Protein names'] = pg_names['Protein names']
         self.df['Gene names'] = pg_names['Gene names']
         
-        # Create base file (ProteinGroups_base.csv)
+        # proteinGroups.txt --> ProteinGroups_base.csv
         self.df = t.create_base_df(rest)
-        self.df = t.create_csv()
-        return None
+        savepath = t.create_csv()
+        return savepath
     
     def peptides_base(self):
-        self.df = pd.read_table(filepath_or_buffer=txtpath+'peptides.txt', index_col=False)
-        return None
+        target = 'peptides'
+        filepath = txtpath+target+'.txt'
+        self.df = pd.read_table(filepath_or_buffer=filepath, index_col=False)
+        base_filter = {'Reverse':'+', 'Potential contaminant':'+'}
+        drop_cols = [
+            'N-term cleavage window', 'C-term cleavage window', 'Amino acid before', 'First amino acid', 'Second amino acid',
+            'Second last amino acid', 'Last amino acid', 'Amino acid after', 'A Count', 'R Count', 'N Count', 'D Count', 'C Count',
+            'Q Count', 'E Count', 'G Count', 'H Count', 'I Count', 'L Count', 'K Count', 'M Count','F Count', 'P Count', 'S Count',
+            'T Count', 'W Count', 'Y Count', 'V Count', 'U Count', 'O Count', 'Length', 'Mass', 'Proteins', 'End position',
+            'Unique (Groups)', 'Unique (Proteins)'
+        ]
+        # Drop a number of columns
+        t = process_base_tools(self.df, target)
+        self.df = t.isDrop(**base_filter)
+        self.df.reset_index(drop=True, inplace=True)
+
+        # UNIPROT-API request후 밀리는 현상
+        # peptides의 경우, 단백질 1개에서 펩타이드 여러개 detect 되기 때문에 enrich 돼서. 굳이 mapping 할 이유가?
+        # Uniprot ID Mapping Job Submission Note 참조.
+        # : Please do verify that your list does not contain any duplicates,
+        # : and try to split it into smaller chunks in case of problems
+        
+        # peptides.txt --> peptides_base.csv
+        self.df = t.create_base_df(drop_cols)
+        savepath = t.create_csv()
+        return savepath
     
     def evidence_base(self):
-        self.df = pd.read_table(filepath_or_buffer=txtpath+'evidence.txt', index_col=False)
-        return None
+        target = 'evidence'
+        filepath = txtpath+target+'.txt'
+        self.df = pd.read_table(filepath_or_buffer=filepath, index_col=False)
+        base_filter = {'Reverse':'+', 'Potential contaminant':'+', 'Type':'MSMS'}
+        # Drop a number of columns
+        t = process_base_tools(self.df, target)
+        self.df = t.isDrop(**base_filter)
+        # evidence.txt --> evidence.csv
+        savepath = t.create_csv()
+        return savepath
 
 if __name__ == "__main__":
-    txtpath = './raw_files/TestSample/202212_DKU/A549/'
+    # evidence, peptides, proteingroups.txt 가 있는지 확인하고 실행할 수 있어야.
+    txtpath = './raw_files/TestSample/202212_DKU/THP1/'
     job = process_base(txtpath)
     job.proteinGroups_base()
     #job.peptides_base()
     #job.evidence_base()
 
-# To do list
+# To do list (Note)
 #
 # - __name__ == "__main__" 에서 raw file path를 폴더까지 지정후 *_base 함수에 경로를 인수로 주도록.
 # - create_csv 를 보편적으로 만들기. path를 따로 받아서 다른 txt에도 사용할 수 있게
-# - 메모리를 적게 쓰려면: 최종적으로 남길 열을 제외하곤 처음부터 드랍 해놔야함.  
+# 
+# 메모리를 적게 쓰려면: 최종적으로 남길 열을 제외하곤 처음부터 드랍 해놔야함.  
+# pd.read_table(usecols=[column names]) : []에 지정한 column만 들고 올 수 있어서 좋음. but, reverse, contam 필터하려면 drop 메서드가 나을 듯.
+# TMT, fraction, replication 하게 되면: 다 가져와서 일부 drop이 쉬움.
 #
-# peptides.txt
-# - amino acid count: sequence에서 갯수 세면 되기 때문에 드랍.
-#
+# Build
+# 2023.01.21. 22:16, evidence, peptides, proteinGroups_base build for Global set
+# Ongoing... TMT set

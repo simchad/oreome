@@ -38,14 +38,16 @@ To easily inquire, columns are clustered in few divisions.
 
 * Organize
 <Potent remained>
-'Sequence', 'Length', 'Missed Cleavages', 'Leading rzor protein', 'Start position', 'End position',
-'Gene names', 'Protein names', 'Charges' ,'PEP', 'Score', 'Intensities', 'Reporter intensities', 'id',
+'Sequence', 'Missed Cleavages', 'Leading razor protein', 'Start position',
+'Gene names', 'Protein names', 'Charges' ,'PEP', 'Score', 'Intensity', 'Reporter intensity', 'id',
 'Protein group IDs', 'Evidence IDs', 'MS/MS IDs', 'Best MS/MS'
 
 <Certainly dropped>
-'N-term cleavage window', 'C-term cleavage window', 'Amino acid before', 'First amino acid', 'Second amino acid', 'Second last amino acid', 'Last amino acid', 'Amino acid after',
+'N-term cleavage window', 'C-term cleavage window',
+'Amino acid before', 'First amino acid', 'Second amino acid', 'Second last amino acid', 'Last amino acid', 'Amino acid after',
 'A Count', 'R Count', 'N Count', 'D Count', 'C Count', 'Q Count', 'E Count', 'G Count', 'H Count', 'I Count', 'L Count',
 'K Count', 'M Count','F Count', 'P Count', 'S Count', 'T Count', 'W Count', 'Y Count', 'V Count', 'U Count', 'O Count',
+'Length', 'Mass', 'Proteins', 'End position', 'Unique (Groups)', 'Unique (Proteins)'
 
 <Newly created>
 'Normalized Reporter intensities'
