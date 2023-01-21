@@ -1,4 +1,16 @@
-# uniprot_requests.py
+"""
+api_request.uniprot_requests
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This module contains the API that requests ID_mapping job for Uniprot_Accession_ID.
+
+Orignial codes from: <https://rest.uniprot.org/help/id_mapping>.
+(Page last modified: Fri. Oct 14, 2022)
+
+Thanks to Uniprot Team.
+"""
+
+
 # Codes from https://uniprot.org/help/id_mapping, Python example (Oct 14 2022 version)
 
 import re

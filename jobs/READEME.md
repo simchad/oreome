@@ -11,6 +11,3 @@
 - variables를 jupyter variables 패널로 볼 수 있음.
 - jupyter variables panel 'data viewer' 유용.
 - 경로명 설정 시, 역슬래시 두 개 ('\\') 사용. 역슬래시 한 개 사용시 unicodeescape 오류.
-
-### Solution
-> *.ipynb >>> *.py

@@ -28,14 +28,8 @@ import pandas as pd
 from api_requests import uniprot_requests
 from time import localtime, strftime
 
-
-
 # Set test sample path
 global txtpath
-txtpath = './raw_files/TestSample/LTQ_QC_DU145/'
-# txtpath = './raw_files/proteinGroups.txt' <-- raw_files 폴더에 데이터 놔두면 실행 !!!
-
-
 
 class DB_request_tools:
     # processing.py - DB_request class 로 관리할 것들은 ???
@@ -73,18 +67,14 @@ class DB_request_tools:
     def Reactome_request(self):
         pass
 
-
-
 class process_base_tools:
     # The tools for base-processing (drop column, split ';')
-    def __init__(self, df, *args, **kwargs):
+    def __init__(self, df):
         self.df = df
-        self.args = args
-        self.kwargs = kwargs
 
-    def isDrop(self):
+    def isDrop(self, **kwargs):
         # **kwargs: keyword argument 줄임말. 인수를 딕셔너리로 받음.
-        for key, value in self.kwargs.items():
+        for key, value in kwargs.items():
             tmp1 = len(self.df)
             tmp2 = len(self.df[self.df[key] == value])
             ratio = (100*tmp2)/tmp1
@@ -106,8 +96,8 @@ class process_base_tools:
         return self.df
 
     # Split할 column 이름을 tuple (c1, c2)로 주고, delimiter의 기본값은 세미콜론(;)으로 되어있다.
-    def split_items(self):
-        for arg in self.args:
+    def split_items(self, *args):
+        for arg in args:
             tmp_series = pd.Series(self.df[arg])
             for ele in tmp_series:
                 tmp = ele.split(';')[0]
@@ -118,14 +108,8 @@ class process_base_tools:
         self.df.reset_index(drop=True, inplace=True)            
         return self.df
     
-    def create_base_df(self):
-        rest = [
-            'Protein IDs', 'Protein names', 'Gene names', 'Razor + unique peptides',
-            'Unique sequence coverage [%]', 'Mol. weight [kDa]','Sequence length',
-            'Q-value', 'Score', 'Intensity', 'id', 'Peptide IDs', 'Evidence IDs',
-            'Best MS/MS'
-        ]
-        self.df = self.df[rest].copy()
+    def create_base_df(self, rest_names):
+        self.df = self.df[rest_names].copy()
         return self.df
     
     def create_csv(self):
@@ -137,23 +121,27 @@ class process_base_tools:
         print('message! >>> file created. '+path_saved)
         return None
 
-
-
 class process_base:
     # The base-processing of each *.txt files.
-    def __init__(self, df):
-        self.df = df
+    def __init__(self, txtpath):
+        self.txtpath = txtpath
 
     def proteinGroups_base(self):
-        # For proteinGroups.txt
-        #self.df = pd.read_table(filepath_or_buffer=txtpath+'proteinGroups.txt', index_col=False)
+        # proteinGroups.txt --> ProteinGroups_base.csv
+        self.df = pd.read_table(filepath_or_buffer=txtpath+'proteinGroups.txt', index_col=False)
         base_filter = {'Potential contaminant':'+', 'Reverse':'+', 'Only identified by site':'+', 'Razor + unique peptides':1}
         split_cnames = ('Protein IDs', 'Best MS/MS')
+        rest = [
+            'Protein IDs', 'Protein names', 'Gene names', 'Razor + unique peptides',
+            'Unique sequence coverage [%]', 'Mol. weight [kDa]','Sequence length',
+            'Q-value', 'Score', 'Intensity', 'id', 'Peptide IDs', 'Evidence IDs',
+            'Best MS/MS'
+        ]
         
         # Drop and split(;) on upper columns
-        t = process_base_tools(self.df, *split_cnames, **base_filter)
-        self.df = t.isDrop() 
-        self.df = t.split_items()
+        t = process_base_tools(self.df)
+        self.df = t.isDrop(**base_filter) 
+        self.df = t.split_items(*split_cnames)
                 
         # Request protein.gene names to Uniprot-API
         f = DB_request_tools(self.df)
@@ -164,7 +152,7 @@ class process_base:
         self.df['Gene names'] = pg_names['Gene names']
         
         # Create base file (ProteinGroups_base.csv)
-        self.df = t.create_base_df()
+        self.df = t.create_base_df(rest)
         self.df = t.create_csv()
         return None
     
@@ -176,14 +164,19 @@ class process_base:
         self.df = pd.read_table(filepath_or_buffer=txtpath+'evidence.txt', index_col=False)
         return None
 
-
-
-# 아래의 딕셔너리 key:value 에 해당하는 entry를 제거하고 contam, reverse, only는 열을 제거합니다.
-# 모든 열 이름 나열, 없으면 None. None이면 pass, 순차적 드랍.
 if __name__ == "__main__":
-    df = pd.read_table(filepath_or_buffer=txtpath+'proteinGroups.txt', index_col=False)
-    job = process_base(df)
+    txtpath = './raw_files/TestSample/202212_DKU/A549/'
+    job = process_base(txtpath)
     job.proteinGroups_base()
     #job.peptides_base()
     #job.evidence_base()
 
+# To do list
+#
+# - __name__ == "__main__" 에서 raw file path를 폴더까지 지정후 *_base 함수에 경로를 인수로 주도록.
+# - create_csv 를 보편적으로 만들기. path를 따로 받아서 다른 txt에도 사용할 수 있게
+# - 메모리를 적게 쓰려면: 최종적으로 남길 열을 제외하곤 처음부터 드랍 해놔야함.  
+#
+# peptides.txt
+# - amino acid count: sequence에서 갯수 세면 되기 때문에 드랍.
+#
