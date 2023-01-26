@@ -22,10 +22,13 @@
 
 # Load packages
 import os
+import re
 import csv
+import sys
 import pandas as pd
 from api_requests import uniprot_requests
 from time import localtime, strftime
+
 
 # Set test sample path
 global txtpath
@@ -72,8 +75,8 @@ class process_base_tools:
         self.df = df
         self.target = target
 
+    # Fnc 'isDrop' drops key == value items in **kwargs
     def isDrop(self, **kwargs):
-        # **kwargs: keyword argument 줄임말. 인수를 딕셔너리로 받음.
         for key, value in kwargs.items():
             tmp1 = len(self.df)
             tmp2 = len(self.df[self.df[key] == value])
@@ -105,6 +108,29 @@ class process_base_tools:
             print('message! >>> ['+arg+'] elements were splitted')
         return self.df
     
+    # This fnc to find Reporter intensity with 'corrected' or 'count' to eliminated
+    def det_corrected_or_count(self):
+        reporter = []
+        reporter_drop =[]
+        cols = pd.Index(self.df.columns).tolist()
+        for col in cols:
+            if re.search('Reporter', col):
+                reporter.append(col)
+        for repo in reporter:
+            if re.search(('corrected|count'), repo):
+                reporter_drop.append(repo)
+        reporter = sorted(list(set(reporter) - set(reporter_drop)))
+        # return (reporter, reporter_drop)
+        return reporter
+    
+    # This fnc return base columns to create base file with 'Score' column.
+    def base_cols(self, cols, reporters):
+        if self.target == 'proteinGroups':
+            score = cols.index('Score') + 1
+            base_columns = cols[:score] + reporters + cols[score:]
+            return base_columns
+    
+    # Different method for creating base csv file.
     def create_base_df(self, cols):
         if self.target == 'proteinGroups':
             self.df = self.df[cols].copy()
@@ -114,10 +140,11 @@ class process_base_tools:
             raise ValueError
         return self.df
     
+    # Creating csv file after 'create_base_df' fnc., the file saved under the name 'filename_base_yyyymmdd-hhmmss'
     def create_csv(self):
-        ntm = strftime('%Y%m%d_%H%M%S', localtime())
+        ntm = strftime('%Y%m%d-%H%M%S', localtime())
         cwd = os.getcwd()
-        filepath ='./output/'+self.target+'_base'+ntm+'.csv'
+        filepath ='./output/'+self.target+'_base_'+ntm+'.csv'
         self.df.to_csv(path_or_buf=filepath, sep=',', index=False, encoding='utf-8')
         temp = filepath.replace('/', '\\')
         saved_path = cwd.replace('jobs','')+temp[1:]
@@ -136,7 +163,7 @@ class process_base:
         self.df = pd.read_table(filepath_or_buffer=filepath, index_col=False)
         base_filter = {'Potential contaminant':'+', 'Reverse':'+', 'Only identified by site':'+', 'Razor + unique peptides':1}
         split_cols = ('Protein IDs', 'Best MS/MS')
-        rest = [
+        rest_cols = [
             'Protein IDs', 'Protein names', 'Gene names', 'Razor + unique peptides',
             'Unique sequence coverage [%]', 'Mol. weight [kDa]','Sequence length',
             'Q-value', 'Score', 'Intensity', 'id', 'Peptide IDs', 'Evidence IDs',
@@ -149,13 +176,17 @@ class process_base:
         self.df = t.split_items(*split_cols)
         self.df.reset_index(drop=True, inplace=True)
                 
-        # Request protein/gene names to Uniprot-API
+        # Request protein/gene names to Uniprot-API (1/2)
         r = DB_request_tools(self.df)
         pg_names = r.uniprot_request('Protein IDs')
         
-        # Replace protein/gene names from response_DB
+        # Replace protein/gene names from response_DB (2/2)
         self.df['Protein names'] = pg_names['Protein names']
         self.df['Gene names'] = pg_names['Gene names']
+        
+        # Return reporter intensity cols and merge with rest_cols
+        reporter_cols = t.det_corrected_or_count()
+        rest = t.base_cols(rest_cols, reporter_cols)
         
         # proteinGroups.txt --> ProteinGroups_base.csv
         self.df = t.create_base_df(rest)
@@ -204,7 +235,7 @@ class process_base:
 
 if __name__ == "__main__":
     # evidence, peptides, proteingroups.txt 가 있는지 확인하고 실행할 수 있어야.
-    txtpath = './raw_files/TestSample/202212_DKU/THP1/'
+    txtpath = './raw_files/TestSample/202212_DKU/A549/'
     job = process_base(txtpath)
     job.proteinGroups_base()
     #job.peptides_base()
