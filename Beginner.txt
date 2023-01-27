@@ -1,8 +1,18 @@
-* install Python 3.9
+* install Python 3.9++
+- 환경변수 저장 필수
+- 환경변수 추가후,
+cmd 실행
+>>> pip install pandas
+>>> pip install requests
+
 
 * install packages
 
 * open 'processing_base_idle.py' at Python-idle
 
 push 'F5' button
+
+* requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+에러 원인: uniprot 서버 통신의 문제. 프로그램 문제 X
+해결 방법: 재실행(F5) 하면 됨.
 
