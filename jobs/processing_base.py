@@ -1,15 +1,9 @@
-# processing_base.py
-# --------------------------------------
-# - proteinGroups.txt 로드 후 다음의 column data를 필터함.
-# : contaminants, reverse, only identified site, uniquepeptide = 1 entries
-# - protein names, Best MS/MS 항목에서 세미콜론(;) 구분된 데이터 요소를 split.
-# - filter가 된 것을 *_base.xlsx 로 저장함.
-# --------------------------------------
-# processing_base.py 는 base-processing에 관한 것.
-# proteingroups, peptides, evidence 등에 대해 각기 접근해야.
-# class process_base() 만들고 각기 다른 파일에 대하여  class에 정의할 것.
-# 그렇게 해야: __name__ == "__main__" 활용도가 높아져.
-# __name__ == "__main__" 에서는 process_base 클래스에 배치된 def 함수만 사용할 것.
+"""
+jobs.processing
+~~~~~~~~~~~~~~~
+
+This module contains numbers of functions for pre-processing
+"""
 # --------------------------------------
 # vscode 터미널에서 pip 안될때
 # 원인: python 옳게 설치했더라도 윈도우 클래스에서 pip 위치를 알지 못하기에 발생.
@@ -24,14 +18,10 @@
 import os
 import re
 import csv
-import sys
 import pandas as pd
-from api_requests import uniprot_requests
 from time import localtime, strftime
+from .api_requests import uniprot_requests
 
-
-# Set test sample path
-global txtpath
 
 class DB_request_tools:
     # processing.py - DB_request class 로 관리할 것들은 ???
@@ -159,7 +149,7 @@ class process_base:
 
     def proteinGroups_base(self):
         target = 'proteinGroups'
-        filepath = txtpath+target+'.txt'
+        filepath = self.txtpath+target+'.txt'
         self.df = pd.read_table(filepath_or_buffer=filepath, index_col=False)
         base_filter = {'Potential contaminant':'+', 'Reverse':'+', 'Only identified by site':'+', 'Razor + unique peptides':1}
         split_cols = ('Protein IDs', 'Best MS/MS')
@@ -195,7 +185,7 @@ class process_base:
     
     def peptides_base(self):
         target = 'peptides'
-        filepath = txtpath+target+'.txt'
+        filepath = self.txtpath+target+'.txt'
         self.df = pd.read_table(filepath_or_buffer=filepath, index_col=False)
         base_filter = {'Reverse':'+', 'Potential contaminant':'+'}
         drop_cols = [
@@ -223,7 +213,7 @@ class process_base:
     
     def evidence_base(self):
         target = 'evidence'
-        filepath = txtpath+target+'.txt'
+        filepath = self.txtpath+target+'.txt'
         self.df = pd.read_table(filepath_or_buffer=filepath, index_col=False)
         base_filter = {'Reverse':'+', 'Potential contaminant':'+', 'Type':'MSMS'}
         # Drop a number of columns
@@ -232,14 +222,6 @@ class process_base:
         # evidence.txt --> evidence.csv
         savepath = t.create_csv()
         return savepath
-
-if __name__ == "__main__":
-    # evidence, peptides, proteingroups.txt 가 있는지 확인하고 실행할 수 있어야.
-    txtpath = './raw_files/'
-    job = process_base(txtpath)
-    job.proteinGroups_base()
-    #job.peptides_base()
-    #job.evidence_base()
 
 # To do list (Note)
 #
@@ -252,4 +234,5 @@ if __name__ == "__main__":
 #
 # Build
 # 2023.01.21. 22:16, evidence, peptides, proteinGroups_base build for Global set
-# Ongoing... TMT set
+# 2023.01.26. TMT set available
+# Ongoing...

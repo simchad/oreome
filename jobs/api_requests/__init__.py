@@ -10,7 +10,7 @@ This module contains:
 - (Unavailable) reactome_requests.py
 - (Available) uniprot_requests.py
 """
-from . import david_requests
-from . import kegg_requests
-from . import reactome_requests
-from . import uniprot_requests
+# from .david_requests import *
+# from .kegg_requests import *
+# from .reactome_requests import *
+from .uniprot_requests import *

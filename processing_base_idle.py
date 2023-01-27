@@ -26,7 +26,7 @@ import re
 import csv
 import sys
 import pandas as pd
-from api_requests import uniprot_requests
+from jobs.api_requests import uniprot_requests
 from time import localtime, strftime
 
 
@@ -144,7 +144,7 @@ class process_base_tools:
     def create_csv(self):
         ntm = strftime('%Y%m%d-%H%M%S', localtime())
         cwd = os.getcwd()
-        filepath ='../output/'+self.target+'_base_'+ntm+'.csv'
+        filepath ='./output/'+self.target+'_base_'+ntm+'.csv'
         self.df.to_csv(path_or_buf=filepath, sep=',', index=False, encoding='utf-8')
         temp = filepath.replace('/', '\\')
         saved_path = cwd.replace('jobs','')+temp[1:]
@@ -235,7 +235,7 @@ class process_base:
 
 if __name__ == "__main__":
     # evidence, peptides, proteingroups.txt 가 있는지 확인하고 실행할 수 있어야.
-    txtpath = '..\\raw_files\\'
+    txtpath = '.\\raw_files\\'
     job = process_base(txtpath)
     job.proteinGroups_base()
     #job.peptides_base()
