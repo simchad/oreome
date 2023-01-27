@@ -1,0 +1,8 @@
+* install Python 3.9
+
+* install packages
+
+* open 'processing_base_idle.py' at Python-idle
+
+push 'F5' button
+
