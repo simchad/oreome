@@ -223,6 +223,9 @@ class process_base:
         savepath = t.create_csv()
         return savepath
 
+if __name__ == "__main__":
+    pass
+
 # To do list (Note)
 #
 # - __name__ == "__main__" 에서 raw file path를 폴더까지 지정후 *_base 함수에 경로를 인수로 주도록.
