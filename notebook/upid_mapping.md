@@ -1,4 +1,4 @@
-# __Uniprot API 활용 id mapping A to Z__
+# __[Uniprot API] id mapping A to Z__
 
 #### /pyFiles/user_default.py
 * created : 2023/04/21
