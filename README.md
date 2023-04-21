@@ -1,23 +1,27 @@
 # proteome-tool
-## Overview
-The proteome-tool aims to automate data-processing for proteome that searched by using maxquant.
+## What is Proteome-Tool?
+- The Proteome-Tool aims useful tools for proteome research. Mainly ims automate data-processing and increase UX specifically searched with maxquant software.
 
-Simple repetitive tasks are included:
-### Stage 1: RawData Filtering and processing<br/>
-(1) Opening raw data through MS Excel<br/>
-(2) Clicking several times with the mouse (e.g., drop positive entries from contaminants, reverse)<br/>
-(3) Visualizing (e.g., LE(%) for global set, box plot of missed cleavage site, draw vendiagram with replication sets, volcano plot)<br/>
+## What Proteme-Tool do?
+### Process *.txt file from MaxQuant Software.
+- evidence.txt
+- modification (X)Sites.txt
+- peptides.txt
+- proteinGroups.txt
 
-### Stage 2: Bioinformatic search<br/>
-(3) Divided entires in few subsets by DEP (Differentially Expressed Protein)<br/>
-(4) GO/KEGG enrichment test by DAVID, Clustering (Z-scored hirachical, UMAP)<br/>
-(5) Orgainze data altogether in one folder<br/>
-
-### Stage 3: Integration<br/>
-From here, xMWAS, OmicsNet, Reactome were applicable<br/>
+### Visualization
+- Correlations
+- LE(%) for TMT, SILAC
+- Box-plot, Venn-diagram, Volcano-plot
+- Clustering: Hierachical, UMAP
 
 
-## log
+### The others
+- Uniprot: (ID mapping)
+- DAVID
+- Omics integration
+
+# Updates
 2022.06.16. Project released.<br/>
 2022.06.24. Project files are uploaded.<br/>
 2023.01.17. Organize old files (jupyter notbook), Update folder structure.<br/>
