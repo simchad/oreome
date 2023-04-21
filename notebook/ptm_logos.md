@@ -1,9 +1,11 @@
-# 1. Motif 분석을 위한 alignment
-
+# __Motif 분석을 위한 alignment - pLogo__
 
 #### /pyFiles/ptm_logo.py
-
 * created : 2023/04/21
+
+#### See Also
+네이버 블로그 : [내 블로그 홈 - Blue Ocean 을 찾아서][Ext1]
+
 
 <br>
 
@@ -186,9 +188,7 @@ if __name__ == "__main__":
 
 <br>
 
-> 실행 결과
-
-<br>
+실행 결과
 
 ```bash
          Entry             Logo Start residue End residue
@@ -211,3 +211,6 @@ if __name__ == "__main__":
 (1) Kim et al. BMC Medical Genomics 2015, 8(Suppl 2):S7. doi:10.1186/1755-8794-8-s2-s7.
 <br>
 (2)
+
+
+[Ext1]:https://blog.naver.com/simhc0714

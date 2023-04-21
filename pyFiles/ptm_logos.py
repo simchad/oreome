@@ -1,6 +1,7 @@
 """
 ptm_logos.py
 
+markdown -> ptm_logos.md
 notebook -> ptm_site_logo.ipynb
 """
 __author__ = "github.com/simhc0714"
