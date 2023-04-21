@@ -7,7 +7,7 @@
 
 <br>
 
-## 1. 번역 후 수정(변형)
+# 1. 번역 후 수정(변형)
 
 > 번역 후 수정 이란?
 
@@ -31,7 +31,7 @@
 
 <br>
 
-## 2. Motif 분석
+# 2. Motif 분석
 
 > Motif 분석 수행 도구
 
@@ -49,7 +49,7 @@ pLogo를 이용한 Motif 분석을 위해서는 PTM site를 정렬해 줄 필요
 
 <br>
 
-## 3. ptm_logos.py
+# 3. ptm_logos.py
 
 이 파일을 실행하기 위해서는 다음 두 가지 패키지가 필요하다.
 
@@ -186,13 +186,28 @@ if __name__ == "__main__":
 
 <br>
 
-## 4. 향후 개선점
+> 실행 결과
+
+<br>
+
+```bash
+         Entry             Logo Start residue End residue
+0  A8DUK4_K145  VAAALAHKYH                138         147
+1   A8DUK4_K18  AVSGLWGKVNADEVG            11          25
+2   A8DUK4_K67  KVKAHGKKVITAFND            60          74
+3   A8DUK4_K96  LSELHCDKLHVDPEN            89         103
+4  D3Z7X0_K535  RLGDDQLKVAKMELK           528         542
+```
+
+<br>
+
+# 4. 향후 개선점
 - Uniprot API를 이용해서 sequence 받아오는 기능.
 - Multiple alignment.
 
+<br>
 
-
-## Reference
+# Reference
 (1) Kim et al. BMC Medical Genomics 2015, 8(Suppl 2):S7. doi:10.1186/1755-8794-8-s2-s7.
 <br>
 (2)
