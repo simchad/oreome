@@ -1,6 +1,10 @@
+# ptm_logos.py
 """
-ptm_logos.py
+ptm_logos
+~~~~~~~~~
 
+See Also
+--------
 markdown -> ptm_logos.md
 notebook -> ptm_site_logo.ipynb
 """
@@ -18,10 +22,10 @@ def logo_align(df_site, df_sequence, d:int=7, aa='K'):
 
     Parameters
     ----------
-    - df_site: Dataframe that contains UniprotAC-ID and site, must be formed (UniprotAC_Site) (pandas.DataFrame).
-    - df_sequence: Dataframe that contains UniprotAC and its sequence (pandas.DataFrame).
-    - d: Default is 7. Cut sequence forward and backward with 7 amino acids. 7aa-X-7aa (int).
-    - aa: Default is K (Lysine). Amino acid one letter code. Capital letter.
+    - df_site (pandas.DataFrame): Dataframe that contains UniprotAC-ID and site, must be formed (UniprotAC_Site).
+    - df_sequence (pandas.DataFrame): Dataframe that contains UniprotAC and its sequence.
+    - d (int): Default is 7. Cut sequence forward and backward with 7 amino acids. 7aa-X-7aa.
+    - aa (str): Default is K (Lysine). Amino acid one letter code.
 
     Notes
     -----

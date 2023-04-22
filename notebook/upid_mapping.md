@@ -5,13 +5,21 @@
 * uploaded: yyyy/mm/dd
 * revision: yyyy/mm/dd
 
-#### See Also
-네이버 블로그 : [[Uniprot API] id mapping 바로시작 A to Z][Ext1]
+<br>
 
+#### 목차
+1. API
 
 <br>
 
-# 1. 번역 후 수정(변형)
+#### See Also
+네이버 블로그 : [[Uniprot API] id mapping 바로시작 A to Z][Ext1]
+
+/pyFiles/api_request/uniprot_requests.py
+
+<br>
+
+# 1. API
 
 
 

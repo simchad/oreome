@@ -1,11 +1,19 @@
 # __Motif 분석을 위한 alignment - pLogo__
 
-#### /pyFiles/ptm_logo.py
+#### /pyFiles/ptm_logos.py
 * created : 2023/04/21
+
+<br>
+
+#### 목차
+1. 번역 후 수정(변형)
+2. Motif 분석
+3. 어떻게 구현할 것인가? ptm_logos.py
+
+<br>
 
 #### See Also
 네이버 블로그 : [내 블로그 홈 - Blue Ocean 을 찾아서][Ext1]
-
 
 <br>
 
@@ -51,7 +59,7 @@ pLogo를 이용한 Motif 분석을 위해서는 PTM site를 정렬해 줄 필요
 
 <br>
 
-# 3. ptm_logos.py
+# 3. 어떻게 구현할 것인가? ptm_logos.py
 
 이 파일을 실행하기 위해서는 다음 두 가지 패키지가 필요하다.
 
@@ -199,10 +207,15 @@ if __name__ == "__main__":
 4  D3Z7X0_K535  RLGDDQLKVAKMELK           528         542
 ```
 
+가운데 K (lysine)로 정렬되며 앞뒤로 7개의 아미노산이 위치해 있고 sequence 길이가 모자라다면 공백(" ")으로 잘 채워져서 출력된다.
+
+이제 이 Logo 부분을 복사해서 pLogo 에 붙여넣기만 하면 된다.!
+
 <br>
 
-# 4. 향후 개선점
+# 4. 향후 개선 방향
 - Uniprot API를 이용해서 sequence 받아오는 기능.
+- 예외 처리: protein이 deleted 혹은 merge 된 경우.
 - Multiple alignment.
 
 <br>

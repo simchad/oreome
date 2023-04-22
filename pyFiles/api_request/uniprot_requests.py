@@ -8,14 +8,22 @@ Orignial codes from: <https://rest.uniprot.org/help/id_mapping>.
 (Page last modified: Fri. Oct 14, 2022)
 
 Thanks to Uniprot Team.
+
+See Also
+--------
+markdown -> upid_mapping.md
+notebook -> None
 """
-import re
-import time
+__version__ = "0.0.1"
+
+# import packages
 import json
-import zlib
-from xml.etree import ElementTree
-from urllib.parse import urlparse, parse_qs, urlencode
+import re
 import requests
+import time
+import zlib
+from urllib.parse import urlparse, parse_qs, urlencode
+from xml.etree import ElementTree
 from requests.adapters import HTTPAdapter, Retry
 
 
@@ -182,9 +190,9 @@ def get_id_mapping_results_stream(url):
     return decode_results(request, file_format, compressed)
 
 
-# 위에꺼를 다 클래스로 박아 놓고 다른 파일에서 불러와서 써야함.
+# 위에꺼를 다 클래스에 박아 놓던지
+# 캡슐화 해서 다른 파일에서 불러와서 써야함.
 # 아래 job_id에 id 넣고 쓰는 것도 클래스에 잡아놔야 패키지 불러왔을때 동작 안함.
-
 def execute(id_series):
     job_id = submit_id_mapping(
         from_db="UniProtKB_AC-ID", to_db="UniProtKB", ids=id_series

@@ -13,4 +13,3 @@ This module contains:
 # from .david_requests import *
 # from .kegg_requests import *
 # from .reactome_requests import *
-from .uniprot_requests import *

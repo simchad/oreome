@@ -20,7 +20,7 @@ import re
 import csv
 import pandas as pd
 from time import localtime, strftime
-from .api_requests import uniprot_requests
+from api_request import uniprot_requests
 
 
 class DB_request_tools:
