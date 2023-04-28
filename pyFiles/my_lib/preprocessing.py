@@ -8,24 +8,16 @@ This module contains pre-processing functions
 __author__ = "github.com/simhc0714"
 __version__ = "0.0.1"
 
-# Load packages
+# Load packages.
+import os
 import pandas as pd
 import re
+from time import localtime, strftime
 
 
-# class: API using functions
+# Group: API using functions
 
-# class: Non-API functions
-
-
-# 처음, MQsearch.txt 에서 주요 column 기준에 따라 필터링.
-# kwargs = filter
-# base_filter = {'Potential contaminant':'+',
-#                'Reverse':'+',
-#                'Only identified by site':'+',
-#                'Razor + unique peptides':1}
-# Razor + unique peptides: 기본값 False로 주고, True 이면 1로.
-
+# Group: Non-API functions
 def column_filter_dict(df, **kwargs):
     """
     column_filter_dict(df, **kwrags) -> (df) pandas.DataFrame
@@ -41,10 +33,10 @@ def column_filter_dict(df, **kwargs):
     Notes
     -----
     General key, value for **kwargs are
-    - Potential contaminant: +
-    - Reverse: +
-    - Only identified site: +
-    - Razor + unique peptides: 1
+    - Potential contaminant : +
+    - Reverse : +
+    - Only identified site : +
+    - Razor + unique peptides : 1
     """
     data = df.copy(deep=True)
     # 인수로 받은 df에서 value 값과 같은 key가 몇 개인지 -> 비율
@@ -74,7 +66,7 @@ def split_items(df, **kwargs):
     """
     split_items(df, *kwargs) -> (df) pandas.DataFrame
 
-    split items by delimiter and leave first value of them
+    split items by delimiter and leave first value of them.
 
     Parameters
     ----------
@@ -99,9 +91,9 @@ def split_items(df, **kwargs):
 
 def column_tmt_reporter(df, type=None):
     """
-    column_tnt_reporter(df) -> reporter (list)
+    column_tnt_reporter(df) -> (reporter) list
 
-    Return the list that contains type of reporter ion columns contained column name.
+    Return the column name list that contains related with TMT reporter ion.
 
     Parameters
     ----------
@@ -110,12 +102,161 @@ def column_tmt_reporter(df, type=None):
 
     Notes
     -----
-    The TMT (Tandem Mass Tags) is crucially useful for multiplex sample analyze.
+    The Tandem Mass Tags (TMT) is useful for multiplexed-sample analyze.
     The TMT have bunch of product line-up, e.g., TMT-duplex, TMT6plex, TMT10plex.
     (N)plex TMT contains N different reporter ions.
 
-    Mostly, reporter intensity N corrected and reporter intensity N is same.
+    In maxquant searched file, there are few types of TMT relating data
+    - type=None : Reporter intensity N.
+    - type=corrected : Reporter intensity corrected N.
+    - type=count : Reporter intensity count N.
+    - type=all : All entries.
     """
+    # initialize and set patterns.
     reporter = []
+    col_name = df.columns.values.tolist()
+    r = re.compile("Reporter")
+    r_corrected = re.compile("corrected")
+    r_count = re.compile("count")
+    
+    # Pattern match.
+    reporters = list(filter(r.match, col_name))
+    reporter_corrected = list(filter(r_corrected.search, reporters))
+    reporter_count = list(filter(r_count.search, reporters))
+
+    # Return result.
+    if type == None:
+        reporter = sorted(list((set(reporters)-set(reporter_corrected))-set(reporter_count)))
+    elif type == "corrected":
+        reporter = reporter_corrected
+    elif type == "count":
+        reporter = reporter_count
+    elif type == "all":
+        reporter = reporters
+    else:
+        raise ValueError
+    return reporter
+
+
+def _create_csv(df, target):
+    """
+    _create_csv(df) -> (saved_path) str
+
+    Create csv file with time point.
+
+    Parameters
+    ----------
+    - df (pandas.DataFrame)
+    - target (str) : (e.g., proteinGroups, peptides) use full name below.
+
+    Notes
+    -----
+    Available targets
+    - proteinGroups
+    """
+    # internal variables.
+    ntm = strftime('%Y%m%d-%H%M%S', localtime())
+    cwd = os.getcwd()
+    saved_path = '.\output\\'+target+'_base_'+ntm+'.csv'
+
+    df.to_csv(path_or_buf=saved_path, sep=',', index=False, encoding='utf-8')
+    msg = 'message! >>> file created... '
+    print(msg+saved_path)
+    return saved_path
+
+
+def _create_base_proteingroups(df, quan=None):
+    """
+    _create_base_proteingroups(df) -> (df) pandas.DataFrame
+
+    Create and save base file for proteinGroups.txt
+
+    Parameters
+    ----------
+    - df (pandas.DataFrame)
+    - quan (str) : (None, tmt, silac, lfq)
+
+    Notes
+    -----
+    This file is the BASE file on ToxicoProteomics LAB.
+    """
+    # initialize.
+    rest_cols = []
+    rest_tmt = []
+    rest_silac = []
+    target = "proteinGroups"
+
+    # Set rest_columns.
+    base_cols = ['Protein IDs',
+                 'Protein names',
+                 'Gene names',
+                 'Razor + unique peptides',
+                 'Sequence coverage [%]',
+                 'Mol. weight [kDa]',
+                 'Sequence length',
+                 'Q-value',
+                 'Score',
+                 'Intensity',
+                 'Peptide IDs',
+                 'Evidence IDs',
+                 'Best MS/MS']
+    if quan == None:
+        # In normal
+        rest_cols = base_cols
+    elif quan == "tmt":
+        # Case TMT
+        rest_tmt = column_tmt_reporter(df, type=None)
+        rest_cols = set(base_cols)+set(rest_tmt)
+    elif quan == "silac":
+        # Case SILAC
+        rest_cols = set(base_cols)+set(rest_silac)
+    else:
+        raise ValueError
+    
+    # Process
+
 
     return None
+
+
+def _create_base_peptides(df, quan):
+    """
+    _create_base_peptides(df) -> (df) pandas.DataFrame
+
+    Create and save base file for peptides.txt
+
+    Parameters
+    ----------
+    - df (pandas.DataFrame)
+    - quan (str) : (None, tmt, silac, lfq)
+
+    Notes
+    -----
+    This file is the BASE file on ToxicoProteomics LAB.
+    """
+    target = "peptides"
+    return None
+
+
+def _create_base_ptmsites(df, quan):
+    """
+    _create_base_ptmsites(df) -> (df) pandas.DataFrame
+
+    Create and save base file for proteinGroups.txt
+
+    Parameters
+    ----------
+    - df (pandas.DataFrame)
+    - quan (str) : (None, tmt, silac, lfq)
+
+    Notes
+    -----
+    This file is the BASE file on ToxicoProteomics LAB.
+    """
+    target = "ptm(X)sites"
+    return None
+
+
+if __name__ == "__main__":
+    # debug
+    pass

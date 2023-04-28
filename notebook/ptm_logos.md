@@ -1,4 +1,4 @@
-# __Motif 분석을 위한 alignment - pLogo__
+# __Motif 분석을 위한 sequnce alignment__
 
 #### /pyFiles/ptm_logos.py
 * created : 2023/04/21
