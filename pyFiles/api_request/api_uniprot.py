@@ -1,20 +1,12 @@
 """
-api_request.uniprot_requests
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+api_request.api_uniprot
+~~~~~~~~~~~~~~~~~~~~~~~
 
 This module contains the API that requests ID_mapping job for Uniprot_Accession_ID.
 
 Orignial codes from: <https://rest.uniprot.org/help/id_mapping>.
 (Page last modified: Fri. Oct 14, 2022)
-
-Thanks to Uniprot Team.
-
-See Also
---------
-markdown -> upid_mapping.md
-notebook -> None
 """
-__version__ = "0.0.1"
 
 # import packages
 import json
@@ -190,18 +182,25 @@ def get_id_mapping_results_stream(url):
     return decode_results(request, file_format, compressed)
 
 
-# 위에꺼를 다 클래스에 박아 놓던지
-# 캡슐화 해서 다른 파일에서 불러와서 써야함.
-# 아래 job_id에 id 넣고 쓰는 것도 클래스에 잡아놔야 패키지 불러왔을때 동작 안함.
-def execute(id_series):
+# # UDF
+# def execute(id_series):
+#     job_id = submit_id_mapping(
+#         from_db="UniProtKB_AC-ID", to_db="UniProtKB", ids=id_series
+#     )
+#     if check_id_mapping_results_ready(job_id):
+#         link = get_id_mapping_results_link(job_id)
+#     return link
+
+
+if __name__ == "__main__":
     job_id = submit_id_mapping(
-        from_db="UniProtKB_AC-ID", to_db="UniProtKB", ids=id_series
-    )
+        from_db="UniProtKB_AC-ID", to_db="ChEMBL", ids=["P05067", "P12345"]
+        )
     if check_id_mapping_results_ready(job_id):
         link = get_id_mapping_results_link(job_id)
-        # results = get_id_mapping_results_search(link)
+        results = get_id_mapping_results_search(link)
         # Equivalently using the stream endpoint which is more demanding
         # on the API and so is less stable:
         # results = get_id_mapping_results_stream(link)
-    return link
+    print(results)
     # {'results': [{'from': 'P05067', 'to': 'CHEMBL2487'}], 'failedIds': ['P12345']}

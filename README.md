@@ -17,7 +17,7 @@
 <br>
 
 ### 시각화 중심의 데이터 분석
-2. [Motif 분석을 위한 alignment - pLogo][Ext2]
+2. [Motif 분석을 위한 sequence alignment][Ext2]
 3. [데이터 N수에 따른 평균 차이 검정]
 
 <br>

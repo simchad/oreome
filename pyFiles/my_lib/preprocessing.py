@@ -9,13 +9,17 @@ __author__ = "github.com/simhc0714"
 __version__ = "0.0.1"
 
 # Load packages.
+import csv
 import os
 import pandas as pd
 import re
 from time import localtime, strftime
+from api_request import requests_uniprot
 
 
 # Group: API using functions
+# Uniport 등 api 관련 다른 패키지로.
+
 
 # Group: Non-API functions
 def column_filter_dict(df, **kwargs):
@@ -35,7 +39,7 @@ def column_filter_dict(df, **kwargs):
     General key, value for **kwargs are
     - Potential contaminant : +
     - Reverse : +
-    - Only identified site : +
+    - Only identified by site : +
     - Razor + unique peptides : 1
     """
     data = df.copy(deep=True)
@@ -138,6 +142,10 @@ def column_tmt_reporter(df, type=None):
     return reporter
 
 
+def column_silac(df, type=None):
+    return None
+
+
 def _create_csv(df, target):
     """
     _create_csv(df) -> (saved_path) str
@@ -163,6 +171,32 @@ def _create_csv(df, target):
     msg = 'message! >>> file created... '
     print(msg+saved_path)
     return saved_path
+
+
+def _create_base_df(df, target, columns, drop=False):
+    """
+    _create_base_df(df, target, columns) -> (df) pandas.DataFrame
+
+    internal function.
+
+    Parameters
+    ----------
+    - df (pandas.DataFrame)
+    - target (str) : See below notes.
+    - columns (list) : 
+    - drop (bool) : Default if False. If drop is True, drop the columns in columns.
+    Then, create base df with left columns.
+
+    Notes
+    -----
+    Available targets
+    - proteinGroups
+    """
+    if target == "proteinGroups":
+        df_base = df[columns].copy(deep=True)
+    else:
+        raise ValueError
+    return df_base
 
 
 def _create_base_proteingroups(df, quan=None):
@@ -209,12 +243,34 @@ def _create_base_proteingroups(df, quan=None):
         rest_cols = set(base_cols)+set(rest_tmt)
     elif quan == "silac":
         # Case SILAC
+        rest_silac = column_silac(df, type=None)
         rest_cols = set(base_cols)+set(rest_silac)
     else:
         raise ValueError
     
-    # Process
+    # Set filter options (base).
+    base_filter = {'Potential contaminant':'+',
+                   'Reverse':'+',
+                   'Only indentified by site':'+',
+                   'Razor + unique peptides':1}
+    # Set which column split items.
+    split_cols = {'Protein IDs':';',
+                  'Best MS/MS':';'}
+    
+    # Process (Non-API).
+    df_tmp = column_filter_dict(df, **base_filter)
+    df_tmp = split_items(df_tmp, **split_cols)
+    df_base = _create_base_df(df_tmp, target="proteinGroups", columns=base_cols)
+    df_base.reset_index(drop=True, inplace=True)
 
+    # Process (with API).
+    df_respond = requests_uniprot.parser_id_mapping(df_base)
+    df_base['Protein names'] = df_respond['Protein name']
+    # ---------------------------------------------------------------
+    # ---------------------------------------------------------------
+    # ---------------------------------------------------------------
+    # ---------------------------------------------------------------
+    # -------------------------------------------------------23/04/29
 
     return None
 

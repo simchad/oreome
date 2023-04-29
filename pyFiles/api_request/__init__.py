@@ -9,8 +9,5 @@ This module contains:
 - (Unavailable) reactome_requests.py
 - (Available) uniprot_requests.py
 """
-
-from api_request import david_requests
-from api_request import kegg_requests
-from api_request import reactome_requests
-from api_request import uniprot_requests
+from . import api_uniprot
+from . import requests_uniprot
