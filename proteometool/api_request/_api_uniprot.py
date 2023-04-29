@@ -182,16 +182,6 @@ def get_id_mapping_results_stream(url):
     return decode_results(request, file_format, compressed)
 
 
-# # UDF
-# def execute(id_series):
-#     job_id = submit_id_mapping(
-#         from_db="UniProtKB_AC-ID", to_db="UniProtKB", ids=id_series
-#     )
-#     if check_id_mapping_results_ready(job_id):
-#         link = get_id_mapping_results_link(job_id)
-#     return link
-
-
 if __name__ == "__main__":
     job_id = submit_id_mapping(
         from_db="UniProtKB_AC-ID", to_db="ChEMBL", ids=["P05067", "P12345"]

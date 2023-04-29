@@ -4,12 +4,19 @@ preprocessing
 ~~~~~~~~~~~~~
 
 This module contains pre-processing functions
+
+Internal
+--------
+_create_csv(df, target),
+
+Functions
+---------
+column_filter_dict(df, **kwargs), split_itmes(df, **kwargs),
 """
 __author__ = "github.com/simhc0714"
 __version__ = "0.0.1"
 
 # Load packages.
-import csv
 import os
 import pandas as pd
 import re
@@ -17,11 +24,7 @@ from time import localtime, strftime
 from api_request import requests_uniprot
 
 
-# Group: API using functions
-# Uniport 등 api 관련 다른 패키지로.
-
-
-# Group: Non-API functions
+# UDF
 def column_filter_dict(df, **kwargs):
     """
     column_filter_dict(df, **kwrags) -> (df) pandas.DataFrame

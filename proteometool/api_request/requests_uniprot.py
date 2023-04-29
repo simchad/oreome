@@ -3,12 +3,20 @@ api_request.requests_uniprot
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This module contains function that mainly using with api_uniprot.py
+
+Internal
+--------
+- _execute_id_mapping(id_series, db_from, db_to) -> (link) str
+
+Functions
+---------
+- parser_id_mapping(data) -> (df_respond) pandas.DataFrame
 """
 
 # import packages
 import csv
 import pandas as pd
-from . import api_uniprot
+import _api_uniprot
 
 
 # UDF
@@ -26,17 +34,21 @@ def _execute_id_mapping(id_series, db_from="UniProtKB_AC-ID", db_to="UniProtKB")
     -----
     link contains .json formatted context.
     """
-    job_id = api_uniprot.submit_id_mapping(
+    job_id = _api_uniprot.submit_id_mapping(
         from_db=db_from, to_db=db_to, ids=id_series
-    )
-    if api_uniprot.check_id_mapping_results_ready(job_id):
-        link = api_uniprot.get_id_mapping_results_link(job_id)
+        )
+    if _api_uniprot.check_id_mapping_results_ready(job_id):
+        link = _api_uniprot.get_id_mapping_results_link(job_id)
     return link
 
 
 def parser_id_mapping(data):
     """
     parser_id_mapping(data) -> (df_respond) pandas.DataFrame
+
+    Parameters
+    ----------
+    data : pandas.Series like or pandas.DataFrame type.
 
     Notes
     -----
@@ -55,7 +67,7 @@ def parser_id_mapping(data):
         raise TypeError
     
     # Parsing
-    tsv_rst = api_uniprot.get_id_mapping_results_stream(str(link)+parse)
+    tsv_rst = _api_uniprot.get_id_mapping_results_stream(str(link)+parse)
     reader = csv.DictReader(tsv_rst, delimiter="\t", quotechar='"')
     df_respond = pd.DataFrame(list(reader))
     
@@ -63,4 +75,4 @@ def parser_id_mapping(data):
 
 
 if __name__ == "__main__":
-    pass
+    print(__doc__)
