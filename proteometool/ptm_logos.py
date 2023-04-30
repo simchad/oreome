@@ -9,7 +9,7 @@ markdown -> ptm_logos.md
 notebook -> ptm_site_logo.ipynb
 """
 __author__ = "github.com/simhc0714"
-__version__ = "0.0.1"
+__version__ = "0.1.0"
 
 # import packages
 import pandas as pd
