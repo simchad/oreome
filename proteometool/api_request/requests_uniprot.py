@@ -16,7 +16,7 @@ Functions
 # import packages
 import csv
 import pandas as pd
-import _api_uniprot
+from . import _api_uniprot
 
 
 # UDF

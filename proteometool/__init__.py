@@ -5,10 +5,12 @@ proteometool: A protoemic tool for ToxicoProteomic LAB
 
 Subpackages
 -----------
-- api_request
-- my_lib
-"""
-from .api_request import requests_uniprot
-from .my_lib import preprocessing
+import subpackages below... for example,
+``import proteometool.api_request``.
 
-from .proteinGroups import *
+::
+
+ api_request            --- API-related jobs
+ lib                    --- etc
+
+"""
