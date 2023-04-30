@@ -14,7 +14,6 @@ Functions
 column_filter_dict(df, **kwargs), split_itmes(df, **kwargs),
 """
 __author__ = "github.com/simhc0714"
-__version__ = "0.0.1"
 
 # Load packages.
 import os
