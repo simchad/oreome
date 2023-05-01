@@ -4,19 +4,22 @@ api_request.requests_uniprot
 
 This module contains function that mainly using with api_uniprot.py
 
-Internal
+Contains
 --------
-- _execute_id_mapping(id_series, db_from, db_to) -> (link) str
 
-Functions
----------
-- parser_id_mapping(data) -> (df_respond) pandas.DataFrame
+::
+ _execute_id_mapping            --- Execute id-mapping job
+ parser_id_mapping              --- Parsing .json result
+
+See Also
+--------
+
 """
 
 # import packages
 import csv
 import pandas as pd
-from . import _api_uniprot
+from proteometool.api_request import _api_uniprot
 
 
 # UDF
@@ -75,4 +78,9 @@ def parser_id_mapping(data):
 
 
 if __name__ == "__main__":
-    print(__doc__)
+    # Mainly test api interaction.
+    ids = ['P09429', 'P00338', 'P10275', 'P60709']
+    df_respond = parser_id_mapping(ids)
+    print(df_respond.head)
+
+    #

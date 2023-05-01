@@ -3,11 +3,16 @@ proteinGroups.py
 ~~~~~~~~~~~~~~~~
 
 This module pre-process proteinGroups.txt
+
+Example file (quan=TMT)
+ `example\maxquant_opendata\\dataset_TMT\proteinGroups.txt`
 """
-from api_request import requests_uniprot
+import pandas as pd
+from proteometool.lib import preprocessing
 
-# ids = ["P05067", "P12345"]
-# df_respond = requests_uniprot.parser_id_mapping(data=ids)
-# print(df_respond)
+data = pd.read_csv(filepath_or_buffer='example\maxquant_opendata\dataset_TMT\proteinGroups.txt', sep='\\t', encoding='utf-8')
+df_base = preprocessing.base_proteingroups(df=data, quan="tmt")
+print(df_base.head)
 
-print(requests_uniprot.__doc__)
+if __name__ == "__main__":
+    print(__doc__)

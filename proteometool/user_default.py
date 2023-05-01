@@ -1,5 +1,17 @@
 """
-user_default.py
+user_default
+~~~~~~~~~~~~
+
+This module...
+
+Functions
+---------
+
+::
+ Function1          --- context
+
+See Also
+--------
 
 markdown -> user_default.md
 notebook -> user_default.ipynb

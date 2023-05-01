@@ -5,22 +5,35 @@ preprocessing
 
 This module contains pre-processing functions
 
-Internal
+Contains
 --------
-_create_csv(df, target),
 
-Functions
----------
-column_filter_dict(df, **kwargs), split_itmes(df, **kwargs),
+::
+ _create_csv(df, target)
+ _create_base_df(df, target, columns, drop=False)
+ 
+ base_pept()
+ base_proteingroups()
+ base_ptmxsites()
+ column_filter_dict(df, **kwargs)
+ column_silac(df, type)
+ column_tmt_reporter(df, type)
+ split_itmes(df, **kwargs)
+
+See Also
+--------
+
+markdown ->
+notebook ->
 """
 __author__ = "github.com/simhc0714"
 
 # Load packages.
-import os
+from os import getcwd
 import pandas as pd
 import re
 from time import localtime, strftime
-from api_request import requests_uniprot
+from proteometool.api_request import requests_uniprot
 
 
 # UDF
@@ -148,7 +161,7 @@ def column_silac(df, type=None):
     return None
 
 
-def _create_csv(df, target):
+def _create_csv(df, target:str=None):
     """
     _create_csv(df) -> (saved_path) str
 
@@ -165,9 +178,11 @@ def _create_csv(df, target):
     - proteinGroups
     """
     # internal variables.
-    ntm = strftime('%Y%m%d-%H%M%S', localtime())
-    cwd = os.getcwd()
-    saved_path = '.\output\\'+target+'_base_'+ntm+'.csv'
+    if target not in ["proteinGroups", "peptides"]:
+        raise ValueError
+    else:
+        ntm = strftime('%Y%m%d-%H%M%S', localtime())
+        saved_path = '.\output\\'+target+'_base_'+ntm+'.csv'
 
     df.to_csv(path_or_buf=saved_path, sep=',', index=False, encoding='utf-8')
     msg = 'message! >>> file created... '
@@ -201,7 +216,7 @@ def _create_base_df(df, target, columns, drop=False):
     return df_base
 
 
-def _create_base_proteingroups(df, quan=None):
+def base_proteingroups(df, quan=None):
     """
     _create_base_proteingroups(df) -> (df) pandas.DataFrame
 
@@ -242,42 +257,41 @@ def _create_base_proteingroups(df, quan=None):
     elif quan == "tmt":
         # Case TMT
         rest_tmt = column_tmt_reporter(df, type=None)
-        rest_cols = set(base_cols)+set(rest_tmt)
+        rest_cols = set(base_cols) | set(rest_tmt)
     elif quan == "silac":
         # Case SILAC
         rest_silac = column_silac(df, type=None)
-        rest_cols = set(base_cols)+set(rest_silac)
+        rest_cols = set(base_cols) | set(rest_silac)
     else:
         raise ValueError
     
     # Set filter options (base).
     base_filter = {'Potential contaminant':'+',
                    'Reverse':'+',
-                   'Only indentified by site':'+',
-                   'Razor + unique peptides':1}
+                   'Only identified by site':'+',
+                   'Razor + unique peptides':1,}
     # Set which column split items.
     split_cols = {'Protein IDs':';',
-                  'Best MS/MS':';'}
+                  'Best MS/MS':';',}
     
     # Process (Non-API).
     df_tmp = column_filter_dict(df, **base_filter)
     df_tmp = split_items(df_tmp, **split_cols)
-    df_base = _create_base_df(df_tmp, target="proteinGroups", columns=base_cols)
+    df_base = _create_base_df(df_tmp, target="proteinGroups", columns=rest_cols)
     df_base.reset_index(drop=True, inplace=True)
 
     # Process (with API).
     df_respond = requests_uniprot.parser_id_mapping(df_base)
-    df_base['Protein names'] = df_respond['Protein name']
-    # ---------------------------------------------------------------
-    # ---------------------------------------------------------------
-    # ---------------------------------------------------------------
-    # ---------------------------------------------------------------
-    # -------------------------------------------------------23/04/29
+    df_base['Protein names'] = df_respond['Protein names']
+    df_base['Gene names'] = df_respond['Gene Names']
+    df_base['Sequence length'] = df_respond['Length']
 
-    return None
+    # Create csv file
+    _create_csv(df_base, target='proteinGroups')
+    return df_base
 
 
-def _create_base_peptides(df, quan):
+def base_peptides(df, quan):
     """
     _create_base_peptides(df) -> (df) pandas.DataFrame
 
@@ -296,7 +310,7 @@ def _create_base_peptides(df, quan):
     return None
 
 
-def _create_base_ptmsites(df, quan):
+def base_ptmxsites(df, quan):
     """
     _create_base_ptmsites(df) -> (df) pandas.DataFrame
 
@@ -315,6 +329,49 @@ def _create_base_ptmsites(df, quan):
     return None
 
 
+class FromBase():
+    def __init__(self, df, target, quan):
+        self.df = df
+        self.target = target
+        self.quan = quan
+
+    def split_names(self):
+        return None
+    
+    def quan_ratio(self):
+        # Set control, and experimental group(s)
+
+        # Recognize how many experimental groups
+
+        # N-plex tmt or silac
+        return None
+
+
+def from_base_split_names(df, quan):
+    """
+    from_base_split_names(df, quan) -> (df) pandas.DataFrame
+
+    base_file still have sets of separated values (protein names, Gene Names).
+    This function aims separate entry values or parsing well.
+    
+    Sure that, Gene Names sep is {space}.
+    But, really problem is how separate Protein names.
+    For example,
+    - Immunoglobulin lambda constant 7 (Ig lambda-7 chain C region)
+    - N-acyl-aliphatic-L-amino acid amidohydrolase (EC 3.5.1.14) (N-acyl-L-amino-acid amidohydrolase)
+    - Acylamino-acid-releasing enzyme (EC 3.4.19.1) (Acyl-peptide hydrolase) (Acylaminoacyl-peptidase)
+
+    (Solutions) How could they separate?
+    - Uniprot Protein names `subsection`
+    - https://www.uniprot.org/help/protein_names
+
+    Parameters
+    ----------
+
+    Notes
+    -----
+    """
+
+
 if __name__ == "__main__":
-    # debug
-    pass
+    print(__doc__)
