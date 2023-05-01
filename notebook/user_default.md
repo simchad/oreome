@@ -1,16 +1,20 @@
 # __제목__
 
-#### /pyFiles/file_name.py
+#### /root/
 * created : yyyy/mm/dd
 * uploaded: yyyy/mm/dd
 * revision: yyyy/mm/dd
+
+#### 목차
+1. 
+
 
 #### See Also
 네이버 블로그 : [내 블로그 홈 - Blue Ocean 을 찾아서][Ext1]
 
 <br>
 
-# 1. 주제 (1)
+# 1. setup.py 를 왜 사용하는가?
 
 > 소주제 (1)
 
