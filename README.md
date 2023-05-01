@@ -19,6 +19,11 @@
 ### 시각화 중심의 데이터 분석
 2. [Motif 분석을 위한 sequence alignment][Ext2]
 3. [데이터 N수에 따른 평균 차이 검정]
+   
+<br>
+
+### 같이 보기
+4. [사용자 패키지는 setup.py 로 관리하자][Ext3]
 
 <br>
 
@@ -46,13 +51,12 @@
 - DAVID
 - Omics integration
 
-# Updates
+# Updates (Major)
 2022.06.16. Project released.<br>
-2022.06.24. Project files are uploaded.<br>
-2023.01.17. Organize old files (jupyter notbook), Update folder structure.<br>
-2023.01.19. Uniprot API applied
+2023.01.17. Renew (organize old files, Update folder structure.)<br>
+2023.01.19. Uniprot API - id mapping
 
 
 [Ext1]:https://github.com/simhc0714/proteome-tool/blob/main/notebook/upid_mapping.md
 [Ext2]:https://github.com/simhc0714/proteome-tool/blob/main/notebook/ptm_logos.md
-
+[Ext3]:https://github.com/simhc0714/proteome-tool/blob/main/notebook/setup-py.md
