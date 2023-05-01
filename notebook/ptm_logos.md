@@ -1,6 +1,6 @@
 # __Motif 분석을 위한 sequnce alignment__
 
-#### /pyFiles/ptm_logos.py
+#### /proteometool/ptm_logos.py
 * created : 2023/04/21
 
 <br>
