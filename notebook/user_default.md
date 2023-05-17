@@ -1,18 +1,26 @@
 # __제목__
 
-#### /root/
-* created : yyyy/mm/dd
-* uploaded: yyyy/mm/dd
-* revision: yyyy/mm/dd
+#### 이 문서와 연관된 파일
+/root
+
+</br>
+
+#### C.U.R.D.
+* Created : yyyy/mm/dd
+* Uploaded: yyyy/mm/dd
+* Revision: yyyy/mm/dd
+
+</br>
 
 #### 목차
 1. 
 
+</br>
 
 #### See Also
 네이버 블로그 : [내 블로그 홈 - Blue Ocean 을 찾아서][Ext1]
 
-<br>
+</br>
 
 # 1. setup.py 를 왜 사용하는가?
 

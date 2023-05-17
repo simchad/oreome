@@ -1,21 +1,28 @@
 # __Motif 분석을 위한 sequnce alignment__
 
-#### /proteometool/ptm_logos.py
-* created : 2023/04/21
+#### 이 문서와 연관된 파일
+/proteometool/ptm_logos.py
 
-<br>
+</br>
+
+#### C.U.R.D.
+* Created : 2023/04/21
+* Uploaded : 2023/04/21
+* Revision : yyyy/mm/dd
+
+</br>
 
 #### 목차
 1. 번역 후 수정(변형)
 2. Motif 분석
 3. 어떻게 구현할 것인가? ptm_logos.py
 
-<br>
+</br>
 
 #### See Also
 네이버 블로그 : [내 블로그 홈 - Blue Ocean 을 찾아서][Ext1]
 
-<br>
+</br>
 
 # 1. 번역 후 수정(변형)
 
