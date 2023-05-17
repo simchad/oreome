@@ -1,3 +1,3 @@
-from proteometool.api_request import requests_uniprot
+from tool_A import paste
 
-print(requests_uniprot.__doc__)
+paste.doc_snipper()
