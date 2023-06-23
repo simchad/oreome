@@ -220,7 +220,7 @@ if __name__ == "__main__":
 
 <br>
 
-# 4. 향후 개선 방향
+# 4. 이 문서의 향후 개선방향
 - Uniprot API를 이용해서 sequence 받아오는 기능.
 - 예외 처리: protein이 deleted 혹은 merge 된 경우.
 - Multiple alignment.
