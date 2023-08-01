@@ -24,11 +24,11 @@
 
 - 1.1 proteinGroups.txt
 
+- 1.2 Modification (X)Sites.txt
+
 - 1.x evidence
 
 - 1.x peptides
-
-- 1.x Modification (X)Sites.txt
 
     iPTMnet, dbPTM 매칭해서 매핑하는 것.
 
@@ -57,6 +57,10 @@
 - Proteins IDs 등 ; (세미콜론) 구분 데이터에서 첫번째 값 남기기.
 - Uniprot idmapping을 통해 protein name, gene name 가져오기.
 
+> Uniprot idmapping.json parsing
+- Protein name (RecName, AltName 등)
+- Gene Name, sequence 등 필요한 데이터 파싱.
+
 </br>
 
 ### 1.1.2. protinGroups_v1
@@ -65,10 +69,17 @@
 
 > Reporting 용도의 feauture 만 포함
 
+</br>
 
+## 1.2. Modification (X)Sites.txt
 
+- Logo 분석을 위한 alignment (ptm_logos.py)
+- idmapping --> Sequence extract (Uniprot idmapping parsing)
+- pLogo request
+  - API 는 없을 것 같고, requests package 사용
+- Motif 분석 중... Prosite 에서 ptm 포함되는 protein domain 있는지
 
-<br>
+</br>
 
 # Reference
 (1) 저자명 et al. 저널명 연도, 권(호):쪽수. doi:10.xxxx/xxxx.

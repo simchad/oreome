@@ -7,23 +7,42 @@
 
 ---
 
-## Now Available
+## Tree
 
 <br>
 
+### Maxquant 데이터 핸들링 
+
+
 ### 데이터 전처리와 API 활용방안
 1. [[Uniprot API] id mapping A to Z][Ext1]
+2. [유용한 데이터 Parsing (예시 수록)]
+   1. Uniprot idmapping.json
+      1. idmapping_raw.json 데이터 구조
+   2. SIB Prosite
+      1. Prosite protein domain search
+      2. 최대 10개?
+   3. DAVID Bioinformatic Resources
+   4. Gene Ontology
+   5. KEGG
+   6. Reactome
 
 <br>
 
 ### 시각화 중심의 데이터 분석
-2. [Motif 분석을 위한 sequence alignment][Ext2]
-3. [데이터 N수에 따른 평균 차이 검정]
+1. [Motif 분석을 위한 sequence alignment][Ext2]
+2. [데이터 N수에 따른 평균 차이 검정]
+3. 연계 활용
+   1. DAVID 에서 GO와 KEGG 연계하기
+4. Clustering
    
 <br>
 
 ### 같이 보기
-4. [사용자 패키지는 setup.py 로 관리하자][Ext3]
+1. [사용자 패키지는 setup.py 로 관리하자][Ext3]
+2. [자주 등장하는 통계]
+3. [Data integration tools]
+4. [PrimerBank 에서 primer 검색 자동화]
 
 <br>
 
