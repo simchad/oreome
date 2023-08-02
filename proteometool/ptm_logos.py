@@ -94,12 +94,12 @@ def multiple_logo_align():
 
 if __name__ == "__main__":
     # Load example files.
-    site = pd.read_csv(filepath_or_buffer='example\Acetyl(K)Sites.csv', encoding='utf-8')
-    ref_sequence = pd.read_csv(filepath_or_buffer='example\Reference_sequence.csv', index_col=0, encoding='utf-8')
+    site = pd.read_csv(filepath_or_buffer='example\Mouse_liver_Kaa.csv', encoding='utf-8')
+    ref_sequence = pd.read_csv(filepath_or_buffer='example\idmapping_2023_08_01_Mus.csv', index_col=0, encoding='utf-8')
 
     # Run
     logos = logo_align(df_site=site, df_sequence=ref_sequence)
-    logos.to_csv(path_or_buf='.\output\logos.csv', index=False, encoding='utf-8')
+    logos.to_csv(path_or_buf='.\output\Mus_logos_20230801.csv', index=False, encoding='utf-8')
 
     # Show the first 5 rows.
     print(logos.head())

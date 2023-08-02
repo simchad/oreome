@@ -1,4 +1,4 @@
-# __[Uniprot API] id mapping A to Z__
+# __Uniprot API 이용한 ID mapping__
 
 #### 이 문서와 연관된 파일
 /proteometool/api_request/_api_uniprot.py
@@ -7,10 +7,9 @@
 
 </br>  
 
-#### C.U.R.D.
-* Created : 2023/04/21
-* Uploaded: yyyy/mm/dd
-* Revision: yyyy/mm/dd
+* First Created : 2023/04/21
+* Last Uploaded : 2023/08/02
+* Revision info : 2023/04/21 Rev. 0.0
 
 </br>
 

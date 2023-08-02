@@ -5,10 +5,9 @@
 
 </br>
 
-#### C.U.R.D.
-* Created : yyyy/mm/dd
-* Uploaded: yyyy/mm/dd
-* Revision: yyyy/mm/dd
+* First Created : yyyy/mm/dd
+* Last Uploaded : yyyy/mm/dd
+* Revision info : yyyy/mm/dd Rev. x.x
 
 </br>
 
@@ -22,7 +21,7 @@
 
 </br>
 
-# 1. setup.py 를 왜 사용하는가?
+## 1. setup.py 를 왜 사용하는가?
 
 > 소주제 (1)
 
@@ -44,7 +43,7 @@
 
 내용 4
 
-# 2. 주제 (2)
+## 2. 주제 (2)
 
 > 소주제 (1)
 
@@ -79,13 +78,13 @@ import numpy as np
 
 <br>
 
-# 4. 이 문서의 향후 개선방향
+## 4. 이 문서의 향후 개선방향
 - 개선점 1
 - 개선점 2
 
 <br>
 
-# Reference
+## Reference
 (1) 저자명 et al. 저널명 연도, 권(호):쪽수. doi:10.xxxx/xxxx.
 
 (2)

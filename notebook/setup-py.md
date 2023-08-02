@@ -5,10 +5,9 @@
 
 </br>
 
-#### C.U.R.D.
-* Created : 2023/05/02
-* Uploaded: 2023/05/18
-* Revision: 2023/05/18
+* First Created : 2023/05/02
+* Last Uploaded : 2023/08/02
+* Revision info : 2023/05/18 Rev. 1.0
 
 </br>
 
