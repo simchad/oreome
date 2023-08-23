@@ -45,11 +45,7 @@ __분류 2. 전체 피쳐를 담고있는 포맷__
 
 피쳐 선택을 할 수 있는 포맷은 TSV (Tab-seprated value, 탭으로 분리) 와 Excel 둘 뿐이다. 반면, 전체 피쳐를 담고있는 포맷은 8 종류의 포맷을 지원한다. canonical 단독과 isoform 병합 폼의 FASTA는 하나로 묶었다.
 
-이 포맷들 중에서, 생물정보학에서 사용되어지는 FASTA 포맷은 parser 코드가 구글링하면 잘 나와있다. 이 문서에서는 범용 데이터 포맷으로 많이 사용되어 지는 JSON을 다룰 것이다.
-
-</br>
-
----
+이 포맷들 중에서, 생물정보학에서 사용되어지는 FASTA 포맷은 parser 코드가 구글링하면 잘 나와있다. 이 문서에서는 범용 데이터 포맷으로 많이 사용되어지는 JSON을 다룰 것이다.
 
 </br>
 
@@ -146,15 +142,26 @@ results
 """
 ```
 
-이 트리구조는 편의상 딕셔너리와 리스트를 구분없이 대괄호와 탭으로 구분을 했기에 실제 구조는 조금 다른 점을 감안해 주길 바란다. 또한 데이터 마다 특정 피쳐들의 유무가 있을 수 있다.
+이 트리구조는 모든 트리를 펼쳐놓은 것은 아니며 이 챕터에서 관심이 있는 부분인 protein, gene name과 sequence 에 대해서만 펼쳐놓았고 작성 편의상 딕셔너리와 리스트의 구분없이 대괄호와 탭으로 구분을 했기에 실제 구조는 조금 다른 점을 감안해 주길 바란다. (이 부분은 추후에 수정하겠다.)
 
-json 파일을 VScode에서도 지원하고 있다. json 코드를 짜임새 있게 보여주는 확장프로그램도 있는데, uniprot data가 원체 피쳐가 많고 아무튼 그래서 잘 동작하지는 않는다.
+uniprot idmapping 데이터 구조를 보고자 다음 두가지 방법을 사용할 수 있다.
 
-그래도 걱정하기는 이르다. VScode의 문서 개요 창에서 이 json 파일의 계층적 구성의 일부를 제공해주기 때문에 개략적인 데이터 구성을 파악할 수 있다.
+#### 첫번째. VScode 왼쪽 패널 'Explorer'에서 Outline 보기.
 
-</br>
+1. VScode 왼쪽 패널의 'Explorer'에서 하단의 'Outline'을 이용한다.
 
----
+- 먼저, 이 방법은 확장프로그램 설치 없이 사용할 수 있다.
+- 이 Outline 은 json 이외의 마크다운(.md), 파이썬 (.py) 확장자에서도 적용된다. 그 파일의 구조를 한 눈에 볼 수 있는 VScode의 기본 탑재 기능이다.
+- 'Collapse All' 버튼을 눌러서 모든 feature 들을 collapse 한 뒤, 단계별로 탐색할 수 있다.
+
+
+#### 두번째. VScode 확장프로그램 'JSON'.
+
+1. 확장 프로그램에서 JSON을 검색하여 Meezilla의 JSON을 설치한다.
+2. json 파일을 오픈한 뒤, "Ctrl + Shift + P" 커맨드를 입력 후 Beautiful JSON을 사용한다.
+3. Indent = 4, primitive types = keep 으로 설정한다.
+
+- json을 가독성이 좋게 만들어주는 확장 프로그램.
 
 </br>
 
@@ -173,21 +180,86 @@ Protein Name 은 다음의 세 종류가 있다.
 - Alternative Name ('alternativeNames')
 - Submission Name ('submissionNames')
 
-이때 __Protein은 최소한 위의 세가지 이름들 중의 하나는 가진다.__
+이때 __Protein은 위 세가지 이름들 중 최소 하나는 가진다.__
 
-Q. Uniprot 에서는 좀 쉽게 하나의 이름만 제공해 주면 되지 왜 여러개를 지원하고 있을까?
+데이터를 정리하려다 보니 어떤 protein은 이름을 두 개 가지고 있었고 어떤 것은 하나만 그런데 세개의 이름을 가진 protein은 찾지 못했는데 '왜 Uniprot 에서는 좀 쉽게 하나의 이름만 제공해 주면 되지 왜 여러개를 지원하고 있을까?' 라는 생각이 들었다.
 
-A.
+이에 대해서 Uniprot Help (Ref.1) 에서 답을 확인할 수 있다.
+
+> __SwissProt__
+> 
+> The subsection consists of 2 categories and several subcategories of protein names and abbreviations. It always begins with the 'Recommended name'  
+>
+> __TrEMBL__
+>
+> This is why UniProtKB/TrEMBL entries usually have 'Submitted name' instead of 'Recommended name'.
+> 
+> There can be more than one 'Submitted name'. 'Submitted names' may later be improved by automatic annotation procedures (the label will then change from 'SubName' to 'RecName'), but if not, it remains as provided by the submitter until the entry is manually annotated and integrated to UniProtKB/Swiss-Prot.
+
+#### 예시
+
+SwissProt, TrEMBL 단백질에 대해서 protein name 을 비교해본다.
+
+1. Q6P9L6 (=sp), { } 67
+
+```json
+{
+"from": "Q6P9L6",
+"to": {
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q6P9L6",
+    "secondaryAccessions": [
+        "O35065",
+        "Q70MX5"
+    ],
+
+    "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                "value": "Kinesin-like protein KIF15"
+                }
+            },
+            "alternativeNames": [
+                {
+                "fullName": {
+                    "value": "Kinesin-like protein 2"
+                }
+                },
+                {
+                "fullName": {
+                    "value": "Kinesin-like protein 7"
+                }
+                }
+            ]
+            }
+    }  
+}
+```
+
+2. (=tr) { } 0
+
+```json
+
+
+```
+
+3. (=tr), Submission Name이 Recommended Name으로 auto-annotation 된 경우 { } 6
+
+```json
+
+```
+
+#### My Answer (삭제 예정)
 
 화합물에 이름을 붙이는 IUPAC 이름과 관용명 같은 관계처럼 어떤 단백질의 경우에는 이름이 여러개를 가진 것도 있다. 이 때, Uniprot에서는 사용하기를 추천하는 이름으로 Recommended Name을 사용하고, 그 외의 이름은 Alternative Name 으로 정하고 있다.
 
 Submission Name이 있으면 대체로 unreviewed protein 으로 보인다. 다만, 없다고 하여 reviewed 된 것은 아니더라
 
 
-
 이름이 없는 protein은 Search할 당시에 사용했던 FASTA가 현재의 DB와 맞지 않아 생기는 Accession ID의 문제로 보인다. 이 부분은 고민해보겠다.
 
-context
+### 3.2. Gene Name
+### 3.3. Sequence
 
 
 
@@ -203,7 +275,9 @@ context
 <br>
 
 ## Reference
-(1) 저자명 et al. 저널명 연도, 권(호):쪽수. doi:10.xxxx/xxxx.
+(Ref.X) 저자명 et al. 저널명 연도, 권(호):쪽수. doi:10.xxxx/xxxx.
+
+(Ref.1) Uniprot protein names에 관한 도움말. https://www.uniprot.org/help/protein_names
 
 (2)
 
