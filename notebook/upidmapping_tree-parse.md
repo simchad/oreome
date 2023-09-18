@@ -12,9 +12,9 @@
 </br>
 
 #### 목차
-1. idmapping 결과물의 확장자
+1. idmapping 결과물의 포맷
 2. JSON 파일로 보는 트리구조
-3. 원하는 데이터 파싱하는 법 (예시: Protein name, Sequence)
+3. 원하는 데이터 파싱하는 법 (예시: Protein name)
 
 </br>
 
@@ -70,7 +70,9 @@ cmd에서 tree 명령어를 입력했을 때 나오는 디렉터리의 선형적
 __Protein과 Gene Name, 그리고 Sequence를 중심으로 한 트리 구조를 아래에 표시했다.__
 아래의 구조는 어떠한 명령어로 만든 것은 아니고 한단계씩 접근하며 만든 것이다. 이 부분은 3절에서 언급한다.
 
-```bash
+지금은 어떤 피쳐들이 포함되어 있는지를 보라.
+
+```json
 """
 # Uniprot .json file structure by keys
 
@@ -133,12 +135,6 @@ results
             'md5'
         'extraAttributes'
     }
-    {1}
-    {2}
-    .
-    .
-    .
-    {N}
 """
 ```
 
@@ -165,7 +161,7 @@ uniprot idmapping 데이터 구조를 보고자 다음 두가지 방법을 사�
 
 </br>
 
-## 3. 원하는 데이터 파싱하는 법 (예시: Protein and Gene name, Sequence)
+## 3. 원하는 데이터 파싱하는 법 (예시: Protein name)
 
 </br>
 
@@ -173,7 +169,7 @@ uniprot idmapping 데이터 구조를 보고자 다음 두가지 방법을 사�
 
 </br>
 
-### 3.1. Protein Name
+### 3.1. .json 데이터에서 Protein Name 구조
 
 Protein Name 은 다음의 세 종류가 있다.
 - Recommended Name ('recommendedName')
@@ -184,7 +180,7 @@ Protein Name 은 다음의 세 종류가 있다.
 
 데이터를 정리하려다 보니 어떤 protein은 이름을 두 개 가지고 있었고 어떤 것은 하나만 그런데 세개의 이름을 가진 protein은 찾지 못했는데 '왜 Uniprot 에서는 좀 쉽게 하나의 이름만 제공해 주면 되지 왜 여러개를 지원하고 있을까?' 라는 생각이 들었다.
 
-이에 대해서 Uniprot Help (Ref.1) 에서 답을 확인할 수 있다.
+이에 대해서 [Uniprot Help][Ref1] 에서 답을 확인할 수 있다.
 
 > __SwissProt__
 > 
@@ -198,9 +194,14 @@ Protein Name 은 다음의 세 종류가 있다.
 
 #### 예시
 
-SwissProt, TrEMBL 단백질에 대해서 protein name 을 비교해본다.
+아래 예시에는 SwissProt(sp) 단백질 1 개, TrEMBL(tr) 단백질 2 개(submission, auto-annotation) 에 대해서 json 형식의 proteinDescription 을 나타냈다. (일부 피쳐는 생략함.)
 
-1. Q6P9L6 (=sp), { } 67
+예시 파일 : idmapping_2023_07_20.json
+
+__1. {67}: Q6P9L6__
+
+- Swiss-Prot data
+- RecommendedName과 alternativeNames 2 개를 가짐
 
 ```json
 {
@@ -212,7 +213,6 @@ SwissProt, TrEMBL 단백질에 대해서 protein name 을 비교해본다.
         "O35065",
         "Q70MX5"
     ],
-
     "proteinDescription": {
             "recommendedName": {
                 "fullName": {
@@ -236,31 +236,77 @@ SwissProt, TrEMBL 단백질에 대해서 protein name 을 비교해본다.
 }
 ```
 
-2. (=tr) { } 0
+__2. {0}: A0A075B5P9__
+
+- TrEMBL 데이터
+- Automatic annotation 이 되지 않은 entry
+- RecommendedName 없으며 submissionNames 피쳐를 가짐
 
 ```json
-
+{
+    "from": "A0A075B5P9",
+    "to": {
+        "entryType": "UniProtKB unreviewed (TrEMBL)",
+        "primaryAccession": "A0A075B5P9",
+        "proteinDescription": {
+          "submissionNames": [
+            {
+              "fullName": {
+                "evidences"
+                "value": "Immunoglobulin heavy variable 5-4"
+              }
+            }
+          ],
+          "flag": "Fragment"
+        },
+    }
+}
 
 ```
 
-3. (=tr), Submission Name이 Recommended Name으로 auto-annotation 된 경우 { } 6
+__3. {6}: A0A1B0GSE5__
+
+- TrEMBL 데이터
+- Automatic annotation 된 entry
+- SubmissionNames가 recommendedName으로 바뀌었고 alternativeNames 피쳐는 세 개의 값을 가짐
 
 ```json
-
+{
+    "from": "A0A1B0GSE5",
+    "to": {
+        "entryType": "UniProtKB unreviewed (TrEMBL)",
+        "primaryAccession": "A0A1B0GSE5",
+        "proteinDescription": {
+          "recommendedName": {
+            "fullName": {
+              "value": "Ubiquitin carboxyl-terminal hydrolase CYLD"
+            },
+          },
+          "alternativeNames": [
+            {
+              "fullName": {
+                "value": "Deubiquitinating enzyme CYLD"
+              }
+            },
+            {
+              "fullName": {
+                "value": "Ubiquitin thioesterase CYLD"
+              }
+            },
+            {
+              "fullName": {
+                "value": "Ubiquitin-specific-processing protease CYLD"
+              }
+            }
+          ]
+        }
+    }
+}
 ```
 
-#### My Answer (삭제 예정)
+### 3.2 Protein Name 데이터 Parsing
 
-화합물에 이름을 붙이는 IUPAC 이름과 관용명 같은 관계처럼 어떤 단백질의 경우에는 이름이 여러개를 가진 것도 있다. 이 때, Uniprot에서는 사용하기를 추천하는 이름으로 Recommended Name을 사용하고, 그 외의 이름은 Alternative Name 으로 정하고 있다.
-
-Submission Name이 있으면 대체로 unreviewed protein 으로 보인다. 다만, 없다고 하여 reviewed 된 것은 아니더라
-
-
-이름이 없는 protein은 Search할 당시에 사용했던 FASTA가 현재의 DB와 맞지 않아 생기는 Accession ID의 문제로 보인다. 이 부분은 고민해보겠다.
-
-### 3.2. Gene Name
-### 3.3. Sequence
-
+d
 
 
 
@@ -277,9 +323,11 @@ Submission Name이 있으면 대체로 unreviewed protein 으로 보인다. 다�
 ## Reference
 (Ref.X) 저자명 et al. 저널명 연도, 권(호):쪽수. doi:10.xxxx/xxxx.
 
-(Ref.1) Uniprot protein names에 관한 도움말. https://www.uniprot.org/help/protein_names
+
+[1] Uniprot protein names에 관한 도움말.
 
 (2)
 
 
+[Ref1]:https://www.uniprot.org/help/protein_names
 [Ext1]:https://blog.naver.com/simhc0714
