@@ -324,7 +324,7 @@ PRDIE 에서 clinical 하거나 human sensitive 정보를 업로드 하려면 �
 ## PL03: Manuscript Competition
 
 ### PL03.01. Immobility-associated Thromboprotection is Conserved across Mammalian Species from Bear to Human
-_Johannes Bruno Muiller (Reif, Max-planck, Germany)_
+_Johannes Bruno Muiller-Reif (Matthias LAB., Max-planck, Germany)_
 
 How to study a non-model organism on molecular level? (Bear)
 
