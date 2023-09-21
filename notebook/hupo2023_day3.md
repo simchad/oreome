@@ -1,4 +1,4 @@
-# September 19, 2023. Tuesday
+# September 20, 2023. Wednesday
 
 ## CS27: Single Cell
 
