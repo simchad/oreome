@@ -111,7 +111,7 @@
 2023.01.19. Uniprot API - id mapping
 
 
-[Ext1]:https://github.com/simhc0714/proteome-tool/blob/main/notebook/upid_mapping.md
-[Ext2]:https://github.com/simhc0714/proteome-tool/blob/main/notebook/ptm_logos.md
-[Ext3]:https://github.com/simhc0714/proteome-tool/blob/main/notebook/setup-py.md
-[Ext4]:https://github.com/simhc0714/proteome-tool/blob/main/notebook/upidmapping_tree-parse.md
+[Ext1]:https://github.com/simhc0714/proteome-tool/blob/main/notes/upid_mapping.md
+[Ext2]:https://github.com/simhc0714/proteome-tool/blob/main/notes/ptm_logos.md
+[Ext3]:https://github.com/simhc0714/proteome-tool/blob/main/notes/setup-py.md
+[Ext4]:https://github.com/simhc0714/proteome-tool/blob/main/notes/upidmapping_tree-parse.md
