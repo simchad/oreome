@@ -4,3 +4,7 @@ Version: 0.1.0
 Author: Hyunchae Sim
 Author-email: simhc0714@gmail.com
 License-File: LICENSE
+Requires-Dist: pandas>=1.5.3
+Requires-Dist: requests>=2.28.2
+Requires-Dist: scipy>=1.10.0
+Requires-Dist: seaborn>=0.12.2

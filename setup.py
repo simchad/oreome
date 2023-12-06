@@ -9,10 +9,10 @@ setup_requires = [
     ]
 
 install_requires = [
-    'pandas==1.5.3',
-    'requests==2.28.2',
-    'scipy==1.10.0',
-    'seaborn==0.12.2',
+    'pandas>=1.5.3',
+    'requests>=2.28.2',
+    'scipy>=1.10.0',
+    'seaborn>=0.12.2',
     ]
 
 setup(
