@@ -182,7 +182,7 @@ def _create_csv(df, target:str=None):
         raise ValueError
     else:
         ntm = strftime('%Y%m%d-%H%M%S', localtime())
-        saved_path = '.\output\\'+target+'_base_'+ntm+'.csv'
+        saved_path = '..\\output\\'+target+'_base_'+ntm+'.csv'
 
     df.to_csv(path_or_buf=saved_path, sep=',', index=False, encoding='utf-8')
     msg = 'message! >>> file created... '
