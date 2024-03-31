@@ -121,7 +121,7 @@ def column_tmt_reporter(df, type=None):
 
     Notes
     -----
-    The Tandem Mass Tags (TMT) is useful for multiplexed-sample analyze.
+    The Tandem Mass Tags (TMT) is useful for multiplexed-sample analysis.
     The TMT have bunch of product line-up, e.g., TMT-duplex, TMT6plex, TMT10plex.
     (N)plex TMT contains N different reporter ions.
 
@@ -230,6 +230,11 @@ def base_proteingroups(df, quan=None):
     Notes
     -----
     This file is the BASE file on ToxicoProteomics LAB.
+
+    Issues
+    ------
+    - parameter quan: None 아닌 tmt, silac 일 때, column 이 섞여서 출력되는 문제.
+
     """
     # initialize.
     rest_cols = []
