@@ -1,6 +1,6 @@
 # __Oreome__
 ## Introduction
-- T__o__xicop__r__ot__eom__ics Lab. __E__xpansions
+- tOxicopROtEOMics Lab. Expansions
 - 성균관대학교 독성단백체학 연구실 단백체 분석을 위한 자동화 파이프라인 프로젝트
 - 원활한 연구활동을 위해 데이터 전처리, API를 이용해 인포매틱스 정보를 인앤아웃하는 등의 기능들을 구현함으로 연구실 데이터 처리 프로세스를 자동화함을 목표로 하고 있습니다.
 
