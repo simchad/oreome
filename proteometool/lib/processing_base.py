@@ -118,7 +118,7 @@ class process_base_tools:
         if self.target == 'proteinGroups':
             score = cols.index('Score') + 1
             base_columns = cols[:score] + reporters + cols[score:]
-            return base_columns
+        return base_columns
     
     # Different method for creating base csv file.
     def create_base_df(self, cols):
