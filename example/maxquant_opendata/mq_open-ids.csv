@@ -1,0 +1,1476 @@
+﻿Protein IDs,Protein names,Gene names,Razor + unique peptides,Sequence coverage [%],Mol. weight [kDa],Sequence length,Q-value,Score,Intensity
+A0A075B6H2,"Sushi, von Willebrand factor type A, EGF and pentraxin domain-containing protein 1",SVEP1,26,8.6,387.51,3548,0,132.67,654900000
+A0A075B6I2,,IGLV6-57,5,44.6,16.037,148,0,134.51,5624600000
+A0A075B788,Protein-tyrosine-phosphatase;Receptor-type tyrosine-protein phosphatase C,PTPRC,9,13.3,85.022,753,0,48.207,493520000
+A0M8Q6,Ig lambda-7 chain C region,IGLC7,4,82.1,11.303,106,0,16.045,1115000000
+A1L4H1,Soluble scavenger receptor cysteine-rich domain-containing protein SSC5D,SSC5D,19,20.9,165.74,1573,0,185.49,1406400000
+A2AAZ0,"HLA class II histocompatibility antigen, DQ beta 1 chain",HLA-DQB1,3,13.4,25.961,224,0.0023838,1.8557,42540000
+A2ACR1,Proteasome subunit beta type;Proteasome subunit beta type-9,PSMB9,3,20.4,20.96,196,0,3.5175,47211000
+A2VDF0,Fucose mutarotase,FUOM,2,23.1,14.604,134,0,8.7004,12749000
+A6NC48,ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 2,BST1,12,42.3,37.482,333,0,267.54,7384600000
+A6NCQ0,ADP-sugar pyrophosphatase,NUDT5,3,22.2,19.961,180,0,12.533,43123000
+A6NCT7,Collagen alpha-1(XVI) chain,COL16A1,2,3.4,96.792,966,0.001816,2.0362,21675000
+A6NF51,"3(2),5-bisphosphate nucleotidase 1",BPNT1,3,10,31.707,291,0,4.995,18306000
+A6NI73,Leukocyte immunoglobulin-like receptor subfamily A member 5,LILRA5,2,8.3,27.852,253,0,2.7181,32325000
+A6NJA2,Ubiquitin carboxyl-terminal hydrolase;Ubiquitin carboxyl-terminal hydrolase 14,USP14,2,4,51.086,448,0.0052053,1.5897,26428000
+A8MTF8,Protein FAM3B,FAM3B,2,6.6,28.282,258,0.0057438,1.4897,24921000
+A8MYE6,Integrin beta;Integrin beta-2,ITGB2,3,3.8,78.345,712,0.0029744,1.842,36845000
+A8MZH0,Leukocyte immunoglobulin-like receptor subfamily A member 2,LILRA2,7,26.9,49.982,454,0,131.02,1774900000
+B0QYH4,Seizure 6-like protein,SEZ6L,6,11.5,79.64,720,0,31.974,194530000
+B0YIW2,Apolipoprotein C-III,APOC3,2,23.1,12.815,117,0,50.212,828390000
+B0YJC4,Vimentin,VIM,13,28.8,49.653,431,0,43.234,320300000
+B1AH90,"Signal peptide, CUB and EGF-like domain-containing protein 1",SCUBE1,4,13.5,37.306,347,0,8.4135,92980000
+B1AK87,F-actin-capping protein subunit beta,CAPZB,5,25,29.295,260,0,12.094,196420000
+B1ALD9,Periostin,POSTN,2,48,90.142,808,0.0018237,2.1007,237220000
+B1ALU1,Latrophilin-2,ADGRL2;LPHN2,6,6.6,155.55,1384,0,31.248,235360000
+B1AMS2,Septin-6,6-Sep,3,9.3,49.303,431,0,11.092,39077000
+B1AMW1,Lymphocyte function-associated antigen 3,CD58,5,15,27.018,240,0,11.241,735390000
+B1AP13,Complement decay-accelerating factor,CD55,13,34.7,49.338,444,0,138.63,3096100000
+B1B0D4,ADAMTS-like protein 2,ADAMTSL2,18,23.3,116.28,1060,0,216.4,7025500000
+B3KVN2,Protein farnesyltransferase/geranylgeranyltransferase type-1 subunit alpha,FNTA,2,14,27.443,228,0,7.3392,10289000
+B3KW70,Microfibrillar-associated protein 5,MFAP5,3,21.6,17.114,148,0,8.7366,249280000
+B4DDF4,Calponin;Calponin-2,CNN2,3,12.1,32.616,298,0,5.3797,56436000
+B4DGQ7,Receptor tyrosine-protein kinase erbB-3,ERBB3,5,7.1,101.76,921,0,9.9957,93261000
+B4DHB2,"Myelin regulatory factor;Myelin regulatory factor, N-terminal;Myelin regulatory factor, C-terminal",MYRF,2,3,57.48,537,0,3.8769,87265000
+B4DKB2,Endothelin-converting enzyme 1,ECE1,6,11.1,83.573,738,0,19.715,72576000
+B4DNW0,Aminoacylase-1,ACY1;ABHD14A-ACY1,9,24.1,55.994,498,0,45.574,229870000
+B4DQI4,Alpha/beta hydrolase domain-containing protein 14B,ABHD14B,2,14.4,19.756,188,0,2.9111,9727700
+B4DV12,Ubiquitin-60S ribosomal protein L40;Ubiquitin;60S ribosomal protein L40;Ubiquitin-40S ribosomal protein S27a;Ubiquitin;40S ribosomal protein S27a;Polyubiquitin-B;Ubiquitin;Polyubiquitin-C;Ubiquitin,UBB;UBC;UBA52;RPS27A;UBBP4,6,77.1,17.215,153,0,95.805,1096600000
+B4E0K5,Mitogen-activated protein kinase 14,MAPK14,4,19.8,32.357,283,0,13.57,23815000
+B4E1C5,"Histidine--tRNA ligase, cytoplasmic",HARS,2,4.3,43.878,395,0.0041008,1.7222,39052000
+B4E1Z4,,,6,34.8,140.94,1266,0,27.991,154740000
+B4E2E4,Signaling lymphocytic activation molecule,SLAMF1,3,10.8,29.984,269,0,3.2515,25095000
+B4E3Q4,Adenosine deaminase CECR1,CECR1,20,42.4,54.36,469,0,323.31,7833900000
+B5MBX2,Transcobalamin-2,TCN2,14,32.9,47.142,423,0,26.962,904830000
+B5MBZ8,Protein phosphatase 1 regulatory subunit 7,PPP1R7,4,18.6,31.357,274,0,31.376,174170000
+B5MCX3,Septin-2,2-Sep,5,23.4,36.94,321,0,31.163,56850000
+B5ME96,Leukocyte immunoglobulin-like receptor subfamily A member 6;Leukocyte immunoglobulin-like receptor subfamily B member 3,LILRA6;LILRB3,6,15.3,50.884,464,0,10.068,371930000
+B5MEF5,"Sushi, nidogen and EGF-like domain-containing protein 1",SNED1,26,24.3,148.7,1380,0,257.73,1720300000
+B7Z1I4,Neurotrimin,NTM,12,38.4,38.249,346,0,134.06,1486300000
+B7Z7P8,Eukaryotic peptide chain release factor subunit 1,ETF1,2,5.9,47.475,423,0,4.8717,21485000
+B7Z7U4,Tyrosine-protein kinase receptor;NT-3 growth factor receptor,NTRK3,4,6.5,69.019,617,0,35.628,253590000
+B7Z972,Protein-L-isoaspartate O-methyltransferase;Protein-L-isoaspartate(D-aspartate) O-methyltransferase,PCMT1,2,8.9,20.683,192,0.0023923,1.9082,53078000
+B7ZB63,ADP-ribosylation factor 3;ADP-ribosylation factor 1;ADP-ribosylation factor 5,ARF3;ARF1;ARF5,2,11.8,16.145,144,0.002414,2.0201,21068000
+B7ZKJ8,,ITIH4,30,39.3,103.88,935,0,264.14,29670000000
+B9A040,"Interleukin-1 receptor type 1;Interleukin-1 receptor type 1, membrane form;Interleukin-1 receptor type 1, soluble form",IL1R1,3,28.9,19.879,173,0,110.17,104960000
+B9A064,Immunoglobulin lambda-like polypeptide 5;Ig lambda-1 chain C regions,IGLL5;IGLC1,3,46.7,23.063,214,0,126.38,43815000000
+C9J6H5,Disintegrin and metalloproteinase domain-containing protein 9,ADAM9,3,25.8,14.651,128,0,7.952,95148000
+C9J8U2,Nicotinate phosphoribosyltransferase,NAPRT,2,5.9,52.161,490,0,6.507,11447000
+C9JE82,Voltage-dependent calcium channel subunit alpha-2/delta-2;Voltage-dependent calcium channel subunit alpha-2-2;Voltage-dependent calcium channel subunit delta-2,CACNA2D2,3,4,129.21,1144,0,4.5163,67649000
+C9JIF9,Acylamino-acid-releasing enzyme,APEH,3,4.5,81.673,737,0,2.803,43665000
+C9JIZ6,Prosaposin;Saposin-A;Saposin-B-Val;Saposin-B;Saposin-C;Saposin-D,PSAP,13,27,58.353,526,0,44.567,1413700000
+C9JJ79,Paired immunoglobulin-like type 2 receptor alpha,PILRA,3,12.4,25.577,226,0,13.451,284550000
+C9JPH8,Leukocyte immunoglobulin-like receptor subfamily B member 1,LILRB1,5,21.2,55.466,510,0,82.366,713140000
+C9JV77,Alpha-2-HS-glycoprotein;Alpha-2-HS-glycoprotein chain A;Alpha-2-HS-glycoprotein chain B,AHSG,6,35.3,39.411,368,0,119.66,669980000
+C9JWS0,G-protein coupled receptor 64,GPR64,2,2.9,109.97,1001,0,13.929,186220000
+C9JXF9,Insulin-like growth factor-binding protein 1,IGFBP1,10,45.5,27.671,257,0,39.093,3707800000
+C9JYY6,Neuronal cell adhesion molecule,NRCAM,19,20.8,130.66,1180,0,124.97,2031300000
+D3YTG3,Target of Nesh-SH3,ABI3BP,14,9.7,195.32,1777,0,323.31,10050000000
+D6R934,Complement C1q subcomponent subunit B,C1QB,3,14.7,26.459,251,0,51.741,690610000
+D6RA82,Annexin;Annexin A3,ANXA3,14,54.2,32.118,284,0,36.424,448830000
+D6RAR4,,HGFAC,24,43.5,71.482,662,0,323.31,61705000000
+D6RDM4,Interleukin-7 receptor subunit alpha,IL7R,2,12,16.787,150,0,4.1584,0
+D6RF35,Vitamin D-binding protein,GC,2,3.6,53.02,476,0,2.4008,25676000
+D6RF86,Cadherin-6,CDH6,13,28.1,67.402,608,0,103.39,419080000
+D6RGG3,Collagen alpha-1(XII) chain,COL12A1,38,13.9,333.2,3062,0,289.35,1466700000
+E5RHN3,Hepatitis A virus cellular receptor 2,HAVCR2,4,19.8,30.33,273,0,8.6352,117050000
+E5RIW3,Tubulin-specific chaperone A,TBCA,6,47.6,10.08,84,0,10.103,361120000
+E7EMM4,Acid ceramidase;Acid ceramidase subunit alpha;Acid ceramidase subunit beta,ASAH1,3,11.1,41.796,370,0,28.827,48207000
+E7END6,Vitamin K-dependent protein C;Vitamin K-dependent protein C light chain;Vitamin K-dependent protein C heavy chain;Activation peptide,PROC,25,43.8,55.389,495,0,323.31,87097000000
+E7ENR4,Hexokinase-1;Hexokinase;Hexokinase-2,HK1;HK2,2,2,106.31,952,0,2.8619,11863000
+E7EP32,Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1;Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-2;Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-3;Guanine nucleotide-binding protein subunit beta-4,GNB2;GNB1;GNB3;GNB4,2,5.7,32.408,296,0,3.0826,56632000
+E7EPS8,Protein-tyrosine-phosphatase;Receptor-type tyrosine-protein phosphatase mu,PTPRM,19,18.8,157.07,1390,0,323.31,2825000000
+E7EPV7,Alpha-synuclein,SNCA,6,60,11.777,115,0,36.352,160980000
+E7EPZ9,Tenascin-X,TNXB,2,37.3,458.38,4244,0,12.81,78308000
+E7EQ12,Calpastatin,CAST,4,17.5,46.133,423,0,58.727,110250000
+E7EQV3,Polyadenylate-binding protein;Polyadenylate-binding protein 1;Polyadenylate-binding protein 1-like;Polyadenylate-binding protein 3;Polyadenylate-binding protein 4,PABPC1;PABPC1L;PABPC4;PABPC3,2,2.9,65.747,591,0.00061767,2.301,16381000
+E7ER45,"Maltase-glucoamylase, intestinal;Maltase;Glucoamylase",MGAM,3,2.7,312.02,2753,0,9.4343,19023000
+E7ETZ0,Calmodulin,CALM1;CALM2,12,76,16.966,150,0,202.37,5321600000
+E7EUC7,UTP--glucose-1-phosphate uridylyltransferase,UGP2,12,26.7,57.805,517,0,122.52,790930000
+E7EUF1,Ectonucleotide pyrophosphatase/phosphodiesterase family member 2,ENPP2,30,41,101.55,884,0,323.31,13328000000
+E7EUU1,Latent-transforming growth factor beta-binding protein 4,LTBP4,6,5.5,165.68,1556,0,12.738,162410000
+E7EVW7,Hematopoietic lineage cell-specific protein,HCLS1,2,4.5,49.704,449,0,3.6814,37493000
+E7EWH9,Myomesin-2,MYOM2,2,3.4,99.713,890,0,8.467,8413800
+E9PBP6,Microsomal triglyceride transfer protein large subunit,MTTP,5,5.8,102.64,921,0,13.814,57569000
+E9PC41,Interleukin-1 receptor-like 1,IL1RL1,4,15,35.597,314,0,7.3224,82386000
+E9PCD7,Alpha-mannosidase;Epididymis-specific alpha-mannosidase,MAN2B2,7,10.9,108.15,958,0,93.927,312670000
+E9PD35,Receptor protein-tyrosine kinase;Vascular endothelial growth factor receptor 3,FLT4,21,21,146.45,1306,0,295.12,4676600000
+E9PEK4,Macrophage colony-stimulating factor 1 receptor,CSF1R,10,18.5,74.268,671,0,323.31,3545900000
+E9PEP6,Neuropilin-1,NRP1,28,38.5,101.3,906,0,323.31,18358000000
+E9PG71,Receptor protein-tyrosine kinase;Ephrin type-A receptor 4,EPHA4,11,19.8,105.71,949,0,323.31,1095800000
+E9PG94,Low affinity immunoglobulin gamma Fc region receptor III-A,FCGR3A,2,17.6,32.561,289,0,7.7208,5848300000
+E9PGT1,Translin,TSN,2,9.4,25.572,223,0,3.8886,58733000
+E9PGZ1,Caldesmon,CALD1,15,32.1,61.705,536,0,145.69,737050000
+E9PHK0,Tetranectin,CLEC3B,11,85,17.794,160,0,323.31,1.9478E+11
+E9PHN6,Glutathione S-transferase Mu 2,GSTM2,6,39.9,22.876,193,0,49.705,168490000
+E9PIR7,"Thioredoxin reductase 1, cytoplasmic",TXNRD1,11,27.2,53.166,482,0,49.267,349990000
+E9PKG6,Nucleobindin-2;Nesfatin-1,NUCB2;Nucb2,3,9.2,40.341,338,0,4.8226,51231000
+E9PKK2,Junctional adhesion molecule-like,AMICA1,5,15.1,34.462,305,0,4.26,204890000
+E9PKP3,Transmembrane protein 25,TMEM25,3,11.3,40.795,381,0,20.851,111190000
+E9PLK3,Puromycin-sensitive aminopeptidase;Puromycin-sensitive aminopeptidase-like protein,NPEPPS;NPEPPSL1,4,5.7,102.99,915,0,8.9098,22183000
+E9PNW4,CD59 glycoprotein,CD59,6,47.2,11.985,108,0,25.072,3472800000
+E9PQN4,Complement receptor type 1,CR1,11,19.5,126.01,1151,0,61.607,393900000
+E9PRU1,EGF-containing fibulin-like extracellular matrix protein 2,EFEMP2,8,23.2,48.191,436,0,18.225,192470000
+F2Z2Y4,Pyridoxal kinase,PDXK,3,16.5,30.638,272,0,15.381,15252000
+F2Z2Y9,Signal-regulatory protein beta-2,SIRPB2,2,9,31.58,289,0,7.5238,48973000
+F2Z3C9,Granulocyte-macrophage colony-stimulating factor receptor subunit alpha,CSF2RA,4,17.2,32.815,285,0,14.747,88023000
+F5GWI4,Adenosine deaminase,ADA,2,5.3,38.292,339,0,2.688,21103000
+F5GX07,"Oligoribonuclease, mitochondrial",REXO2,2,12.2,17.28,147,0,3.6442,26525000
+F5GXA0,Sulfatase-modifying factor 1,SUMF1,2,6.8,46.834,426,0.00061843,2.3147,4711900
+F5GXQ0,BRO1 domain-containing protein BROX,BROX,2,10.1,38.212,338,0,70.349,19286000
+F5GXS0,Complement C4-B;Complement C4 beta chain;Complement C4-B alpha chain;C4a anaphylatoxin;C4b-B;C4d-B;Complement C4 gamma chain,C4B,2,15.4,187.67,1698,0,10.252,110310000
+F5GYC7,Neurexin-1,NRXN1,9,6.7,164.71,1499,0,15.793,117890000
+F5GYN4,Ubiquitin thioesterase OTUB1,OTUB1,7,32.8,28.05,241,0,20.914,184760000
+F5GZ08,Amyloid-like protein 1;C30,APLP1,8,17.2,68.49,611,0,50.95,379560000
+F5GZK1,Exostosin-like 2;Processed exostosin-like 2,EXTL2,11,43.8,35.967,317,0,198.62,4121900000
+F5GZK2,Collagen alpha-1(XXI) chain,COL21A1,5,5.9,99.427,957,0,14.43,78105000
+F5GZS6,4F2 cell-surface antigen heavy chain,SLC3A2,21,33.4,64.872,599,0,323.31,10604000000
+F5GZZ9,Scavenger receptor cysteine-rich type 1 protein M130;Soluble CD163,CD163,36,42,120.32,1109,0,323.31,34843000000
+F5H169,26S proteasome non-ATPase regulatory subunit 9,PSMD9,2,18,14.317,128,0,2.7451,29066000
+F5H1T4,Receptor protein-tyrosine kinase;Receptor tyrosine-protein kinase erbB-2,ERBB2,2,3.3,66.542,603,0,3.192,34044000
+F5H2B5,Phospholipase D4,PLD4,3,7,56.339,513,0,5.6784,158430000
+F5H345,Porphobilinogen deaminase,HMBS,2,5.8,35.761,330,0,3.9815,18690000
+F5H5D3,Tubulin alpha-1C chain;Tubulin alpha-1B chain;Tubulin alpha-1A chain;Tubulin alpha-3C/D chain;Tubulin alpha-3E chain,TUBA1C;TUBA1B;TUBA1A;TUBA3C;TUBA3E,8,22.2,57.73,519,0,34.415,756760000
+F5H5G1,Limbic system-associated membrane protein,LSAMP,11,30.2,39.704,358,0,323.31,2455100000
+F5H6I0,Beta-2-microglobulin;Beta-2-microglobulin form pI 5.3,B2M,7,61.5,13.972,122,0,293.47,16511000000
+F5H7G2,Repulsive guidance molecule A,RGMA,8,27.9,37.613,341,0,91.562,377100000
+F5H8B0,Coagulation factor VII;Factor VII light chain;Factor VII heavy chain,F7,12,50.4,43.636,397,0,323.31,15151000000
+F6SYF8,Dickkopf-related protein 3,DKK3,10,37.4,39.95,364,0,113.34,998990000
+F8VSD5,Receptor-type tyrosine-protein phosphatase beta;Protein-tyrosine-phosphatase,PTPRB,17,12.8,176.62,1583,0,87.021,691810000
+F8VUJ3,Polypeptide N-acetylgalactosaminyltransferase;Polypeptide N-acetylgalactosaminyltransferase 4,POC1B-GALNT4;GALNT4,9,18.4,66.237,575,0,6.5377,129970000
+F8VV32,Lysozyme;Lysozyme C,LYZ,5,46.2,11.488,104,0,5.4912,93284000
+F8VV59,Nucleosome assembly protein 1-like 1,NAP1L1,6,20.8,38.028,327,0,163.16,258490000
+F8VVB6,Protein kinase C-binding protein NELL2,NELL2,12,18.5,85.921,768,0,59.507,901940000
+F8W062,Phospholipase A(2);Phospholipase A2,PLA2G1B,5,56.3,13.223,119,0,31.942,302820000
+F8W1C3,Matrix metalloproteinase-19,MMP19,3,8.9,54.605,485,0,6.7649,47782000
+F8W6I7,"Heterogeneous nuclear ribonucleoprotein A1;Heterogeneous nuclear ribonucleoprotein A1, N-terminally processed;Heterogeneous nuclear ribonucleoprotein A1-like 2",HNRNPA1;HNRNPA1L2,2,8.5,33.155,307,0,7.5518,13413000
+F8W6X9,Protein sidekick-1,SDK1,14,8.8,240,2193,0,179.27,348590000
+F8W703,Roundabout homolog 2,ROBO2,5,4,157.35,1439,0.0023981,1.9334,42462000
+F8W785,Golgi integral membrane protein 4,GOLIM4,8,13.9,78.759,668,0,26.848,227290000
+F8W876,Mannan-binding lectin serine protease 1;Mannan-binding lectin serine protease 1 heavy chain;Mannan-binding lectin serine protease 1 light chain,MASP1,2,63.8,40.613,354,0,47.896,409280000
+F8WCF6,Actin-related protein 2/3 complex subunit 4,ARPC4-TTLL3;ARPC4,6,36.5,21.058,181,0,29.024,794800000
+F8WD68,Carboxylic ester hydrolase;Acetylcholinesterase,ACHE,2,5.2,43.283,403,0,4.242,40999000
+F8WDW9,Endothelial cell-selective adhesion molecule,ESAM,3,17.1,26.7,245,0,17.709,402510000
+G3V0E5,"Transferrin receptor protein 1;Transferrin receptor protein 1, serum form",TFRC,26,45.1,75.963,679,0,209.5,3926300000
+G3V1A4,Cofilin-1,CFL1,8,61.7,16.811,149,0,72.55,864210000
+G3V1D1,"Ferritin;Ferritin heavy chain;Ferritin heavy chain, N-terminally processed",FTH1,2,31,12.876,113,0,22.14,41540000
+G3V1D3,Dipeptidyl peptidase 3,DPP3,17,33.9,84.304,756,0,179.94,566190000
+G3V1E2,45 kDa calcium-binding protein,SDF4,4,12.6,27.868,254,0,12.201,263480000
+G3V1Q4,Septin-7,7-Sep,4,9.4,44.842,384,0.0090192,1.2701,27517000
+G3V1Y7,Myosin light polypeptide 6,MYL6,4,40,13.159,115,0,10.752,118970000
+G3V2W1,Protein Z-dependent protease inhibitor,SERPINA10,35,64.7,55.113,484,0,323.31,1.3718E+11
+G3V357,Ribonuclease pancreatic,RNASE1,4,47.4,13.049,116,0,215.08,6520600000
+G3V4U0,Fibulin-5,FBLN5,7,16.3,50.881,453,0,41.143,1274100000
+G3V511,Latent-transforming growth factor beta-binding protein 2,LTBP2,9,5,189.24,1769,0,10.75,320330000
+G3V5Z7,Proteasome subunit alpha type;Proteasome subunit alpha type-6,PSMA6,10,38.1,28.147,252,0,83.901,597300000
+G3XAI2,Laminin subunit beta-1,LAMB1,39,29.4,200.48,1810,0,323.31,4691600000
+G3XAK1,Hepatocyte growth factor-like protein;Hepatocyte growth factor-like protein alpha chain;Hepatocyte growth factor-like protein beta chain,MST1,45,62.9,81.998,725,0,323.31,1.5665E+11
+G3XAM2,Complement factor I;Complement factor I heavy chain;Complement factor I light chain,CFI,3,5.2,65.059,576,0,3.5556,73955000
+G3XAP6,Cartilage oligomeric matrix protein,COMP,27,58.4,79.696,724,0,323.31,8241900000
+G8JLD5,Dynamin-1-like protein,DNM1L,2,4.5,79.621,712,0,7.8081,14712000
+H0YFH3,,,2,62,73.731,653,0,173,488200000
+H0YIS1,Collagen alpha-2(XI) chain,COL11A2,5,5.2,159.88,1629,0,65.073,131950000
+H0YM81,Aggrecan core protein;Aggrecan core protein 2,ACAN,11,6.5,257.44,2492,0,198.81,656650000
+H0YMD1,Low-density lipoprotein receptor,LDLR,20,27.7,104.75,948,0,229.37,1062000000
+H0YMU9,Annexin;Annexin A2;Putative annexin A2-like protein,ANXA2;ANXA2P2,2,10.4,25.569,230,0,8.3838,56510000
+H0YNK6,Receptor protein-tyrosine kinase;Tyrosine-protein kinase receptor TYRO3,TYRO3,4,8.3,92.315,845,0,31.784,105280000
+H0YNP1,D-glucuronyl C5-epimerase,GLCE,4,7.6,62.886,553,0,6.0267,46546000
+H3BM42,Golgi apparatus protein 1,GLG1,8,10.6,79.317,698,0,21.725,233570000
+H3BP20,Beta-hexosaminidase;Beta-hexosaminidase subunit alpha,HEXA,20,42.8,61.999,540,0,170.78,1612000000
+H7BXU4,C-type lectin domain family 4 member M,CLEC4M,7,32.2,39.482,348,0,11.609,337970000
+H7BY64,Proline-rich acidic protein 1,PRAP1,5,17.7,35.167,310,0,191.06,2426900000
+H7BYC3,Butyrophilin subfamily 2 member A2;Butyrophilin subfamily 2 member A1,BTN2A1;BTN2A2,2,13.2,16.974,151,0.0040936,1.6999,24079000
+H7BYY1,Tropomyosin alpha-1 chain,TPM1,3,48,28.747,248,0,12.814,111260000
+H7BZT4,Small ubiquitin-related modifier 2;Small ubiquitin-related modifier 4;Small ubiquitin-related modifier 3,SUMO2;SUMO3;SUMO4,2,27.4,10.839,95,0,30.969,135850000
+H7C3P4,N-acetylglucosamine-6-sulfatase,GNS,2,3.4,56.374,496,0,3.4892,54689000
+I3L0K2,Thioredoxin domain-containing protein 17,TXNDC17,3,50.7,8.3713,75,0,8.64,121050000
+I3L145,Sex hormone-binding globulin,SHBG,20,73.3,37.487,344,0,323.31,87201000000
+I3L297,Adapter molecule crk,CRK,2,10.8,25.503,223,0,3.9418,25836000
+I3L4D6,Sarcalumenin,SRL,3,4.3,49.136,486,0,4.2436,66506000
+I6L8B7,"Fatty acid-binding protein, epidermal",FABP5,7,71.3,11.257,101,0,84.851,347760000
+J3KN08,Matrilin-2,MATN2,7,10.1,106.95,957,0,15.21,115390000
+J3KN67,,TPM3,2,54.4,33.222,285,0,5.5348,865480000
+J3KNB4,Cathelicidin antimicrobial peptide;Antibacterial protein FALL-39;Antibacterial protein LL-37,CAMP,2,12.1,19.591,173,0.0085421,1.3701,99586000
+J3KNP4,Semaphorin-4B,SEMA4B,20,34.4,92.765,837,0,205.98,4721600000
+J3KNV4,Integrin alpha-7;Integrin alpha-7 heavy chain;Integrin alpha-7 light chain;Integrin alpha-7 70 kDa form,ITGA7,2,2.2,123.63,1131,0,5.9976,20394000
+J3KPQ0,Receptor protein-tyrosine kinase;Fibroblast growth factor receptor 4,FGFR4,8,12.1,80.465,734,0,57.602,383290000
+J3KQ18,D-dopachrome decarboxylase;D-dopachrome decarboxylase-like protein,DDT;DDTL,6,40.9,14.192,132,0,36.48,1198200000
+J3KQ32,Obg-like ATPase 1,OLA1,2,5.8,46.937,416,0,5.1856,60449000
+J3KQ45,Trans-Golgi network integral membrane protein 2,TGOLN2,15,35,47.879,454,0,92.172,3161800000
+J3KQ66,Reelin,RELN,50,18.8,388.43,3460,0,232.11,2589800000
+J3KTP3,Cadherin-19,CDH19,9,18.9,61.163,541,0,21.556,206540000
+J3QKX5,Metalloendopeptidase;Meprin A subunit beta,MEP1B,2,3.6,79.442,700,0.0035566,1.82,14238000
+J3QQU6,Secreted and transmembrane protein 1,SECTM1,3,34.9,15.921,149,0,13.819,138370000
+J3QQX2,Rho GDP-dissociation inhibitor 1,ARHGDIA,4,21.3,25.831,235,0,24.795,1016300000
+J3QR77,CD226 antigen,CD226,2,17.7,21.056,181,0,40.992,75512000
+J3QRT5,Intercellular adhesion molecule 2,ICAM2,6,25.5,28.181,251,0,158.83,9721500000
+J3QSB7,Purine nucleoside phosphorylase;S-methyl-5-thioadenosine phosphorylase,MTAP,3,18.6,26.777,242,0,8.0908,22545000
+J3QTS8,Tryptase alpha/beta-1,TPSAB1,5,23.4,31.282,282,0,28.484,173310000
+K4DIA0,ICOS ligand,ICOSLG,6,13.7,51.925,473,0,143.66,3925500000
+K7EIK7,Echinoderm microtubule-associated protein-like 2,EML2,8,12.8,84.729,773,0,44.662,212940000
+K7EKF6,Angiopoietin-related protein 6,ANGPTL6,4,13,46.991,430,0,10.017,113390000
+K7ELJ7,Calpain small subunit 1,CAPNS1,4,25.9,29.44,278,0,106.99,125890000
+K7ELL7,Glucosidase 2 subunit beta,PRKCSH,15,30.1,60.192,535,0,253.84,2939900000
+K7ELM9,,APOC1,2,21.7,9.9763,92,0,15.2,817560000
+K7EP46,Thimet oligopeptidase,THOP1,5,12.1,65.119,568,0,41.029,70739000
+K7EPB7,Thioredoxin-like protein 1,TXNL1,2,42,7.4927,69,0,15.641,30326000
+K7EPJ4,Cartilage intermediate layer protein 2;Cartilage intermediate layer protein 2 C1;Cartilage intermediate layer protein 2 C2,CILP2,20,22.6,126.86,1162,0,193.59,2308500000
+K7EQX8,Matrix-remodeling-associated protein 7,MXRA7,2,73.3,1.9121,15,0.0018182,2.0468,35124000
+K7ER74,Apolipoprotein C-II;Proapolipoprotein C-II,APOC4-APOC2;APOC2,6,34.8,20.049,178,0,59.652,679450000
+K7ERG9,Complement factor D,CFD,16,63.8,27.862,260,0,323.31,40374000000
+K7ES70,Microfibril-associated glycoprotein 4,MFAP4,5,18.6,31.326,280,0,241.74,2428500000
+M0R1I2,Urokinase plasminogen activator surface receptor,PLAUR,2,11.9,31.638,286,0,12.433,15261000
+M9MML6,Low affinity immunoglobulin gamma Fc region receptor III-B,FCGR3B,6,20.4,29.884,269,0,65.652,31299000000
+O00151,PDZ and LIM domain protein 1,PDLIM1,12,42.9,36.071,329,0,139.37,1078300000
+O00187,Mannan-binding lectin serine protease 2;Mannan-binding lectin serine protease 2 A chain;Mannan-binding lectin serine protease 2 B chain,MASP2,29,49.3,75.702,686,0,323.31,12457000000
+O00241,Signal-regulatory protein beta-1,SIRPB1,4,18.6,43.211,398,0,26.882,226680000
+O00264,Membrane-associated progesterone receptor component 1,PGRMC1,3,13.3,21.671,195,0,2.9848,77671000
+O00299,Chloride intracellular channel protein 1,CLIC1,12,65.1,26.922,241,0,210.49,1077600000
+O00391,Sulfhydryl oxidase 1,QSOX1,47,61,82.577,747,0,323.31,64357000000
+O00451,GDNF family receptor alpha-2,GFRA2,9,23.3,51.543,464,0,27.292,308730000
+O00462,Beta-mannosidase,MANBA,28,34.8,100.89,879,0,250.66,3834700000
+O00468,Agrin;Agrin N-terminal 110 kDa subunit;Agrin C-terminal 110 kDa subunit;Agrin C-terminal 90 kDa fragment;Agrin C-terminal 22 kDa fragment,AGRN,24,14.7,214.84,2045,0,130.85,962100000
+O00533,Neural cell adhesion molecule L1-like protein;Processed neural cell adhesion molecule L1-like protein,CHL1,38,42.2,136.7,1224,0,323.31,32548000000
+O00548,Delta-like protein 1,DLL1,3,4.1,78.055,723,0,27.163,53495000
+O00584,Ribonuclease T2,RNASET2,11,47.7,29.48,256,0,54.308,892930000
+O00592,Podocalyxin,PODXL,4,7.8,55.385,526,0,44.421,1041000000
+O00602,Ficolin-1,FCN1,5,24.5,35.078,326,0,110.36,476860000
+O00748,Cocaine esterase,CES2,5,8.2,61.806,559,0,9.2105,190900000
+O00754,Lysosomal alpha-mannosidase;Lysosomal alpha-mannosidase A peptide;Lysosomal alpha-mannosidase B peptide;Lysosomal alpha-mannosidase C peptide;Lysosomal alpha-mannosidase D peptide;Lysosomal alpha-mannosidase E peptide,MAN2B1,11,13.2,113.61,1010,0,38.475,266230000
+O00757,"Fructose-1,6-bisphosphatase isozyme 2",FBP2,2,9.1,36.743,339,0,2.6275,54014000
+O14498,Immunoglobulin superfamily containing leucine-rich repeat protein,ISLR,10,46.3,45.997,428,0,210.4,1224600000
+O14594,Neurocan core protein,NCAN,4,5.2,143.09,1321,0,12.273,45791000
+O14638,Ectonucleotide pyrophosphatase/phosphodiesterase family member 3;Alkaline phosphodiesterase I;Nucleotide pyrophosphatase,ENPP3,6,8.1,100.12,875,0,24.154,64291000
+O14672,Disintegrin and metalloproteinase domain-containing protein 10,ADAM10,3,5.6,84.141,748,0,30.339,107560000
+O14745,Na(+)/H(+) exchange regulatory cofactor NHE-RF1,SLC9A3R1,4,15.4,38.868,358,0,8.527,94326000
+O14773,Tripeptidyl-peptidase 1,TPP1,6,18.3,61.247,563,0,40.038,126920000
+O14791,Apolipoprotein L1,APOL1,20,45.2,43.974,398,0,196.22,8833800000
+O14793,Growth/differentiation factor 8,MSTN,11,39.5,42.75,375,0,104.07,1168800000
+O14798,Tumor necrosis factor receptor superfamily member 10C,TNFRSF10C,3,9.3,27.407,259,0,4.8558,29590000
+O14818,Proteasome subunit alpha type-7,PSMA7,7,31,27.887,248,0,87.999,364720000
+O15031,Plexin-B2,PLXNB2,33,26,205.12,1838,0,323.31,2580200000
+O15117,FYN-binding protein,FYB,2,2.8,85.386,783,0.0041176,1.7472,4798800
+O15143,Actin-related protein 2/3 complex subunit 1B,ARPC1B,8,22.8,40.949,372,0,23.656,883010000
+O15144,Actin-related protein 2/3 complex subunit 2,ARPC2,11,40.3,34.333,300,0,70.428,2620000000
+O15145,Actin-related protein 2/3 complex subunit 3,ARPC3,9,55.6,20.546,178,0,34.559,499140000
+O15197,Ephrin type-B receptor 6,EPHB6,2,3.9,57.497,540,0,4.6407,10840000
+O15204,ADAM DEC1,ADAMDEC1,6,19.1,52.775,470,0,64.105,1119800000
+O15230,Laminin subunit alpha-5,LAMA5,6,2.6,399.73,3695,0,8.8172,82556000
+O15240,Neurosecretory protein VGF;Neuroendocrine regulatory peptide-1;Neuroendocrine regulatory peptide-2;Antimicrobial peptide VGF[554-577],VGF,3,5.9,67.257,615,0,7.3924,37386000
+O15335,Chondroadherin,CHAD,12,46.2,40.475,359,0,323.31,774230000
+O15394,Neural cell adhesion molecule 2,NCAM2,25,34.3,93.045,837,0,207.83,5045700000
+O15400,Syntaxin-7,STX7,2,7.9,27.4,239,0.00061312,2.1678,14712000
+O15467,C-C motif chemokine 16,CCL16,2,33.3,13.6,120,0,35.347,90488000
+O15511,Actin-related protein 2/3 complex subunit 5,ARPC5,2,16.6,16.32,151,0,7.8895,512500000
+O43157,Plexin-B1,PLXNB1,15,13,214.41,1952,0,174.68,1154400000
+O43278,Kunitz-type protease inhibitor 1,SPINT1,15,31.2,56.885,513,0,30.521,1271000000
+O43280,Trehalase,TREH,16,43.6,66.567,583,0,170.28,973540000
+O43505,"Beta-1,4-glucuronyltransferase 1",B4GAT1,13,46.7,47.119,415,0,323.31,3212600000
+O43665,Regulator of G-protein signaling 10,RGS10,5,43.1,19.608,167,0,34.02,73503000
+O43707,Alpha-actinin-4,ACTN4,21,48.3,104.85,911,0,119.46,841920000
+O43747,AP-1 complex subunit gamma-1,AP1G1,2,3.9,91.35,822,0,4.5303,9214300
+O43852,Calumenin,CALU,12,45.1,37.106,315,0,130,382900000
+O43866,CD5 antigen-like,CD5L,21,64.8,38.087,347,0,323.31,72978000000
+O43895,Xaa-Pro aminopeptidase 2,XPNPEP2,24,47.2,75.624,674,0,323.31,4353700000
+O43915,Vascular endothelial growth factor D,FIGF,2,5.9,40.444,354,0,4.3531,30471000
+O60279,Sushi domain-containing protein 5,SUSD5,5,13,68.02,629,0,58.738,302650000
+O60449,Lymphocyte antigen 75,LY75,5,3.7,198.31,1722,0,14.309,58690000
+O60462,Neuropilin-2,NRP2,31,41.4,101.41,901,0,323.31,3488200000
+O60476,"Mannosyl-oligosaccharide 1,2-alpha-mannosidase IB",MAN1A2,4,8.4,73.003,641,0,3.9913,26441000
+O60493,Sorting nexin-3,SNX3,3,26.2,14.766,130,0,5.7805,19143000
+O60568,"Procollagen-lysine,2-oxoglutarate 5-dioxygenase 3",PLOD3,9,14.9,84.784,738,0,17.1,139770000
+O60613,15 kDa selenoprotein,15-Sep,4,27.2,17.79,162,0,63.421,146400000
+O60664,Perilipin-3,PLIN3,3,19.9,28.157,251,0,30.906,36387000
+O60667,Fas apoptotic inhibitory molecule 3,FAIM3,3,19.3,33.827,306,0,49.969,208640000
+O60888,Protein CutA,CUTA,5,55.8,16.832,156,0,60.303,1215800000
+O75023,Leukocyte immunoglobulin-like receptor subfamily B member 5,LILRB5,13,27.1,64.125,590,0,109.67,1813700000
+O75051,Plexin-A2,PLXNA2,5,2.9,211.1,1894,0,4.853,80081000
+O75063,Glycosaminoglycan xylosylkinase,FAM20B,6,20,46.432,409,0,13.779,77330000
+O75083,WD repeat-containing protein 1,WDR1,24,53.1,66.193,606,0,323.31,4884700000
+O75095,Multiple epidermal growth factor-like domains protein 6,MEGF6,2,1.9,128.61,1229,0,2.5931,15996000
+O75223,Gamma-glutamylcyclotransferase,GGCT,4,57.4,10.504,94,0,20.944,51147000
+O75326,Semaphorin-7A,SEMA7A,16,32.1,74.823,666,0,229.19,919440000
+O75339,Cartilage intermediate layer protein 1;Cartilage intermediate layer protein 1 C1;Cartilage intermediate layer protein 1 C2,CILP,15,16.8,132.56,1184,0,135.73,1705900000
+O75340,Programmed cell death protein 6,PDCD6,4,27,21.664,189,0,12.963,120700000
+O75356,Ectonucleoside triphosphate diphosphohydrolase 5,ENTPD5,14,42.1,47.517,428,0,112.66,500680000
+O75368,SH3 domain-binding glutamic acid-rich-like protein,SH3BGRL,8,82.5,12.774,114,0,61.828,2300200000
+O75503,Ceroid-lipofuscinosis neuronal protein 5,CLN5,9,22.6,41.496,358,0,11.267,300610000
+O75509,Tumor necrosis factor receptor superfamily member 21,TNFRSF21,2,3.4,71.844,655,0,5.5865,49809000
+O75594,Peptidoglycan recognition protein 1,PGLYRP1,2,15.8,21.731,196,0,8.7079,17287000
+O75629,Protein CREG1,CREG1,3,20,24.074,220,0,16.028,38857000
+O75636,Ficolin-3,FCN3,11,46.8,32.903,299,0,323.31,6894500000
+O75752,"UDP-GalNAc:beta-1,3-N-acetylgalactosaminyltransferase 1",B3GALNT1,4,14.8,39.511,331,0,20.249,48110000
+O75874,Isocitrate dehydrogenase [NADP] cytoplasmic,IDH1,9,21.5,46.659,414,0,31.315,156030000
+O75882,Attractin,ATRN,49,39.1,141.43,1272,0,323.31,97818000000
+O75976,Carboxypeptidase D,CPD,8,6.4,152.93,1380,0,16.663,346390000
+O76061,Stanniocalcin-2,STC2,7,39.1,33.248,302,0,194.93,943160000
+O94769,Extracellular matrix protein 2,ECM2,16,27.9,79.788,699,0,86.271,1022700000
+O94856,Neurofascin,NFASC,3,6.3,69.565,619,0,4.9403,27628000
+O94898,Leucine-rich repeats and immunoglobulin-like domains protein 2,LRIG2,8,10.1,118.96,1065,0,47.286,99582000
+O94919,Endonuclease domain-containing 1 protein,ENDOD1,8,28.4,55.016,500,0,188.72,397610000
+O94933,SLIT and NTRK-like protein 3,SLITRK3,6,6.4,108.93,977,0,18.222,151830000
+O94985,Calsyntenin-1;Soluble Alc-alpha;CTF1-alpha,CLSTN1,24,25.3,109.79,981,0,178.66,3849200000
+O95185,Netrin receptor UNC5C,UNC5C,3,4.5,66.078,597,0,3.7549,18872000
+O95274,Ly6/PLAUR domain-containing protein 3,LYPD3,5,18.2,35.97,346,0,135.22,169610000
+O95302,Peptidyl-prolyl cis-trans isomerase FKBP9,FKBP9,3,5.8,63.083,570,0,3.4904,33999000
+O95336,6-phosphogluconolactonase,PGLS,6,34.1,27.547,258,0,21.39,112940000
+O95393,Bone morphogenetic protein 10,BMP10,3,6.4,48.047,424,0,7.5042,36746000
+O95428,Papilin,PAPLN,28,30.1,136.07,1262,0,307.58,3229300000
+O95445,Apolipoprotein M,APOM,3,22.4,13.051,116,0,11.579,118140000
+O95497,Pantetheinase,VNN1,18,50.3,57.011,513,0,323.31,29997000000
+O95502,Neuronal pentraxin receptor,NPTXR,3,5.4,52.846,500,0.0041128,1.7371,64845000
+O95633,Follistatin-related protein 3,FSTL3,6,32.1,24.96,237,0,45.673,327440000
+O95810,Serum deprivation-response protein,SDPR,10,30.1,47.173,425,0,81.846,485510000
+O95865,"N(G),N(G)-dimethylarginine dimethylaminohydrolase 2",DDAH2,6,28.1,29.644,285,0,73.133,103230000
+O95881,Thioredoxin domain-containing protein 12,TXNDC12,3,22.7,19.206,172,0,10.287,24633000
+O95897,Noelin-2,OLFM2,8,18.3,51.386,454,0,14.815,465020000
+O95969,Secretoglobin family 1D member 2,SCGB1D2,2,22.2,9.925,90,0,3.5562,38770000
+O95980,Reversion-inducing cysteine-rich protein with Kazal motifs,RECK,28,32.5,106.46,971,0,237.82,3341700000
+O95998,Interleukin-18-binding protein,IL18BP,4,23.7,21.099,194,0,8.0945,791030000
+P00338,L-lactate dehydrogenase A chain,LDHA,17,61.4,36.688,332,0,158.76,9391700000
+P00352,Retinal dehydrogenase 1,ALDH1A1,9,21.6,54.861,501,0,25.916,228260000
+P00367,"Glutamate dehydrogenase 1, mitochondrial;Glutamate dehydrogenase 2, mitochondrial",GLUD1;GLUD2,12,24.6,61.397,558,0,44.431,495710000
+P00390,"Glutathione reductase, mitochondrial",GSR,16,48.2,51.7,479,0,323.31,3046800000
+P00441,Superoxide dismutase [Cu-Zn],SOD1,5,34.4,15.936,154,0,18.144,1841500000
+P00450,Ceruloplasmin,CP,88,84.3,122.2,1065,0,323.31,4.1963E+12
+P00451,"Coagulation factor VIII;Factor VIIIa heavy chain, 200 kDa isoform;Factor VIIIa heavy chain, 92 kDa isoform;Factor VIII B chain;Factor VIIIa light chain",F8,22,10,267.01,2351,0,136.83,964030000
+P00480,"Ornithine carbamoyltransferase, mitochondrial",OTC,5,15.3,39.935,354,0,9.0718,78291000
+P00488,Coagulation factor XIII A chain,F13A1,44,66.9,83.266,732,0,323.31,36016000000
+P00491,Purine nucleoside phosphorylase,PNP,16,69.9,32.118,289,0,103.3,4699300000
+P00492,Hypoxanthine-guanine phosphoribosyltransferase,HPRT1,8,46.8,24.579,218,0,61.842,377130000
+P00533,Epidermal growth factor receptor;Receptor protein-tyrosine kinase,EGFR,24,51.4,69.227,628,0,323.31,4826300000
+P00558,Phosphoglycerate kinase 1,PGK1,27,72.4,44.614,417,0,247.91,7269200000
+P00736,Complement C1r subcomponent;Complement C1r subcomponent heavy chain;Complement C1r subcomponent light chain,C1R,37,59.7,80.118,705,0,323.31,1.6415E+11
+P00738,Haptoglobin;Haptoglobin alpha chain;Haptoglobin beta chain,HP,24,61.3,45.205,406,0,323.31,13173000000
+P00739,Haptoglobin-related protein,HPR,9,73.6,39.029,348,0,323.31,4084700000
+P00740,Coagulation factor IX;Coagulation factor IXa light chain;Coagulation factor IXa heavy chain,F9,19,50.8,51.778,461,0,323.31,1.6838E+11
+P00742,Coagulation factor X;Factor X light chain;Factor X heavy chain;Activated factor Xa heavy chain,F10,34,55.7,54.731,488,0,323.31,3.0334E+11
+P00747,"Plasminogen;Plasmin heavy chain A;Activation peptide;Angiostatin;Plasmin heavy chain A, short form;Plasmin light chain B",PLG,8,7.5,90.568,810,0,45.67,1397400000
+P00748,Coagulation factor XII;Coagulation factor XIIa heavy chain;Beta-factor XIIa part 1;Coagulation factor XIIa light chain,F12,32,60.2,67.791,615,0,323.31,1.6086E+11
+P00915,Carbonic anhydrase 1,CA1,12,62.8,28.87,261,0,323.31,22386000000
+P00918,Carbonic anhydrase 2,CA2,13,61.2,29.246,260,0,286.65,8021900000
+P00966,Argininosuccinate synthase,ASS1,2,7.8,46.53,412,0,4.2265,11570000
+P00995,Pancreatic secretory trypsin inhibitor,SPINK1,5,55.7,8.5067,79,0,67.548,788390000
+P01008,Antithrombin-III,SERPINC1,13,27.4,52.602,464,0,98.045,5072100000
+P01009,Alpha-1-antitrypsin;Short peptide from AAT,SERPINA1,40,80.4,46.736,418,0,323.31,4.4169E+11
+P01011,Alpha-1-antichymotrypsin;Alpha-1-antichymotrypsin His-Pro-less,SERPINA3,12,35.2,47.65,423,0,90.997,700090000
+P01019,Angiotensinogen;Angiotensin-1;Angiotensin-2;Angiotensin-3;Angiotensin-4;Angiotensin 1-9;Angiotensin 1-7;Angiotensin 1-5;Angiotensin 1-4,AGT,24,65.2,53.154,485,0,323.31,9.5908E+11
+P01023,Alpha-2-macroglobulin,A2M,89,70.5,163.29,1474,0,323.31,9.0126E+11
+P01024,Complement C3;Complement C3 beta chain;C3-beta-c;Complement C3 alpha chain;C3a anaphylatoxin;Acylation stimulating protein;Complement C3b alpha chain;Complement C3c alpha chain fragment 1;Complement C3dg fragment;Complement C3g fragment;Complement C3d fragment;Complement C3f fragment;Complement C3c alpha chain fragment 2,C3,40,29.5,187.15,1663,0,323.31,46352000000
+P01031,Complement C5;Complement C5 beta chain;Complement C5 alpha chain;C5a anaphylatoxin;Complement C5 alpha chain,C5,59,43.7,188.3,1676,0,323.31,5163300000
+P01034,Cystatin-C,CST3,9,63,15.799,146,0,316.48,53505000000
+P01042,Kininogen-1;Kininogen-1 heavy chain;T-kinin;Bradykinin;Lysyl-bradykinin;Kininogen-1 light chain;Low molecular weight growth-promoting factor,KNG1,28,39.6,71.957,644,0,323.31,1.0094E+11
+P01137,Transforming growth factor beta-1;Latency-associated peptide,TGFB1,4,12.6,44.341,390,0,18.418,78255000
+P01178,Oxytocin-neurophysin 1;Oxytocin;Neurophysin 1,OXT,3,32,12.722,125,0,19.123,76984000
+P01236,Prolactin,PRL,4,19.4,25.876,227,0,13.882,151390000
+P01266,Thyroglobulin,TG,4,2.2,304.79,2768,0,3.3908,113040000
+P01344,Insulin-like growth factor II;Insulin-like growth factor II;Insulin-like growth factor II Ala-25 Del;Preptin,IGF2,5,32.8,20.14,180,0,158.55,22039000000
+P01591,Immunoglobulin J chain,IGJ,7,63.5,18.098,159,0,134.87,27996000000
+P01596,Ig kappa chain V-I region CAR,,4,43.9,11.346,107,0,158.93,8055300000
+P01597,Ig kappa chain V-I region DEE,,2,10.2,11.418,108,0,4.5675,898500000
+P01598,Ig kappa chain V-I region EU,,2,32.4,11.788,108,0,15.881,5832400000
+P01605,Ig kappa chain V-I region Lay,,3,31.5,11.834,108,0,263.79,9749400000
+P01608,Ig kappa chain V-I region Roy,,2,31.5,11.782,108,0.0052174,1.6009,1155500000
+P01609,Ig kappa chain V-I region Scw,,2,42.6,11.764,108,0,12.824,588140000
+P01610,Ig kappa chain V-I region WEA;Ig kappa chain V-I region WAT;Ig kappa chain V-I region Hau,,4,37,11.84,108,0,196.85,19788000000
+P01612,Ig kappa chain V-I region Mev,,2,31.2,11.87,109,0,36.79,862000000
+P01613,Ig kappa chain V-I region Ni,,3,33,11.745,112,0,139.04,3836300000
+P01615,Ig kappa chain V-II region FR,,2,17.7,12.059,113,0,10.338,352200000
+P01617,Ig kappa chain V-II region TEW,,6,41.6,12.059,113,0,199.29,17122000000
+P01619,Ig kappa chain V-III region B6,,2,21.3,11.12,108,0,22.365,1681400000
+P01620,Ig kappa chain V-III region SIE,,6,66.1,11.775,109,0,323.31,50730000000
+P01625,Ig kappa chain V-IV region Len;Ig kappa chain V-IV region B17,,6,53.5,12.64,114,0,156.15,14732000000
+P01700,Ig lambda chain V-I region HA;Ig lambda chain V-II region WIN,,2,23.2,11.896,112,0.0046566,1.6396,1735900000
+P01701,Ig lambda chain V-I region NEW,,5,41.4,11.453,111,0,7.313,5613700000
+P01702,Ig lambda chain V-I region NIG-64;Ig lambda chain V-I region BL2;Ig lambda chain V-I region EPS,,3,18.9,11.453,111,0,3.7818,2494400000
+P01703,Ig lambda chain V-I region NEWM,,2,36.9,10.904,103,0,62.805,68302000
+P01708,Ig lambda chain V-II region BUR,,3,32.1,11.506,109,0,12.518,1028600000
+P01714,Ig lambda chain V-III region SH,,4,42.6,11.392,108,0,83.5,7168300000
+P01715,Ig lambda chain V-IV region Bau,,2,31.1,11.305,106,0,2.5093,19216000000
+P01719,Ig lambda chain V-V region DEL,,3,38.9,11.342,108,0,10.564,1386400000
+P01743,Ig heavy chain V-I region HG3,,2,22.2,12.946,117,0,63.813,3782700000
+P01764,Ig heavy chain V-III region 23,IGHV3-23,3,22.2,12.582,117,0,41.541,16329000000
+P01765,Ig heavy chain V-III region TIL,,2,33.9,11.612,115,0,52.995,16195000000
+P01766,Ig heavy chain V-III region BRO,,4,37.5,13.227,120,0,79.031,47458000000
+P01767,Ig heavy chain V-III region BUT,,2,35.7,11.906,115,0,43.459,3005900000
+P01771,Ig heavy chain V-III region HIL,,2,15.7,13.437,121,0,53.102,2761100000
+P01772,Ig heavy chain V-III region KOL,,2,11.9,13.718,126,0,7.4287,1294300000
+P01780,Ig heavy chain V-III region JON,,2,16.5,12.32,115,0,26.556,2959600000
+P01781,Ig heavy chain V-III region GAL,,4,36.2,11.771,116,0,117.58,12877000000
+P01824,Ig heavy chain V-II region WAH,,2,13.2,14.117,129,0,3.8993,1714000000
+P01833,Polymeric immunoglobulin receptor;Secretory component,PIGR,23,42,83.283,764,0,323.31,4491500000
+P01834,Ig kappa chain C region,IGKC,9,90.6,11.609,106,0,323.31,2.9809E+11
+P01854,Ig epsilon chain C region,IGHE,14,40,47.019,428,0,262.37,2355800000
+P01857,Ig gamma-1 chain C region,IGHG1,17,73.3,36.105,330,0,323.31,6.6046E+11
+P01859,Ig gamma-2 chain C region,IGHG2,25,74.8,35.9,326,0,323.31,6.5037E+11
+P01860,Ig gamma-3 chain C region,IGHG3,9,59.7,41.287,377,0,283.78,82605000000
+P01861,Ig gamma-4 chain C region,IGHG4,13,75.2,35.94,327,0,323.31,1.0345E+11
+P01871,Ig mu chain C region,IGHM,28,65.5,49.306,452,0,323.31,5.1465E+11
+P01876,Ig alpha-1 chain C region,IGHA1,14,54.4,37.654,353,0,323.31,23962000000
+P01877,Ig alpha-2 chain C region,IGHA2,2,43.5,36.526,340,0,69.881,1954400000
+P01880,Ig delta chain C region,IGHD,17,54.9,42.253,384,0,256.01,18837000000
+P01911,"HLA class II histocompatibility antigen, DRB1-15 beta chain;HLA class II histocompatibility antigen, DRB1-13 beta chain;HLA class II histocompatibility antigen, DRB1-10 beta chain;HLA class II histocompatibility antigen, DR beta 5 chain;HLA class II histocompatibility antigen, DRB1-16 beta chain;HLA class II histocompatibility antigen, DRB1-4 beta chain;HLA class II histocompatibility antigen, DRB1-1 beta chain",HLA-DRB1;HLA-DRB5,3,12,29.966,266,0,5.9137,41091000
+P02144,Myoglobin,MB,7,59.1,17.184,154,0,171.62,1825200000
+P02452,Collagen alpha-1(I) chain,COL1A1,17,14.9,138.94,1464,0,136.1,6604400000
+P02461,Collagen alpha-1(III) chain,COL3A1,13,11.1,138.56,1466,0,118.72,1372100000
+P02462,Collagen alpha-1(IV) chain;Arresten;Collagen alpha-5(IV) chain,COL4A1;COL4A5,2,1.9,127.98,1318,0,3.1192,9610000
+P02545,Prelamin-A/C;Lamin-A/C,LMNA,7,12.4,65.134,572,0,11.823,77871000
+P02647,Apolipoprotein A-I;Proapolipoprotein A-I;Truncated apolipoprotein A-I,APOA1,26,70.4,30.777,267,0,323.31,30274000000
+P02649,Apolipoprotein E,APOE,27,72.9,36.154,317,0,266.28,23569000000
+P02671,Fibrinogen alpha chain;Fibrinopeptide A;Fibrinogen alpha chain,FGA,36,48.2,94.972,866,0,323.31,1.7172E+11
+P02675,Fibrinogen beta chain;Fibrinopeptide B;Fibrinogen beta chain,FGB,19,51.1,55.928,491,0,178.21,2781100000
+P02679,Fibrinogen gamma chain,FGG,17,49,49.496,437,0,323.31,5214900000
+P02741,C-reactive protein;C-reactive protein(1-205),CRP,10,33,25.038,224,0,96.573,97512000000
+P02743,Serum amyloid P-component;Serum amyloid P-component(1-203),APCS,14,40.8,25.387,223,0,323.31,3.7752E+11
+P02745,Complement C1q subcomponent subunit A,C1QA,2,13.5,26.016,245,0,4.3863,55948000
+P02747,Complement C1q subcomponent subunit C,C1QC,3,15.9,25.773,245,0,19.737,325490000
+P02748,Complement component C9;Complement component C9a;Complement component C9b,C9,23,44.4,63.173,559,0,323.31,6375000000
+P02750,Leucine-rich alpha-2-glycoprotein,LRG1,17,63.4,38.177,347,0,323.31,4.5062E+11
+P02751,Fibronectin;Anastellin;Ugl-Y1;Ugl-Y2;Ugl-Y3,FN1,7,3.9,240.51,2184,0,34.793,294410000
+P02760,Protein AMBP;Alpha-1-microglobulin;Inter-alpha-trypsin inhibitor light chain;Trypstatin,AMBP,16,52,38.999,352,0,323.31,17741000000
+P02763,Alpha-1-acid glycoprotein 1,ORM1,8,54.7,23.511,201,0,193.73,58933000000
+P02766,Transthyretin,TTR,10,69.4,15.887,147,0,323.31,24407000000
+P02775,Platelet basic protein;Connective tissue-activating peptide III;TC-2;Connective tissue-activating peptide III(1-81);Beta-thromboglobulin;Neutrophil-activating peptide 2(74);Neutrophil-activating peptide 2(73);Neutrophil-activating peptide 2;TC-1;Neutrophil-activating peptide 2(1-66);Neutrophil-activating peptide 2(1-63),PPBP,8,45.3,13.894,128,0,114.43,82717000000
+P02776,"Platelet factor 4;Platelet factor 4, short form",PF4,2,43.6,10.845,101,0,7.06,1454500000
+P02787,Serotransferrin,TF,64,75.2,77.063,698,0,323.31,2.8546E+11
+P02790,Hemopexin,HPX,3,10,51.676,462,0,30.094,28754000
+P02792,Ferritin light chain,FTL,4,26.3,20.019,175,0,7.9623,204510000
+P02818,Osteocalcin,BGLAP,2,27,10.962,100,0,7.1469,71754000
+P03950,Angiogenin,ANG,7,49.7,16.55,147,0,32.763,1522200000
+P03951,Coagulation factor XI;Coagulation factor XIa heavy chain;Coagulation factor XIa light chain,F11,42,73.1,70.108,625,0,323.31,1.0689E+11
+P03952,Plasma kallikrein;Plasma kallikrein heavy chain;Plasma kallikrein light chain,KLKB1,27,46.6,71.369,638,0,200.87,3641000000
+P03971,Muellerian-inhibiting factor,AMH,2,5.2,59.194,560,0,28.771,17948000
+P04003,C4b-binding protein alpha chain,C4BPA,2,5.5,67.033,597,0,5.9902,22110000
+P04004,Vitronectin;Vitronectin V65 subunit;Vitronectin V10 subunit;Somatomedin-B,VTN,9,22.6,54.305,478,0,47.247,999180000
+P04040,Catalase,CAT,30,59.2,59.755,527,0,323.31,13130000000
+P04062,Glucosylceramidase,GBA,4,8.9,50.316,449,0,3.3796,28847000
+P04066,Tissue alpha-L-fucosidase,FUCA1,20,51.1,53.688,466,0,321.23,8892100000
+P04075,Fructose-bisphosphate aldolase A;Fructose-bisphosphate aldolase,ALDOA,30,83.2,39.42,364,0,323.31,30726000000
+P04080,Cystatin-B,CSTB,2,24.5,11.139,98,0,10.318,21781000
+P04083,Annexin A1,ANXA1,11,36.7,38.714,346,0,81.443,20283000000
+P04114,Apolipoprotein B-100;Apolipoprotein B-48,APOB,185,47.4,515.6,4563,0,323.31,42445000000
+P04155,Trefoil factor 1,TFF1,2,29.8,9.1494,84,0,8.9785,137110000
+P04156,Major prion protein,PRNP,3,12.6,26.885,246,0,70.327,153370000
+P04179,"Superoxide dismutase [Mn], mitochondrial",SOD2,7,49.4,19.73,176,0,174.47,3376900000
+P04180,Phosphatidylcholine-sterol acyltransferase,LCAT,20,56.8,49.577,440,0,323.31,45085000000
+P04196,Histidine-rich glycoprotein,HRG,8,19.8,59.578,525,0,15.354,461390000
+P04206,Ig kappa chain V-III region GOL,,3,77.1,11.83,109,0,24.355,443480000
+P04207,Ig kappa chain V-III region CLL,,2,24.8,14.275,129,0,100.63,7247000000
+P04208,Ig lambda chain V-I region WAH,,5,42.2,11.725,109,0,25.176,6024200000
+P04209,Ig lambda chain V-II region NIG-84,,3,21.4,11.581,112,0,3.8071,13062000000
+P04211,Ig lambda chain V region 4A,,3,21.4,12.38,117,0,11.25,8482200000
+P04216,Thy-1 membrane glycoprotein,THY1,3,24.8,17.935,161,0,13.065,158630000
+P04217,Alpha-1B-glycoprotein,A1BG,3,9.7,54.253,495,0,13.264,61849000
+P04220,Ig mu heavy chain disease protein,,3,60.6,43.057,391,0,323.31,22708000000
+P04222,"HLA class I histocompatibility antigen, Cw-3 alpha chain",HLA-C,2,35.5,40.86,366,0,29.831,94072000
+P04275,von Willebrand factor;von Willebrand antigen 2,VWF,124,57,309.26,2813,0,323.31,70051000000
+P04406,Glyceraldehyde-3-phosphate dehydrogenase,GAPDH,14,46,36.053,335,0,47.315,3549800000
+P04424,Argininosuccinate lyase,ASL,9,23.7,51.657,464,0,43.909,406340000
+P04431,Ig kappa chain V-I region Walker,,2,14,14.069,129,0,75.883,228590000
+P04438,Ig heavy chain V-II region SESS,,4,25.2,16.323,147,0,2.869,733600000
+P04745,Alpha-amylase 1,AMY1A,21,53.6,57.767,511,0,323.31,10997000000
+P04746,Pancreatic alpha-amylase,AMY2A,3,53.6,57.706,511,0,34.901,1068300000
+P04792,Heat shock protein beta-1,HSPB1,2,13.7,22.782,205,0,10.961,46228000
+P05019,Insulin-like growth factor I,IGF1,5,30.7,15.177,137,0,105.44,10424000000
+P05026,Sodium/potassium-transporting ATPase subunit beta-1,ATP1B1,3,16.6,34.893,301,0,20.571,43402000
+P05060,Secretogranin-1;PE-11;GAWK peptide;CCB peptide,CHGB,14,27.2,78.275,677,0,85.271,1006600000
+P05062,Fructose-bisphosphate aldolase B,ALDOB,23,74.7,39.473,364,0,323.31,16896000000
+P05067,Amyloid beta A4 protein;N-APP;Soluble APP-alpha;Soluble APP-beta;C99;Beta-amyloid protein 42;Beta-amyloid protein 40;C83;P3(42);P3(40);C80;Gamma-secretase C-terminal fragment 59;Gamma-secretase C-terminal fragment 57;Gamma-secretase C-terminal fragment 50;C31,APP,17,30.8,84.52,746,0,101.81,2780000000
+P05090,Apolipoprotein D,APOD,5,26.5,21.275,189,0,51.13,1449200000
+P05109,"Protein S100-A8;Protein S100-A8, N-terminally processed",S100A8,14,72,10.834,93,0,57.089,23069000000
+P05121,Plasminogen activator inhibitor 1,SERPINE1,12,33.8,45.059,402,0,100.87,585320000
+P05154,Plasma serine protease inhibitor,SERPINA5,9,23.9,45.674,406,0,21.359,253980000
+P05155,Plasma protease C1 inhibitor,SERPING1,16,34.6,55.154,500,0,199.82,8919500000
+P05160,Coagulation factor XIII B chain,F13B,19,34.6,75.51,661,0,241.56,916820000
+P05164,Myeloperoxidase;Myeloperoxidase;89 kDa myeloperoxidase;84 kDa myeloperoxidase;Myeloperoxidase light chain;Myeloperoxidase heavy chain,MPO,8,16.9,73.853,650,0,48.587,142380000
+P05186,"Alkaline phosphatase, tissue-nonspecific isozyme",ALPL,12,28.8,57.304,524,0,72.883,622350000
+P05362,Intercellular adhesion molecule 1,ICAM1,15,35,57.825,532,0,317.86,13481000000
+P05387,60S acidic ribosomal protein P2,RPLP2,2,27,11.665,115,0,5.9715,33175000
+P05413,"Fatty acid-binding protein, heart",FABP3,3,23.3,14.858,133,0,4.4409,115370000
+P05451,Lithostathine-1-alpha,REG1A,6,44.6,18.731,166,0,81.225,1591700000
+P05543,Thyroxine-binding globulin,SERPINA7,24,58.3,46.324,415,0,323.31,5.169E+11
+P05546,Heparin cofactor 2,SERPIND1,36,70.1,57.07,499,0,323.31,8.1009E+11
+P05556,Integrin beta-1,ITGB1,23,36.1,88.414,798,0,322.1,3113100000
+P05997,Collagen alpha-2(V) chain,COL5A2,2,2.5,144.91,1499,0,12.224,49421000
+P06132,Uroporphyrinogen decarboxylase,UROD,6,28.3,40.786,367,0,119.31,160880000
+P06276,Cholinesterase;Carboxylic ester hydrolase,BCHE,21,38,68.417,602,0,323.31,78849000000
+P06280,Alpha-galactosidase A,GLA,3,8.4,48.766,429,0,11.79,18857000
+P06310,Ig kappa chain V-II region RPMI 6410,,3,36.8,14.707,133,0,99.295,2040400000
+P06311,Ig kappa chain V-III region IARC/BL41,,2,24.2,14.07,128,0,15.407,318720000
+P06317,Ig lambda chain V-VI region SUT,,2,16.2,12.247,111,0,2.9157,109780000
+P06331,Ig heavy chain V-II region ARH-77;Ig heavy chain V-II region NEWM,,2,17.1,16.228,146,0,208.53,6420100000
+P06396,Gelsolin,GSN,56,80.7,85.696,782,0,323.31,8.3195E+11
+P06576,"ATP synthase subunit beta, mitochondrial",ATP5B,2,4.5,56.559,529,0,14.305,43616000
+P06681,Complement C2;Complement C2b fragment;Complement C2a fragment,C2,59,74.9,83.267,752,0,323.31,7.7108E+11
+P06702,Protein S100-A9,S100A9,11,86,13.242,114,0,323.31,21900000000
+P06703,Protein S100-A6,S100A6,3,24.4,10.18,90,0.0035587,1.8204,1818700000
+P06727,Apolipoprotein A-IV,APOA4,46,84.6,45.398,396,0,323.31,1.8432E+12
+P06732,"Creatine kinase M-type;Creatine kinase M-type, N-terminally processed",CKM,23,60.4,43.101,381,0,323.31,13023000000
+P06733,Alpha-enolase,ENO1,10,30.6,47.168,434,0,61.46,1003500000
+P06737,"Glycogen phosphorylase, liver form;Alpha-1,4 glucan phosphorylase",PYGL,28,41.2,93.133,813,0,198.09,1012900000
+P06744,Glucose-6-phosphate isomerase,GPI,19,35.7,63.146,558,0,200.81,3457100000
+P06858,Lipoprotein lipase,LPL,5,14.3,53.162,475,0,111.5,156510000
+P07093,Glia-derived nexin,SERPINE2,2,4.5,44,397,0,2.6237,9889800
+P07108,Acyl-CoA-binding protein,DBI,5,64.4,10.044,87,0,13.962,694090000
+P07148,"Fatty acid-binding protein, liver",FABP1,7,70.1,14.208,127,0,63.142,465160000
+P07195,L-lactate dehydrogenase B chain,LDHB,19,69.8,36.638,334,0,237.99,27887000000
+P07225,Vitamin K-dependent protein S,PROS1,33,50.9,75.122,676,0,323.31,1.0732E+11
+P07237,Protein disulfide-isomerase,P4HB,37,64.8,57.116,508,0,291.8,18924000000
+P07307,Asialoglycoprotein receptor 2,ASGR2,7,25.8,32.55,287,0,83.091,622740000
+P07327,Alcohol dehydrogenase 1A,ADH1A,4,9.6,39.858,375,0,6.1119,61195000
+P07339,Cathepsin D;Cathepsin D light chain;Cathepsin D heavy chain,CTSD,18,53.2,44.552,412,0,323.31,18128000000
+P07358,Complement component C8 beta chain,C8B,28,58.7,67.046,591,0,323.31,14237000000
+P07359,Platelet glycoprotein Ib alpha chain;Glycocalicin,GP1BA,12,16.3,71.539,652,0,305.27,17583000000
+P07360,Complement component C8 gamma chain,C8G,3,16.3,22.277,202,0,4.3845,20386000
+P07384,Calpain-1 catalytic subunit,CAPN1,15,30.4,81.889,714,0,150.43,451780000
+P07451,Carbonic anhydrase 3,CA3,6,35,29.557,260,0,50.426,1339800000
+P07476,Involucrin,IVL,2,5.8,68.478,585,0,97.142,27882000
+P07478,Trypsin-2,PRSS2,4,34,26.487,247,0,19.823,720470000
+P07585,Decorin,DCN,5,13.6,39.746,359,0,6.5165,361340000
+P07686,Beta-hexosaminidase subunit beta;Beta-hexosaminidase subunit beta chain B;Beta-hexosaminidase subunit beta chain A,HEXB,23,48,63.111,556,0,323.31,3113200000
+P07711,Cathepsin L1;Cathepsin L1 heavy chain;Cathepsin L1 light chain,CTSL,5,17.1,37.564,333,0,37.459,613140000
+P07737,Profilin-1,PFN1,12,74.3,15.054,140,0,278.67,20910000000
+P07738,Bisphosphoglycerate mutase,BPGM,8,38.6,30.005,259,0,58.303,687620000
+P07858,Cathepsin B;Cathepsin B light chain;Cathepsin B heavy chain,CTSB,14,41.9,37.821,339,0,213.15,3053700000
+P07900,Heat shock protein HSP 90-alpha,HSP90AA1,21,32.1,84.659,732,0,160.5,1417000000
+P07949,Proto-oncogene tyrosine-protein kinase receptor Ret;Soluble RET kinase fragment;Extracellular cell-membrane anchored RET cadherin 120 kDa fragment,RET,3,3.9,119.85,1072,0,13.524,15756000
+P08107,Heat shock 70 kDa protein 1A,HSPA1A,19,51.8,70.051,641,0,127.23,806090000
+P08123,Collagen alpha-2(I) chain,COL1A2,11,8.9,129.31,1366,0,112.02,7879700000
+P08133,Annexin A6;Annexin,ANXA6,12,18.9,72.423,641,0,15.129,206160000
+P08185,Corticosteroid-binding globulin,SERPINA6,20,68.4,45.14,405,0,323.31,4.8559E+11
+P08236,Beta-glucuronidase,GUSB,4,7.8,69.141,600,0,4.4426,23400000
+P08238,Heat shock protein HSP 90-beta,HSP90AB1,4,16.3,83.263,724,0,6.3031,71445000
+P08253,72 kDa type IV collagenase;PEX,MMP2,31,62,73.881,660,0,323.31,8456100000
+P08263,"Glutathione S-transferase A1;Glutathione S-transferase A1, N-terminally processed;Glutathione S-transferase;Glutathione S-transferase A5;Glutathione S-transferase A3;Glutathione S-transferase A2",GSTA1;GSTA3;GSTA5;GSTA2,2,7.2,25.631,222,0,2.4776,44678000
+P08294,Extracellular superoxide dismutase [Cu-Zn],SOD3,9,40,25.851,240,0,323.31,5532900000
+P08473,Neprilysin,MME,4,7.3,85.513,750,0,9.3706,52183000
+P08493,Matrix Gla protein,MGP,2,17.5,12.353,103,0,20.551,1155000000
+P08514,"Integrin alpha-IIb;Integrin alpha-IIb heavy chain;Integrin alpha-IIb light chain, form 1;Integrin alpha-IIb light chain, form 2",ITGA2B,3,3.7,103.22,953,0,3.3946,36405000
+P08519,Apolipoprotein(a),LPA,12,29.3,501.31,4548,0,77.855,1098900000
+P08567,Pleckstrin,PLEK,13,47.4,40.124,350,0,323.31,3664900000
+P08571,"Monocyte differentiation antigen CD14;Monocyte differentiation antigen CD14, urinary form;Monocyte differentiation antigen CD14, membrane-bound form",CD14,16,48.5,40.076,375,0,323.31,66740000000
+P08572,Collagen alpha-2(IV) chain;Canstatin,COL4A2,2,1.6,167.55,1712,0,9.347,87232000
+P08581,Hepatocyte growth factor receptor,MET,23,22.7,155.54,1390,0,233.06,2224100000
+P08582,Melanotransferrin,MFI2,7,13.6,80.214,738,0,25.103,137630000
+P08648,Integrin alpha-5;Integrin alpha-5 heavy chain;Integrin alpha-5 light chain,ITGA5,6,7.3,114.54,1049,0,12.883,105020000
+P08697,Alpha-2-antiplasmin,SERPINF2,10,22.8,54.565,491,0,185.98,1645000000
+P08758,Annexin A5;Annexin,ANXA5,15,52.5,35.936,320,0,52.082,845130000
+P08887,Interleukin-6 receptor subunit alpha,IL6R,7,19.7,40.237,365,0,100.1,827200000
+P09110,"3-ketoacyl-CoA thiolase, peroxisomal",ACAA1,3,10.6,44.292,424,0,6.9128,40137000
+P09172,Dopamine beta-hydroxylase;Soluble dopamine beta-hydroxylase,DBH,27,61.1,69.064,617,0,323.31,39540000000
+P09211,Glutathione S-transferase P,GSTP1,10,54.8,23.356,210,0,183.77,1205200000
+P09326,CD48 antigen,CD48,4,23.1,19.429,169,0,3.6562,127950000
+P09382,Galectin-1,LGALS1,5,40,14.716,135,0,41.257,148850000
+P09417,Dihydropteridine reductase,QDPR,5,28.2,22.408,213,0,11.348,149630000
+P09467,"Fructose-1,6-bisphosphatase 1",FBP1,9,34.9,36.842,338,0,125.99,636030000
+P09486,SPARC,SPARC,11,37.3,34.632,303,0,137.69,1203600000
+P09488,Glutathione S-transferase Mu 1;Glutathione S-transferase Mu 4,GSTM1;GSTM4,3,24.3,25.712,218,0,9.4661,63128000
+P09493,Tropomyosin alpha-1 chain,TPM1,3,47.5,32.816,284,0,3.4388,160950000
+P09603,Macrophage colony-stimulating factor 1;Processed macrophage colony-stimulating factor 1,CSF1,5,20.7,29.215,256,0,30.176,225350000
+P09619,Platelet-derived growth factor receptor beta,PDGFRB,13,14.1,123.97,1106,0,71.844,1796000000
+P09622,"Dihydrolipoyl dehydrogenase, mitochondrial;Dihydrolipoyl dehydrogenase",DLD,13,34.8,54.177,509,0,117.52,1006400000
+P09668,Pro-cathepsin H;Cathepsin H mini chain;Cathepsin H;Cathepsin H heavy chain;Cathepsin H light chain,CTSH,3,10.4,37.393,335,0,5.5395,228480000
+P09871,Complement C1s subcomponent;Complement C1s subcomponent heavy chain;Complement C1s subcomponent light chain,C1S,38,65.6,76.684,688,0,323.31,3.0839E+11
+P09960,Leukotriene A-4 hydrolase,LTA4H,28,52,69.284,611,0,323.31,4520300000
+P09972,Fructose-bisphosphate aldolase C;Fructose-bisphosphate aldolase,ALDOC,10,48.9,39.455,364,0,107.01,1559600000
+P0A6F5,60 kDa chaperonin,groL,3,5.3,57.328,548,0,7.331,96939000
+P0C0L4,Complement C4-A;Complement C4 beta chain;Complement C4-A alpha chain;C4a anaphylatoxin;C4b-A;C4d-A;Complement C4 gamma chain,C4A,17,16.2,187.7,1698,0,323.31,30052000000
+P0CG05,Ig lambda-2 chain C regions;Ig lambda-3 chain C regions,IGLC2;IGLC3,9,93.4,11.293,106,0,323.31,3.0085E+11
+P0DJD8,Pepsin A-3;Pepsin A-5;Pepsin A-4,PGA3;PGA5;PGA4,5,8.8,41.976,388,0,2.9015,825160000
+P0DJI8,Serum amyloid A-1 protein;Amyloid protein A;Serum amyloid protein A(2-104);Serum amyloid protein A(3-104);Serum amyloid protein A(2-103);Serum amyloid protein A(2-102);Serum amyloid protein A(4-101);Serum amyloid A protein;Serum amyloid A-2 protein,SAA1;SAA2,2,20.5,13.532,122,0,4.2984,55012000
+P10153,Non-secretory ribonuclease,RNASE2,4,21.1,18.354,161,0,21.055,1743100000
+P10316,"HLA class I histocompatibility antigen, A-69 alpha chain;HLA class I histocompatibility antigen, A-2 alpha chain;HLA class I histocompatibility antigen, A-68 alpha chain",HLA-A,2,27.9,40.976,365,0,4.2839,31697000
+P10451,Osteopontin,SPP1,6,28,33.843,300,0,173.16,760110000
+P10586,Receptor-type tyrosine-protein phosphatase F,PTPRF,43,30.7,211.68,1898,0,323.31,4990700000
+P10599,Thioredoxin,TXN,6,54.3,11.737,105,0,9.0201,1024300000
+P10643,Complement component C7,C7,15,22.4,93.517,843,0,175.35,807220000
+P10645,Chromogranin-A;Vasostatin-1;Vasostatin-2;EA-92;ES-43;Pancreastatin;SS-18;WA-8;WE-14;LF-19;Catestatin;AL-11;GV-19;GR-44;ER-37;GE-25;Serpinin-RRG;Serpinin;p-Glu serpinin precursor,CHGA,23,55.1,50.688,457,0,323.31,4355800000
+P10646,Tissue factor pathway inhibitor,TFPI,6,22,35.015,304,0,27.587,186150000
+P10720,Platelet factor 4 variant;Platelet factor 4 variant(4-74);Platelet factor 4 variant(5-74);Platelet factor 4 variant(6-74),PF4V1,5,55.8,11.553,104,0,38.71,2763900000
+P10721,Mast/stem cell growth factor receptor Kit,KIT,18,21.1,109.45,972,0,270.67,11557000000
+P10768,S-formylglutathione hydrolase,ESD,5,22,31.462,282,0,16.682,174390000
+P10909,Clusterin;Clusterin beta chain;Clusterin alpha chain,CLU,30,58.4,48.803,416,0,323.31,4.6326E+11
+P10912,Growth hormone receptor;Growth hormone-binding protein,GHR,5,20.4,33.888,294,0,72.074,432620000
+P11021,78 kDa glucose-regulated protein,HSPA5,32,52.1,72.332,654,0,323.31,28643000000
+P11047,Laminin subunit gamma-1,LAMC1,29,24.1,177.6,1609,0,182.12,1516900000
+P11142,Heat shock cognate 71 kDa protein,HSPA8,24,48.5,70.897,646,0,130.81,4796200000
+P11150,Hepatic triacylglycerol lipase,LIPC,6,16.8,55.914,499,0,31.571,189040000
+P11216,"Glycogen phosphorylase, brain form",PYGB,6,12.8,96.695,843,0,16.321,93989000
+P11217,"Glycogen phosphorylase, muscle form",PYGM,2,9.5,97.091,842,0,3.4335,95361000
+P11226,Mannose-binding protein C,MBL2,13,57.3,26.143,248,0,314.78,11351000000
+P11279,Lysosome-associated membrane glycoprotein 1,LAMP1,7,17.5,44.882,417,0,112.52,4499300000
+P11362,Fibroblast growth factor receptor 1;Fibroblast growth factor receptor,FGFR1,8,12.9,73.274,660,0,31.367,2491500000
+P11413,Glucose-6-phosphate 1-dehydrogenase,G6PD,2,3.3,59.256,515,0.0040888,1.6951,14222000
+P11597,Cholesteryl ester transfer protein,CETP,17,46,54.756,493,0,300.08,4499700000
+P11684,Uteroglobin,SCGB1A1,4,50.5,9.9937,91,0,33.995,878240000
+P11717,Cation-independent mannose-6-phosphate receptor,IGF2R,90,48.6,274.37,2491,0,323.31,24767000000
+P11766,Alcohol dehydrogenase class-3,ADH5,4,12.3,39.724,374,0,22.515,78294000
+P12104,"Fatty acid-binding protein, intestinal",FABP2,2,22.7,15.207,132,0,6.2513,32223000
+P12109,Collagen alpha-1(VI) chain,COL6A1,25,33.4,108.53,1028,0,301.71,4359400000
+P12110,Collagen alpha-2(VI) chain,COL6A2,14,15.8,108.58,1019,0,47.372,958630000
+P12111,Collagen alpha-3(VI) chain,COL6A3,112,42.8,343.67,3177,0,323.31,31541000000
+P12259,Coagulation factor V;Coagulation factor V heavy chain;Coagulation factor V light chain,F5,90,41,251.7,2224,0,323.31,1.3605E+11
+P12273,Prolactin-inducible protein,PIP,2,21.2,16.572,146,0,3.9539,8682300
+P12277,Creatine kinase B-type,CKB,4,15.7,42.644,381,0,9.3262,21111000
+P12318,Low affinity immunoglobulin gamma Fc region receptor II-a,FCGR2A,4,20.3,34.929,316,0,119.99,6255500000
+P12532,"Creatine kinase U-type, mitochondrial",CKMT1A;CKMT1B,2,7.4,47.036,417,0,4.7756,19098000
+P12814,Alpha-actinin-1,ACTN1,49,60.5,102.71,887,0,323.31,9074100000
+P12821,"Angiotensin-converting enzyme;Angiotensin-converting enzyme, soluble form",ACE,38,35.7,149.71,1306,0,323.31,4358700000
+P12830,Cadherin-1;E-Cad/CTF1;E-Cad/CTF2;E-Cad/CTF3,CDH1,14,17.7,97.455,882,0,214.29,4607800000
+P12883,Myosin-7;Myosin-6,MYH7;MYH6,12,7.2,223.09,1935,0,36.129,182460000
+P12955,Xaa-Pro dipeptidase,PEPD,26,64.9,54.548,493,0,323.31,39628000000
+P13473,Lysosome-associated membrane glycoprotein 2,LAMP2,5,13.4,44.955,410,0,122.58,6714400000
+P13489,Ribonuclease inhibitor,RNH1,20,60.5,49.973,461,0,323.31,1694100000
+P13497,Bone morphogenetic protein 1,BMP1,12,13,111.25,986,0,48.79,232440000
+P13521,Secretogranin-2;Secretoneurin;Manserin,SCG2,2,6,70.94,617,0,3.3583,19365000
+P13591,Neural cell adhesion molecule 1,NCAM1,32,49.4,80.311,726,0,323.31,35811000000
+P13611,Versican core protein,VCAN,10,2.9,369.68,3370,0,17.998,407690000
+P13639,Elongation factor 2,EEF2,11,17.2,95.337,858,0,55.846,144800000
+P13667,Protein disulfide-isomerase A4,PDIA4,25,41.6,72.932,645,0,305.25,2212900000
+P13686,Tartrate-resistant acid phosphatase type 5,ACP5,4,14.2,36.598,325,0,10.41,84002000
+P13688,Carcinoembryonic antigen-related cell adhesion molecule 1,CEACAM1,6,19.2,45.95,417,0,126.99,445310000
+P13716,Delta-aminolevulinic acid dehydratase,ALAD,7,23.9,36.294,330,0,33.889,302590000
+P13727,Bone marrow proteoglycan;Eosinophil granule major basic protein,PRG2,11,55.9,25.205,222,0,133.21,6456900000
+P13796,Plastin-2,LCP1,43,75.6,70.288,627,0,323.31,79456000000
+P13797,Plastin-3,PLS3,19,44.3,70.81,630,0,183.99,923540000
+P13929,Beta-enolase,ENO3,4,24.3,42.248,391,0,138.32,235800000
+P14151,L-selectin,SELL,12,26.9,42.187,372,0,323.31,45410000000
+P14174,Macrophage migration inhibitory factor,MIF,2,17.4,12.476,115,0,3.0163,325680000
+P14207,Folate receptor beta,FOLR2,8,31.4,29.279,255,0,80.369,920750000
+P14209,CD99 antigen,CD99,2,12.4,17.128,169,0,3.761,14889000
+P14222,Perforin-1,PRF1,8,19.3,61.377,555,0,74.444,218450000
+P14324,Farnesyl pyrophosphate synthase,FDPS,5,19.3,40.532,353,0,26.662,194080000
+P14384,Carboxypeptidase M,CPM,11,31.6,50.513,443,0,65.014,605240000
+P14543,Nidogen-1,NID1,48,50,136.38,1247,0,323.31,11802000000
+P14550,Alcohol dehydrogenase [NADP(+)],AKR1A1,11,44.6,36.573,325,0,66.718,230420000
+P14618,Pyruvate kinase PKM;Pyruvate kinase,PKM,24,59.1,57.936,531,0,249.52,2249200000
+P14625,Endoplasmin,HSP90B1,45,53.5,92.468,803,0,323.31,17146000000
+P14780,Matrix metalloproteinase-9;67 kDa matrix metalloproteinase-9;82 kDa matrix metalloproteinase-9,MMP9,11,22.2,78.457,707,0,26.792,232230000
+P15085,Carboxypeptidase A1,CPA1,16,45.6,47.14,419,0,323.31,1311800000
+P15086,Carboxypeptidase B,CPB1,11,36.2,47.367,417,0,47.302,420270000
+P15090,"Fatty acid-binding protein, adipocyte",FABP4,4,40.9,14.719,132,0,140.51,597060000
+P15121,Aldose reductase,AKR1B1,6,22.8,35.853,316,0,33.99,140360000
+P15144,Aminopeptidase N,ANPEP,48,50.5,109.54,967,0,323.31,39532000000
+P15151,Poliovirus receptor,PVR,8,28,39.304,364,0,65.918,12472000000
+P15169,Carboxypeptidase N catalytic chain,CPN1,22,55.9,52.286,458,0,323.31,2.0956E+11
+P15289,Arylsulfatase A;Arylsulfatase A component B;Arylsulfatase A component C,ARSA,6,22.9,44.881,423,0,71.022,496460000
+P15291,"Beta-1,4-galactosyltransferase 1;Lactose synthase A protein;N-acetyllactosamine synthase;Beta-N-acetylglucosaminylglycopeptide beta-1,4-galactosyltransferase;Beta-N-acetylglucosaminyl-glycolipid beta-1,4-galactosyltransferase;Processed beta-1,4-galactosyltransferase 1",B4GALT1,11,49.6,42.537,385,0,135.19,1210600000
+P15311,Ezrin,EZR,16,42.2,69.412,586,0,73.775,784330000
+P15529,Membrane cofactor protein,CD46,4,11.5,39.313,348,0,5.5362,409020000
+P15813,Antigen-presenting glycoprotein CD1d,CD1D,2,11.9,37.717,335,0,4.2083,27471000
+P15814,Immunoglobulin lambda-like polypeptide 1,IGLL1,2,22.1,22.963,213,0,31.488,129160000
+P15907,"Beta-galactoside alpha-2,6-sialyltransferase 1",ST6GAL1,4,11.8,46.604,406,0,43.706,132510000
+P16035,Metalloproteinase inhibitor 2,TIMP2,9,38.6,24.399,220,0,108.76,5645500000
+P16070,CD44 antigen,CD44,5,16,32.074,294,0,63.491,26919000000
+P16083,Ribosyldihydronicotinamide dehydrogenase [quinone],NQO2,5,36.4,25.918,231,0,62.743,91099000
+P16152,Carbonyl reductase [NADPH] 1,CBR1,7,33.6,30.375,277,0,29.943,188530000
+P16190,"HLA class I histocompatibility antigen, A-33 alpha chain;HLA class I histocompatibility antigen, A-31 alpha chain;HLA class I histocompatibility antigen, A-74 alpha chain;HLA class I histocompatibility antigen, A-29 alpha chain;HLA class I histocompatibility antigen, A-32 alpha chain",HLA-A,9,36.7,40.891,365,0,19.65,674740000
+P16233,Pancreatic triacylglycerol lipase,PNLIP,15,46,51.156,465,0,67.036,365280000
+P16278,Beta-galactosidase,GLB1,6,11.6,72.75,647,0,13.706,44762000
+P16284,Platelet endothelial cell adhesion molecule,PECAM1,18,31.2,80.206,717,0,142.3,992120000
+P16581,E-selectin,SELE,8,16.2,66.655,610,0,29.861,442880000
+P16870,Carboxypeptidase E,CPE,6,15.9,49.885,440,0,21.411,63207000
+P16930,Fumarylacetoacetase,FAH,21,65.2,46.374,419,0,321.75,7470200000
+P16949,Stathmin,STMN1,4,22.8,17.302,149,0,2.7552,57260000
+P17050,Alpha-N-acetylgalactosaminidase,NAGA,9,27,46.564,411,0,29.427,376530000
+P17174,"Aspartate aminotransferase, cytoplasmic",GOT1,18,49.4,46.247,413,0,189.44,2841300000
+P17181,Interferon alpha/beta receptor 1,IFNAR1,4,9.2,49.546,434,0,4.9962,91732000
+P17301,Integrin alpha-2,ITGA2,9,7.5,129.29,1181,0,51.023,142910000
+P17405,Sphingomyelin phosphodiesterase,SMPD1,6,11.6,69.623,628,0,10.57,94326000
+P17655,Calpain-2 catalytic subunit,CAPN2,4,9.1,79.994,700,0,5.341,38704000
+P17813,Endoglin,ENG,16,25.8,67.541,625,0,181.53,9730900000
+P17900,Ganglioside GM2 activator;Ganglioside GM2 activator isoform short,GM2A,7,45.1,20.838,193,0,43.842,1513400000
+P17936,Insulin-like growth factor-binding protein 3,IGFBP3,24,55.3,31.674,291,0,282.97,97179000000
+P18065,Insulin-like growth factor-binding protein 2,IGFBP2,17,48.6,34.814,325,0,246.75,18397000000
+P18136,Ig kappa chain V-III region HIC,,3,62,14.089,129,0,123.51,829020000
+P18206,Vinculin,VCL,85,75.1,116.72,1066,0,323.31,55549000000
+P18428,Lipopolysaccharide-binding protein,LBP,13,32.2,53.383,481,0,90.506,1421300000
+P18669,Phosphoglycerate mutase 1,PGAM1,11,52,28.804,254,0,113.96,1967000000
+P18850,Cyclic AMP-dependent transcription factor ATF-6 alpha;Processed cyclic AMP-dependent transcription factor ATF-6 alpha,ATF6,7,8.5,74.584,670,0,30.947,1752500000
+P19021,Peptidyl-glycine alpha-amidating monooxygenase;Peptidylglycine alpha-hydroxylating monooxygenase;Peptidyl-alpha-hydroxyglycine alpha-amidating lyase,PAM,25,34.3,106.27,955,0,235.62,2504600000
+P19022,Cadherin-2,CDH2,15,22.1,99.808,906,0,182.55,2743800000
+P19320,Vascular cell adhesion protein 1,VCAM1,36,61.2,81.275,739,0,323.31,25403000000
+P19440,Gamma-glutamyltranspeptidase 1;Gamma-glutamyltranspeptidase 1 heavy chain;Gamma-glutamyltranspeptidase 1 light chain;Putative gamma-glutamyltranspeptidase 3;Putative gamma-glutamyltranspeptidase 3 heavy chain;Putative gamma-glutamyltranspeptidase 3 light chain;Inactive gamma-glutamyltranspeptidase 2,GGT1;GGT2;GGT3P,9,18.6,61.409,569,0,34.29,551800000
+P19652,Alpha-1-acid glycoprotein 2,ORM2,15,56.2,23.602,201,0,136.73,24411000000
+P19827,Inter-alpha-trypsin inhibitor heavy chain H1,ITIH1,18,30.7,101.39,911,0,147.72,990430000
+P19883,Follistatin,FST,3,11.7,34.803,317,0,3.9292,49567000
+P19961,Alpha-amylase 2B,AMY2B,2,53.6,57.709,511,0,28.459,59330000
+P19971,Thymidine phosphorylase,TYMP,3,8.9,49.955,482,0,5.7301,16452000
+P20023,Complement receptor type 2,CR2,24,25.5,118.28,1084,0,155.11,3493700000
+P20061,Transcobalamin-1,TCN1,10,28.4,48.206,433,0,247.37,1149000000
+P20138,Myeloid cell surface antigen CD33,CD33,2,8.1,33.889,310,0,6.7662,101810000
+P20142,Gastricsin,PGC,2,5.2,42.425,388,0,3.3031,87555000
+P20618,Proteasome subunit beta type-1,PSMB1,7,42.7,26.489,241,0,117.69,474920000
+P20700,Lamin-B1,LMNB1,4,8.4,66.408,586,0,8.4551,179380000
+P20701,Integrin alpha-L,ITGAL,3,3.3,119.22,1086,0,5.3507,39077000
+P20742,Pregnancy zone protein,PZP,41,41,163.86,1482,0,323.31,51806000000
+P20774,Mimecan,OGN,12,41.6,33.922,298,0,164.57,3552600000
+P20827,"Ephrin-A1;Ephrin-A1, secreted form",EFNA1,2,8.8,23.787,205,0,2.7402,133060000
+P20851,C4b-binding protein beta chain,C4BPB,6,21.1,28.286,251,0,48.19,283660000
+P20908,Collagen alpha-1(V) chain,COL5A1,7,4.9,183.56,1838,0,48.116,742370000
+P20933,N(4)-(beta-N-acetylglucosaminyl)-L-asparaginase;Glycosylasparaginase alpha chain;Glycosylasparaginase beta chain,AGA,7,28.9,37.208,346,0,123.27,2135100000
+P21266,Glutathione S-transferase Mu 3,GSTM3,3,18.2,26.559,225,0,32.28,55584000
+P21333,Filamin-A,FLNA,100,50.9,280.01,2639,0,323.31,7966300000
+P21399,Cytoplasmic aconitate hydratase;Aconitate hydratase,ACO1;IRP1,17,25.6,98.398,889,0,87.316,447940000
+P21583,Kit ligand;Soluble KIT ligand,KITLG,3,11.8,27.867,245,0,17.068,118510000
+P21695,"Glycerol-3-phosphate dehydrogenase [NAD(+)], cytoplasmic",GPD1,3,10.1,35.139,326,0,8.0927,41749000
+P21709,Ephrin type-A receptor 1,EPHA1,13,18.4,108.13,976,0,113.87,714700000
+P21810,Biglycan,BGN,4,12.2,41.654,368,0,14.361,170480000
+P22105,Tenascin-X,TNXB,114,36.7,464.32,4289,0,323.31,89339000000
+P22304,Iduronate 2-sulfatase;Iduronate 2-sulfatase 42 kDa chain;Iduronate 2-sulfatase 14 kDa chain,IDS,13,29.8,61.872,550,0,89.238,789860000
+P22314,Ubiquitin-like modifier-activating enzyme 1,UBA1,22,30.3,113.8,1018,0,116.77,622190000
+P22352,Glutathione peroxidase 3,GPX3,13,57.1,25.552,226,0,323.31,1.1E+11
+P22413,Ectonucleotide pyrophosphatase/phosphodiesterase family member 1;Alkaline phosphodiesterase I;Nucleotide pyrophosphatase,ENPP1,7,9.4,104.92,925,0,20.825,159870000
+P22607,Fibroblast growth factor receptor 3;Fibroblast growth factor receptor,FGFR3,4,6.8,88.156,808,0,5.3995,56153000
+P22626,Heterogeneous nuclear ribonucleoproteins A2/B1,HNRNPA2B1,4,13.8,36.006,341,0,6.7101,80132000
+P22692,Insulin-like growth factor-binding protein 4,IGFBP4,10,41.5,27.934,258,0,127.27,13270000000
+P22748,Carbonic anhydrase 4,CA4,3,9,35.032,312,0,3.8763,122560000
+P22792,Carboxypeptidase N subunit 2,CPN2,19,42.4,60.556,545,0,323.31,3.0626E+11
+P22891,Vitamin K-dependent protein Z,PROZ,17,49,44.743,400,0,323.31,1.1895E+11
+P22897,Macrophage mannose receptor 1,MRC1,59,44.1,166.01,1456,0,323.31,16181000000
+P23083,Ig heavy chain V-I region V35,,4,41.9,13.009,117,0,33.244,4738000000
+P23141,Liver carboxylesterase 1,CES1,25,50.4,62.392,566,0,195.96,2592800000
+P23142,Fibulin-1,FBLN1,8,54.6,77.213,703,0,263.27,8436100000
+P23284,Peptidyl-prolyl cis-trans isomerase B,PPIB,11,54.2,23.742,216,0,47.875,3525000000
+P23381,"Tryptophan--tRNA ligase, cytoplasmic;T1-TrpRS;T2-TrpRS",WARS,15,42.3,53.165,471,0,168.96,1990700000
+P23435,Cerebellin-1;Cerebellin;[des-Ser1]-cerebellin,CBLN1,3,39.9,21.097,193,0,27.399,90133000
+P23468,Receptor-type tyrosine-protein phosphatase delta;Protein-tyrosine-phosphatase,PTPRD,7,6.5,214.76,1912,0,28.572,127900000
+P23470,Receptor-type tyrosine-protein phosphatase gamma,PTPRG,13,11.4,158.77,1416,0,155.6,4744400000
+P23471,Receptor-type tyrosine-protein phosphatase zeta,PTPRZ1,7,5.4,162.66,1448,0,54.529,308310000
+P24043,Laminin subunit alpha-2,LAMA2,71,27.3,343.9,3122,0,323.31,5179100000
+P24298,Alanine aminotransferase 1,GPT,17,49,54.636,496,0,88.124,1507100000
+P24387,Corticotropin-releasing factor-binding protein,CRHBP,12,38.2,36.144,322,0,114.73,1640200000
+P24592,Insulin-like growth factor-binding protein 6,IGFBP6,8,49.2,25.322,240,0,163.09,8030600000
+P24593,Insulin-like growth factor-binding protein 5,IGFBP5,16,59.9,30.57,272,0,297.65,14878000000
+P24821,Tenascin,TNC,57,35.4,230.86,2110,0,323.31,6473500000
+P25311,Zinc-alpha-2-glycoprotein,AZGP1,28,69.5,34.258,298,0,323.31,7.5063E+11
+P25325,3-mercaptopyruvate sulfurtransferase;Sulfurtransferase,MPST,3,11.4,35.249,317,0,2.3245,74490000
+P25391,Laminin subunit alpha-1,LAMA1,2,0.3,337.08,3075,0.0006135,2.1711,428780000
+P25445,Tumor necrosis factor receptor superfamily member 6,FAS,6,19.1,35.386,314,0,18.874,123830000
+P25774,Cathepsin S,CTSS,3,13.2,31.626,281,0,12.054,150650000
+P25786,Proteasome subunit alpha type-1;Proteasome subunit alpha type,PSMA1,10,42.6,29.555,263,0,105.75,602880000
+P25787,Proteasome subunit alpha type-2,PSMA2,5,26.5,25.898,234,0,193.93,606040000
+P25788,Proteasome subunit alpha type-3,PSMA3,6,25.4,27.647,248,0,11.529,275700000
+P25789,Proteasome subunit alpha type-4;Proteasome subunit alpha type,PSMA4,7,33.7,29.483,261,0,47.616,540370000
+P25815,Protein S100-P,S100P,2,24.2,10.4,95,0,7.9815,163460000
+P25940,Collagen alpha-3(V) chain,COL5A3,4,4.8,172.12,1745,0,59.925,49905000
+P26038,Moesin,MSN,44,63.3,67.819,577,0,323.31,17061000000
+P26447,Protein S100-A4,S100A4,5,36.6,11.728,101,0,8.1265,1904900000
+P26572,"Alpha-1,3-mannosyl-glycoprotein 2-beta-N-acetylglucosaminyltransferase",MGAT1,10,27.2,50.878,445,0,34.81,304800000
+P26639,"Threonine--tRNA ligase, cytoplasmic",TARS,2,3,83.434,723,0,3.8948,13280000
+P26641,Elongation factor 1-gamma,EEF1G,2,4.6,50.118,437,0,3.5163,23681000
+P26842,CD27 antigen,CD27,2,8.1,29.137,260,0.00061387,2.1729,98702000
+P26885,Peptidyl-prolyl cis-trans isomerase FKBP2,FKBP2,2,28.2,15.649,142,0,3.0374,57896000
+P26992,Ciliary neurotrophic factor receptor subunit alpha,CNTFR,8,33.1,40.633,372,0,302.54,1844800000
+P27169,Serum paraoxonase/arylesterase 1,PON1,16,70.4,39.731,355,0,323.31,4.6223E+11
+P27348,14-3-3 protein theta,YWHAQ,7,46.9,27.764,245,0,86.092,287320000
+P27487,Dipeptidyl peptidase 4;Dipeptidyl peptidase 4 membrane form;Dipeptidyl peptidase 4 soluble form,DPP4,27,34.2,88.278,766,0,310.67,4094200000
+P27797,Calreticulin,CALR,19,62.4,48.141,417,0,323.31,13778000000
+P27824,Calnexin,CANX,5,10,67.567,592,0,20.18,263650000
+P27918,Properdin,CFP,16,36.9,51.276,469,0,193.46,13051000000
+P27930,"Interleukin-1 receptor type 2;Interleukin-1 receptor type 2, membrane form;Interleukin-1 receptor type 2, soluble form",IL1R2,15,43,45.421,398,0,172.5,2295000000
+P28066,Proteasome subunit alpha type-5,PSMA5,9,52.7,26.411,241,0,226.28,425220000
+P28070,Proteasome subunit beta type-4,PSMB4,8,48.5,29.204,264,0,65.049,276340000
+P28072,Proteasome subunit beta type-6,PSMB6,6,26.8,25.357,239,0,8.5101,192370000
+P28074,Proteasome subunit beta type-5,PSMB5,4,23.6,28.48,263,0,20.919,98191000
+P28799,Granulins;Acrogranin;Paragranulin;Granulin-1;Granulin-2;Granulin-3;Granulin-4;Granulin-5;Granulin-6;Granulin-7,GRN,18,39.8,63.544,593,0,323.31,2553700000
+P28838,Cytosol aminopeptidase,LAP3,3,7.2,52.771,488,0,15.325,37282000
+P28845,Corticosteroid 11-beta-dehydrogenase isozyme 1,HSD11B1,4,13,32.401,292,0,35.122,145740000
+P28906,Hematopoietic progenitor cell antigen CD34,CD34,3,6.5,40.716,385,0.0040984,1.709,142770000
+P29122,Proprotein convertase subtilisin/kexin type 6,PCSK6,3,2.7,105.12,956,0,2.34,25687000
+P29279,Connective tissue growth factor,CTGF,5,19.6,35.205,322,0,11.994,444720000
+P29350,Tyrosine-protein phosphatase non-receptor type 6,PTPN6,10,21.5,67.56,595,0,58.067,200670000
+P29401,Transketolase,TKT,28,49.1,67.877,623,0,323.31,6947700000
+P29622,Kallistatin,SERPINA4,28,68.4,48.541,427,0,323.31,5.3487E+11
+P29966,Myristoylated alanine-rich C-kinase substrate,MARCKS,5,19.3,31.554,332,0,15.774,302900000
+P30040,Endoplasmic reticulum resident protein 29,ERP29,7,32.2,28.993,261,0,13.174,143630000
+P30041,Peroxiredoxin-6,PRDX6,11,49.6,25.035,224,0,64.662,595090000
+P30043,Flavin reductase (NADPH),BLVRB,6,47.1,22.119,206,0,122.76,1686200000
+P30085,UMP-CMP kinase,CMPK1,2,14.3,22.222,196,0,9.7957,72255000
+P30086,Phosphatidylethanolamine-binding protein 1;Hippocampal cholinergic neurostimulating peptide,PEBP1,10,58.3,21.057,187,0,36.782,1212800000
+P30101,Protein disulfide-isomerase A3,PDIA3,29,58.6,56.782,505,0,323.31,8287200000
+P30462,"HLA class I histocompatibility antigen, B-14 alpha chain;HLA class I histocompatibility antigen, B-37 alpha chain;HLA class I histocompatibility antigen, B-82 alpha chain",HLA-B,4,40.9,40.358,362,0,101.9,349830000
+P30501,"HLA class I histocompatibility antigen, Cw-2 alpha chain",HLA-C,2,33.1,41.094,366,0,14.969,364270000
+P30508,"HLA class I histocompatibility antigen, Cw-12 alpha chain;HLA class I histocompatibility antigen, Cw-16 alpha chain;HLA class I histocompatibility antigen, Cw-14 alpha chain;HLA class I histocompatibility antigen, Cw-15 alpha chain",HLA-C,17,48.6,40.885,366,0,217.17,4985900000
+P30520,Adenylosuccinate synthetase isozyme 2,ADSS,3,8.6,50.097,456,0,29.059,8283400
+P30530,Tyrosine-protein kinase receptor UFO,AXL,6,11.1,97.376,885,0,90.977,1251100000
+P30740,Leukocyte elastase inhibitor,SERPINB1,14,44.9,42.741,379,0,185.6,750790000
+P31025,Lipocalin-1;Putative lipocalin 1-like protein 1,LCN1;LCN1P1,4,23.3,19.25,176,0,8.0333,60433000
+P31146,Coronin-1A;Coronin,CORO1A,17,44.9,51.026,461,0,199.4,3436900000
+P31150,Rab GDP dissociation inhibitor alpha,GDI1,23,60,50.582,447,0,272.24,2334900000
+P31151,Protein S100-A7;Protein S100-A7A,S100A7;S100A7A,2,22.8,11.471,101,0.0040912,1.6969,19364000
+P31939,Bifunctional purine biosynthesis protein PURH;Phosphoribosylaminoimidazolecarboxamide formyltransferase;IMP cyclohydrolase,ATIC,11,28.3,64.523,591,0,107.4,221400000
+P31946,"14-3-3 protein beta/alpha;14-3-3 protein beta/alpha, N-terminally processed",YWHAB,9,62.3,27.85,244,0,323.31,805370000
+P31948,Stress-induced-phosphoprotein 1,STIP1,9,17.5,59.777,519,0,37.831,178030000
+P31949,"Protein S100-A11;Protein S100-A11, N-terminally processed",S100A11,4,42.9,11.74,105,0,42.425,395200000
+P32004,Neural cell adhesion molecule L1,L1CAM,24,25.1,138.91,1248,0,137.46,1985900000
+P32119,Peroxiredoxin-2,PRDX2,10,36.9,21.892,198,0,79.821,4874900000
+P32754,4-hydroxyphenylpyruvate dioxygenase,HPD,14,40.2,44.934,393,0,232,1639700000
+P32942,Intercellular adhesion molecule 3,ICAM3,11,19.2,59.54,547,0,111.82,2205100000
+P33151,Cadherin-5,CDH5,21,33.5,87.527,784,0,323.31,9596800000
+P33908,"Mannosyl-oligosaccharide 1,2-alpha-mannosidase IA",MAN1A1,31,43,72.968,653,0,323.31,30219000000
+P34059,N-acetylgalactosamine-6-sulfatase,GALNS,6,15.1,58.025,522,0,22.629,914220000
+P34096,Ribonuclease 4,RNASE4,7,44.2,16.84,147,0,55.738,300800000
+P34932,Heat shock 70 kDa protein 4,HSPA4,20,27.6,94.33,840,0,58.201,552450000
+P35052,Glypican-1;Secreted glypican-1,GPC1,12,30.1,61.68,558,0,48.909,527540000
+P35237,Serpin B6,SERPINB6,7,25.8,42.621,376,0,79.545,460130000
+P35241,Radixin,RDX,8,32.8,68.563,583,0,26.625,156110000
+P35247,Pulmonary surfactant-associated protein D,SFTPD,2,9.6,37.728,375,0,2.7391,43629000
+P35443,Thrombospondin-4,THBS4,34,50.1,105.87,961,0,323.31,14949000000
+P35542,Serum amyloid A-4 protein,SAA4,2,15.4,14.746,130,0.0035503,1.7849,27613000
+P35555,Fibrillin-1,FBN1,69,32.1,312.24,2871,0,323.31,7969800000
+P35579,Myosin-9,MYH9,41,25.1,226.53,1960,0,237.49,1043200000
+P35590,Tyrosine-protein kinase receptor Tie-1,TIE1,20,24.7,125.09,1138,0,210.96,2555800000
+P35858,Insulin-like growth factor-binding protein complex acid labile subunit,IGFALS,32,63.5,66.034,605,0,323.31,3.4936E+11
+P35908,"Keratin, type II cytoskeletal 2 epidermal",KRT2,35,60.6,65.432,639,0,323.31,6434300000
+P35968,Vascular endothelial growth factor receptor 2,KDR,7,10.3,75.895,678,0,19.04,227660000
+P36222,Chitinase-3-like protein 1,CHI3L1,19,51.7,42.625,383,0,323.31,8341100000
+P36269,Gamma-glutamyltransferase 5;Gamma-glutamyltransferase 5 heavy chain;Gamma-glutamyltransferase 5 light chain,GGT5,7,16.2,58.992,554,0,45.087,167130000
+P36871,Phosphoglucomutase-1,PGM1,17,37.2,61.448,562,0,109.28,446810000
+P36955,Pigment epithelium-derived factor,SERPINF1,24,59.6,46.312,418,0,323.31,5.826E+11
+P37173,TGF-beta receptor type-2,TGFBR2,2,4.1,64.567,567,0,34.213,73137000
+P37235,Hippocalcin-like protein 1;Neuron-specific calcium-binding protein hippocalcin,HPCAL1;HPCA,7,38.9,22.313,193,0,10.353,91979000
+P37802,Transgelin-2,TAGLN2,17,85.9,22.391,199,0,187.46,15179000000
+P37837,Transaldolase,TALDO1,16,39.8,37.54,337,0,58.875,3712600000
+P38606,V-type proton ATPase catalytic subunit A,ATP6V1A,2,5.1,64.735,584,0,29.446,30374000
+P39059,Collagen alpha-1(XV) chain;Restin;Restin-2;Restin-3;Restin-4,COL15A1,7,6.1,141.72,1388,0,39.945,910930000
+P39060,Collagen alpha-1(XVIII) chain;Endostatin,COL18A1,12,11.1,135.76,1339,0,69.326,3753200000
+P39687,Acidic leucine-rich nuclear phosphoprotein 32 family member A,ANP32A,6,27.7,28.585,249,0,8.4856,111450000
+P40121,Macrophage-capping protein,CAPG,2,6.6,36.856,333,0,2.3876,17979000
+P40189,Interleukin-6 receptor subunit beta,IL6ST,19,26.3,103.54,918,0,272.18,4718600000
+P40197,Platelet glycoprotein V,GP5,16,34.5,60.958,560,0,145.02,1686500000
+P40306,Proteasome subunit beta type-10,PSMB10,4,13.9,28.936,273,0,17.097,300850000
+P40925,"Malate dehydrogenase, cytoplasmic",MDH1,12,36.5,36.426,334,0,57.051,2519100000
+P40926,"Malate dehydrogenase, mitochondrial;Malate dehydrogenase",MDH2,5,20.1,35.503,338,0,13.745,49260000
+P40967,Melanocyte protein PMEL;M-alpha;M-beta,PMEL,5,10.3,66.035,619,0,3.8733,215810000
+P41159,Leptin,LEP,3,24.6,18.64,167,0,12.021,175350000
+P41222,Prostaglandin-H2 D-isomerase,PTGDS,8,40.5,21.029,190,0,124.07,20450000000
+P41226,Ubiquitin-like modifier-activating enzyme 7,UBA7,10,12.6,111.69,1012,0,29.912,142470000
+P41250,Glycine--tRNA ligase,GARS,2,4.6,83.165,739,0,10.253,9495200
+P41271,Neuroblastoma suppressor of tumorigenicity 1,NBL1;MINOS1-NBL1,2,9.9,19.408,181,0,3.0231,665260000
+P42081,T-lymphocyte activation antigen CD86,CD86,2,6.9,28.419,247,0,3.1789,180720000
+P42126,"Enoyl-CoA delta isomerase 1, mitochondrial",ECI1;DCI,7,25.5,32.816,302,0,52.711,782840000
+P42574,Caspase-3;Caspase-3 subunit p17;Caspase-3 subunit p12,CASP3,2,9,31.608,277,0.0035651,1.8328,24242000
+P42702,Leukemia inhibitory factor receptor,LIFR,2,2.7,123.74,1097,0,4.4465,10444000
+P42765,"3-ketoacyl-CoA thiolase, mitochondrial",ACAA2,3,7.6,41.924,397,0,10.155,46711000
+P42768,Wiskott-Aldrich syndrome protein,WAS,2,4.6,52.912,502,0.0046539,1.6378,17594000
+P42785,Lysosomal Pro-X carboxypeptidase,PRCP,11,24.8,55.799,496,0,108.25,1887000000
+P43034,Platelet-activating factor acetylhydrolase IB subunit alpha,PAFAH1B1,6,19.3,46.637,410,0,15.567,71578000
+P43121,Cell surface glycoprotein MUC18,MCAM,24,42,71.607,646,0,323.31,19838000000
+P43251,Biotinidase,BTD,20,44.4,58.913,523,0,323.31,1.3101E+11
+P43487,Ran-specific GTPase-activating protein,RANBP1,2,10,23.239,200,0,14.915,31858000
+P43652,Afamin,AFM,35,53.8,69.068,599,0,323.31,52288000000
+P45877,Peptidyl-prolyl cis-trans isomerase C,PPIC,3,14.6,22.763,212,0,7.4199,469470000
+P46109,Crk-like protein,CRKL,6,25.7,33.777,303,0,14.389,204590000
+P46531,Neurogenic locus notch homolog protein 1;Notch 1 extracellular truncation;Notch 1 intracellular domain,NOTCH1,12,6.2,272.5,2555,0,107.03,359100000
+P46926,Glucosamine-6-phosphate isomerase 1;Glucosamine-6-phosphate isomerase,GNPDA1,5,21.1,32.668,289,0,46.573,63770000
+P47755,F-actin-capping protein subunit alpha-2,CAPZA2,3,18.2,32.949,286,0,40.781,45107000
+P47972,Neuronal pentraxin-2,NPTX2,3,10.2,47.041,431,0,7.1781,17935000
+P48052,Carboxypeptidase A2,CPA2,5,11,47.03,419,0,5.4089,77813000
+P48059,LIM and senescent cell antigen-like-containing domain protein 1,LIMS1,4,15.7,37.251,325,0,5.7177,46074000
+P48147,Prolyl endopeptidase,PREP,17,29,80.699,710,0,76.395,12430000000
+P48163,NADP-dependent malic enzyme,ME1,11,26.2,64.149,572,0,124.85,491490000
+P48357,Leptin receptor,LEPR,11,18.8,96.04,839,0,102.99,399580000
+P48506,Glutamate--cysteine ligase catalytic subunit,GCLC,5,7.4,72.765,637,0,5.6969,53164000
+P48507,Glutamate--cysteine ligase regulatory subunit,GCLM,2,11.3,30.727,274,0.0052113,1.5967,1558000000
+P48637,Glutathione synthetase,GSS,27,62.2,52.384,474,0,240.92,4481000000
+P48723,Heat shock 70 kDa protein 13,HSPA13,10,21.9,51.927,471,0,79.146,596910000
+P48740,Mannan-binding lectin serine protease 1;Mannan-binding lectin serine protease 1 heavy chain;Mannan-binding lectin serine protease 1 light chain,MASP1,12,50.6,79.246,699,0,110.72,9426800000
+P48745,Protein NOV homolog,NOV,3,11.5,39.162,357,0,11.119,118560000
+P48960,CD97 antigen;CD97 antigen subunit alpha;CD97 antigen subunit beta,CD97,4,7,81.742,742,0,20.055,46689000
+P49247,Ribose-5-phosphate isomerase,RPIA,3,11.6,33.269,311,0,2.6417,76527000
+P49257,Protein ERGIC-53,LMAN1,6,8.4,57.548,510,0,133.47,676490000
+P49407,Beta-arrestin-1,ARRB1,4,15.9,46.308,410,0,35.337,35140000
+P49641,Alpha-mannosidase 2x;Alpha-mannosidase,MAN2A2,31,37,130.54,1150,0,323.31,2112300000
+P49720,Proteasome subunit beta type-3,PSMB3,5,31.7,22.949,205,0,31.101,256290000
+P49721,Proteasome subunit beta type-2,PSMB2,6,37.3,22.836,201,0,30.814,241300000
+P49908,Selenoprotein P,SEPP1,10,21.8,43.173,381,0,117.39,46352000000
+P50395,Rab GDP dissociation inhibitor beta,GDI2,11,53,50.663,445,0,270.9,1451200000
+P50453,Serpin B9,SERPINB9,6,21,42.403,376,0,13.651,81126000
+P50552,Vasodilator-stimulated phosphoprotein,VASP,8,27.1,39.829,380,0,72.577,330920000
+P50895,Basal cell adhesion molecule,BCAM,15,30.1,67.404,628,0,129.19,654960000
+P51161,Gastrotropin,FABP6,3,23.4,14.371,128,0,4.6095,69646000
+P51805,Plexin-A3,PLXNA3,2,1.8,207.7,1871,0.0018171,2.0406,19276000
+P51858,Hepatoma-derived growth factor,HDGF,2,8.2,25.537,233,0,2.6051,17870000
+P51884,Lumican,LUM,15,44.4,38.429,338,0,323.31,5.9561E+11
+P52209,"6-phosphogluconate dehydrogenase, decarboxylating",PGD,21,53.6,51.872,470,0,323.31,2899800000
+P52566,Rho GDP-dissociation inhibitor 2,ARHGDIB,7,46.3,22.988,201,0,214.73,2939900000
+P52758,Ribonuclease UK114,HRSP12,2,21.9,14.494,137,0,7.5182,24083000
+P52790,Hexokinase-3,HK3,5,7,99.024,923,0,9.3208,42773000
+P52799,Ephrin-B2,EFNB2,4,15.6,36.923,333,0,15.906,123100000
+P52848,Bifunctional heparan sulfate N-deacetylase/N-sulfotransferase 1;Heparan sulfate N-deacetylase 1;Heparan sulfate N-sulfotransferase 1,NDST1,8,10.3,100.87,882,0,40.999,110540000
+P52907,F-actin-capping protein subunit alpha-1,CAPZA1,5,27.6,32.922,286,0,107.6,170950000
+P53004,Biliverdin reductase A,BLVRA,3,10.5,33.428,296,0,5.711,36838000
+P53634,Dipeptidyl peptidase 1;Dipeptidyl peptidase 1 exclusion domain chain;Dipeptidyl peptidase 1 heavy chain;Dipeptidyl peptidase 1 light chain,CTSC,13,30.9,51.853,463,0,73.645,1135900000
+P54289,Voltage-dependent calcium channel subunit alpha-2/delta-1;Voltage-dependent calcium channel subunit alpha-2-1;Voltage-dependent calcium channel subunit delta-1,CACNA2D1,46,47.6,124.57,1103,0,323.31,11080000000
+P54317,Pancreatic lipase-related protein 2;Triacylglycerol lipase,PNLIPRP2,2,6.2,51.946,469,0,5.8001,28483000
+P54727,UV excision repair protein RAD23 homolog B,RAD23B,9,28.1,43.171,409,0,61.595,329210000
+P54802,Alpha-N-acetylglucosaminidase;Alpha-N-acetylglucosaminidase 82 kDa form;Alpha-N-acetylglucosaminidase 77 kDa form,NAGLU,32,59,82.265,743,0,323.31,45209000000
+P55000,Secreted Ly-6/uPAR-related protein 1,SLURP1,3,43.7,11.186,103,0,59.926,157300000
+P55056,Apolipoprotein C-IV,APOC4,3,32.3,14.553,127,0,3.6233,54096000
+P55058,Phospholipid transfer protein,PLTP,14,29.2,54.739,493,0,141.55,1679400000
+P55072,Transitional endoplasmic reticulum ATPase,VCP,24,42.9,89.321,806,0,174.12,1022600000
+P55103,Inhibin beta C chain,INHBC,10,31.8,38.237,352,0,67.24,1997400000
+P55145,Mesencephalic astrocyte-derived neurotrophic factor,MANF,7,33.5,20.7,182,0,67.7,365290000
+P55268,Laminin subunit beta-2,LAMB2,34,24.5,195.98,1798,0,150.52,1881100000
+P55287,Cadherin-11,CDH11,5,8.4,76.456,693,0,4.3146,52658000
+P55290,Cadherin-13,CDH13,16,26.2,78.286,713,0,323.31,10902000000
+P55899,IgG receptor FcRn large subunit p51,FCGRT,6,20.5,39.743,365,0,22.874,484470000
+P55957,BH3-interacting domain death agonist;BH3-interacting domain death agonist p15;BH3-interacting domain death agonist p13;BH3-interacting domain death agonist p11,BID,2,14.4,21.994,195,0,20.631,23288000
+P56199,Integrin alpha-1,ITGA1,10,8,130.85,1179,0,20.242,420360000
+P58166,Inhibin beta E chain,INHBE,4,13.7,38.561,350,0,11.574,167210000
+P58335,Anthrax toxin receptor 2,ANTXR2,5,20.5,34.763,322,0,14.649,137360000
+P58546,Myotrophin,MTPN,5,37.3,12.895,118,0,174.13,333900000
+P59666,Neutrophil defensin 3;HP 3-56;Neutrophil defensin 2;Neutrophil defensin 1;HP 1-56;Neutrophil defensin 2,DEFA3;DEFA1,2,42.6,10.245,94,0,21.192,370710000
+P60174,Triosephosphate isomerase,TPI1,17,78.7,26.669,249,0,134.41,6604700000
+P61088,Ubiquitin-conjugating enzyme E2 N;Putative ubiquitin-conjugating enzyme E2 N-like,UBE2N;UBE2NL,6,49.3,17.138,152,0,48.117,136610000
+P61158,Actin-related protein 3,ACTR3,18,61.5,47.371,418,0,286.35,1860700000
+P61160,Actin-related protein 2,ACTR2,12,44.2,44.76,394,0,162.02,645020000
+P61224,Ras-related protein Rap-1b;Ras-related protein Rap-1A;Ras-related protein Rap-1b-like protein,RAP1B;RAP1A,5,37.6,18.778,165,0,18.629,186800000
+P61457,Pterin-4-alpha-carbinolamine dehydratase,PCBD1,3,37.5,11.999,104,0,3.3576,25149000
+P61916,Epididymal secretory protein E1,NPC2,8,66.2,16.57,151,0,82.341,3600900000
+P61970,Nuclear transport factor 2,NUTF2,2,24.4,14.478,127,0,33.598,113940000
+P61981,"14-3-3 protein gamma;14-3-3 protein gamma, N-terminally processed",YWHAG,10,62.3,28.302,247,0,323.31,1205500000
+P62136,Serine/threonine-protein phosphatase PP1-alpha catalytic subunit;Serine/threonine-protein phosphatase;Serine/threonine-protein phosphatase PP1-gamma catalytic subunit;Serine/threonine-protein phosphatase PP1-beta catalytic subunit,PPP1CA;PPP1CC;PPP1CB,7,26.1,37.512,330,0,14.329,120540000
+P62258,14-3-3 protein epsilon,YWHAE,11,55.8,26.504,233,0,186.9,2108200000
+P62805,Histone H4,HIST1H4A,2,19.4,11.367,103,0.0006169,2.258,52172000
+P62937,"Peptidyl-prolyl cis-trans isomerase A;Peptidyl-prolyl cis-trans isomerase A, N-terminally processed;Peptidyl-prolyl cis-trans isomerase",PPIA,12,70.9,18.012,165,0,275.21,9554600000
+P62942,Peptidyl-prolyl cis-trans isomerase FKBP1A;Peptidyl-prolyl cis-trans isomerase,FKBP1A;FKBP12-Exip2,2,25,11.951,108,0,58.661,1159200000
+P62993,Growth factor receptor-bound protein 2,GRB2,6,24.4,25.206,217,0,14.475,92333000
+P63104,14-3-3 protein zeta/delta,YWHAZ,20,74.7,27.745,245,0,323.31,22147000000
+P63241,Eukaryotic translation initiation factor 5A-1;Eukaryotic translation initiation factor 5A;Eukaryotic translation initiation factor 5A-2;Eukaryotic translation initiation factor 5A-1-like,EIF5A;EIF5A2;EIF5AL1,6,56.5,16.832,154,0,197.79,909640000
+P63261,"Actin, cytoplasmic 2;Actin, cytoplasmic 2, N-terminally processed;Actin, cytoplasmic 1;Actin, cytoplasmic 1, N-terminally processed",ACTG1;ACTB,17,54.9,41.792,375,0,323.31,10645000000
+P67936,Tropomyosin alpha-4 chain,TPM4,17,60.9,28.521,248,0,170.03,14460000000
+P68036,Ubiquitin-conjugating enzyme E2 L3,UBE2L3,4,42.2,17.861,154,0,62.615,209210000
+P68871,Hemoglobin subunit beta;LVV-hemorphin-7;Spinorphin,HBB,11,93.2,15.998,147,0,106.56,3562300000
+P69905,Hemoglobin subunit alpha,HBA1,4,36.6,15.257,142,0,44.363,784210000
+P78324,Tyrosine-protein phosphatase non-receptor type substrate 1;Signal-regulatory protein beta-1 isoform 3,SIRPA;SIRPB1,13,27.2,54.966,504,0,58.161,2713300000
+P78417,Glutathione S-transferase omega-1,GSTO1,16,63.1,27.566,241,0,68.872,4308100000
+P78504,Protein jagged-1,JAG1,14,13.5,133.8,1218,0,84.999,463450000
+P78552,Interleukin-13 receptor subunit alpha-1,IL13RA1,8,23,48.759,427,0,80.901,1250800000
+P80108,Phosphatidylinositol-glycan-specific phospholipase D,GPLD1,36,53.7,92.335,840,0,323.31,1.4092E+11
+P80419,Ig heavy chain V-III region GAR,,3,33.1,13.087,118,0,10.751,415060000
+P80511,Protein S100-A12;Calcitermin,S100A12,3,38,10.575,92,0,6.9792,463350000
+P80723,Brain acid soluble protein 1,BASP1,10,55.9,22.693,227,0,123.5,827730000
+P80748,Ig lambda chain V-III region LOI,,5,71.2,11.935,111,0,203.56,22232000000
+P81605,Dermcidin;Survival-promoting peptide;DCD-1,DCD,5,35.5,11.284,110,0,17.566,905800000
+P98095,Fibulin-2,FBLN2,12,12.7,126.57,1184,0,33.323,346630000
+P98155,Very low-density lipoprotein receptor,VLDLR,5,9.9,93.382,845,0,80.203,41394000
+P98160,Basement membrane-specific heparan sulfate proteoglycan core protein;Endorepellin;LG3 peptide,HSPG2,117,37.5,468.83,4391,0,323.31,39002000000
+P98172,Ephrin-B1,EFNB1,6,25.7,38.006,346,0,27.185,324120000
+P99999,Cytochrome c,CYCS,9,62.9,11.749,105,0,63.774,1811100000
+Q00610,Clathrin heavy chain 1,CLTC,3,2.3,187.89,1639,0.0023895,1.8985,62223000
+Q01459,Di-N-acetylchitobiase,CTBS,16,50.4,43.759,385,0,323.31,26379000000
+Q01518,Adenylyl cyclase-associated protein 1,CAP1,16,41.3,51.901,475,0,82.674,1777800000
+Q01970,"1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase beta-3",PLCB3,2,2.5,131.2,1167,0,12.834,18582000
+Q01973,Tyrosine-protein kinase transmembrane receptor ROR1,ROR1,8,27.5,43.825,393,0,110.27,161170000
+Q01995,Transgelin,TAGLN,3,14.4,22.611,201,0,5.4249,214450000
+Q02413,Desmoglein-1,DSG1,3,4.2,113.75,1049,0,3.8647,24766000
+Q02487,Desmocollin-2,DSC2,10,17.6,93.768,847,0,254.1,503000000
+Q02747,Guanylin;HMW-guanylin;Guanylin,GUCA2A,2,27,12.388,115,0,58.955,464050000
+Q02763,Angiopoietin-1 receptor,TEK,11,13.6,125.83,1124,0,87.669,460020000
+Q02809,"Procollagen-lysine,2-oxoglutarate 5-dioxygenase 1",PLOD1,18,30,83.549,727,0,110.62,535890000
+Q02818,Nucleobindin-1,NUCB1,22,51.8,53.879,461,0,323.31,2525300000
+Q02952,A-kinase anchor protein 12,AKAP12,6,4.6,180.99,1677,0,8.5181,26203000
+Q03167,Transforming growth factor beta receptor type 3,TGFBR3,15,19.3,93.427,850,0,79.979,2319200000
+Q04446,"1,4-alpha-glucan-branching enzyme",GBE1,9,14,80.473,702,0,27.644,320270000
+Q04721,Neurogenic locus notch homolog protein 2;Notch 2 extracellular truncation;Notch 2 intracellular domain,NOTCH2,23,12.8,265.4,2471,0,270.51,2036500000
+Q04917,14-3-3 protein eta,YWHAH,11,52,28.218,246,0,135.03,1223800000
+Q05707,Collagen alpha-1(XIV) chain,COL14A1,6,4.3,191.9,1780,0,48.331,92246000
+Q06033,Inter-alpha-trypsin inhibitor heavy chain H3,ITIH3,36,52,99.326,886,0,323.31,24638000000
+Q06141,Regenerating islet-derived protein 3-alpha;Regenerating islet-derived protein 3-alpha 16.5 kDa form;Regenerating islet-derived protein 3-alpha 15 kDa form,REG3A,3,18.3,19.395,175,0,6.8684,366710000
+Q06323,Proteasome activator complex subunit 1,PSME1,6,22.5,28.723,249,0,26.393,169130000
+Q06481,Amyloid-like protein 2,APLP2,2,5.2,79.237,695,0,12.814,20426000
+Q06828,Fibromodulin,FMOD,6,18.1,43.178,376,0,31.42,182970000
+Q06830,Peroxiredoxin-1,PRDX1,9,43.2,22.11,199,0,16.773,471870000
+Q07075,Glutamyl aminopeptidase,ENPEP,31,35.2,109.24,957,0,245.5,3848600000
+Q07954,Prolow-density lipoprotein receptor-related protein 1;Low-density lipoprotein receptor-related protein 1 85 kDa subunit;Low-density lipoprotein receptor-related protein 1 515 kDa subunit;Low-density lipoprotein receptor-related protein 1 intracellular domain,LRP1,98,25.8,504.6,4544,0,323.31,9571400000
+Q07960,Rho GTPase-activating protein 1,ARHGAP1,12,34.6,50.435,439,0,121.12,476560000
+Q08174,Protocadherin-1,PCDH1,6,7.4,114.74,1060,0,54.334,148210000
+Q08257,Quinone oxidoreductase,CRYZ,3,9.2,31.528,295,0,4.2232,43760000
+Q08334,Interleukin-10 receptor subunit beta,IL10RB,3,9.8,36.995,325,0,43.126,168370000
+Q08345,Epithelial discoidin domain-containing receptor 1,DDR1,9,12.1,97.173,876,0,46.44,339070000
+Q08380,Galectin-3-binding protein,LGALS3BP,26,51.3,65.33,585,0,323.31,51639000000
+Q08554,Desmocollin-1,DSC1,5,6.2,93.834,840,0,194.28,1782900000
+Q08830,Fibrinogen-like protein 1,FGL1,5,14.4,36.379,312,0,69.118,236840000
+Q08ET2,Sialic acid-binding Ig-like lectin 14;Sialic acid-binding Ig-like lectin 5,SIGLEC14;SIGLEC5,6,24.7,43.97,396,0,97.949,662190000
+Q09327,"Beta-1,4-mannosyl-glycoprotein 4-beta-N-acetylglucosaminyltransferase",MGAT3,2,6,61.312,533,0,38.84,9038600
+Q09328,"Alpha-1,6-mannosylglycoprotein 6-beta-N-acetylglucosaminyltransferase A",MGAT5,4,5.7,84.542,741,0,7.2077,51562000
+Q09666,Neuroblast differentiation-associated protein AHNAK,AHNAK,8,5.3,629.09,5890,0,27.253,145460000
+Q0VD83,Apolipoprotein B receptor,APOBR,4,5.3,66.335,626,0,4.0716,27799000
+Q0ZGT2,Nexilin,NEXN,2,3.9,72.731,611,0,3.4798,20734000
+Q10469,"Alpha-1,6-mannosyl-glycoprotein 2-beta-N-acetylglucosaminyltransferase",MGAT2,13,31.8,51.55,447,0,203.33,505950000
+Q10471,Polypeptide N-acetylgalactosaminyltransferase 2;Polypeptide N-acetylgalactosaminyltransferase 2 soluble form,GALNT2,25,51.7,64.732,571,0,241.78,2904000000
+Q10472,Polypeptide N-acetylgalactosaminyltransferase 1;Polypeptide N-acetylgalactosaminyltransferase 1 soluble form,GALNT1,9,22.5,64.218,559,0,120.41,294050000
+Q10567,AP-1 complex subunit beta-1;AP-2 complex subunit beta,AP1B1;AP2B1,5,7.3,101.35,919,0,33.557,30736000
+Q11201,"CMP-N-acetylneuraminate-beta-galactosamide-alpha-2,3-sialyltransferase 1",ST3GAL1,3,9.7,39.075,340,0,4.3982,41821000
+Q12797,Aspartyl/asparaginyl beta-hydroxylase,ASPH,7,10.7,83.267,729,0,11.352,630480000
+Q12805,EGF-containing fibulin-like extracellular matrix protein 1,EFEMP1,24,57.5,53.722,485,0,323.31,40823000000
+Q12841,Follistatin-related protein 1,FSTL1,20,65.9,34.985,308,0,323.31,4172900000
+Q12860,Contactin-1,CNTN1,52,63,113.32,1018,0,323.31,21306000000
+Q12864,Cadherin-17,CDH17,11,18.6,92.218,832,0,90.155,512000000
+Q12866,Tyrosine-protein kinase Mer;Receptor protein-tyrosine kinase,MERTK,6,6.4,110.25,999,0,11.32,372830000
+Q12882,Dihydropyrimidine dehydrogenase [NADP(+)],DPYD,9,9.5,111.4,1025,0,14.211,182090000
+Q12884,"Prolyl endopeptidase FAP;Antiplasmin-cleaving enzyme FAP, soluble form",FAP,43,55.3,87.711,760,0,323.31,10041000000
+Q12905,Interleukin enhancer-binding factor 2,ILF2,2,6.7,43.062,390,0,4.3241,33965000
+Q12906,Interleukin enhancer-binding factor 3,ILF3,4,6.2,74.606,690,0,15.918,87510000
+Q12907,Vesicular integral-membrane protein VIP36,LMAN2,13,40.7,40.228,356,0,83.994,2679700000
+Q12913,Receptor-type tyrosine-protein phosphatase eta,PTPRJ,13,12.7,145.94,1337,0,202.75,9013300000
+Q13103,Secreted phosphoprotein 24,SPP2,7,30.8,24.337,211,0,32.45,1352900000
+Q13162,Peroxiredoxin-4,PRDX4,2,18.8,30.54,271,0,2.3361,29775000
+Q13201,Multimerin-1;Platelet glycoprotein Ia*;155 kDa platelet multimerin,MMRN1,14,13.9,138.11,1228,0,292.15,2498000000
+Q13217,DnaJ homolog subfamily C member 3,DNAJC3,11,23.4,57.579,504,0,49.174,352630000
+Q13228,Selenium-binding protein 1,SELENBP1,19,50.8,52.39,472,0,157.38,1460900000
+Q13231,Chitotriosidase-1,CHIT1,18,51.3,48.564,437,0,323.31,2576900000
+Q13232,Nucleoside diphosphate kinase 3,NME3,6,32.5,19.015,169,0,23.717,239470000
+Q13275,Semaphorin-3F,SEMA3F,12,18,85.063,754,0,76.417,796740000
+Q13308,Inactive tyrosine-protein kinase 7,PTK7,15,27.6,89.763,816,0,141.81,571030000
+Q13332,Receptor-type tyrosine-protein phosphatase S;Protein-tyrosine-phosphatase,PTPRS,36,28.9,212.48,1910,0,323.31,4182600000
+Q13418,Integrin-linked protein kinase,ILK,2,5.3,36.467,318,0,2.3635,7312100
+Q13421,"Mesothelin;Megakaryocyte-potentiating factor;Mesothelin, cleaved form",MSLN,8,14.8,67.94,621,0,83.297,1512400000
+Q13508,Ecto-ADP-ribosyltransferase 3,ART3,12,34.2,43.923,389,0,129.88,3528000000
+Q13630,GDP-L-fucose synthase,TSTA3,3,13.1,35.892,321,0,7.1913,82543000
+Q13724,Mannosyl-oligosaccharide glucosidase,MOGS,8,17,80.702,731,0,32.159,133660000
+Q13740,CD166 antigen,ALCAM,20,39.1,63.664,570,0,183.13,6741200000
+Q13790,Apolipoprotein F,APOF,6,27,35.399,326,0,72.782,2922200000
+Q13797,Integrin alpha-9,ITGA9,2,2,114.49,1035,0,22.481,24637000
+Q13867,Bleomycin hydrolase,BLMH,20,52.7,52.562,455,0,198.18,2996000000
+Q14012,Calcium/calmodulin-dependent protein kinase type 1,CAMK1,3,10.3,41.337,370,0,6.1604,36084000
+Q14019,Coactosin-like protein,COTL1,12,73.2,15.945,142,0,164.62,4665800000
+Q14112,Nidogen-2,NID2,7,7.8,140.86,1274,0,54.373,74533000
+Q14118,Dystroglycan;Alpha-dystroglycan;Beta-dystroglycan,DAG1,14,24.6,97.44,895,0,203.08,3941600000
+Q14126,Desmoglein-2,DSG2,16,18.3,122.29,1118,0,293.32,2980500000
+Q14162,Scavenger receptor class F member 1,SCARF1,5,23.4,36.24,337,0,34.112,42182000
+Q14165,Malectin,MLEC,5,17.1,32.233,292,0,3.1039,66316000
+Q14195,Dihydropyrimidinase-related protein 3,DPYSL3,2,7.7,73.91,684,0,4.268,12911000
+Q14210,Lymphocyte antigen 6D,LY6D,2,14.8,13.286,128,0,3.3228,47179000
+Q14247,Src substrate cortactin,CTTN,11,22.6,57.466,513,0,23.375,363180000
+Q14314,Fibroleukin,FGL2,9,18.5,50.228,439,0,66.16,2105800000
+Q14315,Filamin-C,FLNC,22,13.7,287.28,2692,0,87.103,798930000
+Q14393,Growth arrest-specific protein 6,GAS6,4,9.5,68.255,624,0,13.662,28845000
+Q14508,WAP four-disulfide core domain protein 2,WFDC2,4,45.2,12.993,124,0,17.273,182680000
+Q14515,SPARC-like protein 1,SPARCL1,31,51.4,75.207,664,0,323.31,6496700000
+Q14520,Hyaluronan-binding protein 2;Hyaluronan-binding protein 2 50 kDa heavy chain;Hyaluronan-binding protein 2 50 kDa heavy chain alternate form;Hyaluronan-binding protein 2 27 kDa light chain;Hyaluronan-binding protein 2 27 kDa light chain alternate form,HABP2,30,48.7,59.864,534,0,323.31,1.3528E+11
+Q14563,Semaphorin-3A,SEMA3A,9,13.9,88.888,771,0,33.981,197880000
+Q14574,Desmocollin-3,DSC3,5,5.2,93.453,839,0,43.748,792380000
+Q14697,Neutral alpha-glucosidase AB,GANAB,13,15.1,106.87,944,0,80.668,331130000
+Q14766,Latent-transforming growth factor beta-binding protein 1,LTBP1,20,16.6,186.79,1721,0,271.05,1305900000
+Q14847,LIM and SH3 domain protein 1,LASP1,8,28,29.717,261,0,18.726,202960000
+Q14956,Transmembrane glycoprotein NMB,GPNMB,8,15,62.642,560,0,123.51,1991900000
+Q14982,Opioid-binding protein/cell adhesion molecule,OPCML,4,24,33.574,304,0,16.554,99461000
+Q15043,Zinc transporter ZIP14,SLC39A14,3,9.4,52.838,481,0,24.931,202400000
+Q15056,Eukaryotic translation initiation factor 4H,EIF4H,3,28.9,25.2,228,0,16.121,39743000
+Q15063,Periostin,POSTN,32,48.2,93.313,836,0,323.31,10948000000
+Q15084,Protein disulfide-isomerase A6,PDIA6,11,33.2,47.837,437,0,59.428,470770000
+Q15113,Procollagen C-endopeptidase enhancer 1,PCOLCE,22,62.8,47.972,449,0,323.31,15266000000
+Q15166,Serum paraoxonase/lactonase 3,PON3,13,51.4,39.607,354,0,164.47,1940800000
+Q15185,Prostaglandin E synthase 3,PTGES3,6,44.6,16.476,139,0,18.041,114420000
+Q15223,Nectin-1,PVRL1,10,42.9,39.149,352,0,88.116,1394800000
+Q15257,Serine/threonine-protein phosphatase 2A activator,PPP2R4,8,34.7,36.775,323,0,38.468,541660000
+Q15293,Reticulocalbin-1,RCN1,6,21.5,38.89,331,0,21.688,322520000
+Q15303,Receptor tyrosine-protein kinase erbB-4;ERBB4 intracellular domain,ERBB4,3,2.7,143.97,1282,0,5.6719,36619000
+Q15375,Ephrin type-A receptor 7,EPHA7,5,5.9,111.62,994,0,27.313,29464000
+Q15404,Ras suppressor protein 1,RSU1,13,63.5,31.54,277,0,224.02,1493900000
+Q15485,Ficolin-2,FCN2,7,22,34.001,313,0,99.404,392220000
+Q15555,Microtubule-associated protein RP/EB family member 2,MAPRE2,9,36.1,30.691,274,0,150.29,465330000
+Q15582,Transforming growth factor-beta-induced protein ig-h3,TGFBI,33,68.2,74.68,683,0,323.31,54202000000
+Q15691,Microtubule-associated protein RP/EB family member 1,MAPRE1,5,23.1,29.999,268,0,27.204,278990000
+Q15746,"Myosin light chain kinase, smooth muscle;Myosin light chain kinase, smooth muscle, deglutamylated form",MYLK,2,2.8,80.409,714,0,3.8007,12885000
+Q15782,Chitinase-3-like protein 2,CHI3L2,5,17.1,42.508,380,0,14.066,81517000
+Q15818,Neuronal pentraxin-1,NPTX1,2,7.6,47.122,432,0,6.3141,19735000
+Q15828,Cystatin-M,CST6,7,63.1,16.511,149,0,76.421,3234800000
+Q15847,Adipogenesis regulatory factor,ADIRF,2,59.2,7.8547,76,0,33.006,42005000
+Q15848,Adiponectin,ADIPOQ,6,36.5,26.413,244,0,61.951,3277400000
+Q15904,V-type proton ATPase subunit S1,ATP6AP1,4,12.8,52.025,470,0,32.267,44489000
+Q15942,Zyxin,ZYX,9,22.7,61.277,572,0,74.815,954810000
+Q16270,Insulin-like growth factor-binding protein 7,IGFBP7,12,44.4,28.86,279,0,108.74,3102700000
+Q16394,Exostosin-1,EXT1,20,35.1,86.254,746,0,213.68,2421700000
+Q16531,DNA damage-binding protein 1,DDB1,5,4.4,126.97,1140,0,8.1483,35822000
+Q16543,"Hsp90 co-chaperone Cdc37;Hsp90 co-chaperone Cdc37, N-terminally processed",CDC37,4,12.7,44.468,378,0,5.2764,48180000
+Q16555,Dihydropyrimidinase-related protein 2,DPYSL2,4,11.9,62.293,572,0,47.336,65752000
+Q16610,Extracellular matrix protein 1,ECM1,34,64.8,60.673,540,0,323.31,1.1063E+11
+Q16620,BDNF/NT-3 growth factors receptor,NTRK2,5,20.5,53.051,477,0,106.2,360490000
+Q16627,C-C motif chemokine 14;HCC-1(3-74);HCC-1(4-74);HCC-1(9-74),CCL14,5,43,10.678,93,0,115.94,389080000
+Q16658,Fascin,FSCN1,9,20.9,54.529,493,0,19.489,147420000
+Q16663,C-C motif chemokine 15;CCL15(22-92);CCL15(25-92);CCL15(29-92),CCL15,2,31,12.248,113,0,22.798,376590000
+Q16706,Alpha-mannosidase 2,MAN2A1,57,57.2,131.14,1144,0,323.31,12674000000
+Q16787,Laminin subunit alpha-3,LAMA3,12,4.2,360.21,3277,0,23.145,168600000
+Q16832,Discoidin domain-containing receptor 2,DDR2,5,8.4,96.735,855,0,31.847,149620000
+Q16853,Membrane primary amine oxidase,AOC3,21,33.3,84.621,763,0,323.31,13797000000
+Q24JP5,Transmembrane protein 132A,TMEM132A,3,4.8,83.097,774,0,5.186,21359000
+Q30118,"HLA class II histocompatibility antigen, DR alpha chain",HLA-DRA,4,23.1,25.859,229,0,43.924,89430000
+Q32Q12,Nucleoside diphosphate kinase;Nucleoside diphosphate kinase B;Nucleoside diphosphate kinase A,NME1-NME2;NME2;NME1,10,51.7,32.642,292,0,31.59,1756200000
+Q3LXA3,Bifunctional ATP-dependent dihydroxyacetone kinase/FAD-AMP lyase (cyclizing);ATP-dependent dihydroxyacetone kinase;FAD-AMP lyase (cyclizing),DAK,11,24.9,58.946,575,0,84.051,7491300000
+Q3ZCW2,Galectin-related protein,LGALSL,7,41.9,18.986,172,0,48.472,951380000
+Q495W5,"Alpha-(1,3)-fucosyltransferase 11",FUT11,5,11.6,55.815,492,0,15.582,71027000
+Q4G148,Glucoside xylosyltransferase 1,GXYLT1,9,22.7,46.8,409,0,17.482,310670000
+Q4KMG0,Cell adhesion molecule-related/down-regulated by oncogenes,CDON,5,5.3,136.53,1264,0,12.638,231020000
+Q53RD9,Fibulin-7,FBLN7,5,10.2,42.8,393,0,3.1063,35377000
+Q58EX2,Protein sidekick-2,SDK2,9,5.9,211.18,1921,0,23.925,237290000
+Q5BLP8,Neuropeptide-like protein C4orf48,C4orf48,2,18.9,10.17,95,0,2.5958,91392000
+Q5H9A7,Metalloproteinase inhibitor 1,TIMP1,7,65.7,16.057,143,0,84.291,5685000000
+Q5JNW7,Proteasome subunit beta type-8,PSMB8,2,7.9,27.85,252,0,3.7415,63185000
+Q5JPE7,Nodal modulator 2;Nodal modulator 3;Nodal modulator 1,NOMO2;NOMO3;NOMO1,23,29.7,134.19,1222,0,202.77,1253000000
+Q5JRA6,Melanoma inhibitory activity protein 3,MIA3,5,3.6,206.89,1848,0,36.024,80400000
+Q5JS37,NHL repeat-containing protein 3,NHLRC3,3,13.9,31.054,280,0,11.743,25242000
+Q5JSH3,WD repeat-containing protein 44,WDR44,7,13.5,91.271,824,0,92.963,105260000
+Q5KU26,Collectin-12,COLEC12,4,4.7,81.514,742,0,4.2365,128550000
+Q5R345,P-selectin,SELP,10,14.3,84.33,768,0,71.779,510880000
+Q5SQ64,Lymphocyte antigen 6 complex locus protein G6f,LY6G6F,4,19.2,32.464,297,0,10.718,60275000
+Q5SRI9,"Glycoprotein endo-alpha-1,2-mannosidase",MANEA,2,5.4,53.67,462,0.004084,1.6752,18843000
+Q5SZC6,Guanine deaminase,GDA,4,17.8,44.188,393,0,44.662,66833000
+Q5T2D2,Trem-like transcript 2 protein,TREML2,2,7.5,35.126,321,0,14.778,65160000
+Q5T4B6,Thymosin beta-4;Hematopoietic system regulatory peptide,TMSB4X,4,61.4,5.1127,44,0,15.077,18806000000
+Q5T985,Inter-alpha-trypsin inhibitor heavy chain H2,ITIH2,29,34,105.21,935,0,133.62,2247400000
+Q5T9B7,Adenylate kinase isoenzyme 1,AK1,4,21.4,23.411,210,0,3.9769,35607000
+Q5TCJ5,Semaphorin-4A,SEMA4A,11,19.5,79.712,723,0,69.598,542390000
+Q5TG12,Protein-tyrosine-phosphatase;Receptor-type tyrosine-protein phosphatase kappa,PTPRK,12,10.8,164.2,1458,0,39.911,582950000
+Q5VT82,Protocadherin-9,PCDH9,4,6.1,113.71,1032,0,19.284,31557000
+Q5VTE0,Putative elongation factor 1-alpha-like 3;Elongation factor 1-alpha 1;Elongation factor 1-alpha 2,EEF1A1P5;EEF1A1;EEF1A2,4,8.7,50.184,462,0,4.0506,68836000
+Q5VTT5,Myomesin-3,MYOM3,8,10.6,136.28,1212,0,55.258,186130000
+Q5VU59,,DKFZp686J1372;TPM3,29,73.7,27.174,232,0,323.31,11026000000
+Q5VU97,VWFA and cache domain-containing protein 1,CACHD1,7,5.7,142.29,1274,0,7.6881,36158000
+Q5VY30,Retinol-binding protein 4;Plasma retinol-binding protein(1-182);Plasma retinol-binding protein(1-181);Plasma retinol-binding protein(1-179);Plasma retinol-binding protein(1-176),RBP4,2,14.1,22.974,199,0,5.9548,21176000
+Q5VY43,Platelet endothelial aggregation receptor 1,PEAR1,13,17.9,110.67,1037,0,196.16,1287300000
+Q5VYB9,Low-density lipoprotein receptor-related protein 11,LRP11,4,17.5,34.694,325,0,8.6001,78639000
+Q5W0H4,Translationally-controlled tumor protein;TPT1-like protein,TPT1,4,25,21.525,188,0,18.826,294430000
+Q5ZPR3,CD276 antigen,CD276,6,38.1,52.761,493,0,135.78,299160000
+Q6EMK4,Vasorin,VASN,10,17.5,71.712,673,0,250.61,21950000000
+Q6FHJ7,Secreted frizzled-related protein 4,SFRP4,4,18.8,39.826,346,0,32.698,141120000
+Q6GPI1,Chymotrypsinogen B2;Chymotrypsin B2 chain A;Chymotrypsin B2 chain B;Chymotrypsin B2 chain C;Chymotrypsinogen B;Chymotrypsin B chain A;Chymotrypsin B chain B;Chymotrypsin B chain C,CTRB2;CTRB1,4,24.7,27.923,263,0,48.572,99917000
+Q6GTS8,Probable carboxypeptidase PM20D1,PM20D1,11,24.9,55.741,502,0,69.249,794260000
+Q6IBS0,Twinfilin-2,TWF2,5,19.5,39.548,349,0,25.117,147910000
+Q6NUS6,Tectonic-3,TCTN3,2,7.9,47.284,429,0,10.509,19675000
+Q6NVW1,Receptor protein-tyrosine kinase;Ephrin type-B receptor 2,EPHB2,4,11.8,53.252,482,0,15.499,51357000
+Q6P179,Endoplasmic reticulum aminopeptidase 2,ERAP2,32,33.3,110.46,960,0,194.88,4819600000
+Q6P452,Annexin;Annexin A4,ANXA4,7,25.4,33.552,299,0,36.341,153690000
+Q6P4E1,Protein CASC4,CASC4,6,15,43.332,380,0,9.0021,200510000
+Q6P988,Palmitoleoyl-protein carboxylesterase NOTUM,NOTUM,5,13.9,55.699,496,0,12.376,56109000
+Q6P9A2,Polypeptide N-acetylgalactosaminyltransferase 18,GALNT18,5,6.6,69.56,607,0,3.5199,63016000
+Q6PCB0,von Willebrand factor A domain-containing protein 1,VWA1,5,15.1,46.804,445,0,7.0586,102730000
+Q6Q788,Apolipoprotein A-V,APOA5,3,12.6,41.212,366,0,13.253,48785000
+Q6UVK1,Chondroitin sulfate proteoglycan 4,CSPG4,43,26.2,250.53,2322,0,323.31,1815300000
+Q6UW63,KDEL motif-containing protein 1,KDELC1,3,7.4,58.042,502,0,3.9162,49313000
+Q6UWP8,Suprabasin,SBSN,20,59.3,60.54,590,0,294.55,6731200000
+Q6UWV6,Ectonucleotide pyrophosphatase/phosphodiesterase family member 7,ENPP7,5,14.4,51.493,458,0,24.814,113950000
+Q6UWW8,Carboxylesterase 3;Carboxylic ester hydrolase,CES3,3,7.9,62.281,571,0,5.9316,35459000
+Q6UWY5,Olfactomedin-like protein 1,OLFML1,3,10.7,45.95,402,0,16.719,19542000
+Q6UX71,Plexin domain-containing protein 2,PLXDC2,14,26.7,59.582,529,0,83.227,3699500000
+Q6UX73,UPF0764 protein C16orf89,C16orf89,6,21.9,40.612,361,0,24.957,205180000
+Q6UXB8,Peptidase inhibitor 16,PI16,13,30,49.471,463,0,146.42,27208000000
+Q6UXH0,Angiopoietin-like protein 8,C19orf80,5,34.3,22.105,198,0,3.7891,275280000
+Q6UXH1,Cysteine-rich with EGF-like domain protein 2,CRELD2,2,6.7,30.712,284,0.0052265,1.6103,19299000
+Q6UXH9,Inactive serine protease PAMR1,PAMR1,11,17.1,81.942,737,0,41.007,451050000
+Q6UXK5,Leucine-rich repeat neuronal protein 1,LRRN1,10,17.9,80.716,716,0,121.97,319210000
+Q6UY14,ADAMTS-like protein 4,ADAMTSL4,17,19.4,116.54,1074,0,65.358,2382800000
+Q6WN34,Chordin-like protein 2,CHRDL2,6,18.6,49.675,451,0,21.884,205560000
+Q6YHK3,CD109 antigen,CD109,42,36.5,161.69,1445,0,323.31,15183000000
+Q6ZMI3,Gliomedin,GLDN,5,11.9,45.822,427,0,15.099,172610000
+Q6ZMJ2,Scavenger receptor class A member 5,SCARA5,5,11.5,53.994,495,0,22.376,58296000
+Q6ZN40,Tropomyosin alpha-1 chain,TPM1,12,40.2,37.452,326,0,25.633,1143600000
+Q6ZRP7,Sulfhydryl oxidase 2,QSOX2,15,25.9,77.528,698,0,50.6,496050000
+Q76LX8,A disintegrin and metalloproteinase with thrombospondin motifs 13,ADAMTS13,42,36.2,153.6,1427,0,323.31,8841500000
+Q7KZF4,Staphylococcal nuclease domain-containing protein 1,SND1,2,3.4,102,910,0,4.6293,8316800
+Q7LFX5,Carbohydrate sulfotransferase 15,CHST15,5,11.6,64.925,561,0,21.321,89665000
+Q7LGC8,Carbohydrate sulfotransferase 3,CHST3,6,15.9,54.705,479,0,38.136,98370000
+Q7Z3B1,Neuronal growth regulator 1,NEGR1,10,35.6,38.719,354,0,316.63,2026100000
+Q7Z3S9,Notch homolog 2 N-terminal-like protein,NOTCH2NL;NOTCH2,2,28,25.835,236,0,13.255,23967000
+Q7Z5L7,Podocan,PODN,4,8.3,57.895,519,0,7.912,39963000
+Q7Z6M3,Allergin-1,MILR1,2,6.4,38.735,343,0,2.4161,13495000
+Q7Z7M0,Multiple epidermal growth factor-like domains protein 8,MEGF8,55,27.3,303.1,2845,0,323.31,9174300000
+Q7Z7M8,"UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 8",B3GNT8,16,63.7,43.395,397,0,274.08,2435900000
+Q86SF2,N-acetylgalactosaminyltransferase 7,GALNT7,21,36.7,75.388,657,0,130.95,1490400000
+Q86SJ2,Amphoterin-induced protein 2,AMIGO2,5,11.5,57.933,522,0,20.243,81957000
+Q86SQ4,G-protein coupled receptor 126,GPR126,17,17.7,133.67,1193,0,132.97,1836900000
+Q86SR1,Polypeptide N-acetylgalactosaminyltransferase 10,GALNT10,11,22.4,61.947,541,0,25.412,232470000
+Q86T13,C-type lectin domain family 14 member A,CLEC14A,6,19.6,51.635,490,0,21.455,94665000
+Q86U17,Serpin A11,SERPINA11,14,34.6,46.989,422,0,73.302,2357000000
+Q86UD1,Out at first protein homolog,OAF,10,54.6,30.688,273,0,82.881,1764800000
+Q86UN3,Reticulon-4 receptor-like 2,RTN4RL2,12,30.5,46.105,420,0,172.48,5216700000
+Q86UX2,Inter-alpha-trypsin inhibitor heavy chain H5,ITIH5,12,15.6,104.58,942,0,33.735,192990000
+Q86UX7,Fermitin family homolog 3,FERMT3,25,47.4,75.429,663,0,302.04,2102800000
+Q86VP6,Cullin-associated NEDD8-dissociated protein 1,CAND1,7,6.5,136.37,1230,0,10.08,64319000
+Q86WI1,Fibrocystin-L,PKHD1L1,30,8.6,465.73,4243,0,118.72,525210000
+Q86YW5,Trem-like transcript 1 protein,TREML1,4,20.1,21.323,199,0,61.097,757260000
+Q86Z14,Beta-klotho,KLB,3,3.3,119.81,1044,0,4.0004,10003000
+Q8IUE6,Histone H2A type 2-B;Histone H2A.V,HIST2H2AB;H2AFV,2,12.3,13.995,130,0.0035482,1.7691,31498000
+Q8IUK5,Plexin domain-containing protein 1,PLXDC1,8,22,55.76,500,0,42.477,371170000
+Q8IUK8,Cerebellin-2,CBLN2,5,28.6,24.084,224,0,53.792,401410000
+Q8IV08,Phospholipase D3,PLD3,3,6.1,54.705,490,0,2.6678,1281400000
+Q8IW52,SLIT and NTRK-like protein 4,SLITRK4,6,10.4,94.33,837,0,75.185,109190000
+Q8IW75,Serpin A12,SERPINA12,16,45.7,47.174,414,0,155.8,803290000
+Q8IWK6,Probable G-protein coupled receptor 125,GPR125,3,6.3,68.242,616,0,14.835,56676000
+Q8IWL2,Pulmonary surfactant-associated protein A1;Pulmonary surfactant-associated protein A2,SFTPA1;SFTPA2,7,30.2,26.242,248,0,111.54,636600000
+Q8IWU5,Extracellular sulfatase Sulf-2,SULF2,2,2.5,100.16,867,0,6.225,251480000
+Q8IWV2,Contactin-4,CNTN4,27,38.2,113.45,1026,0,301.86,3945200000
+Q8IXL6,Extracellular serine/threonine protein kinase FAM20C,FAM20C,26,50.7,66.234,584,0,316.61,9078300000
+Q8IYS5,Osteoclast-associated immunoglobulin-like receptor,OSCAR,5,33.2,29.277,271,0,44.17,647130000
+Q8IZA0,Dyslexia-associated protein KIAA0319-like protein,KIAA0319L,5,5.1,109.75,996,0,7.5628,85700000
+Q8IZF2,Probable G-protein coupled receptor 116,GPR116,17,13.4,144.6,1301,0,143.15,1842400000
+Q8IZP2,Putative protein FAM10A4;Hsc70-interacting protein;Putative protein FAM10A5,ST13P4;ST13;ST13P5,6,29.2,27.406,240,0,21.963,99217000
+Q8N0V5,"N-acetyllactosaminide beta-1,6-N-acetylglucosaminyl-transferase, isoform A",GCNT2,9,27.4,45.873,402,0,36.575,452100000
+Q8N126,Cell adhesion molecule 3,CADM3,3,11.6,38.326,352,0,9.7266,90997000
+Q8N1Q1,Carbonic anhydrase 13,CA13,3,13.4,29.443,262,0,23.839,64316000
+Q8N392,Rho GTPase-activating protein 18,ARHGAP18,5,12.1,70.163,618,0,46.096,59680000
+Q8N3J6,Cell adhesion molecule 2,CADM2,3,14.3,31.381,287,0,9.6185,26423000
+Q8N3T6,Transmembrane protein 132C,TMEM132C,24,24.2,121.79,1108,0,136.4,1282100000
+Q8N6C8,Leukocyte immunoglobulin-like receptor subfamily A member 3,LILRA3,14,36.7,47.471,439,0,212.72,13839000000
+Q8N6Q3,CD177 antigen,CD177,7,21.5,46.363,437,0,18.66,433050000
+Q8N8Z6,"Discoidin, CUB and LCCL domain-containing protein 1",DCBLD1,9,18,59.195,539,0,48.463,342120000
+Q8NBI6,Xyloside xylosyltransferase 1,XXYLT1,2,6.4,43.806,393,0,2.4803,46378000
+Q8NBJ4,Golgi membrane protein 1,GOLM1,19,38.9,44.272,391,0,82.381,2266100000
+Q8NBP7,Proprotein convertase subtilisin/kexin type 9,PCSK9,21,41.6,74.285,692,0,323.31,10180000000
+Q8NBS9,Thioredoxin domain-containing protein 5,TXNDC5,9,21.5,47.628,432,0,116.03,778200000
+Q8NCC3,Group XV phospholipase A2,PLA2G15,7,20.6,46.657,412,0,100.58,867750000
+Q8NCH7,Angiopoietin-related protein 2,ANGPTL2,3,21.5,22.717,191,0,4.8235,32438000
+Q8NCL4,Polypeptide N-acetylgalactosaminyltransferase 6,GALNT6,8,18.3,71.158,622,0,56.003,211560000
+Q8NCW5,NAD(P)H-hydrate epimerase,APOA1BP,5,42.7,20.43,185,0,36.043,145690000
+Q8NDA2,Hemicentin-2,HMCN2,30,9.7,448.21,4198,0,107.66,1128400000
+Q8NFT8,Delta and Notch-like epidermal growth factor-related receptor,DNER,5,8.1,78.474,737,0,30.505,126240000
+Q8NFY4,Semaphorin-6D,SEMA6D,8,18.4,67.537,597,0,84.036,320010000
+Q8NFZ8,Cell adhesion molecule 4,CADM4,2,9.8,42.785,388,0,16.482,52399000
+Q8NHP8,Putative phospholipase B-like 2;Putative phospholipase B-like 2 32 kDa form;Putative phospholipase B-like 2 45 kDa form,PLBD2,8,16.1,65.471,589,0,23.425,305080000
+Q8TCZ2,CD99 antigen-like protein 2,CD99L2,2,14.7,20.3,190,0,3.0279,88467000
+Q8TDQ7,Glucosamine-6-phosphate isomerase 2,GNPDA2,3,21.1,30.955,275,0.0040864,1.6886,25543000
+Q8TDY8,Immunoglobulin superfamily DCC subclass member 4,IGDCC4,11,13.9,134.21,1250,0,54.431,1358200000
+Q8TEA8,D-tyrosyl-tRNA(Tyr) deacylase 1,DTD1,3,15.3,23.423,209,0,2.4438,21173000
+Q8TEU8,"WAP, Kazal, immunoglobulin, Kunitz and NTR domain-containing protein 2",WFIKKN2,7,14.6,63.941,576,0,94.11,136150000
+Q8WUA8,Tsukushin,TSKU,4,12.7,37.807,353,0,8.9903,86986000
+Q8WUJ3,Cell migration-inducing and hyaluronan-binding protein,CEMIP,8,7.1,153,1361,0,16.736,78390000
+Q8WUM4,Programmed cell death 6-interacting protein,PDCD6IP,12,13.6,96.022,868,0,29.977,166290000
+Q8WVQ1,Soluble calcium-activated nucleotidase 1,CANT1,7,22.6,38.945,350,0,15.385,124500000
+Q8WWV6,High affinity immunoglobulin alpha and immunoglobulin mu Fc receptor,FCAMR,2,14.5,24.861,220,0,22.155,6454500
+Q8WWZ8,Oncoprotein-induced transcript 3 protein,OIT3,13,23.3,60.021,545,0,35.21,1152100000
+Q8WXD2,Secretogranin-3,SCG3,10,27.1,53.005,468,0,50.372,354230000
+Q8WZ42,Titin,TTN,12,0.4,3994.6,35991,0.0018204,2.0787,1146400000
+Q8WZ75,Roundabout homolog 4,ROBO4,12,19.4,98.993,933,0,268.14,2620000000
+Q8WZA1,"Protein O-linked-mannose beta-1,2-N-acetylglucosaminyltransferase 1",POMGNT1,14,24.7,75.251,660,0,65.256,913640000
+Q92187,"CMP-N-acetylneuraminate-poly-alpha-2,8-sialyltransferase",ST8SIA4,4,14.8,41.294,359,0,12.961,37087000
+Q92484,Acid sphingomyelinase-like phosphodiesterase 3a,SMPDL3A,14,54.7,37.285,322,0,222.62,5582000000
+Q92485,Acid sphingomyelinase-like phosphodiesterase 3b,SMPDL3B,4,15.3,41.689,373,0,11.205,95573000
+Q92520,Protein FAM3C,FAM3C,11,53.7,24.68,227,0,316.01,2755500000
+Q92542,Nicastrin,NCSTN,3,7,76.743,689,0,10.409,32784000
+Q92626,Peroxidasin homolog,PXDN,7,6.1,165.27,1479,0,19.215,231050000
+Q92692,Nectin-2,PVRL2,3,7.3,51.359,479,0,5.6618,59308000
+Q92743,Serine protease HTRA1,HTRA1,4,9.8,51.286,480,0,6.2444,34128000
+Q92820,Gamma-glutamyl hydrolase,GGH,23,53.1,35.964,318,0,323.31,34111000000
+Q92854,Semaphorin-4D,SEMA4D,5,8.1,96.149,862,0,13.229,117050000
+Q92859,Neogenin,NEO1,29,28.4,154.3,1408,0,323.31,6334400000
+Q92876,Kallikrein-6,KLK6,3,11.1,26.855,244,0,4.285,95679000
+Q92935,Exostosin-like 1,EXTL1,2,5.9,74.696,676,0,2.4981,6379100
+Q92954,Proteoglycan 4;Proteoglycan 4 C-terminal part,PRG4,20,13.5,146.47,1361,0,167.13,3979200000
+Q93063,Exostosin-2,EXT2,30,47.9,82.254,718,0,156.8,2638000000
+Q93070,Ecto-ADP-ribosyltransferase 4,ART4,7,25.5,35.877,314,0,54.495,976210000
+Q93088,Betaine--homocysteine S-methyltransferase 1,BHMT,9,32.8,44.998,406,0,62.011,243910000
+Q93091,Ribonuclease K6,RNASE6,2,12.7,17.196,150,0,3.0701,109690000
+Q969E1,Liver-expressed antimicrobial peptide 2,LEAP2,4,36.4,8.8135,77,0,62.094,1278500000
+Q969H8,Myeloid-derived growth factor,MYDGF,4,27.2,18.795,173,0,18.289,417540000
+Q96C23,Aldose 1-epimerase,GALM,3,13.7,37.765,342,0,7.8809,25651000
+Q96C86,m7GpppX diphosphatase,DCPS,2,5.9,38.608,337,0,40.99,28722000
+Q96CG8,Collagen triple helix repeat-containing protein 1,CTHRC1,2,7,24.77,229,0.0023881,1.8836,81689000
+Q96CN7,Isochorismatase domain-containing protein 1,ISOC1,6,24.5,32.236,298,0,82.682,200750000
+Q96CX2,BTB/POZ domain-containing protein KCTD12,KCTD12,14,52,35.7,325,0,63.84,555430000
+Q96DA0,Zymogen granule protein 16 homolog B,ZG16B,3,21.6,22.739,208,0,19.096,70663000
+Q96DN2,von Willebrand factor C and EGF domain-containing protein,VWCE,2,2,99.914,955,0,3.4235,17507000
+Q96FE7,Phosphoinositide-3-kinase-interacting protein 1,PIK3IP1,3,27.7,18.491,173,0,4.6646,177930000
+Q96G03,Phosphoglucomutase-2,PGM2,4,8.7,68.283,612,0,40.085,38914000
+Q96GP6,Scavenger receptor class F member 2,SCARF2,3,5.2,91.815,865,0,13.196,39501000
+Q96GW7,Brevican core protein,BCAN,2,2.1,99.117,911,0.0090447,1.2981,7374300
+Q96H15,T-cell immunoglobulin and mucin domain-containing protein 4,TIMD4,4,13.7,38.536,350,0,55.649,836720000
+Q96HD1,Cysteine-rich with EGF-like domain protein 1,CRELD1,16,49.8,45.941,422,0,186.64,2326300000
+Q96IY4,Carboxypeptidase B2,CPB2,21,55.8,48.424,423,0,323.31,1.0926E+11
+Q96J42,Thioredoxin domain-containing protein 15,TXNDC15,2,10.2,38.066,343,0,8.9799,13423000
+Q96KG7,Multiple epidermal growth factor-like domains protein 10,MEGF10,18,21.1,122.2,1140,0,259.02,1537800000
+Q96KN2,Beta-Ala-His dipeptidase,CNDP1,27,58,56.705,507,0,323.31,25172000000
+Q96L35,Receptor protein-tyrosine kinase;Ephrin type-B receptor 4,EPHB4,6,9.7,102.56,935,0,14.316,146880000
+Q96MK3,Protein FAM20A,FAM20A,6,18.9,61.416,541,0,12.291,81100000
+Q96N76,Urocanate hydratase,UROC1,2,6.1,74.83,676,0,59.136,35299000
+Q96PD2,"Discoidin, CUB and LCCL domain-containing protein 2",DCBLD2,8,10.5,85.034,775,0,48.208,339930000
+Q96PD5,N-acetylmuramoyl-L-alanine amidase,PGLYRP2,25,65.6,62.216,576,0,323.31,3.0397E+11
+Q96RD9,Fc receptor-like protein 5,FCRL5,21,34.1,83.292,759,0,305.76,2666400000
+Q96RW7,Hemicentin-1,HMCN1,6,1.3,600.09,5518,0,18.776,21687000
+Q96S96,Phosphatidylethanolamine-binding protein 4,PEBP4,11,57.3,25.733,227,0,226.37,7126900000
+Q96TA1,Niban-like protein 1,FAM129B,6,8.7,82.682,733,0,6.3869,110320000
+Q99436,Proteasome subunit beta type-7,PSMB7,5,28.2,29.965,277,0,37.174,236220000
+Q99466,Neurogenic locus notch homolog protein 4;Notch 4 extracellular truncation;Notch 4 intracellular domain,NOTCH4,3,1.5,209.62,2003,0,4.3842,64115000
+Q99497,Protein deglycase DJ-1,PARK7,8,60.3,19.891,189,0,121.41,1045000000
+Q99538,Legumain,LGMN,5,15.9,49.411,433,0,85.569,140660000
+Q99574,Neuroserpin,SERPINI1,4,12.4,46.426,410,0,12.111,94957000
+Q99650,Oncostatin-M-specific receptor subunit beta,OSMR,10,11.3,110.51,979,0,174.11,1469100000
+Q99674,Cell growth regulator with EF hand domain protein 1,CGREF1,3,16.9,31.905,301,0,28.913,66548000
+Q99784,Noelin,OLFM1,15,32.4,55.342,485,0,121.96,9637000000
+Q99941,Cyclic AMP-dependent transcription factor ATF-6 beta;Processed cyclic AMP-dependent transcription factor ATF-6 beta,ATF6B,5,7.9,76.411,700,0,36.185,592210000
+Q99952,Tyrosine-protein phosphatase non-receptor type 18,PTPN18,2,6.2,38.475,353,0,2.387,22117000
+Q99969,Retinoic acid receptor responder protein 2,RARRES2,6,43.6,18.617,163,0,140.76,7463800000
+Q99972,"Myocilin;Myocilin, N-terminal fragment;Myocilin, C-terminal fragment",MYOC,18,37.7,56.971,504,0,255.69,2855300000
+Q99983,Osteomodulin,OMD,4,9.5,49.492,421,0,48.174,1415800000
+Q9BQ51,Programmed cell death 1 ligand 2,PDCD1LG2,4,19.8,30.957,273,0,9.7253,828460000
+Q9BQS7,Hephaestin,HEPH,9,9.3,130.38,1157,0,14.185,142660000
+Q9BR76,Coronin-1B;Coronin,CORO1B,3,5.5,54.234,489,0.00061501,2.1967,52583000
+Q9BRK3,Matrix-remodeling-associated protein 8,MXRA8,6,12.9,47.971,433,0,6.0264,94474000
+Q9BS26,Endoplasmic reticulum resident protein 44,ERP44,9,27.8,46.971,406,0,42.367,195710000
+Q9BT09,Protein canopy homolog 3,CNPY3,2,10.1,30.748,278,0,24.542,45783000
+Q9BT56,Spexin;Spexin-1;Spexin-2,SPX,2,17.2,13.302,116,0.0079954,1.4052,13421000
+Q9BTY2,Plasma alpha-L-fucosidase,FUCA2,23,41.3,54.066,467,0,261.93,14544000000
+Q9BUD6,Spondin-2,SPON2,5,17.5,35.846,331,0,3.8188,90626000
+Q9BUN1,Protein MENT,MENT,3,9.7,36.769,341,0,98.884,197380000
+Q9BWD1,"Acetyl-CoA acetyltransferase, cytosolic",ACAT2,2,9.6,41.35,397,0,14.335,18948000
+Q9BWP8,Collectin-11,COLEC11,6,33.5,21.589,197,0,80.478,2012900000
+Q9BWS9,Chitinase domain-containing protein 1,CHID1,7,19.9,41.677,362,0,27.278,139190000
+Q9BWV1,Brother of CDO,BOC,5,8,121.06,1114,0,208.52,269610000
+Q9BXJ0,Complement C1q tumor necrosis factor-related protein 5,C1QTNF5,2,9.9,25.298,243,0,7.4846,65656000
+Q9BXJ4,Complement C1q tumor necrosis factor-related protein 3,C1QTNF3;C1QTNF3-AMACR,5,24.5,35.183,319,0,52.505,1168600000
+Q9BXX0,EMILIN-2,EMILIN2,2,2.9,115.69,1053,0,9.8505,53437000
+Q9BY67,Cell adhesion molecule 1,CADM1,10,42,45.623,414,0,311.51,4233100000
+Q9BYE9,Cadherin-related family member 2,CDHR2,7,6.6,141.54,1310,0,97.72,126710000
+Q9BZR6,Reticulon-4 receptor,RTN4R,11,30.9,50.707,473,0,114.02,207460000
+Q9C0C4,Semaphorin-4C,SEMA4C,5,8.2,92.622,833,0,14.059,99032000
+Q9GZM7,Tubulointerstitial nephritis antigen-like,TINAGL1,2,6,48.807,436,0.002401,1.9453,7259500
+Q9GZT8,NIF3-like protein 1,NIF3L1,6,18.3,38.983,350,0,12.092,283830000
+Q9GZX9,Twisted gastrulation protein homolog 1,TWSG1,4,24.2,25.017,223,0,27.516,206870000
+Q9H098,Protein FAM107B,FAM107B,2,14.5,15.558,131,0.0046512,1.6303,9483400
+Q9H0R4,Haloacid dehalogenase-like hydrolase domain-containing protein 2,HDHD2,2,12.4,18.533,169,0,16.241,6571700
+Q9H0X4,Protein ITFG3,ITFG3,6,14.1,59.659,552,0,13.512,184490000
+Q9H173,Nucleotide exchange factor SIL1,SIL1,7,19.1,52.084,461,0,53.237,154670000
+Q9H1B5,Xylosyltransferase 2,XYLT2,7,10.5,96.766,865,0,20.763,140190000
+Q9H1U4,Multiple epidermal growth factor-like domains protein 9,MEGF9,7,14.6,62.983,602,0,73.424,638400000
+Q9H251,Cadherin-23,CDH23,3,1.1,365.54,3319,0,5.352,12174000
+Q9H299,SH3 domain-binding glutamic acid-rich-like protein 3,SH3BGRL3,7,83.9,10.438,93,0,137.91,3820700000
+Q9H2E6,Semaphorin-6A,SEMA6A,4,4.4,114.39,1030,0.004108,1.7276,97033000
+Q9H3G5,Probable serine carboxypeptidase CPVL,CPVL,3,6.7,54.163,476,0,3.3879,30551000
+Q9H3T2,Semaphorin-6C,SEMA6C,3,4.2,98.467,922,0,7.3617,36022000
+Q9H4A4,Aminopeptidase B,RNPEP,15,25.2,72.595,650,0,142.06,272140000
+Q9H4A9,Dipeptidase 2;Dipeptidase,DPEP2,15,34.4,53.305,486,0,284.81,1808400000
+Q9H4X1,Regulator of cell cycle RGCC,RGCC,4,42.7,12.924,117,0,25.962,90066000
+Q9H6X2,Anthrax toxin receptor 1,ANTXR1,6,29.3,33.279,297,0,137.43,446970000
+Q9H756,Leucine-rich repeat-containing protein 19,LRRC19,3,10,42.334,370,0,7.8898,141820000
+Q9H7Y0,Deleted in autism-related protein 1,CXorf36,4,12.9,48.554,433,0,17.915,51242000
+Q9H8J5,MANSC domain-containing protein 1,MANSC1,5,18.3,46.81,431,0,37.943,319220000
+Q9H8L6,Multimerin-2,MMRN2,7,9.6,104.41,949,0,176.5,2660200000
+Q9H8S9,MOB kinase activator 1A;MOB kinase activator 1B,MOB1A;MOB1B,2,8.3,25.079,216,0.0012203,2.1344,26365000
+Q9H993,Protein-glutamate O-methyltransferase,ARMT1,2,5.2,51.172,441,0,36.713,51780000
+Q9H9K5,Endogenous retrovirus group MER34 member 1 Env polyprotein,ERVMER34-1,3,5.5,63.546,563,0,7.5546,46677000
+Q9HAT2,Sialate O-acetylesterase,SIAE,8,16.4,58.314,523,0,13.261,176210000
+Q9HBB8,Cadherin-related family member 5,CDHR5,10,19.5,69.626,651,0,190.19,973510000
+Q9HBI1,Beta-parvin,PARVB,9,31.5,37.538,327,0,193.2,1488600000
+Q9HBR0,Putative sodium-coupled neutral amino acid transporter 10,SLC38A10,20,21.5,119.76,1119,0,128.83,1332300000
+Q9HBW1,Leucine-rich repeat-containing protein 4,LRRC4,2,6.1,72.717,653,0,5.3011,47273000
+Q9HBW9,"EGF, latrophilin and seven transmembrane domain-containing protein 1",ELTD1,7,13.9,77.81,690,0,46.268,497780000
+Q9HC38,Glyoxalase domain-containing protein 4,GLOD4,11,32.9,33.232,298,0,23.831,438950000
+Q9HC57,WAP four-disulfide core domain protein 1,WFDC1,3,12.7,23.976,220,0.0090498,1.2989,50344000
+Q9HCB6,Spondin-1,SPON1,14,17.3,90.973,807,0,136.92,1133900000
+Q9HCL0,Protocadherin-18,PCDH18,9,8.5,126.02,1134,0,42.848,598110000
+Q9HCN6,Platelet glycoprotein VI,GP6,4,12.8,35.091,321,0,14.541,469130000
+Q9HCU0,Endosialin,CD248,6,10.4,80.858,757,0,85.823,1680300000
+Q9HD89,Resistin,RETN,2,17.6,11.419,108,0,3.2776,109700000
+Q9HDC9,Adipocyte plasma membrane-associated protein,APMAP,16,38.2,46.48,416,0,73.933,1918200000
+Q9NP84,Tumor necrosis factor receptor superfamily member 12A,TNFRSF12A,2,14,13.911,129,0,3.9284,101200000
+Q9NPG4,Protocadherin-12,PCDH12,7,9.8,128.99,1184,0,51.886,223020000
+Q9NPH3,Interleukin-1 receptor accessory protein,IL1RAP,22,57,41.018,356,0,159.78,16512000000
+Q9NPY3,Complement component C1q receptor,CD93,13,26.8,68.559,652,0,323.31,5664200000
+Q9NQ38,Serine protease inhibitor Kazal-type 5;Hemofiltrate peptide HF6478;Hemofiltrate peptide HF7665,SPINK5,41,37.8,124.08,1094,0,177.92,5039600000
+Q9NQ76,Matrix extracellular phosphoglycoprotein,MEPE,6,9.9,58.418,525,0,38.56,803820000
+Q9NQ79,Cartilage acidic protein 1,CRTAC1,25,51,71.42,661,0,323.31,5964100000
+Q9NQR4,Omega-amidase NIT2,NIT2,2,10.5,30.608,276,0,3.8453,26683000
+Q9NQW7,Xaa-Pro aminopeptidase 1,XPNPEP1,3,8.7,69.917,623,0,21.79,69559000
+Q9NQZ7,Ectonucleoside triphosphate diphosphohydrolase 7,ENTPD7,2,5.6,68.959,604,0,3.5052,7313600
+Q9NR34,"Mannosyl-oligosaccharide 1,2-alpha-mannosidase IC;alpha-1,2-Mannosidase",MAN1C1,9,17.9,70.91,630,0,100.13,433330000
+Q9NR71,Neutral ceramidase;Neutral ceramidase soluble form;Putative neutral ceramidase C,ASAH2;ASAH2C,7,16.4,81.717,745,0,25.807,230360000
+Q9NR99,Matrix-remodeling-associated protein 5,MXRA5,7,3.1,312.15,2828,0,46.627,92098000
+Q9NRB3,Carbohydrate sulfotransferase 12,CHST12,3,11.4,48.414,414,0,22.479,64655000
+Q9NRN5,Olfactomedin-like protein 3,OLFML3,4,16.8,43.588,386,0,5.6837,108560000
+Q9NS71,Gastrokine-1,GKN1,3,15.1,21.999,199,0,46.234,784610000
+Q9NS98,Semaphorin-3G,SEMA3G,15,25.7,86.7,782,0,76.176,808710000
+Q9NSC7,"Alpha-N-acetylgalactosaminide alpha-2,6-sialyltransferase 1",ST6GALNAC1,8,13.8,68.563,600,0,29.825,730940000
+Q9NT22,EMILIN-3,EMILIN3,5,18.8,39.603,372,0,45.367,77880000
+Q9NT99,Leucine-rich repeat-containing protein 4B,LRRC4B,9,15.7,76.433,713,0,27.197,158940000
+Q9NTN9,Semaphorin-4G,SEMA4G,8,10.7,91.496,838,0,16.235,148610000
+Q9NTU7,Cerebellin-4,CBLN4,5,24.4,21.808,201,0,50.748,1129600000
+Q9NU53,Glycoprotein integral membrane protein 1,GINM1,2,5.8,36.84,330,0,4.7774,66925000
+Q9NUQ9,Protein FAM49B,FAM49B,4,21.9,36.748,324,0,19.445,48323000
+Q9NY15,Stabilin-1,STAB1,18,9.7,275.48,2570,0,105.15,1031300000
+Q9NY97,"N-acetyllactosaminide beta-1,3-N-acetylglucosaminyltransferase 2",B3GNT2,13,34.9,45.484,393,0,136.52,4998500000
+Q9NYU2,UDP-glucose:glycoprotein glucosyltransferase 1,UGGT1,29,22.9,174.97,1531,0,323.31,1344500000
+Q9NZ08,Endoplasmic reticulum aminopeptidase 1,ERAP1,38,44.7,107.23,941,0,229.1,5839300000
+Q9NZD4,Alpha-hemoglobin-stabilizing protein,AHSP,4,32.4,11.84,102,0,7.3255,100180000
+Q9NZP8,Complement C1r subcomponent-like protein,C1RL,16,42.1,53.498,487,0,323.31,99219000000
+Q9NZT1,Calmodulin-like protein 5,CALML5,2,21.2,15.892,146,0,18.634,12733000
+Q9NZU0,Leucine-rich repeat transmembrane protein FLRT3,FLRT3,6,9.9,73.003,649,0,17.888,52076000
+Q9NZV1,Cysteine-rich motor neuron 1 protein;Processed cysteine-rich motor neuron 1 protein,CRIM1,2,2.4,113.74,1036,0.0024082,1.9633,16126000
+Q9P1F3,Costars family protein ABRACL,ABRACL,2,45.7,9.0564,81,0,31.764,114030000
+Q9P232,Contactin-3,CNTN3,27,33.6,112.88,1028,0,259.84,2257600000
+Q9P2B2,Prostaglandin F2 receptor negative regulator,PTGFRN,3,3.3,98.555,879,0.0023866,1.8755,15687000
+Q9UBG0,C-type mannose receptor 2,MRC2,31,28,166.67,1479,0,323.31,3029500000
+Q9UBR2,Cathepsin Z,CTSZ,10,38.9,33.868,303,0,89.013,3141000000
+Q9UBW5,Bridging integrator 2,BIN2,19,42.1,61.874,565,0,165.06,1004600000
+Q9UBX1,Cathepsin F,CTSF,15,31.2,53.365,484,0,69.177,1830800000
+Q9UEW3,Macrophage receptor MARCO,MARCO,4,10.9,43.865,442,0,92.109,379740000
+Q9UFP1,Protein FAM198A,FAM198A,5,9.4,63.637,575,0,8.5852,84612000
+Q9UGM5,Fetuin-B,FETUB,22,69.1,42.054,382,0,323.31,99522000000
+Q9UGN4,CMRF35-like molecule 8,CD300A,2,10.4,33.2,299,0,22.801,168210000
+Q9UGT4,Sushi domain-containing protein 2,SUSD2,8,17.9,90.207,822,0,133.56,395780000
+Q9UHG2,ProSAAS;KEP;Big SAAS;Little SAAS;Big PEN-LEN;PEN;Little LEN;Big LEN,PCSK1N,2,11.2,27.372,260,0,4.6024,21702000
+Q9UHG3,Prenylcysteine oxidase 1,PCYOX1,6,15.8,56.639,505,0,24.417,84988000
+Q9UHL4,Dipeptidyl peptidase 2,DPP7,9,22.4,54.341,492,0,86.894,472240000
+Q9UHV9,Prefoldin subunit 2,PFDN2,2,16.9,16.648,154,0,12.855,10048000
+Q9UIB8,SLAM family member 5,CD84,3,21.6,26.902,241,0,35.976,241090000
+Q9UIQ6,"Leucyl-cystinyl aminopeptidase;Leucyl-cystinyl aminopeptidase, pregnancy serum form",LNPEP,3,3.7,115.06,1006,0,8.7879,42916000
+Q9UIW2,Plexin-A1,PLXNA1,9,5.9,211.06,1896,0,40.091,215100000
+Q9UJ14,Gamma-glutamyltransferase 7;Gamma-glutamyltransferase 7 heavy chain;Gamma-glutamyltransferase 7 light chain,GGT7,5,8.2,70.466,662,0,11.079,208880000
+Q9UJA9,Ectonucleotide pyrophosphatase/phosphodiesterase family member 5,ENPP5,5,10.9,54.665,477,0,15.354,134450000
+Q9UJC5,SH3 domain-binding glutamic acid-rich-like protein 2,SH3BGRL2,4,59.8,12.326,107,0,80.376,401640000
+Q9UJJ9,N-acetylglucosamine-1-phosphotransferase subunit gamma,GNPTG,9,36.4,33.973,305,0,201.58,6202900000
+Q9UJU6,Drebrin-like protein,DBNL,3,9.5,37.1,327,0,4.1945,41838000
+Q9UJW2,Tubulointerstitial nephritis antigen,TINAG,4,8,54.604,476,0,6.092,57625000
+Q9UK05,Growth/differentiation factor 2,GDF2,3,10.3,47.32,429,0,30.043,61968000
+Q9UK23,N-acetylglucosamine-1-phosphodiester alpha-N-acetylglucosaminidase,NAGPA,13,28,56.072,515,0,95.738,1090900000
+Q9UKG1,DCC-interacting protein 13-alpha;DCC-interacting protein 13-beta,APPL1;APPL2,2,2.5,79.663,709,0.0046485,1.624,25899000
+Q9UKU6,Thyrotropin-releasing hormone-degrading ectoenzyme,TRHDE,11,12.6,117,1024,0,20.093,177420000
+Q9UKY7,Protein CDV3 homolog,CDV3,2,17.8,22.079,213,0,26.821,34501000
+Q9UKZ9,Procollagen C-endopeptidase enhancer 2,PCOLCE2,2,7.5,45.716,415,0,4.2644,84995000
+Q9UL46,Proteasome activator complex subunit 2,PSME2,4,24.3,27.401,239,0,46.218,53357000
+Q9ULI3,Protein HEG homolog 1,HEG1,14,14.2,147.46,1381,0,105.46,4165700000
+Q9ULV4,Coronin-1C;Coronin,CORO1C,15,29.5,53.248,474,0,26.124,754290000
+Q9UM47,Neurogenic locus notch homolog protein 3;Notch 3 extracellular truncation;Notch 3 intracellular domain,NOTCH3,20,11.5,243.63,2321,0,113.42,981650000
+Q9UMX5,Neudesin,NENF,5,38.4,18.856,172,0,89.196,714180000
+Q9UN70,Protocadherin gamma-C3,PCDHGC3,4,6.4,94.457,863,0,9.1818,61706000
+Q9UNF0,Protein kinase C and casein kinase substrate in neurons protein 2,PACSIN2,2,4.5,51.353,445,0,3.1266,32225000
+Q9UNN8,Endothelial protein C receptor,PROCR,6,29.4,26.671,238,0,103.93,7642800000
+Q9UNW1,Multiple inositol polyphosphate phosphatase 1,MINPP1,21,51.1,55.051,487,0,323.31,32057000000
+Q9UNZ2,NSFL1 cofactor p47,NSFL1C,8,25.1,37.325,339,0,16.3,220010000
+Q9UP79,A disintegrin and metalloproteinase with thrombospondin motifs 8,ADAMTS8,3,4.2,96.459,889,0,3.4311,45091000
+Q9UPZ6,Thrombospondin type-1 domain-containing protein 7A,THSD7A,8,4.8,185.36,1657,0,9.3487,66721000
+Q9UQ52,Contactin-6,CNTN6,5,6.7,113.95,1028,0,13.228,65470000
+Q9UQ80,Proliferation-associated protein 2G4,PA2G4,7,28.4,43.786,394,0,61.171,109360000
+Q9UQP3,Tenascin-N,TNN,15,15,144.03,1299,0,92.154,371290000
+Q9Y274,"Type 2 lactosamine alpha-2,3-sialyltransferase",ST3GAL6,13,41.1,38.213,331,0,35.11,678680000
+Q9Y275,"Tumor necrosis factor ligand superfamily member 13B;Tumor necrosis factor ligand superfamily member 13b, membrane form;Tumor necrosis factor ligand superfamily member 13b, soluble form",TNFSF13B,3,14.3,29.137,266,0,29.259,82104000
+Q9Y279,V-set and immunoglobulin domain-containing protein 4,VSIG4,8,34.3,35.543,321,0,70.353,1387000000
+Q9Y286,Sialic acid-binding Ig-like lectin 7,SIGLEC7,2,7.8,41.237,374,0,3.8301,20299000
+Q9Y287,"Integral membrane protein 2B;BRI2, membrane form;BRI2 intracellular domain;BRI2C, soluble form;Bri23 peptide",ITM2B,7,31.6,30.338,266,0,75.891,154110000
+Q9Y2B0,Protein canopy homolog 2,CNPY2,2,14.3,20.652,182,0,4.1494,28500000
+Q9Y2Y8,Proteoglycan 3,PRG3,2,12.9,25.405,225,0,4.1737,13743000
+Q9Y376,Calcium-binding protein 39,CAB39,4,11.1,39.869,341,0,4.8289,53308000
+Q9Y490,Talin-1,TLN1,118,60.5,269.76,2541,0,323.31,18716000000
+Q9Y4C0,Neurexin-3,NRXN3,4,4.2,153.88,1392,0,24.386,51561000
+Q9Y4D7,Plexin-D1,PLXND1,12,10.6,195.56,1785,0,119.78,812950000
+Q9Y4E8,Ubiquitin carboxyl-terminal hydrolase 15,USP15,4,14.5,27.093,235,0.0018138,2.0317,22974000
+Q9Y4L1,Hypoxia up-regulated protein 1,HYOU1,28,34.4,111.33,999,0,323.31,9608600000
+Q9Y5C1,Angiopoietin-related protein 3,ANGPTL3,20,51.5,53.637,460,0,323.31,6097600000
+Q9Y5X9,Endothelial lipase,LIPG,2,7,56.794,500,0.00061275,2.1633,30964000
+Q9Y5Y7,Lymphatic vessel endothelial hyaluronic acid receptor 1,LYVE1,8,24.2,35.213,322,0,131.64,17772000000
+Q9Y617,Phosphoserine aminotransferase,PSAT1,9,26.5,40.422,370,0,17.456,158720000
+Q9Y624,Junctional adhesion molecule A,F11R,3,8.7,32.583,299,0,2.9067,48722000
+Q9Y646,Carboxypeptidase Q,CPQ,13,33.1,51.887,472,0,298.13,1998900000
+Q9Y696,Chloride intracellular channel protein 4,CLIC4,8,38.3,28.772,253,0,63.919,499600000
+Q9Y6C2,EMILIN-1,EMILIN1,3,3,106.67,1016,0,6.5503,29026000
+Q9Y6N7,Roundabout homolog 1,ROBO1,20,17.1,169.66,1551,0,118.67,1644700000
+Q9Y6R7,IgGFc-binding protein,FCGBP,99,36.6,572.01,5405,0,323.31,52462000000
+Q9Y6Z7,Collectin-10,COLEC10,6,21.7,30.705,277,0,26.731,904210000
+R4GMU1,GDH/6PGL endoplasmic bifunctional protein;Glucose 1-dehydrogenase;6-phosphogluconolactonase,H6PD,40,54.4,90.172,802,0,323.31,15757000000
+S4R3V8,Lipolysis-stimulated lipoprotein receptor,LSR,10,25.4,55.253,500,0,50.337,602240000
+V9GYM3,Apolipoprotein A-II;Proapolipoprotein A-II;Truncated apolipoprotein A-II,APOA2,6,46.6,14.914,133,0,161.89,6122200000
+X6R3S7,Trefoil factor 3,TFF3,2,19.2,14.252,130,0,3.2516,167810000
+X6R5C5,Carboxypeptidase;Lysosomal protective protein;Lysosomal protective protein 32 kDa chain;Lysosomal protective protein 20 kDa chain,CTSA,9,25.4,54.255,481,0,44.844,605880000
+X6R8F3,Neutrophil gelatinase-associated lipocalin,LCN2,10,56.5,22.788,200,0,102.25,3698500000
+X6RBG4,"Uromodulin;Uromodulin, secreted form",UMOD,16,28.3,75.662,689,0,299.56,4092400000
