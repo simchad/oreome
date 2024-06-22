@@ -28,102 +28,110 @@ import seaborn as sns
 # Developer version: 240617_HFD_DAVID.ipynb
 
 
-class david_tree:
+class DavidInfo:
     """
-    david_tree
-    ----------
-
-    Show Short/Long trees of DAVID available annotation terms
-    - Short list: Red-colored annotation terms
-    - Long list: Every available annotation terms
-
-    params.
-    -------
-    - type : default is 'short'. Type of list.
+    DavidInfo
+    ---------
+    A class including fundamental info of DAVID system
     """
-    def __init__(self, type):
-        self.type = type
+    def __init__(self, term:str='go', term_ls='short'):
+        """
+        Params.
+        -------
+        term(str) : 'dss', 'go', 'pth'. default: 'go'
 
+        term_ls(str) : 'short', 'long'. default: 'short'
+            Show short/long trees of DAVID annotation terms
+            Short list is red-colored annotation terms,
+            long list is every available annotation terms
+        """
+        self.term = term
+        self.term_ls = term_ls
+        self.seps = {'go':'~', 'kegg':':', 'interpro':':'}
+        
 
     def show_list(self):
         if self.type =='short':
             short_list = """Annotation Categorical Terms (Short-list)
-                            ├ Disease
-                            │ ├ OMIM_DISEASE
-                            │ └ UP_KW_DISEASE
-                            ├ Funtional_Annotations
-                            │ ├ UP_KW_BIOLOGICAL_PROCESS
-                            │ ├ UP_KW_CELLULAR_COMPONENT
-                            │ ├ UP_KW_MOLECULAR_FUNCTION
-                            │ ├ UP_KW_PTM
-                            │ └ UP_SEQ_FEATURE
-                            ├ Gene_Ontology
-                            │ ├ GOTERM_BP_DIRECT
-                            │ ├ GOTERM_CC_DIRECT
-                            │ └ GOTERM_MF_DIRECT
-                            ├ Interactions
-                            │ └ UP_KW_LIGAND
-                            ├ Pathways
-                            │ ├ BBID
-                            │ ├ BIOCARTA
-                            │ └ KEGG_PATHWAY
-                            └ Protein_Domains
-                              ├ INTERPRO
-                              ├ PIR_SUPERFAMILY
-                              ├ SMART
-                              └ UP_KW_DOMAIN"""
+            ├ Disease
+            │   ├ OMIM_DISEASE
+            │   └ UP_KW_DISEASE
+            ├ Funtional_Annotations
+            │   ├ UP_KW_BIOLOGICAL_PROCESS
+            │   ├ UP_KW_CELLULAR_COMPONENT
+            │   ├ UP_KW_MOLECULAR_FUNCTION
+            │   ├ UP_KW_PTM
+            │   └ UP_SEQ_FEATURE
+            ├ Gene_Ontology
+            │   ├ GOTERM_BP_DIRECT
+            │   ├ GOTERM_CC_DIRECT
+            │   └ GOTERM_MF_DIRECT
+            ├ Interactions
+            │   └ UP_KW_LIGAND
+            ├ Pathways
+            │   ├ BBID
+            │   ├ BIOCARTA
+            │   └ KEGG_PATHWAY
+            └ Protein_Domains
+                ├ INTERPRO
+                ├ PIR_SUPERFAMILY
+                ├ SMART
+                └ UP_KW_DOMAIN"""
             print(short_list)
         elif self.type == 'long':
             long_list = """Annotation Categorical Terms (Long-list)
-                            ├ Disease
-                            │ ├ OMIM_DISEASE
-                            │ └ UP_KW_DISEASE
-                            ├ Funtional_Annotations
-                            │ ├ UP_KW_BIOLOGICAL_PROCESS
-                            │ ├ UP_KW_CELLULAR_COMPONENT
-                            │ ├ UP_KW_MOLECULAR_FUNCTION
-                            │ ├ UP_KW_PTM
-                            │ └ UP_SEQ_FEATURE
-                            ├ Gene_Ontology
-                            │ ├ GOTERM_BP_DIRECT
-                            │ ├ GOTERM_CC_DIRECT
-                            │ └ GOTERM_MF_DIRECT
-                            ├ Interactions
-                            │ └ UP_KW_LIGAND
-                            ├ Pathways
-                            │ ├ BBID
-                            │ ├ BIOCARTA
-                            │ └ KEGG_PATHWAY
-                            └ Protein_Domains
-                              ├ INTERPRO
-                              ├ PIR_SUPERFAMILY
-                              ├ SMART
-                              └ UP_KW_DOMAIN"""
+            ├ Disease
+            │   ├ OMIM_DISEASE
+            │   └ UP_KW_DISEASE
+            ├ Funtional_Annotations
+            │   ├ UP_KW_BIOLOGICAL_PROCESS
+            │   ├ UP_KW_CELLULAR_COMPONENT
+            │   ├ UP_KW_MOLECULAR_FUNCTION
+            │   ├ UP_KW_PTM
+            │   └ UP_SEQ_FEATURE
+            ├ Gene_Ontology
+            │   ├ GOTERM_BP_DIRECT
+            │   ├ GOTERM_CC_DIRECT
+            │   └ GOTERM_MF_DIRECT
+            ├ Interactions
+            │   └ UP_KW_LIGAND
+            ├ Pathways
+            │   ├ BBID
+            │   ├ BIOCARTA
+            │   └ KEGG_PATHWAY
+            └ Protein_Domains
+                ├ INTERPRO
+                ├ PIR_SUPERFAMILY
+                ├ SMART
+                └ UP_KW_DOMAIN"""
             print(long_list)
         else:
             raise ValueError
         return None
 
 
+    def call_term_delim(self):
+        """
+        call_term_delim
+        ---------------
+        call delimiter chracter of term; i.e., ``go`` calls `~`, ``kegg`` calls `:`
+        """
+        return self.seps[self.term]
+
+
 # Preprocessing DAVID txt result
-class preprocessing_david:
+class Preprocessing:
     """
-    preprocessing_david
-    -------------------
+    Preprocessing
+    -------------
     ### Preprocessing what?
     - Count=List Hits (LH), List Total (LT), Pop Hits (PH), Pop Total (PT)
     - GeneRatio (LH/LT), BgRatio (PH/PT)
     - Fold Enrichment (=GeneRatio/BgRatio)
     - Tests (Benjamini, PValue, FDR, bonferroni, fisher)
     - PValue: modified Fisher Exact p-value.
-    
-    ### Term patterns
-    - GOTERM -> GO:IDENTIFER~TERM
-    - KEGG -> IDENTIFIER:TERM
-    - INTERPRO -> IDENTIFIER:TERM
     """
     
-
     def __init__(self, df):
         self.df = df
 
@@ -134,6 +142,8 @@ class preprocessing_david:
         ------
         ### Generate features
         - GeneRatio, BgRatio, -log10(P), log2(FE)
+
+        ### Separate Terms into Identifier&Term
         """
         # GeneRatio = Count / List Total
         # data['GeneRatio'] = data['Count']/data['List Total']
@@ -162,9 +172,9 @@ class preprocessing_david:
 
     def terms_in(self):
         """
-        terms_in()
-        ----------
-        : Find which TERMS in your data
+        terms_in
+        --------
+        Find which TERMS in your data.
         
         - Future -> DAVID_API
         """
