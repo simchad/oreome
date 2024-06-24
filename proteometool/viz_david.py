@@ -161,12 +161,11 @@ class Preprocessing:
         self.df.loc[:, 'Fold Enrichment'] = np.log2(self.df.loc[:, 'Fold Enrichment'])
         
         # Logarithmic Fisher Exact (-log10)
-        try:
+        if 'Fisher Exact' in self.df.columns:
             self.df.loc[:, '-log10(Fisher Exact)'] = np.log10(self.df.loc[:, 'Fisher Exact'])
             self.df['-log10(Fisher Exact)'] *= -1
-        except:
-            raise IndexError
-        
+        else:
+            pass
         return None
     
 
@@ -298,12 +297,16 @@ if __name__ == "__main__":
     # Load the example file
     USER = os.getlogin()
     CWD = os.getcwd()
-    DPATH = "example"
+    DPATH = "../../example/maxquant_opendata/mq_open-david.txt"
 
+    df_ex = pd.read_csv(filepath_or_buffer=DPATH, sep='\t', encoding='utf-8')
     df_up = pd.read_csv(filepath_or_buffer=DPATH+"/*.CSV", encoding='utf-8')
     df_down = pd.read_csv(filepath_or_buffer=DPATH+"/*.CSV", encoding='utf-8')
 
     # Run and store
+    prep = Preprocessing(df_ex)
+
+    df_ready = prep.base()
     df_up_ready = preprocess_david(df_up)
     df_down_ready = preprocess_david(df_down)
 
