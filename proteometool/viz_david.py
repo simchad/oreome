@@ -9,6 +9,10 @@ See Also
 --------
 markdown -> *.md
 notebook -> *.ipynb
+
+DAVID API: https://david.ncifcrf.gov/content.jsp?file=DAVID_API.html
+DAVID Documentation (Annotation part): https://david.ncifcrf.gov/content.jsp?file=functional_annotation.html
+Developer version: 240617_HFD_DAVID.ipynb
 """
 __author__ = "github.com/simhc0714"
 __version__ = "0.1.0"
@@ -22,10 +26,6 @@ import numpy as np
 import os
 import pandas as pd
 import seaborn as sns
-
-# DAVID API: https://david.ncifcrf.gov/content.jsp?file=DAVID_API.html
-# DAVID Documentation (Annotation part): https://david.ncifcrf.gov/content.jsp?file=functional_annotation.html
-# Developer version: 240617_HFD_DAVID.ipynb
 
 
 class DavidInfo:

@@ -22,10 +22,9 @@
       - Modification (X)Sites.txt
       - 그 외
    3. Maxquant, Perseus 데이터 export
+   4. DIA datasheets
 
 2. Mascot
-
-3. Proteome Discoverer
 </br>
 
 ### Chapter 2. 데이터베이스 파싱과 API 활용방안
@@ -35,7 +34,7 @@
 
 </br>
 
-2. SIB Expasy: 인포매틱스 툴 여기 다 모였네
+2. SIB Expasy: 인포매틱스 툴스
    1. Prosite & ScanProsite
    2. 최대 10개?
 
@@ -62,8 +61,7 @@
 
 2. [데이터 N수에 따른 평균 차이 검정]
 
-3. 연계 활용
-   1. DAVID 에서 GO와 KEGG 연계하기
+3. [DAVID Annotation Table to Dot-plot][Ext5]
 
 4. Clustering
    
@@ -110,9 +108,11 @@
 2022.06.16. Project released.<br>
 2023.01.17. Renew (organize old files, Update folder structure.)<br>
 2023.01.19. Uniprot API - id mapping
+2024.06.26. DAVID annotaion table to dot plot (.ipynb ver)
 
 
-[Ext1]:https://github.com/simhc0714/proteome-tool/blob/main/notes/upid_mapping.md
-[Ext2]:https://github.com/simhc0714/proteome-tool/blob/main/notes/ptm_logos.md
-[Ext3]:https://github.com/simhc0714/proteome-tool/blob/main/notes/setup-py.md
-[Ext4]:https://github.com/simhc0714/proteome-tool/blob/main/notes/upidmapping_tree-parse.md
+[Ext1]:https://github.com/simhc0714/oreome/blob/main/notes/upid_mapping.md
+[Ext2]:https://github.com/simhc0714/oreome/blob/main/notes/ptm_logos.md
+[Ext3]:https://github.com/simhc0714/oreome/blob/main/notes/setup-py.md
+[Ext4]:https://github.com/simhc0714/oreome/blob/main/notes/upidmapping_tree-parse.md
+[Ext5]:https://github.com/simhc0714/oreome/blob/main/notes/jupyters/viz_david.ipynb
