@@ -14,9 +14,11 @@
 
 </br>
 
-## 1. Visualizing DAVID Annotation Chart into Dot-Plot.
+## 1. Visualizing DAVID Annotation Table into Dot-Plot.
 
--
+> DAVID Annotational Table 은 bar plot 보다 dot plot form 을 가졌을 때 좀 더 많은 information 을 projection 할 수 있다.
+
+
 
 ```python
 # python preference
