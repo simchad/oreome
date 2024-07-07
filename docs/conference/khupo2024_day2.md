@@ -2,16 +2,16 @@
 
 ## SYM B3: PTMs in diseases
 
-### Chuljiu Lee - KIST
-> Distinguishing N-Terminal Methylation from Near-isobarid Modifications by Statistically Analysis of Mass Error Distributions of Fragement ions
+### Cheolju Lee - KIST
+> Distinguishing N-Terminal Methylation from Near-isobaric Modifications by Statistically Analysis of Mass Error Distributions of Fragment ions
 
 - acetylation is the most abundant PTMs on N-termini region in mammalians, numbers of types of N-term mods exist (i.e., propiony, ...)
 - N-terrminal methylation & Nt-methylome. Nt-Methylation is a Rare PTM so it requires enrichment for deep analysis.
 - Canonical motifs... "XPK"
 - N-terminal methylation charge positive, hydrophobic and hinderance.
-- If you want to measure in MS, (mesure ment error = measured - theoretical). Have to re-calibrate them. because, multiple electrons are skewed. 전자쌍 한쪽으로 몰림으로 m/z 측정시, peak 가 강한 치우침 생겨.
+- If you want to measure in MS, (mesurement error = measured - theoretical). Have to re-calibrate them. because, multiple electrons are skewed. 전자쌍 한쪽으로 몰림으로 m/z 측정시, peak 가 강한 치우침 생겨.
 - y ion 다르고 b ion 다르다. 
-- scoer: log10(pvalue-trimethyl) - log10(pvalue-acetyl)
+- score: log10(pvalue-trimethyl) - log10(pvalue-acetyl)
 
 #### Ex. 1 by 한결 Lee, student
 > Chemically methylated BSA peptides.
@@ -33,7 +33,7 @@
 - with  increase of spiked-in amount: tmtm, acac BSA increases.
 - highly likely true-positive trimethyl because they are from BSA
 
-#### Depp=profiling of HCT 116N-terminome
+#### Deep-profiling of HCT 116N-terminome
 - Nt-enriched by iNrich.
 - Motifs: 
 - after remove of the Met, first of amino acid sequence, acetyl transferases: A, S after removal of iMet, secondary acetyl transferase ME, MD.
@@ -71,7 +71,7 @@
 - Wirters, Erasers and Readers on PTMs.
 - Allow to regulate the protein fuction. i.e., singnaling, diversity, functionality of proteome.
 - PTMs never exist in isolation. PTM cross talks on same or different proteins.
-- PTMs, PQCs and ORganismal Homestasis. 
+- PTMs, PQCs and Organismal Homestasis. 
 - Ubs and UBLs. Ubs diverse roles depending on the type of Ub linkages. UBL, ISG15, specially relating on cancer.
 
 #### ISG15
@@ -180,7 +180,7 @@
 
 
 4. QC and Statistical analysis
-   - CahtSQ: Analyze proteomics data using english as a programming language. Upload the data, chat on command then visualize the result of data.
+   - ChatSQ: Analyze proteomics data using english as a programming language. Upload the data, chat on command then visualize the result of data.
 
 #### Summary: We can enchanced every steps of proteomic pipelines
 
@@ -190,7 +190,7 @@
 #### History of the computer-aided drug design
 QSAR (1960s) -> CADD (1980s) -> Schoredinger (1990s) -> big-data based (2012) -> AF2 (2020) -> AF3 (2024)
 
-- AL for fast & reliable virtual screening
+- AI for fast & reliable virtual screening
   - Physics-based docking method. Two major problems of conventional approach: low reliability, reliatively slow, and trade-off between accuracy and speed.
   - Prediction of protein-ligand interaction: crystals vs in-vivo model completely different.
   - Solution A. Physics-informed deep learning. (Moon et al., Chem. Sci.)
@@ -202,7 +202,7 @@ QSAR (1960s) -> CADD (1980s) -> Schoredinger (1990s) -> big-data based (2012) ->
 - Hyper LAb
   - Hyperlab platform. design the molecule.
   - launch this platform on Aug. 2023.
-  - https://hyperlab.hist.ai/en
+  - https://hyperlab.hits.ai/en
 
 
 #### Comment: Significant motif region scaffolding with AF2 BLASTP --> profiling KAC. KAC도 PTM 있어야 Kac transferase 가능한가?

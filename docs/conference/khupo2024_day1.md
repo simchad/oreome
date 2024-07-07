@@ -42,20 +42,20 @@
 ## PL1
 ### John R. Yates III - Known for development of SEQUEST algorithm
 
-> How a Single Mutation in DFTR Cause the Cystic Fibrosis
+> How a Single Mutation in CFTR Cause the Cystic Fibrosis
 > : Interactions, PTMs, And Structure
 
 
 #### Interactions
-- Cystic Fibrosis is a protein misfolding disease, cause by mutation of DFTR,
-an anoion channel regulating chlrodie hoeostasis.
+- Cystic Fibrosis is a protein misfolding disease, cause by mutation of CFTR,
+an anion channel regulating chlroide homeostasis.
 - There are 6 types of different wt-CFTR, half of them doen't have function or not discovered.
 - Using MS to understand misfolding disease such as Cystic Fibrosis
   - Assess PPI & PTMs
 - Are differential interactions responsible ofr F508 mis-folding?
 - The CoPIT workflow: experimental, anlytical and statistical frame work for Co-IP/MS analysis.
 - Shotgun Proteomics: uLC -MS - MS/MS - ProLuCID (GPU) - Datasheet
-- and reveals new pathways and interactor affected by the F508 CFTR mutation.
+- Reveals new pathways and interactor affected by the F508 CFTR mutation.
   - disease specific clustered. i.e. EF quality control, degradation, tarffiking...
 - Comparative systems-analysis of TS and HDACi datasets reveals key interactors
 - Assessment of therapeutic potential of novel F508 interactors.
@@ -63,8 +63,8 @@ an anoion channel regulating chlrodie hoeostasis.
   - Specific representative traces and quantification
 
 #### PTMs
-- Extensive PTMs modification of CFTR in disordred regions: Pankwo et al., Science Signaling.
-- wt RI phosphorylation is mediated by CK2a in vivo.
+- Extensive PTMs modification of CFTR in disordred regions (Pankwo et al., Science Signaling)
+- wt-RI phosphorylation is mediated by CK2a in vivo.
   - Normalized to non-modified CFTR spike-in peptide.
 - Phosphorylation of the RI element is an indicator of CFTR traffing success
 - A quantitative and qualitative PTM Code for CFTR Maturation
@@ -76,9 +76,9 @@ an anoion channel regulating chlrodie hoeostasis.
 > What the protein look like in vivo not in vitro.
 
 - Protein foot printing methods on a protein to the 3d proteome: chance, gross, jones, englander, griffin...
-- PNAS: Whole proteome footprinting
+- PNAS: Whole proteome footprinting (PNASm 119(3), e2114858118)
 - How protein look like inside the cell, inside the proteome...: Covalent Protein Painting
-- JPR: 2022, 2021
+- JPR: 2022, 2021 (JPR. 2021, 20, 5, 2762-2771)
 - CryoEM reveals, solvent accesible surfaces
 
 
@@ -138,9 +138,9 @@ an anoion channel regulating chlrodie hoeostasis.
 
 #### How drive cost-effective proteomics?
 1. Upgrade of LC-MS data acquisition
-  - DDA to DIA, DIA to BoxCar-DIA\
+  - DDA to DIA, DIA to BoxCar-DIA
   - BoxCar-DIA to acheive an improved dynamic range of MS1 and precursor fragmentation.
-  - New BoxCar-DIA: Single-shot, library-fre... and low peptide input. Wider dynamic range than conventional BoxCar-DIA
+  - New BoxCar-DIA: Single-shot, library-free... and low peptide input. Wider dynamic range than conventional BoxCar-DIA
 - LC column systems
   - One column systems more good than double-column ones.
   - sesitivity, peptode loss, and also gradients times
