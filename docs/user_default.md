@@ -78,9 +78,9 @@ import numpy as np
 
 <br>
 
-## 4. 이 문서의 향후 개선방향
-- 개선점 1
-- 개선점 2
+## 4. Future Directions
+- Direction 1
+- Direction 2
 
 <br>
 

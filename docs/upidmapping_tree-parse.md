@@ -196,7 +196,7 @@ Protein Name 은 다음의 세 종류가 있다.
 
 아래 예시에는 SwissProt(sp) 단백질 1 개, TrEMBL(tr) 단백질 2 개(submission, auto-annotation) 에 대해서 json 형식의 proteinDescription 을 나타냈다. (일부 피쳐는 생략함.)
 
-예시 파일 : idmapping_2023_07_20.json
+예시 파일 : [idmapping_2023_07_20.json][ex-json1]
 
 __1. {67}: Q6P9L6__
 
@@ -331,3 +331,4 @@ d
 
 [Ref1]:https://www.uniprot.org/help/protein_names
 [Ext1]:https://blog.naver.com/simhc0714
+[ex-json1]:https://github.com/simhc0714/oreome/blob/main/example/idmapping_2023_07_20.json
