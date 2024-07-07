@@ -113,8 +113,8 @@
 2024.06.26. DAVID annotaion table to dot plot (.ipynb ver)
 
 
-[Ext1]:https://github.com/simhc0714/oreome/blob/main/notes/upid_mapping.md
-[Ext2]:https://github.com/simhc0714/oreome/blob/main/notes/ptm_logos.md
-[Ext3]:https://github.com/simhc0714/oreome/blob/main/notes/setup-py.md
-[Ext4]:https://github.com/simhc0714/oreome/blob/main/notes/upidmapping_tree-parse.md
-[Ext5]:https://github.com/simhc0714/oreome/blob/main/notes/jupyters/viz_david.ipynb
+[Ext1]:https://github.com/simhc0714/oreome/blob/main/docs/upid_mapping.md
+[Ext2]:https://github.com/simhc0714/oreome/blob/main/docs/ptm_logos.md
+[Ext3]:https://github.com/simhc0714/oreome/blob/main/docs/setup-py.md
+[Ext4]:https://github.com/simhc0714/oreome/blob/main/docs/upidmapping_tree-parse.md
+[Ext5]:https://github.com/simhc0714/oreome/blob/main/docs/jupyters/viz_david.ipynb
