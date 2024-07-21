@@ -1,0 +1,101 @@
+From,Category,Protein Name
+A0A075B5P9,submissionNames,Immunoglobulin heavy variable 5-4
+A0A0G2JDR6,submissionNames,Leucine rich repeat (in FLII) interacting protein 2
+A0A0J9YUX9,submissionNames,Huntingtin interacting protein 1
+A0A0R4J076,submissionNames,RIKEN cDNA 1700019N19 gene
+A0A0R4J081,recommendedName,"Complex I intermediate-associated protein 30, mitochondrial"
+A0A0R4J1A5,recommendedName,Proactivator polypeptide-like 1
+A0A1B0GSE5,recommendedName,Ubiquitin carboxyl-terminal hydrolase CYLD
+A0A1B0GSI1,submissionNames,Dedicator of cytokinesis 1
+A0A1D5RLM8,submissionNames,Predicted gene 11639
+A0A1W2P8G5,submissionNames,Utrophin
+A0A1X7SB70,submissionNames,Ras association (RalGDS/AF-6) domain family (N-terminal) member 9
+A0A1Y7VJ69,submissionNames,Zinc finger protein 37
+A0A1Y7VLS3,submissionNames,TOG array regulator of axonemal microtubules 1
+A0A1Y7VLY2,submissionNames,Dedicator of cytokinesis 4
+A0A286YDD5,submissionNames,DENN/MADD domain containing 6A
+A0A338P6F2,recommendedName,Oxysterol-binding protein
+A0A338P7H3,submissionNames,"Predicted gene, 49711"
+A0A3B2W4I8,submissionNames,"Chloride channel, voltage-sensitive 7"
+A2AI17,recommendedName,Glutamate receptor
+A2ALP5,submissionNames,"FYVE, RhoGEF and PH domain containing 1"
+A2ARZ3,recommendedName,Fibrous sheath-interacting protein 2
+A3KMP2,recommendedName,Tetratricopeptide repeat protein 38
+A4UUI2,submissionNames,Guanylate binding protein 1
+B1AWH6,submissionNames,Structural maintenance of chromosomes 2
+D3YVI3,submissionNames,Cathepsin H
+D3YVJ0,submissionNames,SURP and G patch domain containing 2
+D3YXS2,submissionNames,Early growth response 2
+D3Z041,recommendedName,Long-chain-fatty-acid--CoA ligase
+D3Z5B7,submissionNames,Transmembrane protein 262
+D3Z5N2,recommendedName,Stathmin
+D6RDD4,submissionNames,Glial cell line derived neurotrophic factor family receptor alpha 1
+D6RIL7,submissionNames,PR domain containing 15
+E9PX94,submissionNames,Coiled-coil and C2 domain containing 1A
+E9Q247,submissionNames,"SID1 transmembrane family, member 1"
+E9Q3J0,deleted,deleted
+E9Q8Z1,submissionNames,"Coiled-coil domain containing 121, retrogene 3"
+E9Q9K5,recommendedName,Triadin
+E9QAS3,recommendedName,protein-tyrosine-phosphatase
+E9QPD3,submissionNames,Zinc finger protein 664
+E9QQ68,submissionNames,"TBC1D12: TBC1 domain family, member 12"
+F6RDH3,submissionNames,Nebulin
+F6SHS0,submissionNames,Microtubule-actin crosslinking factor 1
+F6U2C2,submissionNames,Ataxin 2
+F6U7V1,submissionNames,"Ryanodine receptor 2, cardiac"
+F6XQY1,submissionNames,Capping protein regulator and myosin 1 linker 1
+F7APP3,recommendedName,Glycylpeptide N-tetradecanoyltransferase
+G3UXA9,submissionNames,C1q and tumor necrosis factor related protein 2
+G3XA72,submissionNames,Distal-less homeobox 1
+I7HJS4,recommendedName,Tissue-resident T-cell transcription regulator protein ZNF683
+O08710,recommendedName,Thyroglobulin
+O35593,recommendedName,26S proteasome non-ATPase regulatory subunit 14
+P0DP43,recommendedName,Cation channel sperm-associated auxiliary subunit epsilon
+P11152,recommendedName,Lipoprotein lipase
+P22518,recommendedName,Dual specificity protein kinase CLK1
+P45376,recommendedName,Aldo-keto reductase family 1 member B1
+P58710,recommendedName,L-gulonolactone oxidase
+P62320,recommendedName,Small nuclear ribonucleoprotein Sm D3
+P70227,recommendedName,"Inositol 1,4,5-trisphosphate receptor type 3"
+Q04750,recommendedName,DNA topoisomerase 1
+Q07409,recommendedName,Contactin-3
+Q3TC52,submissionNames,Tripartite motif-containing 46
+Q3TQN1,recommendedName,Protein-tyrosine sulfotransferase
+Q3UWK8,submissionNames,OTTMUSG00000000712 protein
+Q3V118,submissionNames,Coiled-coil domain containing 185
+Q4U4S6,recommendedName,Xin actin-binding repeat-containing protein 2
+Q64282,recommendedName,Interferon-induced protein with tetratricopeptide repeats 1
+Q6P5D4,recommendedName,Centrosomal protein of 135 kDa
+Q6P9L6,recommendedName,Kinesin-like protein KIF15
+Q6PD19,recommendedName,Armadillo-like helical domain-containing protein 3
+Q6ZPI3,recommendedName,Ligand-dependent corepressor
+Q80WG5,recommendedName,Volume-regulated anion channel subunit LRRC8A
+Q810Q2,submissionNames,1700016H13Rik protein
+Q811W1,recommendedName,Alanine and arginine-rich domain-containing protein
+Q8BL66,recommendedName,Early endosome antigen 1
+Q8BUY8,recommendedName,G-protein coupled receptor-associated sorting protein 2
+Q8C0S5,submissionNames,CAP-GLY domain containing linker protein 1
+Q8C196,recommendedName,"Carbamoyl-phosphate synthase [ammonia], mitochondrial"
+Q8C2W8,submissionNames,F-box and WD-40 domain protein 19
+Q8C413,recommendedName,Diacylglycerol kinase
+Q8C850,recommendedName,Scavenger receptor class A member 3
+Q8CIS0,recommendedName,Caspase recruitment domain-containing protein 11
+Q8JZW5,recommendedName,SH2 domain-containing protein 5
+Q8N7N5,recommendedName,DDB1- and CUL4-associated factor 8
+Q8R273,recommendedName,Vomeronasal type-1 receptor
+Q8VDN2,recommendedName,Sodium/potassium-transporting ATPase subunit alpha-1
+Q91VU7,recommendedName,Pseudouridylate synthase 7 homolog
+Q99LL3,recommendedName,Carbohydrate sulfotransferase 12
+Q99MB2,recommendedName,Mitochondrial fission regulator 1
+Q9CZJ1,recommendedName,Probable U3 small nucleolar RNA-associated protein 11
+Q9CZP3,submissionNames,Zinc finger protein 655
+Q9D0A3,recommendedName,Arpin
+Q9D0F7,submissionNames,Pseudouridine synthase 3
+Q9D0J8,recommendedName,Parathymosin
+Q9ERB0,recommendedName,Synaptosomal-associated protein 29
+Q9R0R1,recommendedName,Melanotransferrin
+Q9R0Y5,recommendedName,Adenylate kinase isoenzyme 1
+Q9WTT4,recommendedName,V-type proton ATPase subunit G 2
+Q9WU39,recommendedName,Amiloride-sensitive sodium channel subunit gamma
+Q9Z2B1,recommendedName,Interleukin-18 receptor accessory protein
+R4GML4,submissionNames,Centriolin
