@@ -13,6 +13,7 @@ install_requires = [
     'requests>=2.28.2',
     'scipy>=1.10.0',
     'seaborn>=0.12.2',
+    'pyiptmnet>=0.1.8',
     ]
 
 setup(
