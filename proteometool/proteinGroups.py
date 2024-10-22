@@ -15,12 +15,12 @@ from proteometool.lib import preprocessing
 
 
 PATH_NOW = os.getlogin()
-PATH_EX = "..\\example\\maxquant_opendata\\dataset_TMT\\proteinGroups.txt"
+DPATH = "src/proteinGroups.txt"
 
 #DPATH = os.path.join(PATH_NOW, PATH_EX)
 
-data = pd.read_csv(filepath_or_buffer=PATH_EX, sep='\\t', encoding='utf-8')
-df_base = preprocessing.base_proteingroups(df=data)
+data = pd.read_csv(filepath_or_buffer=DPATH, sep='\\t', encoding='utf-8')
+df_base = preprocessing.base_proteingroups(df=data, mapping=True)
 print(df_base.head)
 
 # if __name__ == "__main__":

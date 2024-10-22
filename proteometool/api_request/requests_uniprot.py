@@ -68,13 +68,71 @@ def parser_id_mapping(data):
         link = _execute_id_mapping(id_series=prot_ids)
     else:
         raise TypeError
-    
+       
     # Parsing
     tsv_rst = _api_uniprot.get_id_mapping_results_stream(str(link)+parse)
     reader = csv.DictReader(tsv_rst, delimiter="\t", quotechar='"')
     df_respond = pd.DataFrame(list(reader))
     
     return df_respond
+
+
+def link_to_xtract(data):
+    """
+    link_to_xtract(data) -> (df_respond) pandas.DataFrame
+
+    Parameters
+    ----------
+
+    Notes
+    -----
+    """
+    # link to json stream data
+    link = _execute_id_mapping(id_series=data)
+    json_data = _api_uniprot.get_id_mapping_results_stream(link)
+
+    # Xtract names from json
+    num_sublist = json_data['results'].__len__()
+
+    category_name = []
+    pr_names = []
+    entry_from = []
+
+    for n_try in range(num_sublist):
+        data_dict = json_data["results"][n_try]
+        name_dict = data_dict["to"]
+        phrase = "Protein Name Joined..."
+
+        print('Processing... %d : %s'%(n_try, data_dict["from"]))
+
+        if name_dict.get("proteinDescription") == None:
+            entry_from.append(data_dict["from"])
+            category_name.append("Deleted")
+            pr_names.append('Deleted')
+            print(phrase)
+
+        else:
+            try:
+                pr_name = name_dict['proteinDescription']['recommendedName']['fullName']['value']
+                entry_from.append(data_dict["from"])
+                category_name.append('recommendedName')
+                pr_names.append(pr_name)
+                print(phrase)
+            except:
+                pr_name =name_dict['proteinDescription']['submissionNames'][0]['fullName']['value']
+                entry_from.append(data_dict["from"])
+                category_name.append('submissionNames')
+                pr_names.append(pr_name)
+                print(phrase)
+
+    df_protname = pd.DataFrame({'From': entry_from,
+                                'Category': category_name,
+                                'Protein Name': pr_names
+                                })
+
+    # df_protname.to_csv(path_or_buf='C:/Users/simhc/Downloads/ProteinName_20241014.CSV', index=None, encoding='utf-8')
+
+    return df_protname
 
 
 if __name__ == "__main__":

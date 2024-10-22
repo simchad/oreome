@@ -182,7 +182,7 @@ def _create_csv(df, target:str=None):
         raise ValueError
     else:
         ntm = strftime('%Y%m%d-%H%M%S', localtime())
-        saved_path = '..\\output\\'+target+'_base_'+ntm+'.csv'
+        saved_path = 'output\\'+target+'_base_'+ntm+'.csv'
 
     df.to_csv(path_or_buf=saved_path, sep=',', index=False, encoding='utf-8')
     msg = 'message! >>> file created... '
@@ -216,7 +216,7 @@ def _create_base_df(df, target, columns, drop=False):
     return df_base
 
 
-def base_proteingroups(df, quan=None):
+def base_proteingroups(df, quan=None, mapping=False):
     """
     _create_base_proteingroups(df) -> (df) pandas.DataFrame
 
@@ -226,6 +226,7 @@ def base_proteingroups(df, quan=None):
     ----------
     - df (pandas.DataFrame)
     - quan (str) : (None, tmt, silac, lfq)
+    - mapping (bool) : (False, True) uniprot idmapping service
 
     Notes
     -----
@@ -284,12 +285,17 @@ def base_proteingroups(df, quan=None):
     df_tmp = split_items(df_tmp, **split_cols)
     df_base = _create_base_df(df_tmp, target="proteinGroups", columns=rest_cols)
     df_base.reset_index(drop=True, inplace=True)
-
-    # Process (with API).
-    df_respond = requests_uniprot.parser_id_mapping(df_base)
-    df_base['Protein names'] = df_respond['Protein names']
-    df_base['Gene names'] = df_respond['Gene Names']
-    df_base['Sequence length'] = df_respond['Length']
+        
+    if mapping == True:
+        # Process (with API).
+        df_respond = requests_uniprot.parser_id_mapping(df_base)
+        df_base['Protein names'] = df_respond['Protein names']
+        df_base['Gene names'] = df_respond['Gene Names']
+        df_base['Sequence length'] = df_respond['Length']
+    elif mapping == False:
+        pass
+    else:
+        raise ValueError
 
     # Create csv file
     _create_csv(df_base, target='proteinGroups')
