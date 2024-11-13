@@ -3,7 +3,7 @@
 preprocessing
 ~~~~~~~~~~~~~
 
-This module contains pre-processing functions
+This module aims pre-processing of dataframe
 
 Contains
 --------
@@ -227,6 +227,7 @@ def base_proteingroups(df, quan=None, mapping=False):
     - df (pandas.DataFrame)
     - quan (str) : (None, tmt, silac, lfq)
     - mapping (bool) : (False, True) uniprot idmapping service
+
 
     Notes
     -----

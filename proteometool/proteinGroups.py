@@ -23,5 +23,5 @@ data = pd.read_csv(filepath_or_buffer=DPATH, sep='\\t', encoding='utf-8')
 df_base = preprocessing.base_proteingroups(df=data, mapping=True)
 print(df_base.head)
 
-# if __name__ == "__main__":
-#     print(__doc__)
+if __name__ == "__main__":
+    print(__doc__)

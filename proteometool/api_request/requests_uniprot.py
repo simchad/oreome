@@ -77,12 +77,18 @@ def parser_id_mapping(data):
     return df_respond
 
 
-def link_to_xtract(data):
+def mapping_to_xtract(data):
     """
-    link_to_xtract(data) -> (df_respond) pandas.DataFrame
+    mapping_to_xtract(data) -> pandas.DataFrame, link
 
     Parameters
     ----------
+    data : pd.Series, Uniprot Accession ID
+
+    Returns
+    -------
+    pandas.DataFrame : mapped_id
+    link : stream_id
 
     Notes
     -----
@@ -96,8 +102,10 @@ def link_to_xtract(data):
 
     category_name = []
     pr_names = []
+    gg_names = []
     entry_from = []
 
+    # Parsing
     for n_try in range(num_sublist):
         data_dict = json_data["results"][n_try]
         name_dict = data_dict["to"]
@@ -105,11 +113,12 @@ def link_to_xtract(data):
 
         print('Processing... %d : %s'%(n_try, data_dict["from"]))
 
+        # Protein Name
         if name_dict.get("proteinDescription") == None:
             entry_from.append(data_dict["from"])
             category_name.append("Deleted")
             pr_names.append('Deleted')
-            print(phrase)
+            #print(phrase)
 
         else:
             try:
@@ -117,22 +126,31 @@ def link_to_xtract(data):
                 entry_from.append(data_dict["from"])
                 category_name.append('recommendedName')
                 pr_names.append(pr_name)
-                print(phrase)
+                #print(phrase)
             except:
                 pr_name =name_dict['proteinDescription']['submissionNames'][0]['fullName']['value']
                 entry_from.append(data_dict["from"])
                 category_name.append('submissionNames')
                 pr_names.append(pr_name)
-                print(phrase)
+                #print(phrase)
 
-    df_protname = pd.DataFrame({'From': entry_from,
+        # Gene Names
+        if name_dict.get("genes") == None:
+            gg_names.append('-')
+            #print(phrase)
+        else:
+            gg_name = name_dict['genes'][0]['geneName']['value']
+            gg_names.append(gg_name)
+
+    df_mapped = pd.DataFrame({'From': entry_from,
                                 'Category': category_name,
-                                'Protein Name': pr_names
+                                'Protein Name': pr_names,
+                                'Gene Name': gg_names
                                 })
 
-    # df_protname.to_csv(path_or_buf='C:/Users/simhc/Downloads/ProteinName_20241014.CSV', index=None, encoding='utf-8')
+    # df_protname.to_csv(path_or_buf='', index=None, encoding='utf-8')
 
-    return df_protname
+    return df_mapped, link
 
 
 if __name__ == "__main__":
@@ -140,5 +158,3 @@ if __name__ == "__main__":
     ids = ['P09429', 'P00338', 'P10275', 'P60709']
     df_respond = parser_id_mapping(ids)
     print(df_respond.head)
-
-    #
