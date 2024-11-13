@@ -6,7 +6,7 @@ proteometool: A protoemic tool for ToxicoProteomic LAB
 Subpackages
 -----------
 import subpackages below... for example,
-``import proteometool.api_request``.
+``import oreome.api_request``.
 
 ::
 
@@ -14,7 +14,3 @@ import subpackages below... for example,
  lib                    --- etc
 
 """
-
-import api_request
-import lib
-

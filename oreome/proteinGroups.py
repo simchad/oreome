@@ -5,17 +5,17 @@ proteinGroups.py
 This module pre-process proteinGroups.txt
 
 Example file (quan=TMT)
- `example\\maxquant_opendata\\dataset_TMT\proteinGroups.txt`
+"../example/maxquant_opendata/dataset_TMT/proteinGroups.txt"
 """
-# 작동 잘됨. 2024.08.02. 확인
+# 작동 잘됨. 2024.11.12. 확인
 # quan=tmt, silac 옵션 -> column 섞이는 현상.
 import os
 import pandas as pd
-from proteometool.lib import preprocessing
+from lib import preprocessing
 
 
 PATH_NOW = os.getlogin()
-DPATH = "src/proteinGroups.txt"
+DPATH = "../example/maxquant_opendata/dataset_TMT/proteinGroups.txt"
 
 #DPATH = os.path.join(PATH_NOW, PATH_EX)
 

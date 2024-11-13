@@ -33,7 +33,7 @@ from os import getcwd
 import pandas as pd
 import re
 from time import localtime, strftime
-from proteometool.api_request import requests_uniprot
+from api_request import requests_uniprot
 
 
 # UDF
