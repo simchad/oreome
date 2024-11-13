@@ -21,7 +21,7 @@ setup(
    version='0.1.0',
    author='Hyunchae Sim',
    author_email='simhc0714@gmail.com',
-   packages=find_packages(where='proteome-tool', include=['api_request', 'lib']),
+   packages=find_packages(where='oreome', include=['api_request', 'lib']),
    install_requires=install_requires,
    setup_requires=setup_requires,
    )
