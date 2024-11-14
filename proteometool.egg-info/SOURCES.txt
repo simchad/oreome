@@ -1,8 +1,0 @@
-LICENSE
-README.md
-setup.py
-proteometool.egg-info/PKG-INFO
-proteometool.egg-info/SOURCES.txt
-proteometool.egg-info/dependency_links.txt
-proteometool.egg-info/requires.txt
-proteometool.egg-info/top_level.txt

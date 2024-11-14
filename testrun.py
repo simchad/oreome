@@ -1,2 +1,4 @@
 from oreome.api_request import requests_uniprot
-print(requests_uniprot.__doc__)
+
+if __name__ == "__main__":
+    print(requests_uniprot.__doc__)
