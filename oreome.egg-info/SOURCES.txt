@@ -1,8 +1,0 @@
-LICENSE
-README.md
-setup.py
-oreome.egg-info/PKG-INFO
-oreome.egg-info/SOURCES.txt
-oreome.egg-info/dependency_links.txt
-oreome.egg-info/requires.txt
-oreome.egg-info/top_level.txt
