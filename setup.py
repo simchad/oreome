@@ -14,6 +14,7 @@ install_requires = [
     'scipy>=1.10.0',
     'seaborn>=0.12.2',
     'pyiptmnet>=0.1.8',
+    'logomaker>=0.8'
     ]
 
 setup(
