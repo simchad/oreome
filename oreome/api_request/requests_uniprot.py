@@ -18,7 +18,8 @@ See Also
 # import packages
 import csv
 import pandas as pd
-from api_request import _api_uniprot
+#from api_request import _api_uniprot
+from oreome.api_request import _api_uniprot # 2025.3.19
 
 
 # UDF

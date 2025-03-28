@@ -11,7 +11,7 @@ Example file (quan=TMT)
 # quan=tmt, silac 옵션 -> column 섞이는 현상.
 import os
 import pandas as pd
-from lib import preprocessing
+from oreome.lib import preprocessing
 
 
 PATH_NOW = os.getlogin()
