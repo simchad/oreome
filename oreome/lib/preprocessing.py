@@ -29,12 +29,15 @@ notebook ->
 __author__ = "github.com/simhc0714"
 
 # Load packages.
-from os import getcwd
+import os
 import pandas as pd
 import re
 from time import localtime, strftime
-from api_request import requests_uniprot
+from oreome.api_request import requests_uniprot # 2025.3.19
+#from api_request import requests_uniprot
 
+# Constants
+LOGGEDUSER = os.getlogin()
 
 # UDF
 def column_filter_dict(df, **kwargs):
@@ -182,7 +185,7 @@ def _create_csv(df, target:str=None):
         raise ValueError
     else:
         ntm = strftime('%Y%m%d-%H%M%S', localtime())
-        saved_path = 'output\\'+target+'_base_'+ntm+'.csv'
+        saved_path = 'C:/Users/'+LOGGEDUSER+'/Documents/GitHub/oreome/output/'+target+'_base_'+ntm+'.CSV' # 2025.3.19 (output -> path)
 
     df.to_csv(path_or_buf=saved_path, sep=',', index=False, encoding='utf-8')
     msg = 'message! >>> file created... '
@@ -225,7 +228,7 @@ def base_proteingroups(df, quan=None, mapping=False):
     Parameters
     ----------
     - df (pandas.DataFrame)
-    - quan (str) : (None, tmt, silac, lfq)
+    - quan (str) : (None, tmt, silac, lfq) None 이외 미구현(2025.3.21)
     - mapping (bool) : (False, True) uniprot idmapping service
 
 
@@ -245,6 +248,11 @@ def base_proteingroups(df, quan=None, mapping=False):
     target = "proteinGroups"
 
     # Set rest_columns.
+    # 2025.3.19 Essential columns set to base_cols, rest_cols are stayed.
+    # base cols 기준이 아니라, 제거할 컬럼빼고는 모두 가져가야한다.
+    # 이 기준에따라 코드 변경 필요함.
+    # 2025.3.20 이전 base_cols
+    """
     base_cols = ['Protein IDs',
                  'Protein names',
                  'Gene names',
@@ -257,7 +265,7 @@ def base_proteingroups(df, quan=None, mapping=False):
                  'Intensity',
                  'Peptide IDs',
                  'Evidence IDs',
-                 'Best MS/MS']
+                 'Best MS/MS']   
     if quan == None:
         # In normal
         rest_cols = base_cols
@@ -271,6 +279,7 @@ def base_proteingroups(df, quan=None, mapping=False):
         rest_cols = set(base_cols) | set(rest_silac)
     else:
         raise ValueError
+    """
     
     # Set filter options (base).
     base_filter = {'Potential contaminant':'+',
@@ -284,15 +293,60 @@ def base_proteingroups(df, quan=None, mapping=False):
     # Process (Non-API).
     df_tmp = column_filter_dict(df, **base_filter)
     df_tmp = split_items(df_tmp, **split_cols)
-    df_base = _create_base_df(df_tmp, target="proteinGroups", columns=rest_cols)
+    #df_base = _create_base_df(df_tmp, target="proteinGroups", columns=rest_cols) 2025.3.21.
+    df_base = df_tmp.copy(deep=True)
     df_base.reset_index(drop=True, inplace=True)
         
     if mapping == True:
         # Process (with API).
-        df_respond = requests_uniprot.parser_id_mapping(df_base)
-        df_base['Protein names'] = df_respond['Protein names']
-        df_base['Gene names'] = df_respond['Gene Names']
-        df_base['Sequence length'] = df_respond['Length']
+        request_rst = requests_uniprot.mapping_to_xtract(df_base['Protein IDs']) # 2025.3.19 parser_id_mapping -> mapping_to_xtract: protein/gene name 단일화 위하여 json mapping 사용.
+        df_respond = request_rst[0] # 2025.3.20 request_uniprot.mapping_to_xtract return 은 tuple (df, link) 이므로 0번째 리턴해줘야 dataframe 형식임.
+        df_base['Protein names'] = df_respond['Protein Name'] # 2025.3.19 fix: mapping_to_xtract df_mapped 설정에 맞게.
+        df_base['Gene names'] = df_respond['Gene Name'] # 2025.3.19 fix: mapping_to_xtract df_mapped 설정에 맞게.
+        #df_base['Sequence length'] = df_respond['Length'] # 2025.3.19 does not essential anymore...
+    elif mapping == False:
+        pass
+    else:
+        raise ValueError
+
+    # Create csv file
+    _create_csv(df_base, target='proteinGroups')
+    return df_base
+
+
+def base_diann(df, quan=None, mapping=False):
+    """
+    (df)pandas.DataFrame -> (df) pandas.DataFrame
+
+    process DIA-NN result; report.pg_matrix.tsv
+
+    Parameters
+    ----------
+    - df (pandas.DataFrame)
+    - quan (str) : (None, lfq) None 이외 미구현(2025.3.21)
+    - mapping (bool) : (False, True) uniprot idmapping service
+    """
+    # initialize.
+    rest_cols = []
+    rest_tmt = []
+    rest_silac = []
+    target = "proteinGroups"
+    
+    # Set which column split items.
+    split_cols = {'Protein.Group':';'}
+    
+    # Process (Non-API).
+    df_tmp = split_items(df, **split_cols)
+    #df_base = _create_base_df(df_tmp, target="proteinGroups", columns=rest_cols) 2025.3.21.
+    df_base = df_tmp.copy(deep=True)
+    df_base.reset_index(drop=True, inplace=True)
+        
+    if mapping == True:
+        # Process (with API).
+        request_rst = requests_uniprot.mapping_to_xtract(df_base['Protein.Group'])
+        df_respond = request_rst[0]
+        df_base['Protein.Names'] = df_respond['Protein Name']
+        df_base['Genes'] = df_respond['Gene Name']
     elif mapping == False:
         pass
     else:

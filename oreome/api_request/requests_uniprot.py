@@ -18,7 +18,8 @@ See Also
 # import packages
 import csv
 import pandas as pd
-from api_request import _api_uniprot
+#from api_request import _api_uniprot
+from oreome.api_request import _api_uniprot # 2025.3.19
 
 
 # UDF
@@ -114,14 +115,14 @@ def mapping_to_xtract(data):
         name_dict = data_dict["to"]
         #phrase = "Protein Name Joined..."
 
-        print('Processing... %d : %s'%(n_try, data_dict["from"]))
+        #print('Processing... %d : %s'%(n_try, data_dict["from"]))
 
         # Protein Name
         if name_dict.get("proteinDescription") == None:
             entry_from.append(data_dict["from"])
             category_name.append("Deleted")
             pr_names.append('Deleted')
-            print(f"Deleted Protein... {data_dict["from"]}")
+            #print(f"Deleted Protein... {data_dict["from"]}")
 
         else:
             try:
@@ -129,22 +130,22 @@ def mapping_to_xtract(data):
                 entry_from.append(data_dict["from"])
                 category_name.append('recommendedName')
                 pr_names.append(pr_name)
-                print(f"RecommendedName Joined... {data_dict["from"]}")
+                #print(f"RecommendedName Joined... {data_dict["from"]}")
             except:
                 pr_name =name_dict['proteinDescription']['submissionNames'][0]['fullName']['value']
                 entry_from.append(data_dict["from"])
                 category_name.append('submissionNames')
                 pr_names.append(pr_name)
-                print(f"submissionName Joined... {data_dict["from"]}")
+                #print(f"submissionName Joined... {data_dict["from"]}")
 
         # Gene Names
         if name_dict.get("genes") == None:
             gg_names.append('-')
-            print(f"Deleted Protein... {data_dict["from"]}")
+            #print(f"Deleted Protein... {data_dict["from"]}")
         else:
             gg_name = name_dict['genes'][0]['geneName']['value']
             gg_names.append(gg_name)
-            print(f"GeneName Joined... {data_dict["from"]}")
+            #print(f"GeneName Joined... {data_dict["from"]}")
 
     df_mapped = pd.DataFrame({'From': entry_from,
                                 'Category': category_name,

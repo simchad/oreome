@@ -14,6 +14,7 @@ install_requires = [
     'scipy>=1.10.0',
     'seaborn>=0.12.2',
     'pyiptmnet>=0.1.8',
+    'logomaker>=0.8'
     ]
 
 setup(
@@ -21,7 +22,7 @@ setup(
    version='0.1.0',
    author='Hyunchae Sim',
    author_email='simhc0714@gmail.com',
-   packages=find_packages(include=['api_request', 'lib']),
+   packages=find_packages(where='oreome', include=['api_request', 'lib']),
    install_requires=install_requires,
    setup_requires=setup_requires,
    )
@@ -31,7 +32,8 @@ setup(
 # https://data-newbie.tistory.com/770
 # http://www.flowdas.com/blog/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0-setuptools/
 #
-# pip install -e .
+# $ python -m pip install --upgrade --no-user pip
+# $ pip install -e . --no-user
 #
 # Obtaining file:
 #   Installing build dependencies ... done
